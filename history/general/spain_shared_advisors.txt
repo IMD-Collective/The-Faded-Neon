@@ -1,0 +1,3 @@
+﻿# Characters shared by the chinese countries
+# for each country, generate one instance of the characters
+

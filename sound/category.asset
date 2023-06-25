@@ -458,7 +458,12 @@ category = {
 	ui_tank_designer_save
 	ui_tank_designer_select_3d_model
 
+	ui_career_points_counting_up
 
+	ui_award_collect_reward
+	ui_award_tier_01
+	ui_award_tier_02
+	ui_award_tier_03
 
  }
  

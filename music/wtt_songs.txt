@@ -1,0 +1,254 @@
+
+music_station = "base_music"
+
+music = {
+	song = "battleofwuhan"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = {
+				OR = {
+					original_tag = CHI
+					original_tag = JAP
+					original_tag = MAN
+					original_tag = MEN
+					original_tag = WSU
+					original_tag = MNK
+					original_tag = SXI
+					original_tag = HFO
+					original_tag = MKT
+					original_tag = BLS
+					original_tag = NDA
+					original_tag = WYF
+					original_tag = KMT
+					original_tag = GSP
+					original_tag = ZHU
+					original_tag = GUN
+					original_tag = IJN
+					original_tag = ZLA
+					original_tag = NCM
+					original_tag = YUN
+					original_tag = KCP
+					original_tag = PPF
+					original_tag = DTC
+					original_tag = LSB
+					original_tag = MUL
+					original_tag = XIK
+					original_tag = SUP
+					original_tag = MDC
+					original_tag = FLT
+					original_tag = DEG
+					original_tag = YSB
+					original_tag = NAQ
+					original_tag = ZDK
+					original_tag = KMY
+					original_tag = ZHB
+					original_tag = KOT
+					original_tag = ORF
+					original_tag = TIR
+					original_tag = SIK
+					original_tag = KZA
+					original_tag = KUM
+					original_tag = GAA
+					original_tag = PRC
+					original_tag = SHX				
+					original_tag = XSM
+					original_tag = YUN
+					original_tag = GXC
+				}
+			}
+		}	
+		modifier = {
+			factor = 3
+			OR = {
+				original_tag = CHI
+				original_tag = JAP
+				original_tag = MAN
+				original_tag = MEN
+				original_tag = WSU
+				original_tag = MNK
+				original_tag = SXI
+				original_tag = HFO
+				original_tag = MKT
+				original_tag = BLS
+				original_tag = NDA
+				original_tag = WYF
+				original_tag = KMT
+				original_tag = GSP
+				original_tag = ZHU
+				original_tag = GUN
+				original_tag = IJN
+				original_tag = ZLA
+				original_tag = NCM
+				original_tag = YUN
+				original_tag = KCP
+				original_tag = PPF
+				original_tag = DTC
+				original_tag = LSB
+				original_tag = MUL
+				original_tag = XIK
+				original_tag = SUP
+				original_tag = MDC
+				original_tag = FLT
+				original_tag = DEG
+				original_tag = YSB
+				original_tag = NAQ
+				original_tag = ZDK
+				original_tag = KMY
+				original_tag = ZHB
+				original_tag = KOT
+				original_tag = ORF
+				original_tag = TIR
+				original_tag = SIK
+				original_tag = KZA
+				original_tag = KUM
+				original_tag = GAA
+				original_tag = PRC
+				original_tag = SHX				
+				original_tag = XSM
+				original_tag = YUN
+				original_tag = GXC
+			}
+		}
+	}
+
+}
+
+music = {
+	song = "empireofthesun"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = {
+				OR = {
+					original_tag = JAP
+					original_tag = MAN
+					original_tag = MEN
+					original_tag = GUN
+					original_tag = ZHU
+					original_tag = IJN
+					original_tag = JEV
+					original_tag = SXI
+				}
+			}
+		}	
+
+		modifier = {
+			factor = 3
+			OR = {
+				original_tag = CHI
+				original_tag = WSU
+				original_tag = MNK
+				original_tag = HFO
+				original_tag = MKT
+				original_tag = BLS
+				original_tag = NDA
+				original_tag = WYF
+				original_tag = KMT
+				original_tag = GSP
+				original_tag = ZLA
+				original_tag = NCM
+				original_tag = YUN
+				original_tag = KCP
+				original_tag = PPF
+				original_tag = DTC
+				original_tag = LSB
+				original_tag = MUL
+				original_tag = XIK
+				original_tag = SUP
+				original_tag = MDC
+				original_tag = FLT
+				original_tag = DEG
+				original_tag = YSB
+				original_tag = NAQ
+				original_tag = ZDK
+				original_tag = KMY
+				original_tag = ZHB
+				original_tag = KOT
+				original_tag = ORF
+				original_tag = TIR
+				original_tag = SIK
+				original_tag = KZA
+				original_tag = KUM
+				original_tag = GAA
+				original_tag = PRC
+				original_tag = SHX				
+				original_tag = XSM
+				original_tag = YUN
+				original_tag = GXC
+			}
+		}
+	}
+}
+
+music = {
+	song = "warofresistance"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = {
+				OR = {
+					original_tag = JAP
+					original_tag = MAN
+					original_tag = MEN
+					original_tag = GUN
+					original_tag = ZHU
+					original_tag = IJN
+					original_tag = JEV
+					original_tag = SXI
+				}
+			}
+		}	
+		modifier = {
+			factor = 3
+			OR = {
+				original_tag = CHI
+				original_tag = WSU
+				original_tag = MNK
+				original_tag = HFO
+				original_tag = MKT
+				original_tag = BLS
+				original_tag = NDA
+				original_tag = WYF
+				original_tag = KMT
+				original_tag = GSP
+				original_tag = ZLA
+				original_tag = NCM
+				original_tag = YUN
+				original_tag = KCP
+				original_tag = PPF
+				original_tag = DTC
+				original_tag = LSB
+				original_tag = MUL
+				original_tag = XIK
+				original_tag = SUP
+				original_tag = MDC
+				original_tag = FLT
+				original_tag = DEG
+				original_tag = YSB
+				original_tag = NAQ
+				original_tag = ZDK
+				original_tag = KMY
+				original_tag = ZHB
+				original_tag = KOT
+				original_tag = ORF
+				original_tag = TIR
+				original_tag = SIK
+				original_tag = KZA
+				original_tag = KUM
+				original_tag = GAA
+				original_tag = PRC
+				original_tag = SHX				
+				original_tag = XSM
+				original_tag = YUN
+				original_tag = GXC
+			}
+		}
+	}
+
+}

@@ -1,0 +1,38 @@
+﻿# Characters shared by the Soviet countries
+# for each country, generate one instance of the characters
+
+#every_possible_country = {
+#	limit = {
+#		OR = {
+#			tag = SOV
+#			tag = RUS
+#		}
+#	}
+#	generate_character = {
+#		token_base = SOV_kliment_voroshilov
+#		name= "Kliment Voroshilov"
+#		portraits={
+#			army={
+#				large="gfx/leaders/SOV/SOV_Kliment_Voroshilov.dds"
+#			}
+#		}
+#		country_leader={
+#			
+#			ideology=communism_sorelian 
+#			expire="1984.3.1.1"
+#			id=-1
+#		}
+#		field_marshal={
+#			traits={ old_guard brilliant_strategist career_officer trait_reckless infantry_officer offensive_doctrine }
+#			skill=2
+#			attack_skill=2
+#			defense_skill=1
+#			planning_skill=3
+#			logistics_skill=3
+#			legacy_id=-1
+#		}
+#
+#	}
+#	
+#	
+#}

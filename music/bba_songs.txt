@@ -1,0 +1,206 @@
+#Ethiopia
+
+music_station = "base_music"
+
+music = {
+	song = "ethiopian_highlands"
+
+	chance = {
+		modifier = {
+			factor = 5
+			original_tag = ETH
+		}
+		modifier = {
+			factor = 0.5
+			original_tag = IEA
+		}
+		factor = 0
+	}
+}
+
+music = {
+	song = "safer_grounds"
+
+	chance = {
+		modifier = {
+			factor = 5
+			original_tag = ETH
+		}
+		modifier = {
+			factor = 0.5
+			original_tag = IEA
+		}
+		factor = 0
+	}
+}
+
+music = {
+	song = "threat_from_red_sea"
+
+	chance = {
+		modifier = {
+			factor = 5
+			original_tag = ETH
+		}
+		modifier = {
+			factor = 0.5
+			original_tag = IEA
+		}
+		factor = 0	
+	}
+}
+
+music = {
+	song = "wildlife_surroundings"
+
+	chance = {
+		modifier = {
+			factor = 5
+			original_tag = ETH
+		}
+		modifier = {
+			factor = 0.5
+			original_tag = IEA
+		}
+		factor = 0	
+	}
+}
+
+
+#Italy
+
+music = {
+	song = "cittadina_irresistibile"
+
+	chance = {
+		modifier = {
+			factor = 3
+			OR = {
+				original_tag = ITA
+				original_tag = IEA
+			}
+		}
+		factor = 0
+	}
+}
+
+music = {
+	song = "fino_a_combattere"
+
+	chance = {
+		modifier = {
+			factor = 3
+			OR = {
+				original_tag = ITA
+				original_tag = IEA
+			}
+		}
+		factor = 0
+	}
+}
+
+music = {
+	song = "la_marcia_dei_soldati"
+
+	chance = {
+		modifier = {
+			factor = 3
+			OR = {
+				original_tag = ITA
+				original_tag = IEA
+			}
+		}
+		factor = 0
+	}
+}
+
+music = {
+	song = "lotta_di_vecchi_amici"
+
+	chance = {
+		modifier = {
+			factor = 3
+			OR = {
+				original_tag = ITA
+				original_tag = IEA
+			}
+		}
+		factor = 0
+	}
+}
+
+
+#Switzerland
+
+music = {
+	song = "dem_vaterland"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = { original_tag = SWI }
+		}
+		modifier = {
+			factor = 5
+			NOT = { original_tag = SWI }
+			has_war_with = SWI
+		}	
+	}
+}
+
+music = {
+	song = "der_preis_fur_die_freiheit"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = { original_tag = SWI }
+		}
+		modifier = {
+			factor = 2
+			NOT = { original_tag = SWI }
+			has_war_with = SWI
+		}	
+	}
+}
+
+music = {
+	song = "die_parade"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = { original_tag = SWI }
+		}
+		modifier = {
+			factor = 0.5
+			original_tag = SWI
+			has_war = yes
+		}	
+	}
+}
+
+music = {
+	song = "tag_der_heimkehr"
+
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.05
+			NOT = { original_tag = SWI }
+		}
+		modifier = {
+			factor = 5
+			NOT = { original_tag = SWI }
+			has_war_with = SWI
+		}
+		modifier = {
+			factor = 0.5
+			original_tag = SWI
+			has_war = no
+		}	
+	}
+}

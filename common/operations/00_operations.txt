@@ -17,6 +17,10 @@ operation_rescue_operative = { ### 0 1/35
 	operatives = 1
 
 	visible = {
+		network_national_coverage = {
+			target = FROM
+			value > 0
+		}
 		FROM = {
 			has_captured_operative = ROOT
 		}
@@ -25,13 +29,6 @@ operation_rescue_operative = { ### 0 1/35
 	available = {
 		
 	}
-
-	requirements = {
-		FROM = {
-			has_captured_operative = ROOT
-		}
-	}
-
 
 	equipment = {
 		
@@ -415,7 +412,6 @@ operation_capture_cipher = { ### 3 1/55
 			target = FROM
 			value > 25
 		}
-		has_tech = mechanical_computing
 		has_done_agency_upgrade = upgrade_form_department
 		NOT = {
 			ROOT = { is_fully_decrypted = FROM }
@@ -1034,14 +1030,6 @@ operation_coup_government = { ### 7 1/70
 	selection_target = {
 		targets = { FROM }
 	}
-	allowed = {
-		NOT = {
-			has_game_rule = {
-				rule = allow_coups
-				option = BLOCKED
-			}
-		}
-	}
 
 	available = {
 		
@@ -1089,21 +1077,6 @@ operation_coup_government = { ### 7 1/70
 					has_stability < 0.5
 				}
 				has_stability < 0.35 #can always coup at low stability
-			}
-		}
-		OR = {
-			has_game_rule = {
-				rule = allow_coups
-				option = FREE
-			}
-			AND = {
-				has_game_rule = {
-					rule = allow_coups
-					option = AI_ONLY
-				}
-				FROM = {
-					is_ai = yes
-				}
 			}
 		}
 	}

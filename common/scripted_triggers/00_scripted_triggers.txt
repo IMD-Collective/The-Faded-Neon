@@ -1,5 +1,5 @@
 #	Example:
-#
+# 
 #	example_trigger = {
 #		tag = GER
 #		is_ai = no
@@ -27,7 +27,7 @@ is_border_conflict_defender_vs_FROM = {
 has_not_initiated_border_incident_with_FROM = {
 	custom_trigger_tooltip = {
 		tooltip = not_initiated_border_incident_with_FROM
-		NOT = {
+		NOT = {		
 			any_state = {
 				check_variable = { FROM.defender_state_vs_@PREV = id }
 			}
@@ -142,96 +142,87 @@ ai_land_doctrine_tier_2_trigger = {
 	}
 }
 
-anti_submarine_strategy_required_trigger = {
-	has_war = yes
-		any_enemy_country = {
-			has_navy_size = {
-				type = submarine
-				size > 30
-			}
-		}
-	convoy_threat > 0.3
-}
+
 
 enemy_has_equal_or_better_radar_tech_trigger = {
 	custom_trigger_tooltip = {
 		tooltip = enemy_has_equal_or_better_radar_tech_trigger_tt
 		if = {
 			limit = {
-				ROOT = {
-					has_tech = radio_detection
+				ROOT = { 
+					has_tech = radio_detection 
 					NOT = {
 						has_tech = decimetric_radar
 					}
-				}
+				} 
 			}
-			FROM = {
+			FROM = { 
 				OR = {
-					has_tech = radio_detection
+					has_tech = radio_detection 
 					has_tech = decimetric_radar
 				}
 			}
 		}
 		else_if = {
 			limit = {
-				ROOT = {
-					has_tech = decimetric_radar
+				ROOT = { 
+					has_tech = decimetric_radar 
 					NOT = {
 						has_tech = improved_decimetric_radar
 					}
-				}
+				} 
 			}
-			FROM = {
+			FROM = { 
 				OR = {
-					has_tech = decimetric_radar
+					has_tech = decimetric_radar 
 					has_tech = improved_decimetric_radar
 				}
 			}
 		}
 		else_if = {
 			limit = {
-				ROOT = {
-					has_tech = improved_decimetric_radar
+				ROOT = { 
+					has_tech = improved_decimetric_radar 
 					NOT = {
 						has_tech = centimetric_radar
 					}
-				}
+				} 
 			}
-			FROM = {
+			FROM = { 
 				OR = {
-					has_tech = improved_decimetric_radar
+					has_tech = improved_decimetric_radar 
 					has_tech = centimetric_radar
 				}
 			}
 		}
 		else_if = {
 			limit = {
-				ROOT = {
-					has_tech = centimetric_radar
+				ROOT = { 
+					has_tech = centimetric_radar 
 					NOT = {
 						has_tech = improved_centimetric_radar
 					}
-				}
+				} 
 			}
-			FROM = {
+			FROM = { 
 				OR = {
-					has_tech = centimetric_radar
+					has_tech = centimetric_radar 
 					has_tech = improved_centimetric_radar
 				}
 			}
 		}
 		else_if = {
 			limit = {
-				ROOT = {
-					has_tech = improved_centimetric_radar
+				ROOT = { 
+					has_tech = improved_centimetric_radar 
 					NOT = {
 						has_tech = advanced_centimetric_radar
 					}
-				}
+				} 
 			}
-			FROM = {
+			FROM = { 
 				OR = {
-					has_tech = improved_centimetric_radar
+					has_tech = improved_centimetric_radar 
 					has_tech = advanced_centimetric_radar
 				}
 			}
@@ -241,17 +232,24 @@ enemy_has_equal_or_better_radar_tech_trigger = {
 }
 
 is_available_to_collaboration_government = { # occupied_countries.1 should be updated along with this
-	any_country_with_original_tag = {
-		original_tag_to_check = FROM
-		is_puppet_of = PREV # if already created one do not create another
-		has_autonomy_state = autonomy_collaboration_government
+	NOT = {
+		#AND = {
+		#	FROM = { original_tag = YUG }
+		#	original_tag = ITA
+		#}
+		#TUR_cannot_form_kurdish_collaboration_government = yes
+		any_country_with_original_tag = {
+			original_tag_to_check = FROM
+			is_puppet_of = PREV # if already created one do not create another
+			has_autonomy_state = autonomy_collaboration_government
+		}
 	}
 }
 
 has_large_ally_not_pick_closed_economy = {
 	any_of_scopes = {
 		array = faction_members
-
+		
 		NOT = { tag = PREV }
 		num_of_military_factories > 30
 	}
@@ -354,4 +352,63 @@ has_expert_level_trigger = {
 
 has_genius_level_trigger = {
 	skill > 7
+}
+
+anti_submarine_strategy_required_trigger = {
+	OR = {
+		AND = {
+			tag = ENG
+			not = { is_in_faction_with = FRA }
+			FRA = {
+				has_navy_size = {
+					type = submarine
+					size > 30
+				}
+			}
+		}
+		AND = {
+			tag = ENG
+			not = { is_in_faction_with = USA }
+			USA = {
+				has_navy_size = {
+					type = submarine
+					size > 30
+				}
+			}
+		}
+		AND = {
+			tag = USA
+			not = { is_in_faction_with = SOV }
+			SOV = {
+				has_navy_size = {
+					type = submarine
+					size > 30
+				}
+			}
+		}
+		AND = {
+			tag = USA
+			not = { is_in_faction_with = ENG }
+			ENG = {
+				has_navy_size = {
+					type = submarine
+					size > 30
+				}
+			}
+		}
+		AND = {
+			tag = JAP
+			not = { is_in_faction_with = USA }
+		}
+		AND = {
+			has_war = yes
+			any_enemy_country = {
+				has_navy_size = {
+					type = submarine
+					size > 30
+				}
+			}
+		}
+		convoy_threat > 0.3
+	}
 }

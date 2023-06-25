@@ -11,7 +11,7 @@ set_technology = {
 add_ideas = {
 	CHI_the_three_principles
 	CHI_communist_crackdowns
-	CHI_chinese_conglomerates
+	CHI_chinese_conglomerates_1
 }
 
 set_convoys = 100

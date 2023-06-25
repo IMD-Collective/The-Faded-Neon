@@ -367,7 +367,7 @@ shared_focus = {
 		CHI_song_wangwen = {
 			swap_country_leader_traits = { remove = CHI_national_hero_1 add = CHI_national_hero_2 ideology = auth_democratic }
 		}
-		hidden_effecy = {
+		hidden_effect = {
 			CHI_song_wangwen = {
 				swap_country_leader_traits = { remove = CHI_national_hero_1 add = CHI_national_hero_2 ideology = conservatism }
 				swap_country_leader_traits = { remove = CHI_national_hero_1 add = CHI_national_hero_2 ideology = fascism_ideology }

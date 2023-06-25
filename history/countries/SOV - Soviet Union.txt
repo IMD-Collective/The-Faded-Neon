@@ -11,6 +11,8 @@ set_convoys = 5
 set_stability = 0.11
 set_war_support = 0.52
 
+recruit_character = SOV_dmitry_yudenich
+
 add_ideas = {
 	stalin_state
 	questionable_military_loyalty
@@ -28,10 +30,3 @@ set_popularities = {
 	neutrality = 14
 	democratic = 22
 }
-
-recruit_character = SOV_dmitry_yudenich
-
-
-
-
-
