@@ -1,0 +1,34 @@
+
+state={
+	id=103
+	name="STATE_103"
+
+	history={
+		owner = CRO
+		victory_points = {
+			3924 3 
+		}
+		victory_points = {
+			11564 1 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			industrial_complex = 3
+			3924 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = CRO
+
+	}
+
+	provinces={
+		591 984 3601 3924 3974 6611 11564 11901 
+	}
+	manpower=1400700
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

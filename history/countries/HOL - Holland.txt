@@ -1,0 +1,44 @@
+﻿capital = 7
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+add_ideas = {
+	era_of_compromise
+	threat_to_the_volkscongress
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1980.10.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 43
+	communism = 36
+	fascism = 8
+	neutrality = 13
+}
+
+create_country_leader = {
+	
+	name = "Willem IV"
+	picture = "gfx/leaders/HOL/portrait_HOL_willem_iv.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialism
+	traits = {
+		democratic_socialism_trait
+	}
+}
+
+
+
+

@@ -1,0 +1,43 @@
+ideas = {
+	country = {
+		era_of_compromise = {
+
+			picture = generic_money_Treaty
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = -0.5
+				stability_factor = 0.2
+				political_power_gain = -0.25
+			}
+		}
+
+		threat_to_the_volkscongress = {
+
+			picture = generic_money_Treaty
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+	}
+}

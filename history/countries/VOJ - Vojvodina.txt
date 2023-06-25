@@ -1,0 +1,36 @@
+﻿capital = 45
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+give_guarantee = SER
+give_military_access = SER
+
+
+set_politics = {
+	ruling_party = neutrality 
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 62
+	democratic = 38
+}
+
+create_country_leader = {
+	name = "Pavle Belimarkovic"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = auth_democratic
+	traits = {
+		auth_democratic_trait
+	}
+}

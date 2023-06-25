@@ -1,0 +1,51 @@
+﻿capital = 111
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+set_autonomy = {
+		target = KAR
+		autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+		target = MUR
+		autonomous_state = autonomy_puppet
+}
+
+add_ideas = {
+	the_fading_torch
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 60
+	fascism = 30
+	neutrality = 10
+}
+
+create_country_leader = {
+	
+	name = "Jalo Saarela"
+	picture = "gfx/leaders/FIN/portrait_FIN_Jalo_Saarela.dds"
+	expire = "2000.1.1"
+	ideology = conservatism
+	traits = {
+		conservatism_trait
+	}
+}
+
+
+

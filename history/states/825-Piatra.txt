@@ -1,0 +1,22 @@
+state={
+	id=825
+	name="STATE_825"
+	manpower = 590250
+	
+	state_category = rural
+	
+	history={
+		owner = TRA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = MOL
+
+		victory_points = { 11672 4 }
+
+		set_demilitarized_zone = yes
+	}
+
+	provinces = { 3728 3741 11672 }
+}

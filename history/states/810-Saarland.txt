@@ -1,0 +1,30 @@
+state={
+	id=810
+	name="STATE_810"
+	resources={
+		steel=19.000
+		aluminium=4.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			11531 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		add_core_of = GER
+		add_core_of = DDR
+		add_core_of = SAR
+	}
+
+	provinces={
+		11531 
+	}
+	manpower=927739
+	buildings_max_level_factor=1.000
+	state_category=town
+}

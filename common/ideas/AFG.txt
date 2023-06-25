@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+		AFG_Soviet_invasion_legacy = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = AFG_soviet_invasion
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = -0.05
+				enemy_justify_war_goal_time = 0.15
+				equipment_capture_factor = 0.2
+				equipment_conversion_speed = 0.1
+			}
+		}
+
+	}
+
+}

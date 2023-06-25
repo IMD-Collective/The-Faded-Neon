@@ -1,0 +1,18 @@
+spriteTypes = {	
+
+	##ideas
+
+	spriteType = {
+		name = "GFX_idea_TUR_factionalism"
+		texturefile = "gfx/interface/ideas/TUR/idea_TUR_factionalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_TUR_balancing_the_powers"
+		texturefile = "gfx/interface/ideas/TUR/idea_TUR_balancing_the_powers.dds"
+	}
+
+
+
+
+}

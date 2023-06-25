@@ -1,0 +1,9 @@
+spriteTypes = {	
+
+	### French Ideas ###
+	spriteType = {
+		name = "GFX_idea_fra_imprudent_capitalists_and_blind_gaullists"
+		texturefile = "gfx/interface/ideas/FRA/idea_fra_imprudent_capitalists_and_blind_gaullists.dds"
+	}
+
+}

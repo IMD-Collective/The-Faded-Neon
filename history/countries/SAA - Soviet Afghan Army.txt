@@ -1,0 +1,36 @@
+﻿capital = 908
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 43
+	neutrality = 50
+	democratic = 7
+}
+
+create_country_leader = {
+	name = "Yuriy Smelyj"
+	picture = "gfx/leaders/SAA/yuriy_smelyj.dds"
+	expire = "2000.1.1"
+	ideology = socialist_mil_junta
+	traits = {
+		socialist_mil_junta_trait
+	}
+}
+
+
+

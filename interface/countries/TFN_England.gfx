@@ -1,0 +1,190 @@
+spriteTypes = {	
+
+	##focuses
+
+	spriteType = {
+		name = "GFX_goal_eng_11th_decree"
+		texturefile = "gfx/interface/goals/ENG/goal_eng_11th_decree.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_eng_tenth_decree"
+		texturefile = "gfx/interface/goals/ENG/goal_eng_tenth_decree.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_eng_duty_to_the_nation"
+		texturefile = "gfx/interface/goals/ENG/goal_eng_duty_to_the_nation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_eng_puritanical_society"
+		texturefile = "gfx/interface/goals/ENG/goal_eng_puritanical_society.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_eng_major_general_reshuffle"
+		texturefile = "gfx/interface/goals/ENG/goal_eng_major_general_reshuffle.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_eng_increase_major_general_power"
+		texturefile = "gfx/interface/goals/ENG/goal_eng_increase_major_general_power.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_eng_rsaf"
+		texturefile = "gfx/interface/goals/ENG/goal_eng_rsaf.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_integrate_the_militias"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_integrate_the_militias.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_construct_steelgate"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_construct_steelgate.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_agitation_in_the_east"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_agitation_in_the_east.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_increased_police_activity"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_increased_police_activity.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_ideological_reproach"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_ideological_reproach.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_union_of_ideas"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_union_of_ideas.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_investigate_the_movements_of_the_nef"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_investigate_the_movements_of_the_nef.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_fund_the_english_intelligence_service"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_fund_the_english_intelligence_service.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_raid_the_communication_halls"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_raid_the_communication_halls.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_operation_deforestation"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_deforestation.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_a_further_hammer_blow"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_a_further_hammer_blow.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_a_new_model_army"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_a_new_model_army.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_roundheads_cavalry"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_roundheads_cavalry.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_parlimentary_blocks"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_parlimentary_blocks.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_industrial_pride"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_industrial_pride.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_purge_the_midlands"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_purge_the_midlands.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_national_repair"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_national_repair.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_slum_liquidation"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_slum_liquidation.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_reintegrate_birmingham"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_reintegrate_birmingham.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_rail_expansion_into_the_east"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_rail_expansion_into_the_east.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_pressure_on_wales"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_pressure_on_wales.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_draft_the_cardiff_decree"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_draft_the_cardiff_decree.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_incite_the_draig_goch_revolt"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_incite_the_draig_goch_revolt.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_contact_welsh_sympathisers"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_contact_welsh_sympathisers.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_increased_steel_production_qoutas"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_increased_steel_production_qoutas.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_reintegrate_the_east_midlands"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_reintegrate_the_east_midlands.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ENG_ignore_radical_old_world_ideologues"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_ignore_radical_old_world_ideologues.png"
+	}
+
+	##ideas
+
+	spriteType = {
+		name = "GFX_idea_cromwell_state"
+		texturefile = "gfx/interface/ideas/ENG/cromwell_state.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_fractured_isles"
+		texturefile = "gfx/interface/ideas/ENG/fractured_isles.dds"
+	}
+
+
+
+
+}

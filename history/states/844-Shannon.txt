@@ -1,0 +1,21 @@
+state={
+	id=844
+	name="STATE_844"
+
+	history={
+		add_core_of = IRE
+		owner = IRE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		3396 6313 11334 13246 13247
+	}
+	manpower=197100
+	buildings_max_level_factor=1.000
+	state_category=town
+}

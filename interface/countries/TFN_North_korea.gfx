@@ -1,0 +1,20 @@
+spriteTypes = {	
+
+	##ministers
+
+	spriteType = {
+		name = "GFX_minister_NKR_kim_min_su"
+		texturefile = "gfx/interface/ministers/NKR/minister_NKR_kim_min_su.dds"
+	}
+
+	##ideas
+
+	spriteType = {
+		name = "GFX_idea_NKR_eternal_revolution"
+		texturefile = "gfx/interface/ideas/NKR/NKR_eternal_revolution.dds"
+	}
+
+
+
+
+}

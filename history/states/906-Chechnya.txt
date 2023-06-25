@@ -1,0 +1,22 @@
+state={
+	id=906
+	name="STATE_906"
+
+	history={
+		owner = CHE
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = CHE
+
+	}
+
+	provinces={
+		666 670 3667 
+	}
+	manpower=98292
+	buildings_max_level_factor=1.000
+	state_category=town
+}

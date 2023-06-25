@@ -1,0 +1,18 @@
+spriteTypes = {	
+
+
+	### Idea Sprites ###
+
+		SpriteType = {
+			name = "GFX_idea_ROM_Unstable_Government"
+			texturefile = "gfx/interface/ideas/ROM/ROM_Unstable_Government.tga"
+		}
+		SpriteType = {
+			name = "GFX_idea_ROM_Military_Unease"
+			texturefile = "gfx/interface/ideas/ROM/ROM_Military_Unease.tga"
+		}
+		SpriteType = {
+			name = "GFX_idea_ROM_Second_Liberation_War"
+			texturefile = "gfx/interface/ideas/ROM/GEN_Second_Liberation_War.tga"
+		}
+}

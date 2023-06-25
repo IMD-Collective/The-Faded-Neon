@@ -1,0 +1,37 @@
+﻿capital = 282
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1980.10.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	
+	name = "Collapsed Government"
+	picture = "gfx/leaders/generic/destroyed_city.tga"
+	expire = "2000.1.1"
+	ideology = collapsed_gov
+	traits = {
+		collapsed_gov_trait
+	}
+}
+
+
+
+
+

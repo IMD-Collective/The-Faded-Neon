@@ -1,0 +1,9 @@
+spriteTypes = {
+
+	##generic
+	spriteType = {
+		name = "GFX_report_event_generic_post"
+		texturefile = "gfx/event_pictures/generic/report_event_generic_post.dds"
+	}
+
+}

@@ -1,0 +1,36 @@
+spriteTypes = {
+	### National Spirits ###
+	spriteType = {
+		name = "GFX_idea_PRC_the_little_red_book"
+		texturefile = "gfx/interface/ideas/PRC/the_little_red_book.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_unrest_in_the_peoples_liberation_army"
+		texturefile = "gfx/interface/ideas/PRC/unrest_in_the_peoples_liberation_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_the_gang_of_three"
+		texturefile = "gfx/interface/ideas/PRC/the_gang_of_three.dds"
+	}
+
+	##tech
+	SpriteType = {
+		name = "GFX_PRC_infantry_weapons_medium"
+		textureFile = "gfx/interface/technologies/PRC_infantry_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_infantry_weapons1_medium"
+		textureFile = "gfx/interface/technologies/PRC_infantry_equipment_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_improved_infantry_weapons_medium"
+		textureFile = "gfx/interface/technologies/PRC_infantry_equipment_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_PRC_advanced_infantry_weapons_medium"
+		textureFile = "gfx/interface/technologies/PRC_infantry_equipment_4.dds"
+	}
+}

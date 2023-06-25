@@ -1,0 +1,60 @@
+ideas = {
+	country = {
+		aftermath_of_the_unrest = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.01	
+			}
+		}
+
+		the_unpopular_monarch = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				political_power_gain = -0.1
+				resistance_damage_to_garrison = 0.05
+				army_org_factor = -0.05
+			}
+		}
+		the_beacon_of_light = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.5
+				political_power_gain = 0.2
+				army_org_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+			}
+		}
+	}
+}

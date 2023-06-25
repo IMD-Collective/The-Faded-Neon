@@ -1,0 +1,26 @@
+state={
+	id=894
+	name="STATE_894"
+
+	history={
+		owner = CRO
+		victory_points = {
+			9894 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = CRO
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		6942 9894 11845 
+	}
+	manpower=93732
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

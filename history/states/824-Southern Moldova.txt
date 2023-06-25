@@ -1,0 +1,25 @@
+state={
+	id=824
+	name="STATE_824"
+	manpower = 511480
+	
+	state_category = town
+	
+	history={
+		owner = MOL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 4
+		}
+
+		victory_points = { 6706 5 }
+		victory_points = { 723 1 }
+		victory_points = { 6747 1 }
+
+		add_core_of = MOL
+	}
+
+	provinces = { 723 6706 6729 6747 }
+}

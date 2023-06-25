@@ -1,0 +1,45 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = romanian_focus_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ROM
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 70 y = 1100 }
+
+	focus = {
+		id = ROM_Military_Resurgence_Act
+		icon = GFX_
+		x = 20
+		y = 0
+
+		cost = 5
+
+		ai_will_do = { factor = 100 }
+
+		available = {  }
+
+		bypass = {  }
+
+		 
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+
+		completion_reward = {  }
+	}
+}

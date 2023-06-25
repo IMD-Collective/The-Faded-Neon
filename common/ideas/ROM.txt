@@ -1,0 +1,64 @@
+ideas = {
+
+	country = {
+
+	##Starter Ideas##
+
+		ROM_Unstable_Government = {
+			allowed = { original_tag = ROM }
+
+			picture = GFX_idea_ROM_Unstable_Government
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.35
+			}
+		}
+
+		ROM_Military_Unease = {
+			allowed = { original_tag = ROM }
+
+
+			picture = GFX_idea_ROM_Military_Unease
+
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = -0.1
+				breakthrough_factor = -0.1
+				army_morale_factor = -0.15
+			}
+		}
+
+		ROM_Second_Liberation_War = {
+			allowed = { original_tag = ROM }
+
+
+			picture = GFX_idea_ROM_Second_Liberation_War
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.02
+				war_support_factor = 0.15
+				surrender_limit = 0.15
+			}
+
+			targeted_modifier = {
+				tag = TRA
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+
+			targeted_modifier = {
+				tag = MOL
+				attack_bonus_against = -0.05
+				defense_bonus_against = 0.05
+			}
+		}
+	}
+
+	
+}

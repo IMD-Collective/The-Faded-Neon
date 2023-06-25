@@ -1,0 +1,36 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			DDR = {
+				initialise_virus = yes
+			}
+		}
+	}
+
+	on_weekly = {
+		effect = {
+			if = {
+				limit = {
+					check_variable = { tfn_virus_percentage > 0 }
+				}
+				for_each_scope_loop = {
+					array = owned_states
+
+					if = {
+						limit = {
+							check_variable = { tfn_virus_percentage > 0 }
+						}
+						set_temp_variable = { temp_virus_percentage = tfn_virus_percentage }
+						multiply_temp_variable = { temp_virus_percentage = 100 }
+						round_temp_variable = temp_virus_percentage
+						divide_temp_variable = { temp_virus_percentage = 10000 }
+						every_neighbor_state = {
+							add_to_variable = { tfn_virus_percentage = temp_virus_percentage }
+						}
+					}
+				}
+			}
+			calculate_virus = yes
+		}
+	}
+}

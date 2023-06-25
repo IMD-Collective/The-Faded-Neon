@@ -1,0 +1,24 @@
+spriteTypes = {	
+
+	### Idea Sprites ###
+	SpriteType = {
+		name = "GFX_idea_TRA_Hungarian_Minority"
+		texturefile = "gfx/interface/ideas/TRA/TRA_Hungarian_Minority.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_TRA_Democratic_Foothold"
+		texturefile = "gfx/interface/ideas/TRA/TRA_Democratic_Foothold.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_TRA_Aftermath_of_Stalinization"
+		texturefile = "gfx/interface/ideas/TRA/TRA_Aftermath_of_Stalinization.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_TRA_Memories_of_Vulcan"
+		texturefile = "gfx/interface/ideas/TRA/TRA_Memories_of_Vulcan.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_TRA_Insurgent_Terror"
+		texturefile = "gfx/interface/ideas/TRA/TRA_Insurgent_Terror.tga"
+	}
+}

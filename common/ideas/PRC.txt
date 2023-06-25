@@ -1,0 +1,57 @@
+ideas = {
+	country = {
+		PRC_the_little_red_book = {
+			picture = PRC_the_little_red_book
+
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_the_little_red_book" }
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.10
+				stability_factor = 0.15
+				consumer_goods_factor = 0.15
+			}
+		}
+		PRC_work_harder_not_smarter = {
+			picture = generic_industry
+
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_work_harder_not_smarter" }
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = 0.20
+				production_factory_efficiency_gain_factor = 0.15
+				research_speed_factor = -0.75
+			}
+		}
+
+		PRC_unrest_in_the_peoples_liberation_army = {
+			picture = PRC_unrest_in_the_peoples_liberation_army
+
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_unrest_in_the_peoples_liberation_army" }
+
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = -0.10
+				stability_factor = -0.10
+				justify_war_goal_time = 0.3
+				equipment_capture_factor = 0.05 
+
+			}
+		}
+
+	}
+
+}

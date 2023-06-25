@@ -1,0 +1,20 @@
+state={
+	id=883
+	name="STATE_883"
+
+	history={
+		owner = DAK
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+		add_core_of = KAN
+	}
+
+	provinces={
+		1753 4814 4871 10532 12024 12513 
+	}
+	manpower=880998
+	buildings_max_level_factor=1.000
+	state_category = town
+}

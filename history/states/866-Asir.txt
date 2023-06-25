@@ -1,0 +1,19 @@
+state={
+	id=866
+	name="STATE_866"
+
+	history={
+		owner = ASA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ASA
+	}
+
+	provinces={
+		1923 5006 8073 13265 13270
+	}
+	manpower=689500
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}

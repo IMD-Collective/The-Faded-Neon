@@ -1,0 +1,39 @@
+﻿capital = 47
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1931.6.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 74
+	neutrality = 19
+	democratic = 7
+}
+
+create_country_leader = {	
+	name = "Georgios Karampoulis"
+	picture = "gfx/leaders/GRE/portrait_GRE_georgios_karampoulis.dds"
+	desc = "POLITICS_georgios_karampoulis_DESC"
+	expire = "2000.1.1"
+	ideology = fascist_mil_junta
+	traits = {
+		fascist_mil_junta_trait
+	}
+}
+
+
+
+
+

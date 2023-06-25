@@ -1,0 +1,30 @@
+tfn_virus_test_1 = {
+	set_variable = { tfn_virus_percentage = 0.05 }
+	add_to_variable = { show_virus = 1 }
+}
+
+tfn_virus_test_2 = {
+	every_owned_state = {
+		set_variable = { tfn_virus_percentage = 0.10 }
+	}
+	calculate_virus = yes
+	add_to_variable = { show_virus = 1 }
+}
+
+calculate_virus = {
+	clear_variable = tfn_virus_percentage
+	for_each_scope_loop = {
+		array = owned_states
+		add_to_variable = { ROOT.tfn_virus_percentage = tfn_virus_percentage }
+	}
+	divide_variable = { tfn_virus_percentage = num_owned_states }
+	multiply_variable = { tfn_virus_percentage = 100 }
+	round_variable = tfn_virus_percentage
+	divide_variable = { tfn_virus_percentage = 100 }
+}
+
+initialise_virus = {
+	64 = {
+		set_variable = { tfn_virus_percentage = 0.10 }
+	}
+}

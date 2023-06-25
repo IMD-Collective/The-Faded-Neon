@@ -1,0 +1,24 @@
+state={
+	id=909
+	name="STATE_909"
+
+	history={
+		owner = UTH
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = UTH
+
+	}
+
+	provinces={
+		2055 3972 9908 12848 12893 
+	}
+	manpower=624411
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

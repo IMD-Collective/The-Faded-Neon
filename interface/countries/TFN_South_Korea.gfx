@@ -1,0 +1,11 @@
+spriteTypes = {	
+
+	##event pics
+	spriteType = {
+		name = "GFX_report_event_skr_01"
+		texturefile = "gfx/event_pictures/skr/report_event_skr_01.dds"
+	}
+
+
+
+}

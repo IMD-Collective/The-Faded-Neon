@@ -1,0 +1,29 @@
+state = {
+	id = 76
+	name = "STATE_76"
+	manpower = 1200450
+
+	state_category = town
+	
+	resources = {
+		oil = 5
+		steel = 38
+		aluminium = 5
+	}
+
+	history={
+		owner = TRA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+
+		victory_points = { 6731 5 }
+		victory_points = { 746 1 }
+		victory_points = { 727 1 }
+
+		add_core_of = TRA
+	}
+
+	provinces = { 727 746 6731 9672 9685 9704 11676 }
+}

@@ -1,0 +1,152 @@
+bitmapfonts = {
+
+	bitmapfont = {
+		name = "VCR01_18_glow"
+		path = "gfx/fonts/VCR01_18_glow"   
+		color = 0xffffffff
+		textcolors = {
+			G = { 82 159 94 }
+			R = { 211 70 106}
+			Y = { 211 206 70}
+			H = { 211 206 70}
+			1 = { 55 81 155 }
+			2 = { 145 35 35 }
+			3 = { 181 149 76 }
+			4 = { 155 167 211 }
+		}
+	}
+
+	bitmapfont = {
+		name = "VCR01_20_glow"
+		path = "gfx/fonts/VCR01_20_glow"   
+		color = 0xffffffff
+		textcolors = {
+			G = { 82 159 94 }
+			R = { 211 70 106}
+			Y = { 211 206 70}
+			H = { 211 206 70}
+			1 = { 55 81 155 }
+			2 = { 145 35 35 }
+			3 = { 181 149 76 }
+			4 = { 155 167 211 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "VCR01_22_glow"
+		path = "gfx/fonts/VCR01_22_glow"   
+		color = 0xffffffff
+		textcolors = {
+			G = { 82 159 94 }
+			R = { 211 70 106}
+			Y = { 211 206 70}
+			H = { 211 206 70}
+			1 = { 55 81 155 }
+			2 = { 145 35 35 }
+			3 = { 181 149 76 }
+			4 = { 155 167 211 }
+		}
+	}
+
+	bitmapfont = {
+		name = "VCR01_22_outline"
+		path = "gfx/fonts/VCR01_22_outline"   
+		color = 0xffffffff
+		textcolors = {
+			G = { 82 159 94 }
+			R = { 211 70 106}
+			Y = { 211 206 70}
+			H = { 211 206 70}
+			1 = { 55 81 155 }
+			2 = { 145 35 35 }
+			3 = { 181 149 76 }
+			4 = { 155 167 211 }
+		}
+	}
+
+	bitmapfont = {
+		name = "VCR01_24_glow"
+		path = "gfx/fonts/VCR01_24_glow"   
+		color = 0xffffffff
+		textcolors = {
+			G = { 82 159 94 }
+			R = { 211 70 106}
+			Y = { 211 206 70}
+			H = { 211 206 70}
+			1 = { 55 81 155 }
+			2 = { 145 35 35 }
+			3 = { 181 149 76 }
+			4 = { 155 167 211 }
+		}
+	}
+
+	bitmapfont = {
+		name = "VCR01_24_outline"
+		path = "gfx/fonts/VCR01_24_outline"   
+		color = 0xffffffff
+		textcolors = {
+			G = { 82 159 94 }
+			R = { 211 70 106}
+			Y = { 211 206 70}
+			H = { 211 206 70}
+			1 = { 55 81 155 }
+			2 = { 145 35 35 }
+			3 = { 181 149 76 }
+			4 = { 155 167 211 }
+		}
+	}
+
+	bitmapfont = {
+		name = "VCR01_30_glow"
+		path = "gfx/fonts/VCR01_30_glow"   
+		color = 0xffffffff
+		textcolors = {
+			G = { 82 159 94 }
+			R = { 211 70 106}
+			Y = { 211 206 70}
+			H = { 211 206 70}
+			1 = { 55 81 155 }
+			2 = { 145 35 35 }
+			3 = { 181 149 76 }
+			4 = { 155 167 211 }
+		}
+	}
+
+	bitmapfont = {
+		name = "VCR01_32_glow"
+		path = "gfx/fonts/VCR01_32_glow"   
+		color = 0xffffffff
+		textcolors = {
+			G = { 82 159 94 }
+			R = { 211 70 106}
+			Y = { 211 206 70}
+			H = { 211 206 70}
+		}
+	}
+
+	bitmapfont = {
+		name = "VCR01_36_glow"
+		path = "gfx/fonts/VCR01_36_glow"   
+		color = 0xffffffff
+		textcolors = {
+			G = { 82 159 94 }
+			R = { 211 70 106}
+			Y = { 211 206 70}
+			H = { 211 206 70}
+			O = { 191 119 82}
+		}
+	}
+
+	bitmapfont = {
+		name = "VCR01_72_WT_glow"
+		path = "gfx/fonts/VCR01_72_WT_glow"   
+		color = 0xffffffff
+		textcolors = {
+			G = { 82 159 94 }
+			R = { 211 70 106}
+			Y = { 211 206 70}
+			H = { 211 206 70}
+		}
+	}
+	
+}

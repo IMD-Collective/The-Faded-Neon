@@ -1,0 +1,17 @@
+spriteTypes = {	
+
+	##ideas
+
+	spriteType = {
+		name = "GFX_idea_the_unpopular_monarch"
+		textureFile = "gfx/interface/ideas/SIA/Unpopular_King.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_the_beacon_of_light"
+		textureFile = "gfx/interface/ideas/SIA/the_beacon_of_light.dds"
+	}
+
+
+
+}

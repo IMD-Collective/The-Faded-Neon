@@ -1,0 +1,50 @@
+﻿capital = 16
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+create_faction = partnership_for_liberty
+add_to_faction = GER
+add_to_faction = BRI
+add_to_faction = WAL
+
+add_ideas = {
+	FRA_leader_of_the_partnership_for_liberty
+	FRA_imprudent_capitalists_and_blind_gaullists
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1979.9.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 35
+	communism = 25
+	neutrality = 15
+	fascism = 25
+}
+
+create_country_leader = {
+	
+	name = "Silvain LeMahieu"
+	picture = "gfx/leaders/FRA/portrait_FRA_silvain_lemahieu.tga"
+	expire = "2000.1.1"
+	ideology = liberal_conservatism
+	traits = {
+		liberal_conservatism_trait
+	}
+}
+
+
+
+
+

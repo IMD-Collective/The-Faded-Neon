@@ -1,0 +1,37 @@
+﻿capital = 9
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 50
+	neutrality = 20
+	communism = 30
+}
+
+create_country_leader = {
+	
+	name = "Milan Chermák"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = liberalism
+	traits = {
+		liberalism_trait
+	}
+}
+
+
+
+
+

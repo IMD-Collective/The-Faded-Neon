@@ -1,0 +1,19 @@
+state={
+	id=821
+	name="STATE_821"
+	manpower = 252900
+	
+	state_category = large_town
+	
+	history= {
+		owner = TRS
+		victory_points = { 13235 10 }
+
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+		}
+		add_core_of = TRS
+	}
+	provinces={ 13235 13236 13239 }
+}

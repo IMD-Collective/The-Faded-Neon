@@ -1,0 +1,60 @@
+ideas = {
+	country = {
+		cromwell_state = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.15
+				army_morale_factor = 0.05
+				political_power_gain = 0.05	
+			}
+		}
+
+		fractured_isles = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				political_power_gain = -0.1
+				army_org_factor = -0.05
+				communism_acceptance = -50
+				democratic_acceptance = -50			
+			}
+		}
+
+		puritanical_society = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+						
+			}
+		}
+	}
+}

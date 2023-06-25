@@ -1,0 +1,45 @@
+spriteTypes = {	
+
+	##ministers
+
+	##ideas
+
+	spriteType = {
+		name = "GFX_idea_stalin_state"
+		texturefile = "gfx/interface/ideas/SOV/stalin_state.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_questionable_military_loyalty"
+		texturefile = "gfx/interface/ideas/SOV/questionable_military_loyalty.dds"
+	}
+	
+	##tech
+	SpriteType = {
+		name = "GFX_SOV_infantry_weapons_medium"
+		textureFile = "gfx/interface/technologies/SOV_infantry_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_infantry_weapons1_medium"
+		textureFile = "gfx/interface/technologies/SOV_infantry_equipment_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_improved_infantry_weapons_medium"
+		textureFile = "gfx/interface/technologies/SOV_infantry_equipment_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_infantry_weapons_medium"
+		textureFile = "gfx/interface/technologies/SOV_infantry_equipment_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_gwtank_medium"
+		texturefile = "gfx/interface/technologies/SOV_gwtank.dds"
+	}
+
+
+
+}

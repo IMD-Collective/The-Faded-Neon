@@ -1,0 +1,27 @@
+
+state={
+	id=784
+	name="STATE_784"
+
+	history={
+		owner = PNT
+		victory_points = {
+			3320 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 5
+
+		}
+		add_core_of = LIT
+		add_core_of = PNT
+	}
+
+	provinces={
+		3320 9295 13249 
+	}
+	manpower=517081
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,14 @@
+spriteTypes = {	
+
+	##ideas
+
+	spriteType = {
+		name = "GFX_idea_AFG_soviet_invasion"
+		texturefile = "gfx/interface/ideas/AFG/idea_AFG_soviet_invasion.dds"
+	}
+
+
+
+
+
+}

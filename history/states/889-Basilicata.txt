@@ -1,0 +1,25 @@
+state={
+	id=889
+	name="STATE_889"
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			fuel_silo = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = BIT
+		add_core_of = ITA
+
+	}
+
+	provinces={
+		3958 3968 6972 9856 
+	}
+	manpower=933611
+	buildings_max_level_factor=1.000
+	state_category=town
+}

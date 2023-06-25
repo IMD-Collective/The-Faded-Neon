@@ -1,0 +1,29 @@
+state={
+	id=800
+	name="STATE_800"
+
+	history={
+		add_core_of = SCO
+		owner = SCO
+		add_claim_by = ENG
+		victory_points = {
+			11064 1 
+		}
+		buildings = {
+			infrastructure = 4
+			6196 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		6196 
+	}
+	manpower=17645
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

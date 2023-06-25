@@ -1,0 +1,46 @@
+﻿capital = 289
+
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+add_ideas = {
+    aftermath_of_the_unrest
+	the_unpopular_monarch
+	the_beacon_of_light
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1979.4.22"
+	election_frequency = 96
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 60
+	fascism = 23
+	democratic =  10
+	communism =  7
+}
+
+create_country_leader = {
+	name = "Chakrii Daewon"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = monarchism
+	traits = {
+		monarchism_trait
+	}
+}
+
+
+
+
+

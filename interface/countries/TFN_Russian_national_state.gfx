@@ -1,0 +1,15 @@
+spriteTypes = {	
+
+	##ministers
+
+	##ideas
+
+
+	SpriteType = {
+		name = "GFX_PAM_gwtank_medium"
+		texturefile = "gfx/interface/technologies/PAM_gwtank.dds"
+	}
+
+
+
+}

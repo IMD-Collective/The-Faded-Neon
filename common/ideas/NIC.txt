@@ -1,0 +1,41 @@
+ideas = {
+	country = {
+		nic_contras = {
+
+			picture = generic_poor_economy
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+		}
+
+		nic_sinking_economy = {
+
+			picture = generic_poor_economy
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+		}
+	}
+}

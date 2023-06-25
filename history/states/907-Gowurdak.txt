@@ -1,0 +1,21 @@
+state={
+	id=907
+	name="STATE_907"
+
+	history={
+		owner = SAA
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+		}
+		add_core_of = SAA
+	}
+
+	provinces={
+		756 7224 12218 12239 
+	}
+	manpower=75432
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

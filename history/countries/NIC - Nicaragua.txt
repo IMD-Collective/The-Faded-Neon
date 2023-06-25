@@ -1,0 +1,42 @@
+﻿capital = 317
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+add_ideas = {
+	nic_sinking_economy
+	nic_contras
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism =  60
+	fascism = 30
+	neutrality = 10
+}
+
+create_country_leader = {
+	
+	name = "National Directorate"
+	picture = "gfx/leaders/NIC/portrait_NIC_junta_of_reconstruction.tga"
+	expire = "2000.1.1"
+	ideology = socialist_mil_junta
+	traits = {
+		socialist_mil_junta_trait
+	}
+}
+
+
+

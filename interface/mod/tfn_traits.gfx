@@ -1,0 +1,9 @@
+spriteTypes = {	
+
+	### Romania ###
+
+	SpriteType = {
+		name = "GFX_trait_ROM_member_of_military_faction"
+		textureFile = "gfx/interface/traits/ROM_member_of_military_faction.tga"
+	}
+}

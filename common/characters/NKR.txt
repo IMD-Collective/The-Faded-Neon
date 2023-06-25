@@ -1,0 +1,30 @@
+characters = {
+	NKR_kim_min_su = {
+		name = "Kim Min Su" 
+		portraits={
+			army={
+				small="GFX_minister_NKR_kim_min_su"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = NKR_kim_min_su
+			available  = {
+				OR = {
+					has_government  = communism 
+					has_government  = neutrality 
+				}
+			}
+			allowed  = {
+				original_tag  = NKR
+			}
+			traits  = {
+				strong_willed 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+}
+	

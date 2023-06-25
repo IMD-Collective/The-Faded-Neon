@@ -1,0 +1,20 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_HUN_Molotov"
+		textureFile = "gfx/interface/ideas/HUN/HUN_Molotov.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_Feher"
+		textureFile = "gfx/interface/ideas/HUN/HUN_Feher.tga"
+	}
+
+####Event Pictures
+
+	spriteType = {
+		name = "GFX_report_event_hun_01"
+		texturefile = "gfx/event_pictures/HUN_01.tga"
+	}
+
+
+}

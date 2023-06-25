@@ -1,0 +1,23 @@
+spriteTypes = {	
+
+	##ministers
+
+	##ideas
+	
+
+	##companies
+	
+
+	##tech
+	SpriteType = {
+		name = "GFX_GER_infantry_weapons_medium"
+		textureFile = "gfx/interface/technologies/GER_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_infantry_weapons1_medium"
+		textureFile = "gfx/interface/technologies/GER_infantry_equipment_1.dds"
+	}
+
+
+
+}

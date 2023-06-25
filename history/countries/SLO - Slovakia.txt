@@ -1,0 +1,39 @@
+﻿capital = 70
+
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_mountaineers = 1
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 36
+	communism =  24
+	democratic =  22
+	neutrality = 18
+}
+
+create_country_leader = {
+	
+	name = "Eugen Biskup"
+	picture = "gfx/leaders/SLO/portrait_SLO_eugen_biskup.tga"
+	expire = "2000.1.1"
+	ideology = nazism
+	traits = {
+		nazism_trait
+	}
+}
+
+
+
+
+

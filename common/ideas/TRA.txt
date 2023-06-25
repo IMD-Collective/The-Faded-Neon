@@ -1,0 +1,122 @@
+ideas = {
+
+	country = {
+
+	##Stater Ideas##
+
+		TRA_Hungarian_Minority = {
+			allowed = { original_tag = TRA }
+
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea TRA_Hungarian_Minority" }
+
+			picture = TRA_Hungarian_Minority
+
+			removal_cost = -1
+
+			modifier = {
+			stability_factor = -0.15
+			political_power_gain = -0.15
+			resistance_growth = 0.10
+			required_garrison_factor = 0.15
+			}
+		}
+
+		TRA_Insurgent_Terror = {
+			allowed = { original_tag = TRA }
+
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea TRA_Insurgent_Terror" }
+
+			picture = TRA_Insurgent_Terror
+
+			removal_cost = -1
+
+			modifier = {
+			stability_weekly = -0.001
+			monthly_population = -0.03
+			war_stability_factor = -0.20
+			}
+		}
+
+		TRA_Memories_of_Vulcan = {
+			allowed = { original_tag = TRA }
+
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea TRA_Memories_of_Vulcan" }
+
+			picture = TRA_Memories_of_Vulcan
+
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = -0.05
+				breakthrough_factor = -0.05
+				war_support_factor = -0.10
+				army_morale_factor = -0.15
+				dig_in_speed_factor = 0.05
+			}
+		}
+
+		TRA_Second_Liberation_War = {
+			allowed = { original_tag = TRA }
+
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea TRA_Second_Liberation_War" }
+
+			picture = ROM_Second_Liberation_War
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.02
+				war_support_factor = 0.15
+				surrender_limit = 0.15
+			}
+
+			targeted_modifier = {
+				tag = ROM
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+
+			targeted_modifier = {
+				tag = MOL
+				attack_bonus_against = -0.05
+				defense_bonus_against = 0.05
+			}
+		}
+	}
+}
+
+		#TRA_Aftermath_of_Stalinization = {
+		#	allowed = { original_tag = TRA }
+		#
+		#	on_add = { log = "[GetDateText]: [Root.GetName]: add idea TRA_Democratic_Foothold" }
+		#
+		#	picture = TRA_Aftermath_of_Stalinization
+		#
+		#	removal_cost = -1
+		#
+		#	modifier = {
+		#		stability_factor = -0.10
+		#		industrial_capacity_factory = 0.05
+		#		local_building_slots_factor = 0.05
+		#		industry_repair_factor = -0.25
+		#		production_speed_buildings_factor = -0.25
+		#		industry_air_damage_factor = 0.35
+		#	}
+		#}
+
+		#TRA_Democratic_Foothold = {
+		#	allowed = { original_tag = TRA }
+		#
+		#	on_add = { log = "[GetDateText]: [Root.GetName]: add idea TRA_Democratic_Foothold" }
+		#
+		#	picture = TRA_Democratic_Foothold
+		#
+		#	removal_cost = -1
+		#	
+		#	modifier = {
+		#	stability_weekly = 0.001
+		#	monthly_population = 0.03
+		#	political_power_gain = 0.05
+		#	war_stability_factor = 0.20
+		#	}
+		#}

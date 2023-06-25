@@ -1,0 +1,68 @@
+spriteTypes = {	
+
+	##ministers
+
+	#spriteType = {
+	#	name = "GFX_idea_traits_strip"
+	#	textureFile = "gfx/interface/ideas/idea_traits_strip.dds"
+	#	noOfFrames = 8
+	#}
+
+	##generic
+
+	spriteType = {
+		name = "GFX_idea_generic_clerical_violence"
+		texturefile = "gfx/interface/ideas/generic/idea_generic_clerical_violence.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_police_state"
+		texturefile = "gfx/interface/ideas/generic/police_state.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_protest"
+		texturefile = "gfx/interface/ideas/generic/idea_generic_protest.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_low_virus_level"
+		texturefile = "gfx/interface/ideas/generic/low_virus_level.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_industry"
+		texturefile = "gfx/interface/ideas/generic/generic_industry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_money_Treaty"
+		texturefile = "gfx/interface/ideas/generic/idea_generic_money_Treaty.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_pick"
+		texturefile = "gfx/interface/ideas/generic/idea_generic_pick.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_aftermath_of_the_unrest"
+		textureFile = "gfx/interface/ideas/generic/generic_riot.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_timebomb"
+		textureFile = "gfx/interface/ideas/generic/generic_timebomb.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_poor_economy"
+		textureFile = "gfx/interface/ideas/generic/generic_poor_economy.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_generic_partnership_for_liberty"
+		textureFile = "gfx/interface/ideas/generic/idea_generic_partnership_for_liberty.dds"
+	}
+
+}

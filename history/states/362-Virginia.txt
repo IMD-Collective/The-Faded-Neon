@@ -1,0 +1,35 @@
+
+state={
+	id=362
+	name="STATE_362"
+	manpower = 4051054
+	
+	state_category = large_city
+
+	history={
+		owner = NWC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			dockyard = 4
+			air_base = 10
+			fuel_silo = 1
+			788 = {
+				naval_base = 10
+
+			}
+		}
+		add_core_of = NWC
+		victory_points = {
+			788 10
+		}
+		victory_points = {
+			10412 15
+		}
+
+	}
+
+	provinces={
+		788 865 873 951 1506 3823 3925 4627 6846 7466 7558 9779 9931 10343 10412 10439 11738 11841 11873 11888 
+	}
+}

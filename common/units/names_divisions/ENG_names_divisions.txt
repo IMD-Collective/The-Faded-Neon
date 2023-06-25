@@ -1,0 +1,66 @@
+﻿ENG_INF_01 = {
+	name = "Infantry Division"
+
+	for_countries = { ENG }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "Infantry %d Division"
+
+	ordered = {
+		52 = { "Infantry %d Division" }
+		1 = { "Infantry %d Division" }
+		2 = { "Infantry %d Division" }
+		3 = { "Infantry %d Division" }
+		4 = { "Infantry %d Division" }
+		5 = { "Infantry %d Division" }
+		6 = { "Infantry %d Division" }
+		7 = { "Infantry %d Division" }
+		8 = { "Infantry %d Division" }
+		9 = { "Infantry %d Division" }
+		10 = { "Infantry %d Division" }
+		11 = { "Infantry %d Division" }
+		12 = { "Infantry %d Division" }
+		13 = { "Infantry %d Division" }
+		14 = { "Infantry %d Division" }
+		15 = { "Infantry %d Division" }
+		16 = { "Infantry %d Division" }
+		17 = { "Infantry %d Division" }
+		18 = { "Infantry %d Division" }
+		19 = { "Infantry %d Division" }
+		20 = { "Infantry %d Division" }
+		21 = { "Infantry %d Division" }
+		53 = { "Infantry %d Division" }
+		22 = { "Infantry %d Division" }
+		23 = { "Infantry %d Division" }
+		24 = { "Infantry %d Division" }
+		25 = { "Infantry %d Division" }
+		26 = { "Infantry %d Division" }
+		27 = { "Infantry %d Division" }
+		28 = { "Infantry %d Division" }
+		29 = { "Infantry %d Division" }
+		30 = { "Infantry %d Division" }
+		31 = { "Infantry %d Division" }
+		32 = { "Infantry %d Division" }
+		54 = { "Infantry %d Division" }
+		55 = { "Infantry %d Division" }
+		36 = { "Infantry %d Division" }
+		37 = { "Infantry %d Division" }
+		38 = { "Infantry %d Division" }
+		39 = { "Infantry %d Division" }
+		40 = { "Infantry %d Division" }
+		41 = { "Infantry %d Division" }
+		42 = { "Infantry %d Division" }
+		43 = { "Infantry %d Division" }
+		44 = { "Infantry %d Division" }
+		45 = { "Infantry %d Division" }
+		46 = { "Infantry %d Division" }
+		47 = { "Infantry %d Division" }
+		48 = { "Infantry %d Division" }
+		49 = { "Infantry %d Division" }
+		50 = { "Infantry %d Division" }
+		51 = { "Infantry %d Division" }
+	}
+}

@@ -1,0 +1,30 @@
+state={
+	id=856
+	name="STATE_856"
+	manpower = 1118394
+	
+	state_category = metropolis
+
+	history={
+		owner = MTT
+		victory_points = {
+			3957 40 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			dockyard = 1
+			3957 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = MTT
+
+	}
+
+	provinces={
+		3957
+	}
+	buildings_max_level_factor=1.000
+}

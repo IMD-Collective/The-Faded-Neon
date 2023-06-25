@@ -1,0 +1,11 @@
+spriteTypes = {	
+
+	##ministers
+
+	##ideas
+
+	spriteType = {
+		name = "GFX_idea_a_controlled_democracy"
+		texturefile = "gfx/interface/ideas/MUR/a_controlled_democracy.dds"
+	}
+}

@@ -1,0 +1,17 @@
+scripted_gui = {
+
+	tfn_subideology = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "subideology_container"
+
+		ai_enabled = {
+			always = no
+		}
+		
+		visible = {
+			is_ai = no
+		}
+	}
+}
+

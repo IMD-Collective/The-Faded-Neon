@@ -1,0 +1,38 @@
+﻿capital = 316
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 48
+	fascism = 7
+	communism = 19
+	neutrality = 26
+}
+
+create_country_leader = {
+	
+	name = "Aureliano Obando"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = liberal_conservatism
+	traits = {
+		liberal_conservatism_trait
+	}
+}
+
+
+

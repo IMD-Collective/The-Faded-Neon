@@ -1,0 +1,25 @@
+state={
+	id=892
+	name="STATE_892"
+
+	history={
+		owner = NNZ
+		victory_points = {
+			219 5 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		add_core_of = NNZ
+		add_core_of = SCO
+
+	}
+
+	provinces={
+		13280
+	}
+	manpower=3401
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

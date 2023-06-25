@@ -1,0 +1,62 @@
+﻿capital = 271
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 30
+	democratic = 10
+	neutrality = 30
+	fascism = 30
+}
+
+create_country_leader = {
+	name = "Provisional Military Administrative CouncilMAC"
+	desc = ""
+	picture = "gfx/leaders/leader_unknown.dds"
+	ideology = military_junta
+	traits = {
+		military_junta_trait
+	}
+}
+
+create_country_leader = {
+	name = "Geteye Wossen"
+	desc = ""
+	picture = "gfx/leaders/leader_unknown.dds"
+	ideology = democratic_socialism
+	traits = {
+		democratic_socialism_trait
+	}
+}
+
+create_country_leader = {
+	name = "Provisional Military Administrative Council"
+	desc = ""
+	picture = "gfx/leaders/leader_unknown.dds"
+	ideology = socialist_mil_junta
+	traits = {
+		socialist_mil_junta_trait
+	}
+}
+
+create_country_leader = {
+	name = "Provisional Military Administrative Council"
+	desc = ""
+	picture = "gfx/leaders/leader_unknown.dds"
+	ideology = fascist_mil_junta
+	traits = {
+		fascist_mil_junta_trait
+	}
+}

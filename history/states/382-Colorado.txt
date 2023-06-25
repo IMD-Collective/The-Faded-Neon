@@ -1,0 +1,25 @@
+
+state={
+	id=382
+	name="STATE_382"
+	manpower = 635790
+	resources={
+		oil=14 # was: 20
+	}
+	
+	state_category = rural
+
+	history={
+		owner = UTH
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = UTH
+
+	}
+
+	provinces={
+		868 1658 6887 7684 9792 10535 
+	}
+}

@@ -1,0 +1,13 @@
+spriteTypes = {	
+
+	##ideas
+
+	spriteType = {
+		name = "GFX_idea_TUS_CGIL_state"
+		texturefile = "gfx/interface/ideas/TUS/TUS_CGIL_state.dds"
+	}
+
+
+
+
+}

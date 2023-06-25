@@ -1,0 +1,19 @@
+state = {
+	id = 827
+	name = "STATE_827"
+	manpower = 543560
+	resources = { steel=5 }
+	
+	state_category = pastoral
+
+	history = {
+		owner = TRA
+		buildings = { infrastructure = 3 }
+
+		victory_points = { 11639 1 }
+
+		add_core_of = TRA
+	}
+
+	provinces = { 6709 11639 }
+}

@@ -1,0 +1,21 @@
+state={
+	id=877
+	name="STATE_877"
+
+	history={
+		owner = GRG
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = GRG
+
+	}
+
+	provinces={
+		10407 12353 12381 
+	}
+	manpower=98210
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

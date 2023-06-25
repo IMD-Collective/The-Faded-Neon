@@ -1,0 +1,94 @@
+spriteTypes = {
+
+	
+	spriteType = {
+		name = "GFX_cm_fl_close_btn"
+		texturefile = "gfx//faction//cm_fl_close_btn.dds"  
+		legacy_lazy_load = no 
+	}
+	spriteType = {
+		name = "GFX_cm_fl_return_btn"
+		texturefile = "gfx//faction//cm_fl_return_btn.dds"  
+		legacy_lazy_load = no 
+	}
+	
+	spriteType = {
+		name = "GFX_cm_fl_row"
+		texturefile = "gfx//faction//cm_fl_row.dds"  
+		legacy_lazy_load = no 
+	}
+	spriteType = {
+		name = "GFX_cm_fl_leader_frame"
+		texturefile = "gfx//faction//cm_fl_leader_frame.dds"  
+		legacy_lazy_load = no 
+	} 
+	spriteType = {
+		name = "GFX_cm_fl_member_frame"
+		texturefile = "gfx//faction//cm_fl_member_frame.dds"  
+		legacy_lazy_load = no 
+	}
+	###faction bg
+	spriteType = {
+		name = "GFX_cm_fl_bg_overlay"
+		texturefile = "gfx//faction//bg//bg_overlay.dds"  
+		legacy_lazy_load = no 
+	}
+	spriteType = {
+		name = "GFX_cm_fl_bg_generic"
+		texturefile = "gfx//faction//bg//bg_generic.dds"  
+		legacy_lazy_load = no 
+	}
+	
+	spriteType = {
+		name = "GFX_cm_fl_bg_DDR"
+		texturefile = "gfx//faction//bg//bg_DDR.dds"  
+		legacy_lazy_load = no 
+	}
+	spriteType = {
+		name = "GFX_cm_fl_bg_FRA"
+		texturefile = "gfx//faction//bg//bg_FRA.dds"  
+		legacy_lazy_load = no 
+	}
+	spriteType = {
+		name = "GFX_cm_fl_bg_PRC"
+		texturefile = "gfx//faction//bg//bg_PRC.dds"  
+		legacy_lazy_load = no 
+	}
+	spriteType = {
+		name = "GFX_cm_fl_bg_CHI"
+		texturefile = "gfx//faction//bg//bg_CHI.dds"  
+		legacy_lazy_load = no 
+	}
+	
+	
+	###faction icon 
+	spriteType = {
+		name = "GFX_fi_nah"
+		texturefile = "gfx//faction//fi//fi_nah.dds"  
+		legacy_lazy_load = no 
+	}
+	spriteType = {
+		name = "GFX_fi_DDR"
+		texturefile = "gfx//faction//fi//fi_DDR.dds"  
+		legacy_lazy_load = no 
+	}
+	spriteType = {
+		name = "GFX_fi_FRA"
+		texturefile = "gfx//faction//fi//fi_FRA.dds"  
+		legacy_lazy_load = no 
+	}
+    spriteType = {
+		name = "GFX_fi_PRC"
+		texturefile = "gfx//faction//fi//fi_PRC.dds"  
+		legacy_lazy_load = no 
+	}
+	spriteType = {
+		name = "GFX_fi_CHI"
+		texturefile = "gfx//faction//fi//fi_CHI.dds"  
+		legacy_lazy_load = no 
+	}
+
+
+
+
+}

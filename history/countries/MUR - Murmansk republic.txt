@@ -1,0 +1,41 @@
+﻿capital = 213
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+add_ideas = {
+	a_controlled_democracy
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 45
+	fascism = 23
+	communism = 22
+	neutrality = 10
+}
+
+create_country_leader = {
+	name = "Murmansk People's Council"
+	picture = "gfx/leaders/MUR/portrait_MUR_MPC.dds"
+	expire = "2000.1.1"
+	ideology = conservatism
+	traits = {
+		conservatism_trait
+	}
+}
+
+
+

@@ -1,0 +1,39 @@
+ideas = {
+	country = {
+		stalin_state = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+
+		questionable_military_loyalty = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+	}
+
+	
+}

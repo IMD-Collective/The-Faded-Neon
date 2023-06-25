@@ -1,0 +1,30 @@
+
+state={
+	id=106
+	name="STATE_106"
+	resources={
+		chromium=70.000
+		aluminium=16.000
+	}
+
+	history={
+		owner = MAC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			3882 5 
+		}
+		add_core_of = MAC
+
+	}
+
+	provinces={
+		907 3833 3882 6886 
+	}
+	manpower=774200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

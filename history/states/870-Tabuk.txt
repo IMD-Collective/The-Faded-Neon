@@ -1,0 +1,21 @@
+state={
+	id=870
+	name="STATE_870"
+
+	history={
+		owner = HKA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = HKA
+
+	}
+
+	provinces={
+		1033 2027 12101 12455 
+	}
+	manpower=332000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

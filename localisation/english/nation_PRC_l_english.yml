@@ -1,0 +1,45 @@
+﻿l_english:
+#Country Stuff
+beijing_accord:0 "Beijing Accord"
+#Focus
+
+
+#Modifiers
+
+
+#Custom Tooltips
+
+
+#Flags
+
+#Ideas
+
+PRC_the_little_red_book:0 "The Little Red Book"
+PRC_the_little_red_book_desc:0 "Inspired by the policies and doctrines employed by the former Paramount Leader, Mao Zedong, the so-called 'Little Red Book' details the political ideals of the ruling party. As ordered by the Chief of Party Propaganda, all printing firms are ordered to publish and issue the book to each and every citizen of our nation. While the costs of doing so and promoting it have been less than feasible, it has helped boost loyalty in our population, with as many as 70% being able to recite quotes from the book."
+PRC_work_harder_not_smarter:0 "Work Harder, Not Smarter"
+PRC_work_harder_not_smarter_desc:0 "The slogan of the workers of our nation, most of them are uneducated with basic schooling. This however, is compensated by their work culture, with many of them being encouraged to work long hours without complaint."
+PRC_state_surveillance:0 "State Surveillance"
+PRC_state_surveillance_desc:0 "There is no need to worry about your safety, there is no need to worry about your position, as long as you do not speak ill of the party, you will be alright."
+PRC_unrest_in_the_peoples_liberation_army:0 "Unrest in the People's Liberation Army"
+PRC_unrest_in_the_peoples_liberation_army_desc:0 "Led by an overly eager and militaristic army chief, the People's Liberation Army is wary of any potential budgets cuts. Demands for more equipment and money come regularly, with underlying threats of revolt if they are not fulfilled with haste."
+PRC_the_gang_of_three:0 "The Gang of Three"
+PRC_the_gang_of_three_desc:0 "It is often said that the most powerful man in China is the Paramount Leader himself. This however, is only true when comparing individuals. The Gang of Three is an unholy alliance of the three next most powerful individuals of the party, each leading a major institution of the nation. Keep them in check at all costs, or it could end badly."
+
+PRC_rethinking_the_ideology:0 "Rethinking the Ideology"
+PRC_rethinking_the_ideology_desc:0 ""
+PRC_the_two_cleanups_program:0 "The Two Cleanups Program"
+PRC_the_two_cleanups_program_desc:0 ""
+PRC_the_wind_of_change:0 "The Wind of Change"
+PRC_the_wind_of_change_desc:0 ""
+PRC_the_second_cultural_revolution:0 "The Second Cultural Revolution"
+PRC_the_second_cultural_revolution_desc:0 ""
+
+#Events
+
+#Decisions
+
+#Advisors
+
+#Misc
+paramount_leader:0 "Paramount Leader"
+

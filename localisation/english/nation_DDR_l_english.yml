@@ -1,0 +1,34 @@
+﻿l_english:
+#Country Stuff
+
+#Focus
+
+#Custom Tooltips
+
+#Flags
+
+#Ideas
+a_nation_divided:0 "Indefinite State of War"
+a_nation_divided_desc:0 "Although having "reclaimed" most of Germany, the Leninist government does not control the nation entirely. Holdouts of Federal Republic supporters exist within the nation and have claimed their own plot of land west of the Rhine."
+leader_of_the_cominform:0 "Leader of the Cominform"
+leader_of_the_cominform_desc:0 "Following the collapse of the Soviet Union, and numerous anti-communist rebellions in the former Warsaw Pact countries, The German Democratic Republic, alongside Poland, would take the reigns as leader of the Cominform."
+faltering_economy:0 "Faltering Economy"
+faltering_economy_desc:0 "Most of the world is in shambles, and global trade has nearly stopped entirely. The Global Economy is most certainly not in good shape, nor is Germanys."
+western_group_of_forces:0 "Western Group of Forces"
+western_group_of_forces_desc:0 "Before the Soviet Collapse, the western satellites had been home to about 338,000 Soviet Military personnel, with the Collapse of the Union, these personnel have no home to return to leaving most to lead a new life in Poland and Germany."
+fractured_coalition:0 "Divided Government"
+POL_rgw_continuation:0 "RGW Continuation"
+rural_aid:0 "Rural Aid"
+stasi:0 "Staatssicherheitsdienst"
+#Events
+
+#Decisions
+
+#Advisors
+
+#Misc
+corrupt_chairman:0 "Corrupt Chairman"
+
+DDR_EKO:0 "Eisenhüttenkombinat Ost"
+DDR_wieger:0 "Wieger"
+

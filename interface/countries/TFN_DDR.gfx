@@ -1,0 +1,74 @@
+spriteTypes = {	
+
+	##ministers
+
+	##ideas
+	spriteType = {
+		name = "GFX_idea_western_group_of_forces"
+		textureFile = "gfx/interface/ideas/DDR/western_group_of_forces.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_leader_of_the_cominform"
+		textureFile = "gfx/interface/ideas/DDR/leader_of_the_cominform.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ddr_a_nation_divided"
+		textureFile = "gfx/interface/ideas/DDR/ddr_a_nation_divided.dds"
+	}
+
+	##companies
+	spriteType = {
+		name = "GFX_idea_DDR_eko"
+		textureFile = "gfx/interface/ideas/DDR/companies/idea_DDR_eko.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DDR_wieger"
+		textureFile = "gfx/interface/ideas/DDR/companies/idea_DDR_wieger.dds"
+	}
+
+	##tech
+	SpriteType = {
+		name = "GFX_DDR_infantry_weapons_medium"
+		textureFile = "gfx/interface/technologies/DDR_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_DDR_infantry_weapons1_medium"
+		textureFile = "gfx/interface/technologies/DDR_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_DDR_improved_infantry_weapons_medium"
+		textureFile = "gfx/interface/technologies/DDR_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_DDR_advanced_infantry_weapons_medium"
+		textureFile = "gfx/interface/technologies/DDR_infantry_equipment_3.dds"
+	}
+
+
+	
+	SpriteType = {
+		name = "GFX_DDR_mechanised_infantry_medium"
+		textureFile = "gfx/interface/technologies/DDR_mechanized_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_DDR_mechanised_infantry2_medium"
+		textureFile = "gfx/interface/technologies/DDR_mechanized_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_DDR_mechanised_infantry3_medium"
+		textureFile = "gfx/interface/technologies/DDR_mechanized_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_DDR_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/DDR_motorised_infantry.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_DDR_gwtank_medium"
+		texturefile = "gfx/interface/technologies/DDR_gwtank.dds"
+	}
+
+
+}

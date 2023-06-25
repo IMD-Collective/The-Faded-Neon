@@ -1,0 +1,9 @@
+﻿l_english:
+
+ cm_fl_global_faction_title:0 "Global Factions"
+ Getmembership_leader:0 "§YLeader of the [THIS.GetFactionName]§!"
+ Getmembership_member:0 "Member of the [THIS.GetFactionName]"
+ Getmembership_puppet:0 "£autonomy_texticon Puppet of  [THIS.OVERLORD.GetNameWithFlag]"
+
+ 
+ 

@@ -1,0 +1,26 @@
+state={
+	id=796
+	name="STATE_796"
+	history={
+		owner = CON
+		buildings = {
+			infrastructure = 1
+			2115 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			2115 1 
+		}
+		victory_points = {
+			5117 3 
+		}
+		add_core_of = CON
+	}
+	provinces={
+		2115 10968 12925 5117 12975 8193 2192
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=113
+	name="STATE_113"
+	resources={
+		aluminium=0.000
+		steel=2.000
+	}
+
+	history={
+		owner = IRE
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = IRE
+
+	}
+
+	provinces={
+		303 369 3359 11303 
+	}
+	manpower=257600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

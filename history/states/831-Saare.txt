@@ -1,0 +1,26 @@
+state={
+	id=831
+	name="STATE_831"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = EST
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = EST
+
+	}
+
+
+	provinces={
+		185 6201 
+	}
+	manpower=20660
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

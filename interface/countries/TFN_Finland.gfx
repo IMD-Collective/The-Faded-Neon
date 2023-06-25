@@ -1,0 +1,12 @@
+spriteTypes = {	
+
+	##ministers
+
+	##ideas
+
+	spriteType = {
+		name = "GFX_idea_the_fading_torch"
+		texturefile = "gfx/interface/ideas/FIN/the_fading_torch.dds"
+	}
+
+}

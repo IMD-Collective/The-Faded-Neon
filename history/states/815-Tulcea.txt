@@ -1,0 +1,22 @@
+state={
+	id=815
+	name="STATE_815"
+	manpower=12560
+
+	state_category = wasteland
+ 
+	history={
+		owner = MOL
+		victory_points = { 687 1 }
+		buildings = {
+			infrastructure = 1
+			687 = { naval_base = 1 }
+
+		}
+		add_core_of = MOL
+		add_claim_by = ROM
+
+	}
+
+	provinces={ 687 }
+}

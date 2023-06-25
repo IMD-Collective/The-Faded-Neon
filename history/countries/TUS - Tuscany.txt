@@ -1,0 +1,44 @@
+﻿capital = 162
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+add_ideas = {
+	tus_union_state
+	tus_pci_split
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 60
+	democratic = 20
+	fascism = 10
+	neutrality = 10
+}
+
+create_country_leader = {
+	
+	name = "Armando Sardone"
+	picture = "gfx/leaders/TUS/portrait_TUS_armando_sardone.tga"
+	expire = "2000.1.1"
+	ideology = marxism
+	traits = {
+		marxism_trait
+	}
+}
+
+
+
+

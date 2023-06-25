@@ -1,0 +1,26 @@
+
+state={
+	id=156
+	name="STATE_156"
+
+	history={
+		owner = BIT
+		buildings = {
+			infrastructure = 3
+			dockyard = 3
+			fuel_silo = 1
+			air_base = 5
+
+		}
+		add_core_of = BIT
+		add_core_of = ITA
+
+	}
+
+	provinces={
+		3901 9990 10027 12066 12098 
+	}
+	manpower=1066315
+	buildings_max_level_factor=1.000
+	state_category=town
+}

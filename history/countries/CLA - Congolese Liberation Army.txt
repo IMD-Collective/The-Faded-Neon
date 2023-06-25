@@ -1,0 +1,35 @@
+﻿capital = 538
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1976.5.1"
+	election_frequency = 5
+	elections_allowed = yes
+}
+
+set_popularities = {
+	neutrality = 0
+	fascism = 0
+	communism = 25
+	democratic = 75
+}
+
+create_country_leader = {
+	name = "Kabudi Lenge"
+	picture = "gfx/leaders/CLA/kabudi_lenge.dds"
+	expire = "2000.1.1"
+	ideology = democratic_socialism
+	traits = {
+		democratic_socialism_trait
+	}
+}

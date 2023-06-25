@@ -1,0 +1,24 @@
+state={
+	id=819
+	name="STATE_819"
+	manpower=1100500
+
+	state_category = town
+
+	history={
+		owner = ROM
+		victory_points = { 11636 3 }
+		victory_points = { 9651 2 }
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = ROM
+
+	}
+
+	provinces={ 674 6677 9651 11603 11636 11652 }
+}

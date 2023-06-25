@@ -1,0 +1,14 @@
+spriteTypes = {
+	##generic
+	
+	SpriteType = {
+		name = "GFX_goal_generic_military_upgrade"
+		texturefile = "gfx/interface/goals/generic/goal_generic_military_upgrade.dds"		
+	}
+
+	SpriteType = {
+		name = "GFX_goal_generic_anti_com"
+		texturefile = "gfx/interface/goals/generic/goal_generic_anti_com.dds"		
+	}
+
+}

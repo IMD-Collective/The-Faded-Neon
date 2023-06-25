@@ -1,0 +1,374 @@
+#By CMCMC,faction lists view module
+
+guiTypes = {
+	
+	#For some reason arrays are not working with container within other container
+	#So I seperated all components instead,completely mess down here
+	
+	#aethistic, scroll bar
+	 
+	extendedScrollbarType = {
+		name = "cm_fl_right_vertical_sliderno_bg"
+		position = { x = 0  y = 0 }
+ 		size = { width = 18 height = 18 }
+		startValue = 0
+		orientation = upper_right
+		origo = upper_right
+		
+		slider = {
+			name = "Slider"	
+			quadTextureSprite = "GFX_scroll_drager"
+			position = { x = -2 y = -2 }
+		}
+
+		track = {
+			name = "Track"
+			quadTextureSprite = "GFX_scroll_track"
+			position = { x = 3 y = 0 }
+			alwaystransparent = yes
+		} 
+	}
+	
+	#button for politic tab(ROOT)
+	containerWindowType = {
+		name = "cm_fl_pol_entry_btn"
+		position = { x=  0 y = 0  }
+		
+		buttonType ={
+			name ="cm_fl_pol_entry_btn"
+			spriteType = "GFX_fi_nah"
+			position = { x=  200  y = 302  }
+			Orientation = "UPPER_LEFT"
+			frame = 1
+			pdx_tooltip = "[ROOT.GetFactionName]"
+		}		 	
+	}
+	
+	#button for diplo tab (target)
+	containerWindowType = {
+		name = "cm_fl_diplo_entry_btn"
+		position = { x=  0 y = 0  }
+		
+		buttonType ={
+			name ="cm_fl_diplo_entry_btn"
+			spriteType = "GFX_fi_nah"
+			position = { x=  490 y = 120  }
+			Orientation = "UPPER_LEFT"
+			frame = 1
+			pdx_tooltip = "[THIS.GetFactionName]"
+		}		 	
+	}
+	containerWindowType = {
+		name = "cm_fl_faction_leader_dummy"
+		position = { x=  0  y = 0 }
+		size = { width= 10   height= 10  }
+		clipping = no
+	
+	}
+	
+	#main background
+	containerWindowType = {
+		name = "cm_fl_main_container"
+		size = { width = 550 height= 648   }
+		position = { x=  541  y = 80 }
+		#moveable = yes	#if u need to drag it around enable this
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}		
+		instantTextBoxType = { 
+			name = "cm_fl_global_faction_title"
+			position = { x =  22   y =  10  }
+			font = "VCR01_36_glow"
+			text = "cm_fl_global_faction_title"
+			format = center
+			maxWidth = 500
+			maxHeight = 50
+			fixedsize = yes  
+		}
+				
+	}
+	
+	#faction view leader section(tab1 top)
+	containerWindowType = {
+		name = "cm_fl_faction_leader_container"
+		size = { width= 550   height= 150  }
+		position = { x= 0   y = 41 }
+		clipping = no
+		orientation = upper_left
+		#margin = {	top =  0 bottom = 0 }  
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window"
+			alwaystransparent = yes
+		}
+		gridboxtype = { 
+			name = "cm_fl_faction_leader_grid"
+			position = { x = 194     y =  32   }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 330 height = 100 }
+			max_slots_vertical = 1
+			max_slots_horizontal = 1
+		}	
+	}
+	#faction view member section(tab1 bottom)
+	containerWindowType = {
+		name = "cm_fl_faction_member_container"
+		size = { width= 550   height= 474  }
+		position = { x= 0   y = 174 }
+		verticalScrollbar = "cm_fl_right_vertical_sliderno_bg"
+		margin = {	top =  15 bottom = 15 }  
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_bg"
+			alwaystransparent = no
+		}
+		
+		gridboxtype = { 
+			name = "cm_fl_faction_member_grid"
+			position = { x = -391 y = 2  }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 130 height = 40 }
+			max_slots_horizontal = 1
+			add_horizontal = yes
+		}
+		
+		
+	}
+	#global factions section(tab2)
+	containerWindowType = {
+		name = "cm_fl_global_faction_container"
+		size = { width= 550   height=  607   }
+		position = { x= 0   y =  41  }
+		verticalScrollbar = "cm_fl_right_vertical_sliderno_bg"
+		#in case you got a shit tons of minor factions
+		
+		margin = {	top =  6 bottom = 15 }  
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_bg"
+			alwaystransparent = no
+		}
+		
+		gridboxtype = { 
+			name = "cm_fl_global_faction_grid"
+			position = { x = -391 y = 10  }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 130 height = 80 }
+			max_slots_horizontal = 1
+			add_horizontal = yes
+		}
+		
+		
+	}
+	
+	#faction members template
+	containerWindowType = {
+		name = "cm_fl_faction_member_template"
+		size = { width= 520 height= 40  }
+		position = { x=  0  y = 0 }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_cm_fl_row"  
+		}	
+		
+		iconType = {
+			name = "cm_fl_faction_member_template_flag"
+			quadTextureSprite = "GFX_flag_small2"
+			position = { x = 8 y = 6 }
+			Orientation = upper_left
+			pdx_tooltip = "[THIS.GetName]"
+		}
+		iconType = {
+			name = "cm_fl_faction_member_template_flag_frame"
+			position = { x =  2 y = 1   }
+			spriteType = "GFX_cm_fl_member_frame"  
+			orientation = upper_left
+			alwaystransparent = yes
+			scale = 1.1 
+		}
+		iconType = {
+			name = "cm_fl_faction_member_template_flag_frame_gold"
+			position = { x =  2 y =  1   }
+			spriteType = "GFX_cm_fl_leader_frame"  
+			orientation = upper_left
+			alwaystransparent = yes
+			scale = 1.1  
+		}
+		
+		 
+		instantTextBoxType = {
+			name = "cm_fl_faction_member_template_name"
+			position = { x = 58  y = 3 }
+			font = "VCR01_20_glow" 
+			text = "[THIS.GetName]"
+			format = left
+			maxWidth = 400
+			maxHeight = 50
+			fixedsize = no
+		}
+
+		instantTextBoxType = {
+			name = "cm_fl_faction_member_template_ideology"
+			position = { x = 350  y = 9 }
+			font = "VCR01_20_glow" 
+			text = "[THIS.GetRulingIdeology]"
+			format = left
+			maxWidth = 400
+			maxHeight = 50
+			fixedsize = no
+		}
+
+		instantTextBoxType = {
+			name = "cm_fl_faction_member_template_membership"
+			position = { x = 58  y = 20 }
+			font = "VCR01_20_glow"
+			text = "[THIS.Getmembership]"
+			format = left
+			maxWidth = 400
+			maxHeight = 50
+			fixedsize = no
+		}
+	}
+	#faction leader template for specific faction
+	containerWindowType = {
+		name = "cm_fl_faction_leader_template"
+		size = { width= 130 height= 100  }
+		position = { x=  0  y = 0 }
+		clipping = no
+		 
+		iconType = {
+			name = "cm_fl_faction_bg"
+			position = { x =  -192 y = -17    }
+			spriteType = "GFX_cm_fl_bg_generic"
+			orientation = upper_left
+			alwaystransparent = yes
+			scale = 1
+		}  
+		
+		
+		iconType = {
+			name = "cm_fl_faction_bg_overlay"
+			position = { x =  -192 y = -17    }
+			spriteType = "GFX_cm_fl_bg_overlay"
+			orientation = upper_left
+			alwaystransparent = yes
+			scale = 1
+		}
+		iconType = {
+			name = "cm_fl_faction_leader_template_flag"
+			quadTextureSprite = "GFX_shield_medium"
+			position = { x = 24 y = 10 }
+			Orientation = upper_left
+			pdx_tooltip = "[THIS.GetName]"
+		}
+		iconType = {
+			name = "cm_fl_faction_leader_template_flag_frame"
+			position = { x =  20 y = 8   }
+			spriteType = "GFX_large_flag_frame"
+			orientation = upper_left
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "cm_fl_faction_leader_template_name"
+			position = { x = -138  y = 64  }
+			font = "VCR01_20_glow"
+			text = "[THIS.GetName]"
+			format = center
+			maxWidth = 410
+			maxHeight = 50
+			fixedsize = yes
+		}
+		instantTextBoxType = { 
+			name = "cm_fl_faction_title"
+			position = { x = -182   y = -63 }
+			font = "VCR01_36_glow"
+			text = "[PREV.GetFactionName]"
+			format = center
+			maxWidth = 500
+			maxHeight = 50
+			fixedsize = yes  
+		}
+	}
+	#faction leader template for global faction view
+	containerWindowType = {
+		name = "cm_fl_global_faction_leader_template"
+		size = { width= 510   height= 80  }
+		position = { x=  6  y = 0 }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_plain_bg2"   
+		}
+		 
+		 
+		buttonType = {
+			name = "cm_fl_global_faction_leader_template_flag"
+			quadTextureSprite = "GFX_shield_medium"
+			position = { x = 14 y = 16 }
+			Orientation = upper_left
+			 
+		}
+		iconType = {
+			name = "cm_fl_global_faction_leader_template_flag_frame"
+			position = { x =  10 y = 14   }
+			spriteType = "GFX_large_flag_frame"
+			orientation = upper_left
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "cm_fl_global_faction_leader_template_name"
+			position = { x =   108  y = 16  }
+			font = "VCR01_24_glow"
+			text = "[THIS.GetName]"
+			format = right
+			maxWidth = 380
+			maxHeight = 50
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "cm_fl_global_faction_leader_template_faction_name"
+			position = { x =   108  y = 48   }
+			font = "VCR01_22_glow"
+			text = "[THIS.GetFactionName]"
+			format = right
+			maxWidth = 380
+			maxHeight = 50
+			fixedsize = yes
+		}
+	}
+	#close and global buttons
+	containerWindowType = {
+		name = "cm_fl_buttons"
+		size = { width= 550 height= 50   }
+		position = { x=  0  y = 0 }
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+			alwaystransparent = yes
+		}	
+		
+		buttonType = {
+			name = "cm_fl_close_btn"
+			quadTextureSprite = "GFX_cm_fl_close_btn"
+			position = { x = 508   y = 6 }
+			Orientation = upper_left
+			scale = 1.2
+			shortcut = "ESCAPE"
+			
+		}
+		buttonType = {
+			name = "cm_fl_return_btn"
+			quadTextureSprite = "GFX_cm_fl_return_btn"
+			position = { x = 6  y = 6 }
+			Orientation = upper_left
+			scale = 1.2
+			
+		}	
+	}
+	
+}

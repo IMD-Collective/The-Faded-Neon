@@ -1,0 +1,39 @@
+﻿l_english:
+
+  ### Names ###
+
+  ### Desc. ###
+
+  ROM_FADED_NEON_DESC:0 "The Communist government in Bucharest is on the defensive. Despite military supremacy and superior technology, the weight of a combined Transylvanian and Moldovan offensive into the heartland of Romanian Communism forced the provisional government under Nicusor Constantinescu to sign the Kishinev Accord, which called for an all out ceasefire while negotiations were brought to the table. However, Romania now faces a new threat, to the South, the Bulgarian plague worshippers have found a new nation to prey upon. The future of Communism in Romania rests on Constantinescu and his party... or does it?"
+
+  ### Parties ###
+
+  ### Ideas ###
+
+  ROM_Unstable_Government:0 "Fight for the Parliament"
+  ROM_Unstable_Government_desc:0 "There is great divide within the Palace of the Parliament, something that has never been seen before. There exists three factions within the Palace. There are those who believe in the current General Secretary Constantinescu, who push for reform within the central council, and wish to reunite Romania. There are also those who support Miron Baldescu's push for reunification at all costs, ignoring social and economic issues with the belief that everything will return to normal once this war is over. However, the smallest of the factions, yet the most terrifyingly powerful of the three is the military faction headed by Varujan Movila, a native of Giurgiu, along the Danube River. Him, and many other prominent members of the military believe that negotiations should begin with the breakaway states to the North and East, while the plague worshippers of Bulgaria must be the first priority. A dangerous divide exists at the core of the Palace of Parliament, and if left to thrive, violent action may arise.\n\n §RMore can be seen about this topic in the§! §GDecisions§! §Rmenu.§!"
+  ROM_Military_Unease:0 "The Propaganda Army"
+  ROM_Military_Unease_desc:0 "Due to the everlasting stalemate that this war has become, many glory seeking military leaders have become impatient with politics and continually launch raids on our neighbors. The most famous of these so called leaders is general Dinu Mircea, who's exploits in Transylvania have earned him the title "General of the Carpathians." He is also a member of the Military Faction within the Palace of Parliament, which continually grows stronger with every passing week. Many are discontent with the current state of the civil war, and even more want the Cultists South of the Danube strung high and hanged for their crimes. While Constantinescu may hold popular support for the moment, more and more begin to turn to the military as the only legitimate solution to the strife and pain within the hearts of all Romanians currently."
+  ROM_Second_Liberation_War:0 "The Second Liberation War"
+  ROM_Second_Liberation_War_desc:0 "Romania is divided, the three main factions all claiming to be the legitimate government. While Transylvania and Moldova currently share an alliance in order to tackle the greater threat to the South, the days of this alliance are fading quickly as issues over religion and minority rights continue to plague the politics which once allowed the two governments to work side by side. Many people are also supportive of the Orthodox Church, which has proclaimed a government out of Jassy. Many are sympathetic to the Orthodox ways, and shy away from fighting their brothers. A ceasefire has currently held between all three nations, talks of peace and reunification are getting no where, and many believe that soon, a bloody, violent conflict will break out in Romanian soil once more, and when it does, only one may enter the cage and survive."
+
+  ### Ministers ###
+
+  ### Focus ###
+
+  ### Decisions ###
+
+  ROM_council_split:0 "The Battle for the Palace"
+  ROM_council_split_desc:0 "The Palace of the Parliament is split between three opposing factions. There are those who support the current General Secretary, Nicusor Constantinescu, who have taken the name of the Reformists. Another faction is led by Miron Baldescu, a prominent member of the parliament before the virus ravanged the country. These people have begun to be called the National Revival Movement. The third, and most worrying faction is the military headed by General Varujan Movila, a native of the Southern Wallachian Plains. The group, collectively known as the United Romania Party, have been growing in popularity due to their hardliner and somewhat radical stances on issues that plague the nation currently.\n\nThe threat of revolt is currently §Rmoderate§!!\n\nReformists Support: [?ROM_reformists_support|G0]§Y%§!\nMironists Support: [?ROM_mironist_support|Y0]§Y%§!\nMilitarists Support Support: [?ROM_militarist_support|R0]§Y%§!"
+  ROM_bring_up_reserves:0 "Bring up Reservists"
+  ROM_end_kishinev_accords:0 "§YBreak the Kishinev Accord§!"
+  ROM_into_the_vulcan:0 "Move into the Vulcan Pass"
+  ROM_mircea_southern_transylvania:0 "Break the Transylvanian Stalemate"
+  ROM_grant_military_autonomy:0 "§RGrant Varujan Military Autonomy§!"
+  ROM_grant_military_autonomy_tt:0 "We will grant General §YVarujan Movila§! total control over the military."
+  ROM_grant_military_autonomy_desc:0 "§RDo not do this.§!"
+  ROM_move_south:0 "Move into Giurgiu"
+  ROM_battle_for_giurgiu:0 "§RThe Battle for Giurgiu§!"
+  ROM_clean_the_south:0 "§YClean the Southern Plains§!"
+  ROM_giurgiu_bridgehead:0 "The Giurgiu Bridgehead"
+  ROM_cure_the_sick:0 "§RVindeca Bolnavii§!"

@@ -1,0 +1,36 @@
+ideas = {
+	country = {
+		the_mad_duke = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+		disloyal_people = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+	}
+}

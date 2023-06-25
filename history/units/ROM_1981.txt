@@ -1,0 +1,286 @@
+﻿division_template = {
+	name = "Divizia de Infanterie"
+	division_names_group = ROM_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Divizie Motomecanizat"
+	division_names_group = ROM_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+        mot_recon = { x = 0 y = 0 }
+	 	engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }			
+	}
+}
+
+division_template = {
+	name = "Brigada Mecanizata"
+	division_names_group = ROM_MEC_01
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+	    mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+	}
+	support = {
+	 	engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }			
+	}
+}
+
+division_template = {
+	name = "Batalionul Tancuri"
+	division_names_group = ROM_ARM_01
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		mechanized = { x = 2 y = 0 }
+		light_armor = { x = 3 y = 0 }
+	}
+	support = {
+	 	engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+
+	}
+}
+
+division_template = {
+	name = "Brigada de Munte"
+
+	division_names_group = ROM_MTN_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 } 
+	}
+}
+
+division_template = {
+	name = "Batalionul Marina"
+
+	division_names_group = ROM_MAR_01
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 } 
+	}
+}
+
+###################################################################
+
+units = {
+
+	### Bucharest ###
+
+		division= { 
+			name = "Divizia 1 Infanterie"
+			location=9617
+			division_template="Divizia de Infanterie"
+			start_experience_factor = 0.5
+			start_equipment_factor = 1.0
+		}
+		division= { 
+			name = "Divizia 2 Infanterie"
+			location=9617
+			division_template="Divizia de Infanterie"
+			start_experience_factor = 0.5
+			start_equipment_factor = 1.0
+		}
+		division= { 
+			name = "Divizia 3 Infanterie"
+			location=9617
+			division_template="Divizia de Infanterie"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.9
+		}
+		division= { 
+			name = "Brigada 2 Mecanizata"
+			location=9617
+			division_template="Brigada Mecanizata"
+			start_experience_factor = 0.6
+			start_equipment_factor = 0.7
+		}
+
+	### Braila ###
+
+		division= { 
+			name = "Batalionul 284 Tancuri"
+			location=11636
+			division_template="Batalionul Tancuri"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.9
+		}
+
+	### Ploiesti ###
+
+		division= { 
+			name = "Divizie 1 Motomecanizat"
+			location=3663
+			division_template="Divizie Motomecanizat"
+			start_experience_factor = 0.4
+			start_equipment_factor = 0.6
+		}
+		division= { 
+			name = "Divizia 4 Infanterie"
+			location=3663
+			division_template="Divizia de Infanterie"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.7
+		}
+
+	### Craiova & Surrounding Area ###
+
+		division= { 
+			name = "Brigada 2 Vanatori de Munte"
+			location=3645
+			division_template="Brigada de Munte"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1.0
+		}
+		division= { 
+			name = "Brigada 61 Vanatori de Munte"
+			location=11657
+			division_template="Brigada de Munte"
+			start_experience_factor = 0.9
+			start_equipment_factor = 1.0
+		}
+		division= { 
+			name = "Brigada 1 Mecanizata"
+			location=6652
+			division_template="Brigada Mecanizata"
+			start_experience_factor = 0.8
+			start_equipment_factor = 0.9
+		}
+
+	### Constanta ###
+
+		division= { 
+			name = "Divizia 5 Infanterie"
+			location=9635
+			division_template="Divizia de Infanterie"
+			start_experience_factor = 0.3
+			start_equipment_factor = 0.6
+		}
+		division= { 
+			name = "Batalionul 912 Tancuri"
+			location=9635
+			division_template="Batalionul Tancuri"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.9
+		}
+		division= { 
+			name = "Batalionul 307 Infanterie Marina"
+			location=9635
+			division_template="Batalionul Marina"
+			start_experience_factor = 0.8
+			start_equipment_factor = 1.0
+		}
+
+	### Focsani & Surrounding Area ###
+
+		division= { 
+			name = "Brigada 3 Mecanizata"
+			location=9701
+			division_template="Brigada Mecanizata"
+			start_experience_factor = 0.9
+			start_equipment_factor = 1.0
+		}
+		division= { 
+			name = "Brigada 4 Mecanizata"
+			location=11655
+			division_template="Brigada Mecanizata"
+			start_experience_factor = 0.8
+			start_equipment_factor = 0.9
+		}
+
+	### Alexandria ###
+
+		division= { 
+			name = "Divizia 5 Infanterie"
+			location=818
+			division_template="Divizia de Infanterie"
+			start_experience_factor = 0.5
+			start_equipment_factor = 0.5
+		}
+		division= { 
+			name = "Divizia 6 Infanterie"
+			location=818
+			division_template="Divizia de Infanterie"
+			start_experience_factor = 0.3
+			start_equipment_factor = 0.6
+		}
+
+	}
+
+###################################################################
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ROM"
+		}
+		requested_factories = 4
+		progress = 0.86
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ROM"
+		}
+		requested_factories = 1
+		progress = 0.40
+		efficiency = 100
+	}
+}

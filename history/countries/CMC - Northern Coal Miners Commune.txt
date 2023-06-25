@@ -1,0 +1,45 @@
+﻿capital = 132
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+add_ideas = {
+	a_pick_in_every_hand
+	fractured_isles_2
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 40
+	fascism = 30
+	democratic = 10
+	neutrality = 20
+}
+
+create_country_leader = {
+	
+	name = "Lennon Hughes"
+	picture = "gfx/leaders/CMC/portrait_CMC_lennon_hughes.tga"
+	expire = "2000.1.1"
+	ideology = leninism
+	traits = {
+		leninism_trait
+	}
+}
+
+
+
+
+

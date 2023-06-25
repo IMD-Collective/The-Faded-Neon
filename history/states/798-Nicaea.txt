@@ -1,0 +1,36 @@
+state={
+	id=798
+	name="STATE_798"
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			904 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			947 1 
+		}
+		victory_points = {
+			11811 1 
+		}
+		victory_points = {
+			904 1 
+		}
+		add_core_of = TUR
+
+	}
+
+	
+	provinces={
+		890 904 947 3786 3851 6871 11811 
+	}
+	manpower=1007660
+	buildings_max_level_factor=1.000
+	state_category=city
+}

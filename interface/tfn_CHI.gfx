@@ -1,0 +1,131 @@
+spriteTypes = {
+	### National Spirits ###
+
+	### Ministers ###
+
+	### National Focus ###
+
+	### Shines ###
+
+	### Scripted GUI ###
+	spriteType = {
+		name = "GFX_CHI_anhwei"
+		texturefile = "gfx/interface/scripted_gui/CHI/anhwei.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_chekiang"
+		texturefile = "gfx/interface/scripted_gui/CHI/chekiang.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_fukien"
+		texturefile = "gfx/interface/scripted_gui/CHI/fukien.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_hainan"
+		texturefile = "gfx/interface/scripted_gui/CHI/hainan.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_heilungkiang"
+		texturefile = "gfx/interface/scripted_gui/CHI/heilungkiang.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_honan"
+		texturefile = "gfx/interface/scripted_gui/CHI/honan.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_hopeh"
+		texturefile = "gfx/interface/scripted_gui/CHI/hopeh.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_hunan"
+		texturefile = "gfx/interface/scripted_gui/CHI/hunan.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_hupeh"
+		texturefile = "gfx/interface/scripted_gui/CHI/hupeh.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_inner_mongolia"
+		texturefile = "gfx/interface/scripted_gui/CHI/inner_mongolia.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_kansu"
+		texturefile = "gfx/interface/scripted_gui/CHI/kansu.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_kiangsi"
+		texturefile = "gfx/interface/scripted_gui/CHI/kiangsi.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_kiangsu"
+		texturefile = "gfx/interface/scripted_gui/CHI/kiangsu.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_kirin"
+		texturefile = "gfx/interface/scripted_gui/CHI/kirin.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_kwangsi"
+		texturefile = "gfx/interface/scripted_gui/CHI/kwangsi.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_kwangtung"
+		texturefile = "gfx/interface/scripted_gui/CHI/kwangtung.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_kweichow"
+		texturefile = "gfx/interface/scripted_gui/CHI/kweichow.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_liaoning"
+		texturefile = "gfx/interface/scripted_gui/CHI/liaoning.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_ningsia"
+		texturefile = "gfx/interface/scripted_gui/CHI/ningsia.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_outer_mongolia"
+		texturefile = "gfx/interface/scripted_gui/CHI/outer_mongolia.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_shansi"
+		texturefile = "gfx/interface/scripted_gui/CHI/shansi.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_shantung"
+		texturefile = "gfx/interface/scripted_gui/CHI/shantung.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_shensi"
+		texturefile = "gfx/interface/scripted_gui/CHI/shensi.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_sinkiang"
+		texturefile = "gfx/interface/scripted_gui/CHI/sinkiang.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_szechwan"
+		texturefile = "gfx/interface/scripted_gui/CHI/szechwan.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_taiwan"
+		texturefile = "gfx/interface/scripted_gui/CHI/taiwan.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_tibet"
+		texturefile = "gfx/interface/scripted_gui/CHI/tibet.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_tsinghai"
+		texturefile = "gfx/interface/scripted_gui/CHI/tsinghai.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_yunnan"
+		texturefile = "gfx/interface/scripted_gui/CHI/yunnan.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_outline"
+		texturefile = "gfx/interface/scripted_gui/CHI/outline.dds"
+	}
+}

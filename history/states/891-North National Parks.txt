@@ -1,0 +1,28 @@
+state={
+	id=891
+	name="STATE_891"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = NNZ
+		victory_points = {
+			219 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = NNZ
+
+	}
+
+	provinces={
+		219 13279 
+	}
+	manpower=12401
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

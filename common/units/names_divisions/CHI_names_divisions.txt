@@ -1,0 +1,279 @@
+﻿CHI_INF_01 = {
+	name = "Infantry Division"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Juntuán"
+
+	ordered = {
+		1 = { "%d Juntuán" }
+		2 = { "%d Juntuán" }
+		3 = { "%d Juntuán" }
+		4 = { "%d Juntuán" }
+		5 = { "%d Juntuán" }
+		6 = { "%d Juntuán" }
+		7 = { "%d Juntuán" }
+		8 = { "%d Juntuán" }
+		9 = { "%d Juntuán" }
+		10 = { "%d Juntuán" }
+		11 = { "%d Juntuán" }
+		12 = { "%d Juntuán" }
+		13 = { "%d Juntuán" }
+		14 = { "%d Juntuán" }
+		15 = { "%d Juntuán" }
+		16 = { "%d Juntuán" }
+		17 = { "%d Juntuán" }
+		18 = { "%d Juntuán" }
+		19 = { "%d Juntuán" }
+		20 = { "%d Juntuán" }
+	}
+}
+
+CHI_CAV_01 = {
+	name = "Cavalry Division"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d Qibing Jun"
+
+	ordered = {
+		1 = { "%d Qibing Jun" }
+		2 = { "%d Qibing Jun" }
+		3 = { "%d Qibing Jun" }
+		4 = { "%d Qibing Jun" }
+		5 = { "%d Qibing Jun" }
+		6 = { "%d Qibing Jun" }
+		7 = { "%d Qibing Jun" }
+		8 = { "%d Qibing Jun" }
+		9 = { "%d Qibing Jun" }
+		10 = { "%d Qibing Jun" }
+		11 = { "%d Qibing Jun" }
+		12 = { "%d Qibing Jun" }
+		13 = { "%d Qibing Jun" }
+		14 = { "%d Qibing Jun" }
+		15 = { "%d Qibing Jun" }
+		16 = { "%d Qibing Jun" }
+		17 = { "%d Qibing Jun" }
+		18 = { "%d Qibing Jun" }
+		19 = { "%d Qibing Jun" }
+		20 = { "%d Qibing Jun" }
+	}
+}
+
+CHI_MOT_01 = {
+	name = "Motorized Division"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	fallback_name = "%d Jidonghua Juntuán"
+
+	ordered = {
+		1 = { "%d Jidonghua Juntuán" }
+		2 = { "%d Jidonghua Juntuán" }
+		3 = { "%d Jidonghua Juntuán" }
+		4 = { "%d Jidonghua Juntuán" }
+		5 = { "%d Jidonghua Juntuán" }
+		6 = { "%d Jidonghua Juntuán" }
+		7 = { "%d Jidonghua Juntuán" }
+		8 = { "%d Jidonghua Juntuán" }
+		9 = { "%d Jidonghua Juntuán" }
+		10 = { "%d Jidonghua Juntuán" }
+		11 = { "%d Jidonghua Juntuán" }
+		12 = { "%d Jidonghua Juntuán" }
+		13 = { "%d Jidonghua Juntuán" }
+		14 = { "%d Jidonghua Juntuán" }
+		15 = { "%d Jidonghua Juntuán" }
+		16 = { "%d Jidonghua Juntuán" }
+		17 = { "%d Jidonghua Juntuán" }
+		18 = { "%d Jidonghua Juntuán" }
+		19 = { "%d Jidonghua Juntuán" }
+		20 = { "%d Jidonghua Juntuán" }
+	}
+}
+
+CHI_MEC_01 = {
+	name = "Mechanized Division"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	fallback_name = "%d Jixiehua Juntuán"
+
+	ordered = {
+		1 = { "%d Jixiehua Juntuán" }
+		2 = { "%d Jixiehua Juntuán" }
+		3 = { "%d Jixiehua Juntuán" }
+		4 = { "%d Jixiehua Juntuán" }
+		5 = { "%d Jixiehua Juntuán" }
+		6 = { "%d Jixiehua Juntuán" }
+		7 = { "%d Jixiehua Juntuán" }
+		8 = { "%d Jixiehua Juntuán" }
+		9 = { "%d Jixiehua Juntuán" }
+		10 = { "%d Jixiehua Juntuán" }
+		11 = { "%d Jixiehua Juntuán" }
+		12 = { "%d Jixiehua Juntuán" }
+		13 = { "%d Jixiehua Juntuán" }
+		14 = { "%d Jixiehua Juntuán" }
+		15 = { "%d Jixiehua Juntuán" }
+		16 = { "%d Jixiehua Juntuán" }
+		17 = { "%d Jixiehua Juntuán" }
+		18 = { "%d Jixiehua Juntuán" }
+		19 = { "%d Jixiehua Juntuán" }
+		20 = { "%d Jixiehua Juntuán" }
+	}
+}
+
+CHI_ARM_01 = {
+	name = "Armored Division"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d Zhuangjia Shi"
+
+	ordered = {
+		1 = { "%d Zhuangjia Shi" }
+		2 = { "%d Zhuangjia Shi" }
+		3 = { "%d Zhuangjia Shi" }
+		4 = { "%d Zhuangjia Shi" }
+		5 = { "%d Zhuangjia Shi" }
+		6 = { "%d Zhuangjia Shi" }
+		7 = { "%d Zhuangjia Shi" }
+		8 = { "%d Zhuangjia Shi" }
+		9 = { "%d Zhuangjia Shi" }
+		10 = { "%d Zhuangjia Shi" }
+		11 = { "%d Zhuangjia Shi" }
+		12 = { "%d Zhuangjia Shi" }
+		13 = { "%d Zhuangjia Shi" }
+		14 = { "%d Zhuangjia Shi" }
+		15 = { "%d Zhuangjia Shi" }
+		16 = { "%d Zhuangjia Shi" }
+		17 = { "%d Zhuangjia Shi" }
+		18 = { "%d Zhuangjia Shi" }
+		19 = { "%d Zhuangjia Shi" }
+		20 = { "%d Zhuangjia Shi" }
+	}
+}
+
+CHI_PAR_01 = {
+	name = "Paratrooper Division"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	fallback_name = "%d Sanbing Shi"
+
+	ordered = {
+		1 = { "%d Sanbing Shi" }
+		2 = { "%d Sanbing Shi" }
+		3 = { "%d Sanbing Shi" }
+		4 = { "%d Sanbing Shi" }
+		5 = { "%d Sanbing Shi" }
+		6 = { "%d Sanbing Shi" }
+		7 = { "%d Sanbing Shi" }
+		8 = { "%d Sanbing Shi" }
+		9 = { "%d Sanbing Shi" }
+		10 = { "%d Sanbing Shi" }
+		11 = { "%d Sanbing Shi" }
+		12 = { "%d Sanbing Shi" }
+		13 = { "%d Sanbing Shi" }
+		14 = { "%d Sanbing Shi" }
+		15 = { "%d Sanbing Shi" }
+		16 = { "%d Sanbing Shi" }
+		17 = { "%d Sanbing Shi" }
+		18 = { "%d Sanbing Shi" }
+		19 = { "%d Sanbing Shi" }
+		20 = { "%d Sanbing Shi" }
+	}
+}
+
+CHI_MAR_01 = {
+	name = "Marine Division"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	fallback_name = "%d Luzhan Dui Shi"
+
+	ordered = {
+		1 = { "%d Luzhan Dui Shi" }
+		2 = { "%d Luzhan Dui Shi" }
+		3 = { "%d Luzhan Dui Shi" }
+		4 = { "%d Luzhan Dui Shi" }
+		5 = { "%d Luzhan Dui Shi" }
+		6 = { "%d Luzhan Dui Shi" }
+		7 = { "%d Luzhan Dui Shi" }
+		8 = { "%d Luzhan Dui Shi" }
+		9 = { "%d Luzhan Dui Shi" }
+		10 = { "%d Luzhan Dui Shi" }
+		11 = { "%d Luzhan Dui Shi" }
+		12 = { "%d Luzhan Dui Shi" }
+		13 = { "%d Luzhan Dui Shi" }
+		14 = { "%d Luzhan Dui Shi" }
+		15 = { "%d Luzhan Dui Shi" }
+		16 = { "%d Luzhan Dui Shi" }
+		17 = { "%d Luzhan Dui Shi" }
+		18 = { "%d Luzhan Dui Shi" }
+		19 = { "%d Luzhan Dui Shi" }
+		20 = { "%d Luzhan Dui Shi" }
+	}
+}
+
+CHI_GAR_01 = {
+	name = "Garrison Division"
+
+	for_countries = { CHI }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Baoan Zongdui"
+
+	ordered = {
+		1 = { "%d Baoan Zongdui" }
+		2 = { "%d Baoan Zongdui" }
+		3 = { "%d Baoan Zongdui" }
+		4 = { "%d Baoan Zongdui" }
+		5 = { "%d Baoan Zongdui" }
+		6 = { "%d Baoan Zongdui" }
+		7 = { "%d Baoan Zongdui" }
+		8 = { "%d Baoan Zongdui" }
+		9 = { "%d Baoan Zongdui" }
+		10 = { "%d Baoan Zongdui" }
+		11 = { "%d Baoan Zongdui" }
+		12 = { "%d Baoan Zongdui" }
+		13 = { "%d Baoan Zongdui" }
+		14 = { "%d Baoan Zongdui" }
+		15 = { "%d Baoan Zongdui" }
+		16 = { "%d Baoan Zongdui" }
+		17 = { "%d Baoan Zongdui" }
+		18 = { "%d Baoan Zongdui" }
+		19 = { "%d Baoan Zongdui" }
+		20 = { "%d Baoan Zongdui" }
+	}
+}

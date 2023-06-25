@@ -1,0 +1,20 @@
+state={
+	id=80
+	name="STATE_80"
+	manpower = 623294
+	
+	state_category = rural
+	
+	history={
+		owner = MOL
+		buildings = { infrastructure = 4 }
+
+		add_core_of = MOL
+		victory_points = { 577 3 }
+		victory_points = { 6761 1 }
+
+		set_demilitarized_zone = yes
+	}
+
+	provinces={ 577 6761 9548 11689 }
+}

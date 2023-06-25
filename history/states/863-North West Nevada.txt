@@ -1,0 +1,19 @@
+state={
+	id=863
+	name="STATE_863"
+
+	history={
+		owner = AWZ
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = AWZ
+	}
+
+	provinces={
+		13257 13258 13259 
+	}
+	manpower=60435
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

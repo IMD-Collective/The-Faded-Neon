@@ -1,0 +1,22 @@
+state={
+	id=811
+	name="STATE_811"
+	history={
+		owner = WAL
+		
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = WAL
+		victory_points = {
+			9418 1
+		}
+
+	}
+	provinces={
+		9418 11407 
+	}
+	manpower=230100
+	buildings_max_level_factor=1.000
+	state_category= rural
+}

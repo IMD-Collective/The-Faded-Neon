@@ -1,0 +1,40 @@
+﻿capital = 177
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1968.5.3"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 50
+	communism = 10
+	fascism = 20
+	neutrality = 20
+}
+
+create_country_leader = {
+	
+	name = "Máximo Manzanedo"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = liberalism
+	traits = {
+		liberalism_trait
+	}
+}
+
+
+
+
+

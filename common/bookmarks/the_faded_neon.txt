@@ -1,0 +1,119 @@
+bookmarks = {
+	bookmark = {
+		name = "FADED_NEON_NAME"
+		desc = "FADED_NEON_DESC"
+		date = 1981.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "ENG"
+		default = yes
+		
+		"ENG"={
+			history = "ENG_FADED_NEON_DESC"
+			ideology = neutrality
+			ideas = {
+				cromwell_state
+				fractured_isles
+			}
+			focuses = {
+				ENG_pass_the_tenth_decree
+				ENG_enforce_a_puritanical_society
+				ENG_a_duty_to_the_nation
+			}
+		}
+
+		"PRC"={
+			history = "PRC_FADED_NEON_DESC"
+			ideology = communism
+			ideas = {
+				PRC_the_little_red_book
+				PRC_work_harder_not_smarter
+				PRC_unrest_in_the_peoples_liberation_army
+			}
+			focuses = {
+				
+			}
+		}
+
+		"FRA"={
+			history = "FRA_FADED_NEON_DESC"
+			ideology = democratic
+			ideas = {
+				FRA_leader_of_the_partnership_for_liberty
+				FRA_imprudent_capitalists_and_blind_gaullists
+			}
+			focuses = {
+				
+			}
+		}
+
+		"DDR"={
+			history = "DDR_FADED_NEON_DESC"
+			ideology = communism
+			ideas = {
+				a_nation_divided
+				faltering_economy
+				western_group_of_forces
+			}
+			focuses = {
+				
+			}
+		}
+
+		"CMC"={
+			history = "CAN_FADED_NEON_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"MTT"={
+			history = "NWC_FADED_NEON_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"POL"={
+			history = "POL_FADED_NEON_DESC"
+			ideology = communism
+			ideas = {
+				POL_torn_country
+				western_group_of_forces
+			}
+			focuses = {
+				
+			}
+		}
+
+		"---"={
+			history = "OTHER_FADED_NEON_DESC"
+		}
+
+		"NKR"={
+			history = "NKR_FADED_NEON_DESC"
+			minor = yes
+			ideology = communism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -1,0 +1,538 @@
+guiTypes = {
+	containerWindowType = {
+		name = "CHI_econ_open_container"
+		position = { x = 0 y = 0 }
+		size = { width = 10 height = 10 }
+		orientation = upper_left
+
+		buttonType = {
+			name = "CHI_econ_open_button"
+			position = { x = 435 y = 247 }
+			quadTextureSprite = "GFX_goal_generic_econ_5"
+			scale = 0.5
+			pdx_tooltip = "CHI_econ_open_button_tt"
+		}
+	}
+
+	containerWindowType = {
+		name = "CHI_econ_container"
+		position = { x = 0 y = 0 }
+		size = { width = 1200 height = 800 }
+		orientation = center
+		origo = center
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_bg"
+		}
+
+		instantTextboxType = {
+			name = "CHI_econ_title"
+			position = { x = 290 y = 30 }
+			font = "hoi_36header"
+			text = "CHI_econ_title"
+			format = center
+			maxWidth = 600
+			maxHeight = 36
+		}
+		buttonType = {
+			name = "CHI_econ_close_button"
+			position = { x = 1164 y = 3 }
+			quadTextureSprite = "GFX_closebutton"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "CHI_econ_map_container"
+		position = { x = 100 y = 90 }
+		size = { width = 1000 height = 700 }
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_paper_w_frame_bg"
+		}
+
+		buttonType = {
+			name = "CHI_anhwei_button"
+			position = { x = 670 y = 396 }
+			spriteType = "GFX_CHI_anhwei"
+			pdx_tooltip = "CHI_anhwei_button_tt"
+		}
+		buttonType = {
+			name = "CHI_chekiang_button"
+			position = { x = 717 y = 455 }
+			spriteType = "GFX_CHI_chekiang"
+			pdx_tooltip = "CHI_chekiang_button_tt"
+		}
+		buttonType = {
+			name = "CHI_fukien_button"
+			position = { x = 683 y = 506 }
+			spriteType = "GFX_CHI_fukien"
+			pdx_tooltip = "CHI_fukien_button_tt"
+		}
+		buttonType = {
+			name = "CHI_hainan_button"
+			position = { x = 568 y = 643 }
+			spriteType = "GFX_CHI_hainan"
+			pdx_tooltip = "CHI_hainan_button_tt"
+		}
+		buttonType = {
+			name = "CHI_honan_button"
+			position = { x = 592 y = 358 }
+			spriteType = "GFX_CHI_honan"
+			pdx_tooltip = "CHI_honan_button_tt"
+		}
+		buttonType = {
+			name = "CHI_heilungkiang_button"
+			position = { x = 675 y = 26 }
+			spriteType = "GFX_CHI_heilungkiang"
+			pdx_tooltip = "CHI_heilungkiang_button_tt"
+		}
+		buttonType = {
+			name = "CHI_hopeh_button"
+			position = { x = 644 y = 253 }
+			spriteType = "GFX_CHI_hopeh"
+			pdx_tooltip = "CHI_hopeh_button_tt"
+		}
+		buttonType = {
+			name = "CHI_hunan_button"
+			position = { x = 562 y = 468 }
+			spriteType = "GFX_CHI_hunan"
+			pdx_tooltip = "CHI_hunan_button_tt"
+		}
+		buttonType = {
+			name = "CHI_hupeh_button"
+			position = { x = 547 y = 416 }
+			spriteType = "GFX_CHI_hupeh"
+			pdx_tooltip = "CHI_hupeh_button_tt"
+		}
+		buttonType = {
+			name = "CHI_inner_mongolia_button"
+			position = { x = 513 y = 158 }
+			spriteType = "GFX_CHI_inner_mongolia"
+			pdx_tooltip = "CHI_inner_mongolia_button_tt"
+		}
+		buttonType = {
+			name = "CHI_kansu_button"
+			position = { x = 331 y = 245 }
+			spriteType = "GFX_CHI_kansu"
+			pdx_tooltip = "CHI_kansu_button_tt"
+		}
+		buttonType = {
+			name = "CHI_kiangsi_button"
+			position = { x = 643 y = 475 }
+			spriteType = "GFX_CHI_kiangsi"
+			pdx_tooltip = "CHI_kiangsi_button_tt"
+		}
+		buttonType = {
+			name = "CHI_kiangsu_button"
+			position = { x = 687 y = 381 }
+			spriteType = "GFX_CHI_kiangsu"
+			pdx_tooltip = "CHI_kiangsu_button_tt"
+		}
+		buttonType = {
+			name = "CHI_kirin_button"
+			position = { x = 806 y = 135 }
+			spriteType = "GFX_CHI_kirin"
+			pdx_tooltip = "CHI_kirin_button_tt"
+		}
+		buttonType = {
+			name = "CHI_kwangsi_button"
+			position = { x = 506 y = 540 }
+			spriteType = "GFX_CHI_kwangsi"
+			pdx_tooltip = "CHI_kwangsi_button_tt"
+		}
+		buttonType = {
+			name = "CHI_kwangtung_button"
+			position = { x = 584 y = 563 }
+			spriteType = "GFX_CHI_kwangtung"
+			pdx_tooltip = "CHI_kwangtung_button_tt"
+		}
+		buttonType = {
+			name = "CHI_kweichow_button"
+			position = { x = 486 y = 497 }
+			spriteType = "GFX_CHI_kweichow"
+			pdx_tooltip = "CHI_kweichow_button_tt"
+		}
+		buttonType = {
+			name = "CHI_liaoning_button"
+			position = { x = 692 y = 167 }
+			spriteType = "GFX_CHI_liaoning"
+			pdx_tooltip = "CHI_liaoning_button_tt"
+		}
+		buttonType = {
+			name = "CHI_ningsia_button"
+			position = { x = 398 y = 246 }
+			spriteType = "GFX_CHI_ningsia"
+			pdx_tooltip = "CHI_ningsia_button_tt"
+		}
+		buttonType = {
+			name = "CHI_outer_mongolia_button"
+			position = { x = 239 y = 56 }
+			spriteType = "GFX_CHI_outer_mongolia"
+			pdx_tooltip = "CHI_outer_mongolia_button_tt"
+		}
+		buttonType = {
+			name = "CHI_shansi_button"
+			position = { x = 594 y = 280 }
+			spriteType = "GFX_CHI_shansi"
+			pdx_tooltip = "CHI_shansi_button_tt"
+		}
+		buttonType = {
+			name = "CHI_shantung_button"
+			position = { x = 679 y = 331 }
+			spriteType = "GFX_CHI_shantung"
+			pdx_tooltip = "CHI_shantung_button_tt"
+		}
+		buttonType = {
+			name = "CHI_shensi_button"
+			position = { x = 521 y = 303 }
+			spriteType = "GFX_CHI_shensi"
+			pdx_tooltip = "CHI_shensi_button_tt"
+		}
+		buttonType = {
+			name = "CHI_sinkiang_button"
+			position = { x = 26 y = 120 }
+			spriteType = "GFX_CHI_sinkiang"
+			pdx_tooltip = "CHI_sinkiang_button_tt"
+		}
+		buttonType = {
+			name = "CHI_szechwan_button"
+			position = { x = 388 y = 399 }
+			spriteType = "GFX_CHI_szechwan"
+			pdx_tooltip = "CHI_szechwan_button_tt"
+		}
+		buttonType = {
+			name = "CHI_taiwan_button"
+			position = { x = 746 y = 555 }
+			spriteType = "GFX_CHI_taiwan"
+			pdx_tooltip = "CHI_taiwan_button_tt"
+		}
+		buttonType = {
+			name = "CHI_tibet_button"
+			position = { x = 101 y = 356 }
+			spriteType = "GFX_CHI_tibet"
+			pdx_tooltip = "CHI_tibet_button_tt"
+		}
+		buttonType = {
+			name = "CHI_tsinghai_button"
+			position = { x = 272 y = 305 }
+			spriteType = "GFX_CHI_tsinghai"
+			pdx_tooltip = "CHI_tsinghai_button_tt"
+		}
+		buttonType = {
+			name = "CHI_yunnan_button"
+			position = { x = 395 y = 490 }
+			spriteType = "GFX_CHI_yunnan"
+			pdx_tooltip = "CHI_yunnan_button_tt"
+		}
+		iconType = {
+			name = "CHI_outline"
+			position = { x = 25 y = 25 }
+			spriteType = "GFX_CHI_outline"
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "CHI_econ_map_title"
+			position = { x = 25 y = 25 }
+			font = "hoi_18mbs"
+			text = "CHI_econ_map_title"
+			format = center
+			maxWidth = 275
+			maxHeight = 36
+		}
+		buttonType = {
+			name = "CHI_econ_influence_open_button"
+			position = { x = 75 y = 60 }
+			quadTextureSprite = "GFX_sort_button_171x35"
+			buttonText = "CHI_econ_influence_open_button"
+			buttonFont = "hoi_16mbs"
+		}
+	}
+
+	containerWindowType = {
+		name = "CHI_econ_influence_container"
+		position = { x = 100 y = 90 }
+		size = { width = 1000 height = 700 }
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_bg"
+		}
+
+		instantTextboxType = {
+			name = "CHI_econ_corporation_title"
+			position = { x = 25 y = 150 }
+			font = "hoi_24header"
+			text = "CHI_econ_corporation_title"
+			format = center
+			maxWidth = 275
+			maxHeight = 36
+		}
+
+		containerWindowType = {
+			name = "CHI_econ_corporation_grid_container"
+			position = { x = 20 y = 180 }
+			size = { width = 300 height = 500 }
+			margin = { top = 10 bottom = 10 }
+			verticalScrollbar = "right_vertical_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_1b_thin_border"
+			}
+
+			gridboxtype = {
+				name = "CHI_econ_corporation_grid"
+				position = { x = 0 y = 0 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 275 height = 240 }
+				max_slots_horizontal = 1
+				add_horizontal = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "CHI_econ_influence_grid_container"
+			position = { x = 320 y = 20 }
+			size = { width = 660 height = 660 }
+			margin = { top = 10 bottom = 10 }
+			verticalScrollbar = "right_vertical_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_1b_thin_border"
+			}
+
+			gridboxtype = {
+				name = "CHI_econ_influence_grid"
+				position = { x = -420 y = 0 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 205 height = 235 }
+				max_slots_horizontal = 3
+				add_horizontal = yes
+			}
+		}
+
+		instantTextboxType = {
+			name = "CHI_econ_influence_title"
+			position = { x = 25 y = 25 }
+			font = "hoi_18mbs"
+			text = "CHI_econ_influence_title"
+			format = center
+			maxWidth = 275
+			maxHeight = 36
+		}
+		buttonType = {
+			name = "CHI_econ_map_open_button"
+			position = { x = 75 y = 60 }
+			quadTextureSprite = "GFX_sort_button_171x35"
+			buttonText = "CHI_econ_map_open_button"
+			buttonFont = "hoi_16mbs"
+		}
+	}
+
+	containerWindowType = {
+        name = "CHI_econ_corporation_entry"
+        position = { x = 0 y = 0 }
+		size = { width = 260 height = 240 }
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_bg"
+		}
+
+		instantTextBoxType = {
+			name = "CHI_econ_corporation_name"
+			position = { x = 5 y = 15 }
+			font = "hoi_24header"
+			text = "CHI_econ_corporation_name"
+			format = center
+			maxWidth = 250
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name = "CHI_econ_corporation_info_text"
+			position = { x = 5 y = 105 }
+			font = "hoi_16mbs"
+			text = "CHI_econ_corporation_info_text"
+			format = center
+			maxWidth = 250
+			maxHeight = 24
+		}
+
+		containerWindowType = {
+			name = "CHI_econ_province_influence_states_grid_container"
+			position = { x = 10 y = 120 }
+			size = { width = 240 height = 105 }
+			margin = { top = 10 bottom = 10 }
+			verticalScrollbar = "right_vertical_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_1b_thin_border"
+			}
+
+			gridboxtype = {
+				name = "CHI_econ_province_influence_states_grid"
+				position = { x = -110 y = 0 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 100 height = 30 }
+				max_slots_horizontal = 2
+				add_horizontal = yes
+			}
+		}
+	}
+
+	containerWindowType = {
+        name = "CHI_econ_province_influence_states_entry"
+        position = { x = 0 y = 0 }
+		size = { width = 100 height = 25 }
+
+		iconType = {
+			name = "CHI_econ_province_influence_states_bg"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_generic_box_96"
+		}
+		instantTextBoxType = {
+			name = "CHI_econ_province_influence_states_text"
+			position = { x = 0 y = 5 }
+			font = "hoi_16mbs"
+			text = "CHI_econ_province_influence_states_text"
+			format = center
+			maxWidth = 95
+			maxHeight = 16
+		}
+    }
+
+	containerWindowType = {
+        name = "CHI_econ_influence_entry"
+        position = { x = 0 y = 0 }
+		size = { width = 200 height = 230 }
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_bg"
+		}
+
+		instantTextBoxType = {
+			name = "CHI_econ_province_name"
+			position = { x = 0 y = 15 }
+			font = "hoi_24header"
+			text = "CHI_econ_province_name"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "CHI_econ_province_industrial_level_text"
+			position = { x = 0 y = 45 }
+			font = "hoi_18mbs"
+			text = "CHI_econ_province_industrial_level_text"
+			format = center
+		}
+		instantTextBoxType = {
+			name = "CHI_econ_province_industrial_level_number"
+			position = { x = 0 y = 65 }
+			font = "hoi_24header"
+			text = "CHI_econ_province_industrial_level_number"
+			format = center
+		}
+		buttonType = {
+			name = "CHI_econ_province_increase_industrial_level_button"
+			position = { x = 165 y = 45 }
+			quadTextureSprite = "GFX_arrow_up_small"
+			pdx_tooltip = "CHI_econ_province_increase_industrial_level_button_tt"
+			clicksound = click_default
+			scale = 0.75
+		}
+		buttonType = {
+			name = "CHI_econ_province_decrease_industrial_level_button"
+			position = { x = 165 y = 70	 }
+			quadTextureSprite = "GFX_arrow_down_small"
+			pdx_tooltip = "CHI_econ_province_decrease_industrial_level_button_tt"
+			clicksound = click_default
+			scale = 0.75
+		}
+		instantTextBoxType = {
+			name = "CHI_econ_province_influence_title"
+			position = { x = 25 y = 100 }
+			font = "hoi_18mbs"
+			text = "CHI_econ_province_influence_title"
+			format = left
+		}
+
+		gridboxtype = {
+			name = "CHI_econ_province_influence_id_grid"
+			position = { x = 0 y = 125 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 150 height = 18 }
+			add_horizontal = no
+		}
+		gridboxtype = {
+			name = "CHI_econ_province_influence_grid"
+			position = { x = 0 y = 125 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 150 height = 18 }
+			add_horizontal = no
+		}
+		gridboxtype = {
+			name = "CHI_econ_province_influence_button_grid"
+			position = { x = 145 y = 125 }
+			size = { width = 100%% height = 100%% }
+			slotsize = { width = 50 height = 18 }
+			add_horizontal = no
+		}
+	}
+
+	containerWindowType = {
+        name = "CHI_econ_province_influence_id_entry"
+        position = { x = 0 y = 0 }
+		size = { width = 150 height = 18 }
+
+		instantTextBoxType = {
+			name = "CHI_econ_province_corporation_text"
+			position = { x = 0 y = 0 }
+			font = "hoi_16mbs"
+			text = "CHI_econ_province_corporation_text"
+			format = left
+		}
+    }
+
+	containerWindowType = {
+        name = "CHI_econ_province_influence_entry"
+        position = { x = 0 y = 0 }
+		size = { width = 150 height = 18 }
+
+		instantTextBoxType = {
+			name = "CHI_econ_province_influence_text"
+			position = { x = 0 y = 0 }
+			font = "hoi_16mbs"
+			text = "CHI_econ_province_influence_text"
+			format = left
+		}
+    }
+
+	containerWindowType = {
+        name = "CHI_econ_province_influence_button_entry"
+        position = { x = 0 y = 0 }
+		size = { width = 50 height = 18 }
+
+		buttonType = {
+			name = "CHI_econ_province_subtract_influence"
+			position = { x = 0 y = 1 }
+			quadTextureSprite = "GFX_subtract_one"
+			clicksound = click_default
+			scale = 0.65
+		}
+		buttonType = {
+			name = "CHI_econ_province_add_influence"
+			position = { x = 18 y = 1 }
+			quadTextureSprite = "GFX_add_one"
+			clicksound = click_default
+			scale = 0.65
+		}
+    }
+}

@@ -1,0 +1,27 @@
+state={
+	id=809
+	name="STATE_809"
+
+	history={
+		owner = BSQ
+		victory_points = {
+			743 2
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+
+		}
+		add_core_of = BSQ
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		743 
+	}
+	manpower=540400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

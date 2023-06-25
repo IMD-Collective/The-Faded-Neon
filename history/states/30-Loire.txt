@@ -1,0 +1,24 @@
+
+state={
+	id=30
+	name="STATE_30"
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		3495 3509 3523 9478 11463 11613 13281 13282
+	}
+	manpower=788400
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

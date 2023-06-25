@@ -1,0 +1,43 @@
+spriteTypes = {	
+
+	##ideas
+
+	
+	spriteType = {
+		name = "GFX_idea_pol_stashes_of_the_old_red_world"
+		textureFile = "gfx/interface/ideas/POL/idea_pol_stashes_of_the_old_red_world.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_nightmares"
+		textureFile = "gfx/interface/ideas/POL/idea_pol_nightmares.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_divide"
+		textureFile = "gfx/interface/ideas/POL/idea_pol_divide.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_chairman"
+		textureFile = "gfx/interface/ideas/POL/idea_pol_chairman.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_pol_ruined_factories"
+		textureFile = "gfx/interface/ideas/POL/idea_pol_ruined_factories.dds"
+	}
+	
+	##event pics
+	spriteType = {
+		name = "GFX_report_event15"
+		texturefile = "gfx/event_pictures/pol/event15.tga"
+	}
+	spriteType = {
+		name = "GFX_report_event12"
+		texturefile = "gfx/event_pictures/pol/event12.tga"
+	}
+	spriteType = {
+		name = "GFX_report_event11"
+		texturefile = "gfx/event_pictures/pol/event11.tga"
+	}
+
+
+
+}

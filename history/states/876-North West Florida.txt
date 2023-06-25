@@ -1,0 +1,26 @@
+state={
+	id=876
+	name="STATE_876"
+
+	history={
+		owner = ACF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			10352 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ACF
+
+	}
+
+	provinces={
+		10352 10380 
+	}
+	manpower=68210
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

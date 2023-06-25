@@ -1,0 +1,41 @@
+﻿capital = 212
+
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1931.6.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 40
+	fascism = 20
+	communism = 20
+	democratic = 20
+}
+
+create_country_leader = {
+	
+	name = "Orlin Velikov"
+	picture = "gfx/leaders/BUC/portrait_BUC_orlin_velikov.tga"
+	expire = "2000.1.1"
+	ideology = cultism
+	traits = {
+		cultism_trait
+	}
+}
+
+
+
+
+

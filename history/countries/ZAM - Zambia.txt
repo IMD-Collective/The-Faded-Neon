@@ -1,0 +1,73 @@
+﻿capital = 771
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 40
+	democratic = 25
+	fascism = 15
+	communism = 20
+}
+
+create_country_leader = {
+	
+	name = "Cornelius Mapoma"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = auth_democratic
+	traits = {
+		auth_democratic_trait
+	}
+}
+
+create_country_leader = {
+	
+	name = "Henry Tembo"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = conservatism
+	traits = {
+		conservatism_trait
+	}
+}
+
+create_country_leader = {
+	
+	name = "GEN.Sebetwane Wamulwa"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = fascist_mil_junta
+	traits = {
+		fascist_mil_junta_trait
+	}
+}
+
+create_country_leader = {
+	
+	name = "Sekeletu Lisulo"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = african_socialism
+	traits = {
+		african_socialism_trait
+	}
+}
+
+
+
+
+

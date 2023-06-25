@@ -1,0 +1,47 @@
+ideas = {
+	country = {
+		a_pick_in_every_hand = {
+
+			picture = generic_pick
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.10
+				local_resources_factor = 0.10
+			}
+		}
+
+		fractured_isles_2 = {
+
+			picture = fractured_isles
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				political_power_gain = -0.1
+				resistance_damage_to_garrison = 0.05
+				army_org_factor = -0.05
+				neutrality_acceptance = -50
+				fascism_acceptance = -50	
+			}
+		}
+	}
+}

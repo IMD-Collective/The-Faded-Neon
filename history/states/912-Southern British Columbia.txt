@@ -1,0 +1,29 @@
+state={
+	id=912
+	name="STATE_912"
+	history={
+		owner = AWZ
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			1408 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = AWZ
+		victory_points = {
+			1408 15 
+		}
+
+	}
+	provinces={
+		1393 1408 1858 4413 4428 7677 7753 7853 
+	}
+	manpower=25378
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

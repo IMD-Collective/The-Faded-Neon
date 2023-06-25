@@ -1,0 +1,21 @@
+state={
+	id=833
+	name="STATE_833"
+
+	history={
+		owner = UBS
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = UBS
+
+	}
+
+	provinces={
+		592 9485 
+	}
+	manpower=9400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

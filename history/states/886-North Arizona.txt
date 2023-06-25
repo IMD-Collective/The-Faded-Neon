@@ -1,0 +1,20 @@
+state={
+	id=886
+	name="STATE_886"
+
+	history={
+		owner = UTH
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = UTH
+
+	}
+
+	provinces={
+		850 
+	}
+	manpower=25572
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

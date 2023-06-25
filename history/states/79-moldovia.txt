@@ -1,0 +1,23 @@
+state={
+	id=79
+	name="STATE_79"
+	manpower = 590231
+	
+	state_category = city
+	
+	history={
+		owner = MOL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 6
+		}
+		victory_points = { 9716 20 }
+		victory_points = { 6584 2 }
+
+		add_core_of = MOL
+	}
+
+	provinces = { 744 6584 9716 11534 }
+}

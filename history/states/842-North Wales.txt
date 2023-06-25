@@ -1,0 +1,22 @@
+state={
+	id=842
+	name="STATE_842"
+	resources = {
+		steel=11.000
+	}
+	history={
+		add_core_of = WLS
+		owner = WLS
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+	provinces={
+		311 6363 9364 
+	}
+	manpower=1309230
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=917
+	name="STATE_917"
+	manpower = 591346
+	
+	state_category = rural
+
+
+
+	history={
+		owner = CAM
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = CAM
+
+
+	}
+
+	provinces={
+		1324 4639 12475
+	}
+}

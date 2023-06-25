@@ -1,0 +1,19 @@
+characters = {
+
+	SOV_dmitry_yudenich = {
+		name = SOV_dmitry_yudenich
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/portrait_sov_dmitry_yudenich.tga"
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = {
+				stalinism_trait
+				military_legacy
+			}
+		}
+	}
+}
+	

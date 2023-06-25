@@ -1,0 +1,30 @@
+
+state={
+	id=164
+	name="STATE_164"
+
+	history={
+		owner = TUR
+		victory_points = {
+			10007 1 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			7003 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = TUR
+
+	}
+
+	provinces={
+		7003 10007
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

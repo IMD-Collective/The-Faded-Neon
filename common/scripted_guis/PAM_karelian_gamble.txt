@@ -1,0 +1,11 @@
+scripted_gui = {
+	PAM_karelian_gamble_gui = {
+		context_type = decision_category
+		window_name = "karelian_gamble_container"
+		dirty = show_PAM_karelian_gamble
+
+		visible = {
+			always = yes
+		}
+	}
+}

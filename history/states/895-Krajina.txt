@@ -1,0 +1,25 @@
+state={
+	id=895
+	name="STATE_895"
+
+	history={
+		owner = BOS
+		victory_points = {
+			6983 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		3985 6614 6619 6983 9586 9588 
+	}
+	manpower=932405
+	buildings_max_level_factor=1.000
+	state_category=town
+}

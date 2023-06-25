@@ -1,0 +1,24 @@
+state={
+	id=882
+	name="STATE_882"
+
+	history={
+		owner = UTH
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		add_core_of = UTH
+		victory_points = {
+			10573 5
+		}
+	}
+
+	provinces={
+		7818 7999 10573 10645 
+	}
+	manpower=207846
+	state_category = town
+	buildings_max_level_factor=1.000
+}

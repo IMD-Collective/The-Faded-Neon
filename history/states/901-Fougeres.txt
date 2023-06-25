@@ -1,0 +1,29 @@
+
+state={
+	id=901
+	name="STATE_901"
+
+	history={
+		owner = FRA
+		victory_points = {
+			11465 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+
+		}
+		add_core_of = FRA
+		add_core_of = BRI
+
+	}
+
+	provinces={
+		503 527 9867 11465 11616 
+	}
+	manpower=1388400
+	buildings_max_level_factor=1.000
+	state_category=city
+}

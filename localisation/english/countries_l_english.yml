@@ -1,0 +1,932 @@
+﻿l_english:
+ENG_neutrality:0 "English Commonwealth"
+ENG_neutrality_DEF:0 "The English Commonwealth"
+ENG_fascism:0 "Great English State"
+ENG_fascism_DEF:0 "The Great English State"
+ENG:0 "England"
+ENG_DEF:0 "England" 
+ENG_ADJ:0 "English"
+
+NKR_fascism:0 "Greater Korean State"
+NKR_fascism_DEF:0 "The Greater Korean State"
+NKR_communism:0 "Democratic Peoples Republic of Korea"
+NKR_communism_DEF:0 "The Democratic Peoples Republic of Korea"
+NKR:0 "North Korea"
+NKR_DEF:0 "North Korea"
+NKR_ADJ:0 "Korean"
+
+SKR:0 "Korean Republic"
+SKR_DEF:0 "The Korean Republic"
+SKR_communism:0 "Union of Korean People"
+SKR_communism_DEF:0 "The Union of Korean People"
+SKR_ADJ:0 "Korean"
+
+CON_neutrality:0 "DR Congo"
+
+CST_fascism:0 "State of Congo"
+
+CPU_communism:0 "Congolese People's Union"
+
+CLA_democratic:0 "Congolese Liberation Army"
+
+SSR_communism:0 "Far Eastern Soviet Republic"
+SSR_DEF:0 "The Far Eastern Soviet Republic"
+SSR_ADJ:0 "Far Eastern"
+
+GRE_fascism:0 "Hellenic State"
+GRE_fascism_DEF:0 "The Hellenic State"
+GRE_communism:0 "People's Republic of Greece"
+GRE_communism_DEF:0 "The People's Republic of Greece"
+GRE_neutrality:0 "Kingdom of Greece"
+GRE_neutrality_DEF:0 "The Kingdom of Greece"
+GRE_democratic:0 "Hellenic Republic"
+GRE_democratic_DEF:0 "The Hellenic Republic"
+GRE_ADJ:0 "Greek"
+
+BUL:0 "Republic of Bulgaria"
+BUL_DEF:0 "The Republic of Bulgaria"
+BUL_communism:0 "People's Republic of Bulgaria"
+BUL_communism_DEF:0 "The People's Republic of Bulgaria"
+BUL_ADJ:0 "Bulgarian"
+
+IRE:0 "Irish Republic"
+IRE_DEF:0 "The Irish Republic"
+IRE_ADJ:0 "Irish"
+
+CMC:0 "Northern Coal Miners Commune"
+CMC_DEF:0 "The Northern Coal Miners Commune"
+CMC_fascism:0 "Northern Coal Mining Corporation"
+CMC_fascism_DEF:0 "The Northern Coal Mining Corporation"
+CMC_democratic:0 "North England Republic"
+CMC_democratic_DEF:0 "The North England Republic"
+CMC_neutrality:0 "North England Republic"
+CMC_neutrality_DEF:0 "The North England Republic"
+CMC_ADJ:0 "English"
+
+SCO:0 "Scottish Republic"
+SCO_DEF:0 "The Scottish Republic"
+SCO_ADJ:0 "Scottish"
+
+ALB_communism:0 "People's Socialist Republic of Albania"
+ALB_communism_DEF:0 "The People's Socialist Republic of Albania"
+ALB:0 "Republic of Albania"
+ALB_DEF:0 "The Republic of Albania"
+ALB_ADJ:0 "Albanian"
+
+TUS_communism:0 "North Italian Workers Union"
+TUS_communism_DEF:0 "The North Italian Workers Union"
+TUS:0 "North Italian Republic"
+TUS_DEF:0 "The North Italian Republic"
+TUS_ADJ:0 "Italian"
+
+FRA:0 "French Republic"
+FRA_DEF:0 "The French Republic"
+FRA_communism:0 "French People's Republic"
+FRA_communism_DEF:0 "The French People's Republic"
+FRA_fascism:0 "French State"
+FRA_fascism_DEF:0 "The French State"
+FRA_ADJ:0 "French"
+
+BSQ:0 "Basque Country"
+BSQ_DEF:0 "Basque Country"
+BSQ_ADJ:0 "Basque"
+
+NRM_neutrality:0 "Duchy of Normandy"
+NRM_neutrality_DEF:0 "The Duchy of Normandy"
+NRM_fascism:0 "Duchy of Normandy"
+NRM_fascism_DEF:0 "The Duchy of Normandy"
+NRM_democratic:0 "Republic of Normandy"
+NRM_democratic_DEF:0 "The Republic of Normandy"
+NRM_ADJ:0 "Norman"
+
+OCC:0 "Occitania"
+OCC_DEF:0 "Occitania"
+OCC_ADJ:0 "Occitanique"
+
+BRI:0 "Brittany"
+BRI_DEF:0 "Brittany"
+BRI_ADJ:0 "Breton"
+
+COR:0 "Corsica"
+COR_DEF:0 "Corsica"
+COR_ADJ:0 "Corsican"
+
+SPR:0 "Spanish State"
+SPR_DEF:0 "The Spanish State"
+SPR_ADJ:0 "Spanish"
+
+URL:0 "Ural Free Republic"
+URL_DEF:0 "Ural"
+URL_ADJ:0 "Urali"
+
+POR:0 "Portuguese Republic"
+POR_DEF:0 "The Portuguese Republic"
+POR_ADJ:0 "Portugese"
+
+CAT:0 "Balearic Islands"
+CAT_DEF:0 "The Balearic Isles"
+CAT_ADJ:0 "Balearic"
+
+AUS:0 "Austrian Republic"
+AUS_DEF:0 "The Austria Republic"
+AUS_ADJ:0 "Austrian"
+
+SWI:0 "Swiss Confederation"
+SWI_DEF:0 "The Swiss Confederation"
+SWI_ADJ:0 "Swiss"
+
+GER:0 "Rhenish Republic"
+GER_DEF:0 "The Rhenish Republic"
+GER_ADJ:0 "German"
+
+DDR_communism:0 "German Democratic Republic"
+DDR_communism_DEF:0 "The German Democratic Republic"
+DDR_ADJ:0 "German"
+
+SAR:0 "Saarland"
+SAR_DEF:0 "Saarland"
+SAR_ADJ:0 "German"
+
+PNT_communism:0 "Polish National Territory"
+PNT_communism_DEF:0 "The Polish National Territory"
+PNT_ADJ:0 "Polish National-Territoral"
+
+POL_communism:0 "Polish People's Republic"
+POL_communism_DEF:0 "The Polish People's Republic"
+POL_ADJ:0 "Polish"
+
+KAR:0 "Grand Duchy of Karelia"
+KAR_DEF:0 "The Grand Duchy of Karelia"
+KAR_ADJ:0 "Karelian"
+
+KAL:0 "Free State of Kaliningrad"
+KAL_DEF:0 "The Free State of Kaliningrad"
+KAL_communism_:0 "Baltic Sea Red Fleet"
+KAL_communism__DEF:0 "The Baltic Sea Red Fleet"
+KAL_ADJ:0 "Kalinin"
+
+YUG:0 "Yugoslavia"
+YUG_DEF:0 "Yugoslavia"
+YUG_ADJ:0 "Yugoslav"
+
+VOJ:0 "Autonomous Province of Vojvodina"
+VOJ_DEF:0 "The Autonomous Province of Vojvodina"
+VOJ_ADJ:0 "Serbian"
+
+HRZ:0 "Croatian Republic of Herzeg-Bosnia"
+HRZ_DEF:0 "The Croatian Republic of Herzeg-Bosnia"
+HRZ_ADJ:0 "Croatian"
+
+SER:0 "Republic of Serbia"
+SER_DEF:0 "The Republic of Serbia"
+SER_ADJ:0 "Serbian"
+
+CRO:0 "Republic of Croatia"
+CRO_DEF:0 "The Republic of Croatia"
+CRO_ADJ:0 "Croatian"
+
+SLV:0 "Slovenia"
+SLV_DEF:0 "Slovenia"
+SLV_communism_:0 "Socialist Republic of Slovenia"
+SLV_communism_DEF:0 "The Socialist Republic of Slovenia"
+SLV_ADJ:0 "Slovene"
+
+BOS:0 "Republic of Bosnia and Herzegovina"
+BOS_DEF:0 "The Republic of Bosnia and Herzegovina"
+BOS_ADJ:0 "Bosnian"
+
+MAC:0 "Macedonia"
+MAC_DEF:0 "Macedonia"
+MAC_ADJ:0 "Macedonian"
+
+MNT:0 "Montenegro"
+MNT_DEF:0 "Montenegro"
+MNT_ADJ:0 "Montenegrin"
+
+HUN:0 "Hungary"
+HUN_DEF:0 "Hungary"
+HUN_ADJ:0 "Hungarian"
+
+SLO_fascism:0 "Slovak State"
+SLO_fascism_DEF:0 "The Slovak State"
+SLO_ADJ:0 "Slovakian"
+
+CZE:0 "Czech Republic"
+CZE_DEF:0 "The Czech Republic"
+CZE_ADJ:0 "Czech"
+
+WAL_neutrality:0 "Kingdom of Wallonia"
+WAL_neutrality_DEF:0 "The Kingdom of Wallonia"
+WAL_ADJ:0 "Wallonian"
+
+ITA:0 "Italian Republic"
+ITA_DEF:0 "The Italian Republic"
+ITA_ADJ:0 "Italian"
+
+HOL:0 "Kingdom of the Netherlands"
+HOL_DEF:0 "The Kingdom of the Netherlands"
+HOL_ADJ:0 "Dutch"
+
+BIT:0 "Italian Social Republic"
+BIT_DEF:0 "The Italian Social Republic"
+BIT_ADJ:0 "Italian"
+
+UKR:0 "Ukraine"
+UKR_DEF:0 "Ukraine"
+UKR_ADJ:0 "Ukrainian"
+
+JAP:0 "Japanese Government Remnants"
+JAP_DEF:0 "The Japanese Government Remnants"
+JAP_ADJ:0 "Japanese"
+
+CNS:0 "Cult of the New Sun"
+CNS_DEF:0 "The Cult of the New Sun"
+CNS_ADJ:0 "Japanese"
+
+DED:0 "Ground Zero"
+DED_DEF:0 ""
+DED_ADJ:0 ""
+
+KOS:0 "Koshinetsu Fishing Community"
+KOS_DEF:0 "The Koshinetsu Fishing Community"
+KOS_ADJ:0 "Japanese"
+
+MEX:0 "United Mexican States"
+MEX_DEF:0 "The United Mexican States"
+MEX_ADJ:0 "Mexican"
+
+SIA:0 "Siam"
+SIA_DEF:0 "Siam"
+SIA_ADJ:0 "Siam"
+
+CAN:0 "Canada"
+CAN_DEF:0 "Canada"
+CAN_ADJ:0 "Canadian"
+
+SOV:0 "Soviet Union"
+SOV_DEF:0 "The Soviet Union"
+SOV_ADJ:0 "Soviet"
+
+BLR:0 "Socialist Republic of Belarus"
+BLR_DEF:0 "The Socialist Republic of Belarus"
+BLR_ADJ:0 "Belarusian"
+
+LIV:0 "Grand Livonian State"
+LIV_DEF:0 "The Grand Livonian State"
+LIV_ADJ:0 "Livonian"
+
+SAM:0 "Grand Duchy of Samogitia"
+SAM_DEF:0 "The Grand Duchy of Samogitia"
+SAM_ADJ:0 "Samogitian"
+
+LIT:0 "Republic of Lithuania"
+LIT_DEF:0 "The Republic of Lithuania"
+LIT_ADJ:0 "Lithuanian"
+
+CHL:0 "Greater Republic of Chile"
+CHL_DEF:0 "The Greater Republic of Chile"
+CHL_ADJ:0 "Chilean"
+
+RGR:0 "National Liberation Government"
+RGR_DEF:0 "The National Liberation Government"
+RGR_ADJ:0 "Greek"
+
+CRI:0 "Republic of Crimea"
+CRI_DEF:0 "The Crimean Republic"
+CRI_ADJ:0 "Crimean"
+
+DEN:0 "People's Republic of Denmark"
+DEN_DEF:0 "The People's Republic of Denmark"
+DEN_ADJ:0 "Danish"
+
+ISC:0 "Industrial State of Chelyabinsk"
+ISC_DEF:0 "Industrial State of Chelyabinsk"
+ISC_ADJ:0 "Chelyabinskn"
+
+MON:0 "Mongolia"
+MON_DEF:0 "Mongolia"
+MON_ADJ:0 "Mongolian"
+
+SIK:0 "East Turkestan"
+SIK_DEF:0 "East Turkestan"
+SIK_ADJ:0 "Uyghur"
+
+TIB:0 "Tibetan Empire"
+TIB_DEF:0 "The Tibetan Empire"
+TIB_ADJ:0 "Tibetan"
+
+XSM:0 "Qinghai Army"
+XSM_DEF:0 "The Qinghai Army"
+XSM_ADJ:0 "Hui"
+
+PER_neutrality:0 "Islamic Republic of Iran"
+PER_neutrality_DEF:0 "The Islamic Republic of Iran"
+PER_ADJ:0 "Iranian"
+
+ISR:0 "State of Israel"
+ISR_DEF:0 "The State of Israel"
+ISR_ADJ:0 "Israeli"
+
+ULS:0 "Ulster Freedom Fighters"
+ULS_DEF:0 "Ulster Freedom Fighters"
+ULS_ADJ:0 "Irish"
+
+WLS:0 "Wales"
+WLS_DEF:0 "Wales"
+WLS_ADJ:0 "Welsh"
+
+NOR:0 "Kingdom of Norway"
+NOR_DEF:0 "The Kingdom of Norway"
+NOR_ADJ:0 "Norwegian"
+
+SWE:0 "Kingdom of Sweden"
+SWE_DEF:0 "The Kingdom of Sweden"
+SWE_ADJ:0 "Swedish"
+
+FIN:0 "Republic of Finland"
+FIN_DEF:0 "The Republic of Finland"
+FIN_ADJ:0 "Finnish"
+
+PAM:0 "Russian National State"
+PAM_DEF:0 "The Russian National State"
+PAM_ADJ:0 "Russian"
+
+RUS:0 "Russian Republic"
+RUS_DEF:0 "The Russian Republic"
+RUS_ADJ:0 "Russian"
+
+FOA:0 "Flanders Occupational Authority"
+FOA_DEF:0 "The Flanders Occupational Authority"
+FOA_ADJ:0 "Flemish"
+
+QUE:0 "Republic of Quebec"
+QUE_DEF:0 "The Republic of Quebec"
+QUE_ADJ:0 "Quebecois"
+
+NIC:0 "Junta of National Reconstruction"
+NIC_DEF:0 "The Junta of National Reconstruction"
+NIC_ADJ:0 "Nicaraguan"
+
+TUR:0 "Republic of Turkey"
+TUR_DEF:0 "The Republic of Turkey"
+TUR_ADJ:0 "Turkish"
+
+SYR:0 "Syrian Arab Republic"
+SYR_DEF:0 "The Syrian Arab Republic"
+SYR_ADJ:0 "Syrian"
+
+IRQ:0 "Republic of Iraq"
+IRQ_DEF:0 "The Republic of Iraq"
+IRQ_ADJ:0 "Iraqi"
+
+HKA:0 "Hashemite Kingdom of Arabia"
+HKA_DEF:0 "The Hashemite Kingdom of Arabia"
+HKA_ADJ:0 "Arab"
+
+UAE:0 "United Arab Emirates"
+UAE_DEF:0 "The United Arab Emirates"
+UAE_ADJ:0 "Arab"
+
+ASA:0 "Arabian Socialist Authority"
+ASA_DEF:0 "The Arabian Socialist Authority"
+ASA_ADJ:0 "Arab"
+
+LEB:0 "Lebanese Republic"
+LEB_DEF:0 "The Lebanese Republic"
+LEB_ADJ:0 "Lebanese"
+
+EGY:0 "Sultanate of Egypt"
+EGY_DEF:0 "The Sultanate of Egypt"
+EGY_ADJ:0 "Egyptian"
+
+CYR:0 "Emirate of Cyrenica"
+CYR_DEF:0 "The Emirate of Cyrenica"
+CYR_ADJ:0 "Libyan"
+
+FEZ:0 "Emirate of Fezzan"
+FEZ_DEF:0 "The Emirate of Fezzan"
+FEZ_ADJ:0 "Libyan"
+
+TRI:0 "Emirate of Tripoli"
+TRI_DEF:0 "The Emirate of Tripoli"
+TRI_ADJ:0 "Libyan"
+
+FLO_communism:0 "Occupied Florida"
+FLO_communism_DEF:0 "Occupied Florida"
+FLO_ADJ:0 "American"
+
+CUB:0 "Republic of Cuba"
+CUB_DEF:0 "The Republic of Cuba"
+CUB_ADJ:0 "Cuban"
+
+NWC:0 "Columbia"
+NWC_DEF:0 "Columbia"
+NWC_ADJ:0 "Columbian"
+
+ALA:0 "Alaskan Republic"
+ALA_DEF:0 "The Alaskan Republic"
+ALA_ADJ:0 "Alaskan"
+
+PUE:0 "Commonwealth of Puerto Rico"
+PUE_DEF:0 "The Commonwealth of Puerto Rico"
+PUE_ADJ:0 "Puerto Rican"
+
+
+GUA:0 "Liberated Republic of Guatemala"
+GUA_DEF:0 "The Liberated Republic of Guatemala"
+GUA_ADJ:0 "Guatemalan"
+
+HON:0 "Republic of Honduras"
+HON_DEF:0 "The Republic of Honduras"
+HON_ADJ:0 "Honduran"
+
+ELS:0 "FMLN El Salvador"
+ELS_DEF:0 "FMLN El Salvador"
+ELS_ADJ:0 "El Salvadoran"
+
+COS:0 "Republic of Costa Rica"
+COS_DEF:0 "The Republic of Costa Rica"
+COS_ADJ:0 "Costa Rican"
+
+PAN:0 "Republic of Panama"
+PAN_DEF:0 "The Republic of Panama"
+PAN_ADJ:0 "Panamanian"
+
+WIF:0 "West Indies Federation"
+WIF_DEF:0 "The West Indies Federation"
+WIF_ADJ:0 "West Indian"
+
+HAI:0 "Republic of Haiti"
+HAI_DEF:0 "The Republic of Haiti"
+HAI_ADJ:0 "Haitian"
+
+DOM:0 "Dominican Republic"
+DOM_DEF:0 "The Dominican Republic"
+DOM_ADJ:0 "Dominican"
+
+BER:0 "Bermuda Board of Admiralty"
+BER_DEF:0 "The Bermuda Board of Admiralty"
+BER_ADJ:0 "Bermudian"
+
+NEA:0 "English Commonwealth North Border"
+NEA_DEF:0 "The English Commonwealth North Border"
+NEA_ADJ:0 "English"
+
+IOM:0 "Isle of Man"
+IOM_DEF:0 "The Isle of Man"
+IOM_ADJ:0 "Manx"
+
+NNZ:0 "Kielder Barren"
+NNZ_DEF:0 "Kielder Barren"
+NNZ_ADJ:0 "Diggers"
+
+AND_democratic:0 "Andalusia"
+AND_democratic_DEF:0 "Andalusia"
+AND_democratic_ADJ:0 "Andalusian"
+
+EST:0 "Republic of Estonia"
+EST_DEF:0 "The Republic of Estonia"
+EST_ADJ:0 "Estonian"
+
+LAT:0 "Republic of Latvia"
+LAT_DEF:0 "The Republic of Latvia"
+LAT_ADJ:0 "Latvian"
+
+UBS:0 "United Baltic SSR's"
+UBS_DEF:0 "The United Baltic SSR's"
+UBS_ADJ:0 "Soviet"
+
+FGL:0 "Försvarsmakten Gotland"
+FGL_DEF:0 "Försvarsmakten Gotland"
+FGL_ADJ:0 "Swedish"
+
+MUR:0 "Murmansk Republic"
+MUR_DEF:0 "The Murmansk Republic"
+MUR_ADJ:0 "Murmansk"
+
+VIN:0 "Socialist Republic of Vietnam"
+VIN_DEF:0 "The Socialist Republic of Vietnam"
+VIN_ADJ:0 "Vietnamese"
+
+NFL:0 "Newfoundland and Labrador"
+NFL_DEF:0 "Newfoundland and Labrador"
+NFL_ADJ:0 "Newfoundlander"
+
+MTT:0 "Maximo's Territory"
+MTT_DEF:0 "Maximo's Territory"
+MTT_ADJ:0 "Maxemite"
+
+COL:0 "Republic of Colombia"
+COL_DEF:0 "The Republic of Colombia"
+COL_ADJ:0 "Colombian"
+
+ZUL:0 "Republic of Zulia"
+ZUL_DEF:0 "The Republic of Zulia"
+ZUL_fascism:0 "National Patriotic State of Zulia"
+ZUL_fascism_DEF:0 "The National Patriotic State of Zulia"
+ZUL_ADJ:0 "Zulian"
+
+VEN:0 "State of Venezuela"
+VEN_DEF:0 "The State of Venezuela"
+VEN_ADJ:0 "Venezuelan"
+
+BRA:0 "Federative Republic of Brazil"
+BRA_DEF:0 "The Federative Republic of Brazil"
+BRA_ADJ:0 "Brazilian"
+
+PRU:0 "Republic of Peru"
+PRU_DEF:0 "The Republic of Peru"
+PRU_ADJ:0 "Peruvian"
+
+BOL:0 "Plurinational State of Bolivia"
+BOL_DEF:0 "The Plurinational State of Bolivia"
+BOL_ADJ:0 "Bolivian"
+
+PAR:0 "Republic of Paraguay"
+PAR_DEF:0 "The Republic of Paraguay"
+PAR_ADJ:0 "Paraguayan"
+
+URU:0 "Oriental Republic of Uruguay"
+URU_DEF:0 "The Oriental Republic of Uruguay"
+URU_ADJ:0 "Uruguayan"
+
+ARG:0 "Argentine Republic"
+ARG_DEF:0 "The Argentine Republic"
+ARG_ADJ:0 "Argentine"
+
+CRG:0 "People's Revolutionary Army"
+CRG_DEF:0 "The People's Revolutionary Army"
+CRG_ADJ:0 "Argentine"
+
+BSA:0 "British South Atlantic Territories"
+BSA_DEF:0 "The British South Atlantic Territories"
+BSA_ADJ:0 "British"
+
+ECU:0 "Republic of Ecuador"
+ECU_DEF:0 "The Republic of Ecuador"
+ECU_ADJ:0 "Ecuadorian"
+
+AZE:0 "Republic of Azerbaijan"
+AZE_DEF:0 "The Republic of Azerbaijan"
+AZE_communism:0 "Azerbaijan KGB Directorate"
+AZE_communism_DEF:0 "The Azerbaijan KGB Directorate"
+AZE_ADJ:0 "Azerbaijani"
+
+GEO:0 "Georgia"
+GEO_DEF:0 "Georgia"
+GEO_ADJ:0 "Georgian"
+
+ARM:0 "Republic of Armenia"
+ARM_DEF:0 "The Republic of Armenia"
+ARM_ADJ:0 "Armenian"
+
+CHE:0 "Mountainous Republic of the Northern Caucasus"
+CHE_DEF:0 "The Mountainous Republic of the Northern Caucasus"
+CHE_ADJ:0 "Chechen"
+
+AFG:0 "Islamic Republic of Afghanistan"
+AFG_DEF:0 "The Islamic Republic of Afghanistan"
+AFG_ADJ:0 "Afghan"
+
+SAA:0 "40th Army Remnants"
+SAA_DEF:0 "The 40th Army Remnants"
+SAA_ADJ:0 "Soviet"
+
+CHI_communism:0 "People's Republic of China"
+CHI_communism_DEF:0 "The People's Republic of China"
+CHI_democratic:0 "Republic of China"
+CHI_democratic_DEF:0 "The Republic of China"
+CHI_neutrality:0 "Republic of China"
+CHI_neutrality_DEF:0 "The Republic of China"
+CHI_fascism:0 "Chinese National State"
+CHI_fascism_DEF:0 "The Chinese National State"
+CHI_ADJ:0 "Chinese"
+
+CZZ:0 "Chinese Anarchy"
+CZZ_DEF:0 "The Chinese Anarchy"
+CZZ_ADJ:0 "Chinese"
+
+PRC_communism:0 "People's Republic of China"
+PRC_communism_DEF:0 "The People's Republic of China"
+PRC_democratic:0 "Republic of China"
+PRC_democratic_DEF:0 "The Republic of China"
+PRC_fascism:0 "Chinese National State"
+PRC_fascism_DEF:0 "The Chinese National State"
+PRC_neutrality:0 "Taiping Heavenly Kingdom"
+PRC_neutrality_DEF:0 "The Taiping Heavenly Kingdom"
+PRC_ADJ:0 "Chinese"
+
+SHX:0 "Shanxi"
+SHX_DEF:0 "Shanxi"
+SHX_ADJ:0 "Chinese"
+
+SIC:0 "Sichuan Authority"
+SIC_DEF:0 "The Sichuan Authority"
+SIC_ADJ:0 "Chinese"
+
+YUN_communism:0 "People's Republic of Yunnan"
+YUN_communism_DEF:0 "The People's Republic of Yunnan"
+YUN_democratic:0 "Republic of Yunnan"
+YUN_democratic_DEF:0 "The Republic of Yunnan"
+YUN_neutrality:0 "National Republic of Yunnan"
+YUN_neutrality_DEF:0 "The National Republic of Yunnan"
+YUN_fascism:0 "Greater Yunnan"
+YUN_fascism_DEF:0 "Greater Yunnan"
+YUN_ADJ:0 "Chinese"
+
+MOL:0 "Theocratic Moldovan Republic"
+MOL_DEF:0 "Moldovan Republic"
+MOL_ADJ:0 "Moldovan"
+
+ROM_communism:0 "Romanian Provisional Government"
+ROM_communism_DEF:0 "The Romanian Provisional Government"
+ROM_ADJ:0 "Romanian"
+
+TRA:0 "Republic of Transylvania"
+TRA_DEF:0 "The Transylvanian Republic"
+TRA_ADJ:0 "Transylvanian"
+
+TRS:0 "Pridnestrovian Military Junta"
+TRS_DEF:0 "The Pridnestrovian Military Junta"
+TRS_ADJ:0 "Transnistrian"
+
+TEX:0 "New Columbia South"
+TEX_DEF:0 "New Columbia South"
+TEX_ADJ:0 "Texan"
+
+GRG_communism:0 "Cuban Occupied America"
+GRG_communism_DEF:0 "Cuban Occupied America"
+GRG_ADJ:0 "American"
+
+ALM_communism:0 "Occupied Alabama"
+ALM_communism_DEF:0 "Occupied Alabama"
+ALM_ADJ:0 "Alabamian"
+
+ACF:0 "Army of American Purification"
+ACF_DEF:0 "The Army of American Purification"
+ACF_ADJ:0 "American"
+
+OVE:0 "The Overgrowth"
+OVE_DEF:0 "The Overgrowth"
+OVE_ADJ:0 "Fungus"
+
+OST:0 "Order of Solomon's Temple"
+OST_DEF:0 "The Order of Solomon's Temple"
+OST_ADJ:0 "Templars"
+
+BUC:0 "Bulgarian Cultists"
+BUC_DEF:0 "The Bulgarian Cultists"
+BUC_ADJ:0 "Bulgarian"
+
+TUN:0 "Republic of Tunisia"
+TUN_DEF:0 "The Republic of Tunisia"
+TUN_ADJ:0 "Tunisian"
+
+LOU:0 "Louisiana"
+LOU_DEF:0 "The Louisiana"
+LOU_ADJ:0 "Louisianan"
+
+MAN:0 "Free Nation of Manchukuo"
+MAN_DEF:0 "The Free Nation of Manchukuo"
+MAN_ADJ:0 "Manchukuoan"
+
+BST:0 "Massachusetts Federation"
+BST_DEF:0 "The Massachusetts Federation"
+BST_ADJ:0 "American"
+
+YUC:0 "Republic of Yucatan"
+YUC_DEF:0 "The Republic of Yucatan"
+YUC_ADJ:0 "Yucatecan"
+
+EPA:0 "El Palenque"
+EPA_DEF:0 "El Palenque"
+EPA_ADJ:0 "Chiapan"
+
+DAK:0 "United Corporations of America"
+DAK_DEF:0 "The United Corporations of America"
+DAK_ADJ:0 "American"
+
+OKL:0 "Oklahoma"
+OKL_DEF:0 "Oklahoma"
+OKL_ADJ:0 "Oklahoman"
+
+KAN:0 "Kansas"
+KAN_DEF:0 "Kansas"
+KAN_ADJ:0 "Kansas"
+
+UTH:0 "Western Military Coalition"
+UTH_DEF:0 "The Western Military Coalition"
+UTH_ADJ:0 "American"
+
+NAV:0 "Navajo"
+NAV_DEF:0 "Navajo"
+NAV_ADJ:0 "Navajo"
+
+MOR:0 "Morocco"
+MOR_DEF:0 "Morocco"
+MOR_ADJ:0 "Maroccan"
+
+AWZ:0 "Wasteland Zone"
+AWZ_DEF:0 "Wasteland Zone"
+AWZ_ADJ:0 "Wasteland Zone"
+
+ALG:0 "Algeria"
+ALG_DEF:0 "Algeria"
+ALG_ADJ:0 "Algerian"
+
+IND:0 "Indonesia"
+IND_DEF:0 "Indonesia"
+IND_ADJ:0 "Indonesian"
+
+ICE:0 "Iceland"
+ICE_DEF:0 "Iceland"
+ICE_ADJ:0 "Icelandic"
+
+GRN:0 "Greenland"
+GRN_DEF:0 "Greenland"
+GRN_ADJ:0 "Greenlandic"
+
+PAK:0 "Islamic Republic of Pakistan"
+PAK_DEF:0 "The Islamic Republic of Pakistan"
+PAK_ADJ:0 "Pakistani"
+
+AST:0 "Commonwealth of Australia"
+AST_DEF:0 "The Commonwealth of Australia"
+AST_ADJ:0 "Australian"
+
+RAJ:0 "Republic of India"
+RAJ_DEF:0 "The Republic of India"
+RAJ_ADJ:0 "Indian"
+
+BAN:0 "People's Republic of Bangladesh"
+BAN_DEF:0 "The People's Republic of Bangladesh"
+BAN_ADJ:0 "Bangladeshi"
+
+NEP:0 "Federal Democratic Republic of Nepal"
+NEP_DEF:0 "The Federal Democratic Republic of Nepal"
+NEP_ADJ:0 "Nepalese"
+
+BHU:0 "Kingdom of Bhutan"
+BHU_DEF:0 "The Kingdom of Bhutan"
+BHU_ADJ:0 "Bhutanese"
+
+MAL:0 "Malaysia"
+MAL_DEF:0 "Malaysia"
+MAL_ADJ:0 "Malaysian"
+
+BUR:0 "Union of Burma"
+BUR_DEF:0 "The Union of Burma"
+BUR_ADJ:0 "Burmese"
+
+NZL:0 "New Zealand"
+NZL_DEF:0 "New Zealand"
+NZL_ADJ:0 "New Zealander"
+
+RWL:0 "Russian Wasteland"
+RWL_DEF:0 "Russian Wasteland"
+RWL_ADJ:0 ""
+
+ARK:0 "Free Republic of Arkhangelsk"
+ARK_DEF:0 "The Free Republic of Arkhangelsk"
+ARK_ADJ:0 "Russian"
+
+MER:0 "Russian Merchants Clan"
+MER_DEF:0 "The Russian Merchants Clan"
+MER_ADJ:0 "Russian"
+
+VOL:0 "Volga People's Republic"
+VOL_DEF:0 "The Volga People's Republic"
+VOL_ADJ:0 "Russian"
+
+KAZ:0 "Republic of Kazakhstan"
+KAZ_DEF:0 "The Republic of Kazakhstan"
+KAZ_ADJ:0 "Kazakh"
+
+UZB:0 "Republic of Uzbekistan"
+UZB_DEF:0 "The Republic of Uzbekistan"
+UZB_ADJ:0 "Uzbek"
+
+TMS:0 "Turkmenistan"
+TMS_DEF:0 "Turkmenistan"
+TMS_ADJ:0 "Turkmen"
+
+KYR:0 "Kyrgyz Republic"
+KYR_DEF:0 "The Kyrgyz Republic"
+KYR_ADJ:0 "Kyrgyz"
+
+TAJ:0 "Republic of Tajikistan"
+TAJ_DEF:0 "The Republic of Tajikistan"
+TAJ_ADJ:0 "Tajik"
+
+SAF:0 "Republic of South Africa"
+SAF_DEF:0 "The Republic of South Africa"
+SAF_ADJ:0 "South African"
+
+OAX:0 "Zapomix"
+OAX_DEF:0 "The Zapomix"
+OAX_ADJ:0 "Mexican"
+
+CRU:0 "Cruz Pandilla"
+CRU_DEF:0 "The Cruz Pandilla"
+CRU_ADJ:0 "Mexican"
+
+CLE:0 "Chinese-Africa Labor Expedition"
+CLE_DEF:0 "The Chinese-Africa Labor Expedition"
+CLE_ADJ:0 "Chinese"
+
+GUI:0 "United Guianas"
+GUI_DEF:0 "The United Guianas"
+GUI_ADJ:0 "Guianese"
+
+MPD:0 "Mexico City Police Department"
+MPD_DEF:0 "The Mexico City Police Department"
+MPD_ADJ:0 "Mexican"
+
+BOT:0 "Republic of Botswana"
+BOT_DEF:0 "The Republic of Botswana"
+BOT_ADJ:0 "Botswanan"
+
+NMB:0 "Republic of Namibia"
+NMB_DEF:0 "The Republic of Namibia"
+NMB_ADJ:0 "Namibian"
+
+TAC:0 "Tama Cartel"
+TAC_DEF:0 "The Tama Cartel"
+TAC_ADJ:0 "Mexican"
+
+PLN:0 "People's Liberation Army of Namibia"
+PLN_DEF:0 "The People's Liberation Army of Namibia"
+PLN_ADJ:0 "Namibian"
+
+SMA:0 "Sierra Madre's"
+SMA_DEF:0 "The Sierra Madre's"
+SMA_ADJ:0 "Mexican"
+
+VCT:0 "Victoria"
+VCT_DEF:0 "Victoria"
+VCT_ADJ:0 "Mexican"
+
+LAO:0 "Lao People's Democratic Republic"
+LAO_DEF:0 "The Lao People's Democratic Republic"
+LAO_ADJ:0 "Lao"
+
+CAM:0 "Democratic Kampuchea"
+CAM_DEF:0 "Democratic Kampuchea"
+CAM_ADJ:0 "Khmer"
+
+PHI:0 "Eternal Republic of the Philippines"
+PHI_DEF:0 "The Eternal Republic of the Philippines"
+PHI_ADJ:0 "Philippino"
+
+UVA:0 "United Foreign Vietnam War Veterans"
+UVA_DEF:0 "The United Foreign Vietnam War Veterans"
+UVA_ADJ:0 "Military"
+
+SUD:0 "Democratic Republic of the Sudan"
+SUD_DEF:0 "The Democratic Republic of the Sudan"
+SUD_ADJ:0 "Sudanese"
+
+ZIM:0 "Republic of Zimbabwe"
+ZIM_DEF:0 "The Republic of Zimbabwe"
+ZIM_ADJ:0 "Zimbabwean"
+
+ZAM:0 "Republic of Zambia"
+ZAM_DEF:0 "The Republic of Zambia"
+ZAM_ADJ:0 "Zambian"
+
+ANG:0 "People's Republic of Angola"
+ANG_DEF:0 "The People's Republic of Angola"
+ANG_ADJ:0 "Angolan"
+
+ETH:0 "Provisional Military Government of Socialist Ethiopia"
+ETH_DEF:0 "The Provisional Military Government of Socialist Ethiopia"
+ETH_ADJ:0 "Ethiopian"
+
+
+
+
+#polish revolts#
+PSL:0 "Polish People's Party"
+PSL_DEF:0 "The Polish People's Party"
+PSL_ADJ:0 "Polish People's"
+
+PPS:0 "Polish Socialist Party"
+PPS_DEF:0 "The Polish Socialist Party"
+PPS_ADJ:0 "Polish Socialist"
+
+RSA:0 "Alternative Society Movement"
+RSA_DEF:0 "The Alternative Society Movement"
+RSA_ADJ:0 "Polish Anarchist"
+
+NZW:0 "Revived National Military Union"
+NZW_DEF:0 "The Revived National Military Union"
+NZW_ADJ:0 "Polish National"
+
+WID:0 "Freedom and Democracy Party"
+WID_DEF:0 "The Freedom and Democracy Party"
+WID_ADJ:0 "Polish"
+
+PSL_united:0 "Provisional Polish People's Government"
+PSL_united_DEF:0 "The Provisional Polish People's Government"
+PSL_united_ADJ:0 "Polish People's"
+

@@ -1,0 +1,40 @@
+﻿capital = 763
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1980.10.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism =  60
+	fascism = 2
+	neutrality = 10
+	democratic = 28
+}
+
+create_country_leader = {
+	
+	name = "Valentin Zyuganov"
+	picture = "gfx/leaders/KAL/portrait_KAL_zyuganov_valentinovich.tga"
+	expire = "2000.1.1"
+	ideology = socialist_mil_junta
+	traits = {
+		socialist_mil_junta_trait
+	}
+}
+
+
+
+
+

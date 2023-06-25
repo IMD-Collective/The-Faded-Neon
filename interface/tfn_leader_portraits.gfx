@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	#eng
+	spriteType = {
+		name = "GFX_portrait_eng_lyle_morris"
+		texturefile = "gfx/leaders/ENG/portrait_ENG_lyle_morris.tga"
+	}
+}

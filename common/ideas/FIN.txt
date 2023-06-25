@@ -1,0 +1,21 @@
+ideas = {
+	country = {
+		the_fading_torch = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+	}
+
+}

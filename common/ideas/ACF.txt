@@ -1,0 +1,48 @@
+ideas = {
+	country = {
+		ACF_anti_cuban_policies = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = ACF_anti_cuba
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				conscription = -0.01
+				fascism_drift = 0.01
+				political_power_gain = 0.1
+			}
+		}
+
+		ACF_criminals_and_scum = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = police_state
+
+			removal_cost = -1
+			
+			modifier = {
+				party_popularity_stability_factor = -0.1
+				offensive_war_stability_factor = 0.15
+				war_support_factor = 0.05
+				weekly_manpower = 100
+			}
+		}
+	}
+
+}

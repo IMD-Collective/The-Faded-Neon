@@ -1,0 +1,76 @@
+﻿capital = 315
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = GRG
+		autonomous_state = autonomy_colony
+	}
+	GRG = {
+		set_politics = {
+			ruling_party = communism
+			last_election = "1963.4.6"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_popularities = {
+			communism = 60
+			fascism = 20
+			democratic = 20
+		}
+		
+		create_country_leader = {
+			name = "Alexander Reid"
+			picture = "gfx/leaders/leader_unknown.dds"
+			expire = "2000.1.1"
+			ideology = leninism
+			traits = {
+				leninism_trait
+			}
+		}
+	}
+	else = {
+		puppet = GRG
+	}
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 60
+	fascism = 30
+	neutrality = 10
+}
+
+create_country_leader = {
+	
+	name = "El Comandante"
+	picture = "gfx/leaders/CUB/el_comandante.dds"
+	expire = "2000.1.1"
+	ideology = leninism
+	traits = {
+		leninism_trait
+	}
+}
+
+
+

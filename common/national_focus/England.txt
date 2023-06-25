@@ -1,0 +1,1172 @@
+focus_tree = {
+	id = english_focus_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 70 y = 2100 }
+
+
+	focus = {
+		id = ENG_pass_the_tenth_decree
+		icon = GFX_goal_eng_tenth_decree
+		x = 5
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			add_stability = -0.05
+			add_political_power = 100
+			add_command_power = 25
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = ENG_enforce_a_puritanical_society
+		icon = GFX_goal_eng_puritanical_society
+		x = -1
+		y = 1
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_pass_the_tenth_decree
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			add_ideas = puritanical_society
+		}
+	}
+
+	focus = {
+		id = ENG_greater_power_to_the_major_generals
+		icon = GFX_goal_eng_increase_major_general_power
+		x = 1
+		y = 1
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_pass_the_tenth_decree
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_construct_steelgate
+		icon = GFX_ENG_construct_steelgate
+		x = 2
+		y = 2
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_greater_power_to_the_major_generals
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_agitation_in_the_east
+		icon =  GFX_ENG_agitation_in_the_east
+		x = 4
+		y = 2
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_greater_power_to_the_major_generals
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_increased_police_activity
+		icon =  GFX_ENG_increased_police_activity
+		x = 4
+		y = 3
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_agitation_in_the_east
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_ignore_radical_old_world_ideologues
+		icon =  GFX_ENG_ignore_radical_old_world_ideologues
+		x = 3
+		y = 4
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		mutually_exclusive = { focus = ENG_investigate_the_movements_of_the_nef }
+		prerequisite = {
+			focus = ENG_agitation_in_the_east
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_ideological_reproach
+		icon =  GFX_ENG_ideological_reproach
+		x = 2
+		y = 5
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_ignore_radical_old_world_ideologues
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_union_of_ideas
+		icon =  GFX_ENG_union_of_ideas
+		x = 2
+		y = 6
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_ideological_reproach
+		}
+		mutually_exclusive = { focus = ENG_major_general_reshuffle }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_major_general_reshuffle
+		icon = GFX_goal_eng_major_general_reshuffle
+		x = 4
+		y = 6
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_ideological_reproach
+		}
+		mutually_exclusive = { focus = ENG_union_of_ideas }
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = ENG_investigate_the_movements_of_the_nef
+		icon =  GFX_ENG_investigate_the_movements_of_the_nef
+		x = 5
+		y = 4
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		mutually_exclusive = { focus = ENG_ignore_radical_old_world_ideologues }
+		prerequisite = {
+			focus = ENG_agitation_in_the_east
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_fund_the_english_intelligence_service
+		icon =  GFX_ENG_fund_the_english_intelligence_service
+		x = 7
+		y = 5
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_investigate_the_movements_of_the_nef
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_raid_the_communication_halls
+		icon =  GFX_ENG_raid_the_communication_halls
+		x = 5
+		y = 5
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_investigate_the_movements_of_the_nef
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_operation_deforestation
+		icon =  GFX_ENG_operation_deforestation
+		x = 6
+		y = 6
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_raid_the_communication_halls 
+			focus = ENG_fund_the_english_intelligence_service
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_a_further_hammer_blow
+		icon =  GFX_ENG_a_further_hammer_blow
+		x = 6
+		y = 7
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_operation_deforestation
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_integrate_the_militias
+		icon =  GFX_ENG_integrate_the_militias
+		x = -2
+		y = 2
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_enforce_a_puritanical_society
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_continue_RSAF_ownership
+		icon =  GFX_goal_eng_rsaf
+		x = 0
+		y = 2
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_enforce_a_puritanical_society
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_a_new_model_army
+		icon =  GFX_ENG_a_new_model_army
+		x = -1
+		y = 3
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_continue_RSAF_ownership
+		}
+
+		prerequisite = {
+			focus = ENG_integrate_the_militias
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_roundheads_cavalry
+		icon =  GFX_ENG_roundheads_cavalry
+		x = -1
+		y = 4
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_a_new_model_army
+		}
+
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_parlimentary_blocks
+		icon =  GFX_ENG_parlimentary_blocks
+		x = 1
+		y = 3
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_greater_power_to_the_major_generals 
+			focus = ENG_continue_RSAF_ownership
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_the_11th_decree
+		icon = GFX_goal_eng_11th_decree
+		x = 0
+		y = 5
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_a_new_model_army
+		}
+		prerequisite = {
+			focus = ENG_parlimentary_blocks 
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = ENG_industrial_pride
+		icon =  GFX_ENG_industrial_pride
+		x = 0
+		y = 7
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_national_repair
+		}
+
+		prerequisite = {
+			focus = ENG_the_11th_decree
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_purge_the_midlands
+		icon =  GFX_ENG_purge_the_midlands
+		x = -3
+		y = 4
+
+		cost = 5
+
+		relative_position_id = ENG_pass_the_tenth_decree
+		prerequisite = {
+			focus = ENG_integrate_the_militias
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_national_repair
+		icon =  GFX_ENG_national_repair
+		x = 1
+		y = 1
+
+		cost = 5
+
+		relative_position_id = ENG_purge_the_midlands
+		prerequisite = {
+			focus = ENG_purge_the_midlands
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_slum_liquidation
+		icon =  GFX_ENG_slum_liquidation
+		x = -1
+		y = 1
+
+		cost = 5
+
+		relative_position_id = ENG_purge_the_midlands
+		prerequisite = {
+			focus = ENG_purge_the_midlands
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_reintegrate_birmingham
+		icon =  GFX_ENG_reintegrate_birmingham
+		x = 0
+		y = 2
+
+		cost = 5
+
+		relative_position_id = ENG_purge_the_midlands
+		prerequisite = {
+			focus = ENG_slum_liquidation
+		}
+		prerequisite = {
+			focus = ENG_national_repair
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_rail_expansion_into_the_east
+		icon =  GFX_ENG_rail_expansion_into_the_east
+		x = 1
+		y = 3
+
+		cost = 5
+
+		relative_position_id = ENG_purge_the_midlands
+		prerequisite = {
+			focus = ENG_reintegrate_birmingham
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_destabilize_steel_city
+		icon =  GFX_goal_generic_anti_com
+		x = 1
+		y = 4
+
+		cost = 5
+
+		relative_position_id = ENG_purge_the_midlands
+		prerequisite = {
+			focus = ENG_rail_expansion_into_the_east
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_increased_steel_production_qoutas
+		icon =  GFX_ENG_increased_steel_production_qoutas
+		x = 2
+		y = 5
+
+		cost = 5
+
+		relative_position_id = ENG_purge_the_midlands
+		prerequisite = {
+			focus = ENG_destabilize_steel_city
+		}
+		prerequisite = {
+			focus = ENG_industrial_pride
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_reintegrate_the_east_midlands
+		icon =  GFX_ENG_reintegrate_the_east_midlands
+		x = 0
+		y = 5
+
+		cost = 5
+
+		relative_position_id = ENG_purge_the_midlands
+		prerequisite = {
+			focus = ENG_reintegrate_birmingham
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_pressure_on_wales
+		icon =  GFX_ENG_pressure_on_wales
+		x = -2
+		y = 3
+
+		cost = 5
+
+		relative_position_id = ENG_purge_the_midlands
+		prerequisite = {
+			focus = ENG_reintegrate_birmingham
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_contact_welsh_sympathisers
+		icon =  GFX_ENG_contact_welsh_sympathisers
+		x = -1
+		y = 4
+
+		cost = 5
+
+		relative_position_id = ENG_purge_the_midlands
+		prerequisite = {
+			focus = ENG_pressure_on_wales
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_draft_the_cardiff_decree
+		icon =  GFX_ENG_draft_the_cardiff_decree
+		x = -3
+		y = 4
+
+		cost = 5
+
+		relative_position_id = ENG_purge_the_midlands
+		prerequisite = {
+			focus = ENG_pressure_on_wales
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_incite_the_draig_goch_revolt
+		icon =  GFX_ENG_incite_the_draig_goch_revolt
+		x = -2
+		y = 5
+
+		cost = 5
+
+		relative_position_id = ENG_purge_the_midlands
+		prerequisite = {
+			focus = ENG_contact_welsh_sympathisers
+		}
+		prerequisite = {
+			focus = ENG_draft_the_cardiff_decree
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = ENG_a_duty_to_the_nation
+		icon = GFX_goal_eng_duty_to_the_nation
+		x = -1
+		y = 6
+
+		cost = 5
+
+		relative_position_id = ENG_purge_the_midlands
+		prerequisite = {
+			focus = ENG_incite_the_draig_goch_revolt
+		}
+		prerequisite = {
+			focus = ENG_reintegrate_the_east_midlands
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		available_if_capitulated = yes
+		search_filters = {}
+		completion_reward = {
+			
+		}
+	}
+
+	
+	
+}

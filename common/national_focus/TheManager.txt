@@ -1,0 +1,263 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = manager_focus_tree
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ISC
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 70 y = 1300 }
+
+	focus = {
+		id = ISC_yearly_report
+		icon = GFX_goal_unknown
+		x = 4
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		 
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ISC_the_garrison
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+        prerequisite = { focus = ISC_yearly_report }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		 
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = ISC_the_workers
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+        prerequisite = { focus = ISC_yearly_report }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		 
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			 
+		}
+	}
+
+	focus = {
+		id = ISC_the_factories
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+        prerequisite = { focus = ISC_yearly_report }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		 
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			 
+		}
+	}
+
+	focus = {
+		id = ISC_a_new_world
+		icon = GFX_goal_unknown
+		x = 3
+		y = 2
+        prerequisite = { focus = ISC_the_garrison }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		 
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			 
+		}
+	}
+
+	focus = {
+		id = ISC_a_new_quotas
+		icon = GFX_goal_unknown
+		x = 5
+		y = 2
+        prerequisite = { focus = ISC_the_factories }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		 
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			 
+		}
+	}
+
+	focus = {
+		id = ISC_a_unrelenting_march
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		prerequisite = { focus = ISC_a_new_quotas }
+		prerequisite = { focus = ISC_the_workers }
+		prerequisite = { focus = ISC_a_new_world }
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		 
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			 
+		}
+	}
+
+	focus = {
+		id = ISC_sorting_the_garrison
+		icon = GFX_goal_unknown
+		x = 12
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		 
+		continue_if_invalid = no
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			 
+		}
+	}
+
+}

@@ -1,0 +1,41 @@
+ideas = {
+	country = {
+		FRA_leader_of_the_partnership_for_liberty = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_partnership_for_liberty
+			
+			modifier = {
+				political_power_factor  = 0.05
+				foreign_subversive_activites = -0.1
+			}
+		}
+
+		FRA_imprudent_capitalists_and_blind_gaullists = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = fra_imprudent_capitalists_and_blind_gaullists
+			
+			modifier = {
+			}
+		}
+	}
+}

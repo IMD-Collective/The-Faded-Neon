@@ -1,0 +1,24 @@
+state={
+	id=874
+	name="STATE_874"
+
+	history={
+		owner = DAK
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = LOU
+		victory_points = {
+			12489 1 
+		}
+
+	}
+
+	provinces={
+		1503 7485 7543 10355 12458 12489 12778 
+	}
+	manpower = 1054481
+	state_category = town
+	buildings_max_level_factor=1.000
+}

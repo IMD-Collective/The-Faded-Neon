@@ -1,0 +1,16 @@
+spriteTypes = {	
+
+	##ministers
+
+	##ideas
+
+	spriteType = {
+		name = "GFX_idea_the_mad_duke"
+		texturefile = "gfx/interface/ideas/KAR/the_mad_duke.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_disloyal_people"
+		texturefile = "gfx/interface/ideas/KAR/disloyal_people.dds"
+	}
+
+}

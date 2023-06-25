@@ -1,0 +1,46 @@
+ideas = {
+	country = {
+		tus_union_state = {
+
+			picture = generic_poor_economy
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.1	
+				drift_defence_factor = -0.15
+				war_support_factor = -0.10
+				production_speed_buildings_factor = 0.1
+			}
+		}
+
+		tus_pci_split = {
+
+			picture = generic_poor_economy
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				non_core_manpower = 0.02
+				mobilization_laws_cost_factor = -0.1
+				stability_factor = -0.05
+			}
+		}
+	}
+}

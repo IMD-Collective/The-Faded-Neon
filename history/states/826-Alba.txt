@@ -1,0 +1,23 @@
+state = {
+	id=826
+	name="STATE_826"
+	manpower = 800450
+	resources = { steel = 12 }
+	
+	state_category = town
+
+	history = {
+		owner = TRA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+
+		victory_points = { 11622 5 }
+
+		add_core_of = TRA
+	}
+
+	provinces = { 693 3694 11622 }
+}

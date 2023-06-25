@@ -1,0 +1,19 @@
+spriteTypes = {	
+
+	##ministers
+
+	##ideas
+	spriteType = {
+		name = "GFX_idea_benevolent_manager"
+		textureFile = "gfx/interface/ideas/ISC/benevolent_manager.dds"
+	}
+	
+	
+	#focus
+
+	##event pics
+
+	##companies
+
+
+}

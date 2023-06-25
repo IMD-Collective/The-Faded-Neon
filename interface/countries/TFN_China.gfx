@@ -1,0 +1,68 @@
+spriteTypes = {	
+
+	##event pics
+	spriteType = {
+		name = "GFX_report_event_chi_01"
+		texturefile = "gfx/event_pictures/chi/report_event_chi_01.dds"
+	}
+	
+	##ideas
+	spriteType = {
+		name = "GFX_idea_CHI_communist_crackdowns"
+		texturefile = "gfx/interface/ideas/CHI/CHI_Communist_Crackdowns.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHI_infantry_weapons_medium"
+		textureFile = "gfx/interface/technologies/CHI_infantry_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHI_infantry_weapons1_medium"
+		textureFile = "gfx/interface/technologies/CHI_infantry_equipment_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHI_improved_infantry_weapons_medium"
+		textureFile = "gfx/interface/technologies/CHI_infantry_equipment_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHI_advanced_infantry_weapons_medium"
+		textureFile = "gfx/interface/technologies/CHI_infantry_equipment_4.dds"
+	}
+
+	##focus
+	spriteType = {
+		name = "GFX_goal_CHI_one_china_policy"
+		texturefile = "gfx/interface/goals/CHI/goal_CHI_one_china_policy.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_CHI_control_the_military"
+		texturefile = "gfx/interface/goals/CHI/goal_CHI_control_the_military.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_CHI_cooperation_with_the_military"
+		texturefile = "gfx/interface/goals/CHI/goal_CHI_cooperation_with_the_military.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_CHI_guomindang"
+		texturefile = "gfx/interface/goals/CHI/goal_CHI_guomindang.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_CHI_force_songs_resignation"
+		texturefile = "gfx/interface/goals/CHI/goal_CHI_force_songs_resignation.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_CHI_new_urban_centres"
+		texturefile = "gfx/interface/goals/CHI/goal_CHI_new_urban_centres.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_CHI_russian_entente"
+		texturefile = "gfx/interface/goals/CHI/goal_CHI_russian_entente.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_CHI_project_homecoming"
+		texturefile = "gfx/interface/goals/CHI/goal_CHI_project_homecoming.dds"
+	}
+}

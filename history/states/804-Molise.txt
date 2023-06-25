@@ -1,0 +1,22 @@
+state={
+	id=804
+	name="STATE_804"
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ITA
+		add_core_of = BIT
+
+	}
+
+	provinces={
+		3923 3966 
+	}
+	manpower=579335
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

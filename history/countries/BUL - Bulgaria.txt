@@ -1,0 +1,41 @@
+﻿capital = 48
+
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1931.6.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 35
+	fascism = 10
+	communism = 30
+	democratic = 25
+}
+
+create_country_leader = {
+	
+	name = "Aleksandar Dimitriev"
+	picture = "gfx/leaders/BUL/portrait_BUL_aleksandar_dimitriev.tga"
+	expire = "2000.1.1"
+	ideology = auth_democratic
+	traits = {
+		auth_democratic_trait
+	}
+}
+
+
+
+
+

@@ -1,0 +1,18 @@
+spriteTypes = {	
+
+	##ideas
+
+	spriteType = {
+		name = "GFX_idea_BIT_sismi"
+		texturefile = "gfx/interface/ideas/BIT/idea_BIT_sismi.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_BIT_reverence_of_mussolini"
+		texturefile = "gfx/interface/ideas/BIT/idea_BIT_reverence_of_mussolini.dds"
+	}
+
+
+
+
+}

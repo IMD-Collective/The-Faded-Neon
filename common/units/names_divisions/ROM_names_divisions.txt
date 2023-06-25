@@ -1,0 +1,315 @@
+﻿ROM_INF_01 = {
+	name = "Divizie Infanterie"
+
+	for_countries = { ROM }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "Divizie %d Infanterie"
+
+	ordered = {
+		52 = { "Divizia 1 Infanterie de Garda" }
+		1 = { "Divizie %d Infanterie" }
+		2 = { "Divizie %d Infanterie" }
+		3 = { "Divizie %d Infanterie" }
+		4 = { "Divizie %d Infanterie" }
+		5 = { "Divizie %d Infanterie" }
+		6 = { "Divizie %d Infanterie" }
+		7 = { "Divizie %d Infanterie" }
+		8 = { "Divizie %d Infanterie" }
+		9 = { "Divizie %d Infanterie" }
+		10 = { "Divizie %d Infanterie" }
+		11 = { "Divizie %d Infanterie" }
+		12 = { "Divizie %d Infanterie" }
+		13 = { "Divizie %d Infanterie" }
+		14 = { "Divizie %d Infanterie" }
+		15 = { "Divizie %d Infanterie" }
+		16 = { "Divizie %d Infanterie" }
+		17 = { "Divizie %d Infanterie" }
+		18 = { "Divizie %d Infanterie" }
+		19 = { "Divizie %d Infanterie" }
+		20 = { "Divizie %d Infanterie" }
+		21 = { "Divizie %d Infanterie" }
+		53 = { "Divizia 2 Infanterie de Garda" }
+		22 = { "Divizie %d Infanterie" }
+		23 = { "Divizie %d Infanterie" }
+		24 = { "Divizie %d Infanterie" }
+		25 = { "Divizie %d Infanterie" }
+		26 = { "Divizie %d Infanterie" }
+		27 = { "Divizie %d Infanterie" }
+		28 = { "Divizie %d Infanterie" }
+		29 = { "Divizie %d Infanterie" }
+		30 = { "Divizie %d Infanterie" }
+		31 = { "Divizie %d Infanterie" }
+		32 = { "Divizie %d Infanterie" }
+		54 = { "Divizie 1 Fortificatii" }
+		55 = { "Divizie 1 Graniceri" }
+		36 = { "Divizie %d Infanterie" }
+		37 = { "Divizie %d Infanterie" }
+		38 = { "Divizie %d Infanterie" }
+		39 = { "Divizie %d Infanterie" }
+		40 = { "Divizie %d Infanterie" }
+		41 = { "Divizie %d Infanterie" }
+		42 = { "Divizie %d Infanterie" }
+		43 = { "Divizie %d Infanterie" }
+		44 = { "Divizie %d Infanterie" }
+		45 = { "Divizie %d Infanterie" }
+		46 = { "Divizie %d Infanterie" }
+		47 = { "Divizie %d Infanterie" }
+		48 = { "Divizie %d Infanterie" }
+		49 = { "Divizie %d Infanterie" }
+		50 = { "Divizie %d Infanterie" }
+		51 = { "Divizie %d Infanterie" }
+	}
+}
+
+ROM_CAV_01 = {
+	name = "Brigada Cavalerie"
+
+	for_countries = { ROM }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "Brigada %d Cavalerie"
+
+	ordered = {
+		1 = { "Brigada %d Cavalerie" }
+		5 = { "Brigada %d Cavalerie" }
+		6 = { "Brigada %d Cavalerie" }
+		7 = { "Brigada %d Cavalerie" }
+		8 = { "Brigada %d Cavalerie" }
+		9 = { "Brigada %d Cavalerie" }
+		10 = { "Brigada %d Cavalerie" }
+		11 = { "Brigada %d Cavalerie" }
+		12 = { "Brigada %d Cavalerie" }
+		13 = { "Brigada %d Cavalerie" }
+		14 = { "Brigada %d Cavalerie" }
+		15 = { "Brigada %d Cavalerie" }
+		16 = { "Brigada %d Cavalerie" }
+	}
+}
+
+ROM_MOT_01 = {
+	name = "Divizie Motomecanizat"
+
+	for_countries = { ROM }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	link_numbering_with = { ROM_INF_01 }
+
+	fallback_name = "Divizie %d Motomecanizat"
+
+	ordered = {
+		1 = { "Divizie %d Motomecanizat" }
+		2 = { "Divizie %d Motomecanizat" }
+		3 = { "Divizie %d Motomecanizat" }
+		4 = { "Divizie %d Motomecanizat" }
+		5 = { "Divizie %d Motomecanizat" }
+		6 = { "Divizie %d Motomecanizat" }
+		7 = { "Divizie %d Motomecanizat" }
+		8 = { "Divizie %d Motomecanizat" }
+		9 = { "Divizie %d Motomecanizat" }
+		10 = { "Divizie %d Motomecanizat" }
+		11 = { "Divizie %d Motomecanizat" }
+		12 = { "Divizie %d Motomecanizat" }
+		13 = { "Divizie %d Motomecanizat" }
+		14 = { "Divizie %d Motomecanizat" }
+		15 = { "Divizie %d Motomecanizat" }
+		16 = { "Divizie %d Motomecanizat" }
+	}
+}
+
+ROM_ARM_01 = {
+	name = "Batalionul Tancuri"
+
+	for_countries = { ROM }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "Batalionul %d Tancuri"
+
+	ordered = {
+		1 = { "Batalionul %d Tancuri" }
+		2 = { "Batalionul %d Tancuri" }
+		3 = { "Batalionul %d Tancuri" }
+		4 = { "Batalionul %d Tancuri" }
+		5 = { "Batalionul %d Tancuri" }
+		6 = { "Batalionul %d Tancuri" }
+		7 = { "Batalionul %d Tancuri" }
+		8 = { "Batalionul %d Tancuri" }
+		9 = { "Batalionul %d Tancuri" }
+		10 = { "Batalionul %d Tancuri" }
+		11 = { "Batalionul %d Tancuri" }
+		12 = { "Batalionul %d Tancuri" }
+		13 = { "Batalionul %d Tancuri" }
+		14 = { "Batalionul %d Tancuri" }
+		15 = { "Batalionul %d Tancuri" }
+		16 = { "Batalionul %d Tancuri" }
+	}
+}
+
+ROM_MEC_01 = {
+	name = "Brigada Mecanizata"
+
+	for_countries = { ROM }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized"  }
+
+	link_numbering_with = { ROM_INF_01 }
+
+	fallback_name = "Brigada %d Mecanizata"
+
+	ordered = {
+		1 = { "Brigada %d Mecanizata" }
+		2 = { "Brigada %d Mecanizata" }
+		3 = { "Brigada %d Mecanizata" }
+		4 = { "Brigada %d Mecanizata" }
+		5 = { "Brigada %d Mecanizata" }
+		6 = { "Brigada %d Mecanizata" }
+		7 = { "Brigada %d Mecanizata" }
+		8 = { "Brigada %d Mecanizata" }
+		9 = { "Brigada %d Mecanizata" }
+		10 = { "Brigada %d Mecanizata" }
+		11 = { "Brigada %d Mecanizata" }
+		12 = { "Brigada %d Mecanizata" }
+		13 = { "Brigada %d Mecanizata" }
+		14 = { "Brigada %d Mecanizata" }
+		15 = { "Brigada %d Mecanizata" }
+		16 = { "Brigada %d Mecanizata" }
+	}
+}
+
+ROM_GAR_01 = {
+	name = "Divizia Paza"
+
+	for_countries = { ROM }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "Divizia %d Paza"
+
+	ordered = {
+		1 = { "Divizia %d Paza" }
+		2 = { "Divizia %d Paza" }
+		3 = { "Divizia %d Paza" }
+		4 = { "Divizia %d Paza" }
+		5 = { "Divizia %d Paza" }
+		6 = { "Divizia %d Paza" }
+		7 = { "Divizia %d Paza" }
+		8 = { "Divizia %d Paza" }
+		9 = { "Divizia %d Paza" }
+		10 = { "Divizia %d Paza" }
+		11 = { "Divizia %d Paza" }
+		12 = { "Divizia %d Paza" }
+		13 = { "Divizia %d Paza" }
+		14 = { "Divizia %d Paza" }
+		15 = { "Divizia %d Paza" }
+		16 = { "Divizia %d Paza" }
+	}
+}
+
+ROM_MAR_01 = {
+	name = "Batalionul Infanterie Marina"
+
+	for_countries = { ROM }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	fallback_name = "Batalionul %d Infanterie Marina"
+
+	ordered = {
+		1 = { "Batalionul %d Infanterie Marina" }
+		2 = { "Batalionul %d Infanterie Marina" }
+		3 = { "Batalionul %d Infanterie Marina" }
+		4 = { "Batalionul %d Infanterie Marina" }
+		5 = { "Batalionul %d Infanterie Marina" }
+		6 = { "Batalionul %d Infanterie Marina" }
+		7 = { "Batalionul %d Infanterie Marina" }
+		8 = { "Batalionul %d Infanterie Marina" }
+		9 = { "Batalionul %d Infanterie Marina" }
+		10 = { "Batalionul %d Infanterie Marina" }
+		11 = { "Batalionul %d Infanterie Marina" }
+		12 = { "Batalionul %d Infanterie Marina" }
+		13 = { "Batalionul %d Infanterie Marina" }
+		14 = { "Batalionul %d Infanterie Marina" }
+		15 = { "Batalionul %d Infanterie Marina" }
+		16 = { "Batalionul %d Infanterie Marina" }
+	}
+}
+
+ROM_MTN_01 = {
+	name = "Brigada Vanatori de Munte"
+
+	for_countries = { ROM }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	fallback_name = "Brigada %d Vanatori de Munte"
+
+	ordered = {
+		1 = { "Brigada %d Vanatori de Munte" }
+		2 = { "Brigada %d Vanatori de Munte" }
+		3 = { "Brigada %d Vanatori de Munte" }
+		4 = { "Brigada %d Vanatori de Munte" }
+		5 = { "Brigada %d Vanatori de Munte" }
+		6 = { "Brigada %d Vanatori de Munte" }
+		7 = { "Brigada %d Vanatori de Munte" }
+		8 = { "Brigada %d Vanatori de Munte" }
+		9 = { "Brigada %d Vanatori de Munte" }
+		10 = { "Brigada %d Vanatori de Munte" }
+		11 = { "Brigada %d Vanatori de Munte" }
+		12 = { "Brigada %d Vanatori de Munte" }
+		13 = { "Brigada %d Vanatori de Munte" }
+		14 = { "Brigada %d Vanatori de Munte" }
+		15 = { "Brigada %d Vanatori de Munte" }
+		16 = { "Brigada %d Vanatori de Munte" }
+	}
+}
+
+ROM_PAR_01 = {
+	name = "Divizie Parasutisti"
+
+	for_countries = { ROM }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	fallback_name = "Divizie %d Parasutisti"
+
+	ordered = {
+		1 = { "Divizie %d Parasutisti" }
+		2 = { "Divizie %d Parasutisti" }
+		3 = { "Divizie %d Parasutisti" }
+		4 = { "Divizie %d Parasutisti" }
+		5 = { "Divizie %d Parasutisti" }
+		6 = { "Divizie %d Parasutisti" }
+		7 = { "Divizie %d Parasutisti" }
+		8 = { "Divizie %d Parasutisti" }
+		9 = { "Divizie %d Parasutisti" }
+		10 = { "Divizie %d Parasutisti" }
+		11 = { "Divizie %d Parasutisti" }
+		12 = { "Divizie %d Parasutisti" }
+		13 = { "Divizie %d Parasutisti" }
+		14 = { "Divizie %d Parasutisti" }
+		15 = { "Divizie %d Parasutisti" }
+		16 = { "Divizie %d Parasutisti" }
+	}
+}

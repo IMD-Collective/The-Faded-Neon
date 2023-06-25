@@ -1,0 +1,74 @@
+#by CMCMC
+#texture for scripted gui properties
+#faction icon
+defined_text = { 
+	name = GetFactionIconSmall
+		
+	text = {
+		trigger = { 
+			is_in_faction_with = DDR
+		}
+		localization_key = GFX_fi_DDR
+	}
+	text = {
+		trigger = { 
+			is_in_faction_with = FRA
+		}
+		localization_key = GFX_fi_FRA
+	}
+	text = {
+		trigger = { 
+			is_in_faction_with = PRC
+		}
+		localization_key = GFX_fi_PRC
+	}
+	text = {
+		trigger = { 
+			is_in_faction_with = CHI
+		}
+		localization_key = GFX_fi_CHI
+	}
+	text = {
+		trigger = { 
+		#generic
+		}
+		localization_key = GFX_fi_nah
+	}	
+}
+
+defined_text = { 
+	name = GetFactionBackground
+		
+	text = {
+		trigger = { 
+			is_in_faction_with = DDR
+		}
+		localization_key = GFX_cm_fl_bg_DDR
+	}
+	text = {
+		trigger = { 
+			is_in_faction_with = FRA
+		}
+		localization_key = GFX_cm_fl_bg_FRA
+	}
+	text = {
+		trigger = { 
+			is_in_faction_with = PRC
+		}
+		localization_key = GFX_cm_fl_bg_PRC
+	}
+	text = {
+		trigger = { 
+			is_in_faction_with = CHI
+		}
+		localization_key = GFX_cm_fl_bg_CHI
+	}
+	text = {
+		trigger = { 
+		#generic
+		 }
+		localization_key = GFX_cm_fl_bg_generic
+	}	
+}
+
+

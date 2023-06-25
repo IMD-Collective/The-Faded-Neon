@@ -1,0 +1,20 @@
+state = {
+	id = 814
+	name = "STATE_814"
+	manpower = 129120
+	
+	state_category = rural
+	
+	history = {
+		owner = TRA
+		buildings = { infrastructure = 3 }
+
+		add_core_of = TRA
+		add_claim_by = ROM
+
+		victory_points = { 11605 1 }
+
+	}
+
+	provinces = { 6667 11605 }
+}

@@ -1,0 +1,59 @@
+characters = {
+	CHI_ba_yuqi = {
+		name = CHI_ba_yuqi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/portrait_CHI_ba_yuqi.tga"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {
+			}
+		}
+	}
+	CHI_song_wangwen = {
+		name = CHI_song_wangwen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/portrait_CHI_song_wangwen.tga"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = {
+				CHI_national_hero_1
+			}
+		}
+		country_leader = {
+			ideology = auth_democratic
+			traits = {
+				CHI_national_hero_1
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {
+				CHI_national_hero_1
+			}
+		}
+	}
+	CHI_zhang_weicheng = {
+		name = CHI_zhang_weicheng
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/portrait_CHI_song_wangwen.tga"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			traits = {
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = {
+			}
+		}
+	}
+}

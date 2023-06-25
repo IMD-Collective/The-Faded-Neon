@@ -1,0 +1,1612 @@
+focus_tree = {
+	id = CHI_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CHI
+		}
+	}
+	default = no
+
+	initial_show_position = { focus = CHI_project_homecoming }
+
+	shared_focus = CHI_expel_party_rebels
+	shared_focus = CHI_work_with_the_opposition
+	shared_focus = CHI_project_homecoming
+
+	continuous_focus_position = { x = 1300 y = 1500 }
+}
+
+shared_focus = {
+	id = CHI_expel_party_rebels
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 8
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_expel_party_rebels"
+		add_popularity = { ideology = fascism popularity = 0.05 }
+		add_popularity = { ideology = neutrality popularity = 0.05 }
+		add_war_support = 0.10
+	}
+	mutually_exclusive = { focus = CHI_work_with_the_opposition }
+}
+
+shared_focus = {
+	id = CHI_work_with_the_opposition
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 20
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_work_with_the_opposition"
+		add_popularity = { ideology = communism popularity = 0.05 }
+		add_popularity = { ideology = democratic popularity = 0.05 }
+		add_stability = 0.10
+	}
+	mutually_exclusive = { focus = CHI_expel_party_rebels }
+}
+
+shared_focus = {
+	id = CHI_approach_the_radical_officers
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -8
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_approach_the_radical_officers"
+	}
+	relative_position_id = CHI_work_with_the_opposition
+	prerequisite = {
+		focus = CHI_work_with_the_opposition
+		focus = CHI_expel_party_rebels
+	}
+	mutually_exclusive = { focus = CHI_condemn_the_radical_officers }
+}
+
+shared_focus = {
+	id = CHI_condemn_the_radical_officers
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -6
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_condemn_the_radical_officers"
+	}
+	relative_position_id = CHI_work_with_the_opposition
+	prerequisite = {
+		focus = CHI_work_with_the_opposition
+		focus = CHI_expel_party_rebels
+	}
+	mutually_exclusive = { focus = CHI_approach_the_radical_officers }
+}
+
+shared_focus = {
+	id = CHI_cooperate_with_the_ultranationalists
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -4
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_cooperate_with_the_ultranationalists"
+	}
+	relative_position_id = CHI_work_with_the_opposition
+	prerequisite = {
+		focus = CHI_work_with_the_opposition
+		focus = CHI_expel_party_rebels
+	}
+	mutually_exclusive = { focus = CHI_ban_ultranationalist_organisations }
+}
+
+shared_focus = {
+	id = CHI_ban_ultranationalist_organisations
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_ban_ultranationalist_organisations"
+	}
+	relative_position_id = CHI_work_with_the_opposition
+	prerequisite = {
+		focus = CHI_work_with_the_opposition
+		focus = CHI_expel_party_rebels
+	}
+	mutually_exclusive = { focus = CHI_cooperate_with_the_ultranationalists }
+}
+
+shared_focus = {
+	id = CHI_the_corporations_plot
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -5
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_corporations_plot"
+		add_political_power = 75
+		add_popularity = { ideology = fascism popularity = 0.05 }
+		# TODO add decisions
+	}
+	relative_position_id = CHI_expel_party_rebels
+	prerequisite = { focus = CHI_expel_party_rebels }
+	mutually_exclusive = { focus = CHI_strengthen_songs_clique }
+}
+
+shared_focus = {
+	id = CHI_strengthen_songs_clique
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 2
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_strengthen_songs_clique"
+		add_political_power = 75
+		add_popularity = { ideology = neutrality popularity = 0.05 }
+		add_stability = -0.05
+	}
+	relative_position_id = CHI_expel_party_rebels
+	prerequisite = { focus = CHI_expel_party_rebels }
+	mutually_exclusive = { focus = CHI_the_corporations_plot }
+}
+
+shared_focus = {
+	id = CHI_national_autarky_plan
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_national_autarky_plan"
+		add_ideas = CHI_chinese_autarky_1
+	}
+	relative_position_id = CHI_the_corporations_plot
+	prerequisite = { focus = CHI_the_corporations_plot }
+}
+
+shared_focus = {
+	id = CHI_embrace_corporatism
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_embrace_corporatism"
+		swap_ideas = {
+			remove_idea = CHI_chinese_autarky_1
+			add_idea = CHI_chinese_autarky_2
+		}
+	}
+	relative_position_id = CHI_national_autarky_plan
+	prerequisite = { focus = CHI_national_autarky_plan }
+}
+
+shared_focus = {
+	id = CHI_military_industry_expansion
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_military_industry_expansion"
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = { building = arms_factory size > 1 include_locked = yes }
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = { type = arms_factory level = 2 instant_build = yes }
+		}
+		random_owned_controlled_state = {
+			limit = {
+				is_core_of = ROOT
+				free_building_slots = { building = arms_factory size > 1 include_locked = yes }
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = { type = arms_factory level = 2 instant_build = yes }
+		}
+	}
+	relative_position_id = CHI_the_corporations_plot
+	prerequisite = { focus = CHI_the_corporations_plot }
+}
+
+shared_focus = {
+	id = CHI_security_contracting
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_security_contracting"
+		add_ideas = CHI_corporate_mercenaries
+	}
+	relative_position_id = CHI_military_industry_expansion
+	prerequisite = { focus = CHI_military_industry_expansion }
+}
+
+shared_focus = {
+	id = CHI_repeal_worker_legislation
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_repeal_worker_legislation"
+		add_ideas = CHI_exploitation_of_labour
+		add_stability = -0.05
+	}
+	relative_position_id = CHI_the_corporations_plot
+	prerequisite = { focus = CHI_the_corporations_plot }
+}
+
+shared_focus = {
+	id = CHI_the_corporate_playground
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 2
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_corporate_playground"
+		add_popularity = { ideology = fascism popularity = 0.10 }
+		# TODO increase economy law
+	}
+	relative_position_id = CHI_the_corporations_plot
+	prerequisite = { focus = CHI_the_corporations_plot }
+}
+
+shared_focus = {
+	id = CHI_eliminate_the_socialists
+	icon = GFX_goal_generic_anti_com
+	cost = 2
+	x = 3
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_eliminate_the_socialists"
+		add_political_power = 75
+		add_popularity = { ideology = communism popularity = -0.10 }
+	}
+	relative_position_id = CHI_the_corporations_plot
+	prerequisite = {
+		focus = CHI_the_corporations_plot
+		focus = CHI_strengthen_songs_clique
+	}
+}
+
+shared_focus = {
+	id = CHI_one_china_policy
+	icon = GFX_goal_CHI_one_china_policy
+	cost = 2
+	x = 4
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_one_china_policy"
+		add_ideas = CHI_chinese_irrendentism
+	}
+	relative_position_id = CHI_the_corporations_plot
+	prerequisite = {
+		focus = CHI_the_corporations_plot
+		focus = CHI_strengthen_songs_clique
+	}
+}
+
+shared_focus = {
+	id = CHI_the_new_life_movement
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_new_life_movement"
+		add_ideas = CHI_cult_of_personality_1
+		add_popularity = { ideology = neutrality popularity = 0.10 }
+	}
+	relative_position_id = CHI_strengthen_songs_clique
+	prerequisite = { focus = CHI_strengthen_songs_clique }
+}
+
+shared_focus = {
+	id = CHI_national_youth_organisation
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_national_youth_organisation"
+		swap_ideas = {
+			remove_idea = CHI_cult_of_personality_1
+			add_idea = CHI_cult_of_personality_2
+		}
+		add_stability = 0.05
+		add_war_support = 0.05
+	}
+	relative_position_id = CHI_the_new_life_movement
+	prerequisite = { focus = CHI_the_new_life_movement }
+}
+
+shared_focus = {
+	id = CHI_historic_chinese_claims
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_historic_chinese_claims"
+		# TODO add claims
+	}
+	relative_position_id = CHI_one_china_policy
+	prerequisite = {
+		focus = CHI_one_china_policy
+		focus = CHI_the_corporate_playground
+	}
+}
+
+shared_focus = {
+	id = CHI_economic_populism
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_economic_populism"
+		# TODO increase economy law
+	}
+	relative_position_id = CHI_one_china_policy
+	prerequisite = { focus = CHI_one_china_policy }
+}
+
+shared_focus = {
+	id = CHI_controlled_opposition
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_controlled_opposition"
+		add_stability = 0.10
+		CHI_song_wangwen = {
+			swap_country_leader_traits = { remove = CHI_national_hero_1 add = CHI_national_hero_2 ideology = auth_democratic }
+		}
+		hidden_effecy = {
+			CHI_song_wangwen = {
+				swap_country_leader_traits = { remove = CHI_national_hero_1 add = CHI_national_hero_2 ideology = conservatism }
+				swap_country_leader_traits = { remove = CHI_national_hero_1 add = CHI_national_hero_2 ideology = fascism_ideology }
+			}
+		}
+	}
+	relative_position_id = CHI_strengthen_songs_clique
+	prerequisite = { focus = CHI_strengthen_songs_clique }
+	prerequisite = { focus = CHI_one_china_policy }
+}
+
+shared_focus = {
+	id = CHI_the_pawns_promotion
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_pawns_promotion"
+		add_political_power = 75
+		add_popularity = { ideology = fascism popularity = 0.05 }
+		set_politics = { ruling_party = fascism }
+	}
+	relative_position_id = CHI_the_corporate_playground
+	prerequisite = { focus = CHI_the_corporate_playground }
+	mutually_exclusive = { focus = CHI_the_enemy_of_my_enemy }
+}
+
+shared_focus = {
+	id = CHI_the_enemy_of_my_enemy
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_enemy_of_my_enemy"
+		add_political_power = 75
+		add_popularity = { ideology = fascism popularity = 0.05 }
+		CHI_song_wangwen = { promote_character = fascism_ideology }
+		set_politics = { ruling_party = fascism }
+	}
+	relative_position_id = CHI_one_china_policy
+	prerequisite = { focus = CHI_one_china_policy }
+	mutually_exclusive = { focus = CHI_the_pawns_promotion }
+}
+
+shared_focus = {
+	id = CHI_puppet_tibet
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -2
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_puppet_tibet"
+		# TODO event
+	}
+	relative_position_id = CHI_historic_chinese_claims
+	prerequisite = { focus = CHI_historic_chinese_claims }
+}
+
+shared_focus = {
+	id = CHI_subjugate_east_turkestan
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_subjugate_east_turkestan"
+		# TODO event
+	}
+	relative_position_id = CHI_puppet_tibet
+	prerequisite = { focus = CHI_puppet_tibet }
+}
+
+shared_focus = {
+	id = CHI_chinese_joint_economic_area
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 5
+	available = {
+		OR = {
+			# Tibet & Xinjiang taken
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_chinese_joint_economic_area"
+	}
+	relative_position_id = CHI_embrace_corporatism
+	prerequisite = { focus = CHI_embrace_corporatism }
+	prerequisite = { focus = CHI_subjugate_east_turkestan }
+}
+
+shared_focus = {
+	id = CHI_corporate_advisors
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_corporate_advisors"
+		swap_ideas = {
+			remove_idea = CHI_chinese_conglomerates_1
+			add_idea = CHI_chinese_conglomerates_2
+		}
+	}
+	relative_position_id = CHI_the_pawns_promotion
+	prerequisite = { focus = CHI_the_pawns_promotion }
+}
+
+shared_focus = {
+	id = CHI_cooperation_with_the_military
+	icon = GFX_goal_CHI_cooperation_with_the_military
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_cooperation_with_the_military"
+	}
+	relative_position_id = CHI_controlled_opposition
+	prerequisite = {
+		focus = CHI_controlled_opposition
+		focus = CHI_the_grand_coalition
+	}
+	mutually_exclusive = { focus = CHI_control_the_military }
+}
+
+shared_focus = {
+	id = CHI_revival_of_the_song_dynasty
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_revival_of_the_song_dynasty"
+	}
+	relative_position_id = CHI_controlled_opposition
+	prerequisite = { focus = CHI_controlled_opposition }
+	mutually_exclusive = { focus = CHI_emergency_powers }
+}
+
+shared_focus = {
+	id = CHI_national_defence_state
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_national_defence_state"
+	}
+	relative_position_id = CHI_the_enemy_of_my_enemy
+	prerequisite = { focus = CHI_the_enemy_of_my_enemy }
+	prerequisite = { focus = CHI_revival_of_the_song_dynasty }
+}
+
+shared_focus = {
+	id = CHI_emergency_powers
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_emergency_powers"
+	}
+	relative_position_id = CHI_cooperation_with_the_military
+	prerequisite = { focus = CHI_cooperation_with_the_military }
+	mutually_exclusive = { focus = CHI_revival_of_the_song_dynasty }
+}
+
+shared_focus = {
+	id = CHI_one_party_dictatorship
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_one_party_dictatorship"
+	}
+	relative_position_id = CHI_emergency_powers
+	prerequisite = { focus = CHI_emergency_powers }
+	mutually_exclusive = { focus = CHI_the_officers_coup }
+}
+
+shared_focus = {
+	id = CHI_the_officers_coup
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_officers_coup"
+	}
+	relative_position_id = CHI_emergency_powers
+	prerequisite = { focus = CHI_emergency_powers }
+	mutually_exclusive = { focus = CHI_one_party_dictatorship }
+}
+
+shared_focus = {
+	id = CHI_legitimise_the_military_junta
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_legitimise_the_military_junta"
+	}
+	relative_position_id = CHI_the_officers_coup
+	prerequisite = { focus = CHI_the_officers_coup }
+}
+
+shared_focus = {
+	id = CHI_march_northwards
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_march_northwards"
+	}
+	relative_position_id = CHI_national_defence_state
+	prerequisite = {
+		focus = CHI_corporate_advisors
+		focus = CHI_national_defence_state
+		focus = CHI_one_party_dictatorship
+		focus = CHI_the_officers_coup
+	}
+}
+
+shared_focus = {
+	id = CHI_seize_korea
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_seize_korea"
+	}
+	relative_position_id = CHI_march_northwards
+	prerequisite = { focus = CHI_march_northwards }
+}
+
+shared_focus = {
+	id = CHI_invasion_of_japan
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_invasion_of_japan"
+	}
+	relative_position_id = CHI_seize_korea
+	prerequisite = { focus = CHI_seize_korea }
+}
+
+shared_focus = {
+	id = CHI_integrate_the_north
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_integrate_the_north"
+	}
+	relative_position_id = CHI_march_northwards
+	prerequisite = { focus = CHI_march_northwards }
+}
+
+shared_focus = {
+	id = CHI_greater_chinese_ambitions
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_greater_chinese_ambitions"
+	}
+	relative_position_id = CHI_march_northwards
+	prerequisite = { focus = CHI_march_northwards }
+}
+
+shared_focus = {
+	id = CHI_control_the_south_china_sea
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_control_the_south_china_sea"
+	}
+	relative_position_id = CHI_greater_chinese_ambitions
+	prerequisite = { focus = CHI_greater_chinese_ambitions }
+}
+
+shared_focus = {
+	id = CHI_taiwan_forward_operating_base
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_taiwan_forward_operating_base"
+	}
+	relative_position_id = CHI_control_the_south_china_sea
+	prerequisite = { focus = CHI_control_the_south_china_sea }
+}
+
+shared_focus = {
+	id = CHI_claims_in_india
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_claims_in_india"
+	}
+	relative_position_id = CHI_greater_chinese_ambitions
+	prerequisite = { focus = CHI_greater_chinese_ambitions }
+}
+
+shared_focus = {
+	id = CHI_compromise_within_the_party
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_compromise_within_the_party"
+	}
+	relative_position_id = CHI_work_with_the_opposition
+	prerequisite = { focus = CHI_work_with_the_opposition }
+}
+
+shared_focus = {
+	id = CHI_renewed_coalition
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_renewed_coalition"
+	}
+	relative_position_id = CHI_work_with_the_opposition
+	prerequisite = { focus = CHI_work_with_the_opposition }
+}
+
+shared_focus = {
+	id = CHI_corporate_buyout
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -6
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_corporate_buyout"
+	}
+	relative_position_id = CHI_renewed_coalition
+	prerequisite = {
+		focus = CHI_renewed_coalition
+		focus = CHI_strengthen_songs_clique
+	}
+	mutually_exclusive = { focus = CHI_support_the_corporations }
+}
+
+shared_focus = {
+	id = CHI_support_the_corporations
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -4
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_support_the_corporations"
+	}
+	relative_position_id = CHI_renewed_coalition
+	prerequisite = {
+		focus = CHI_renewed_coalition
+		focus = CHI_strengthen_songs_clique
+	}
+	mutually_exclusive = { focus = CHI_corporate_buyout }
+}
+
+shared_focus = {
+	id = CHI_consolidation_of_the_kuomintang
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_consolidation_of_the_kuomintang"
+	}
+	relative_position_id = CHI_renewed_coalition
+	prerequisite = { focus = CHI_renewed_coalition }
+}
+
+shared_focus = {
+	id = CHI_weaken_the_leftists
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_weaken_the_leftists"
+	}
+	relative_position_id = CHI_consolidation_of_the_kuomintang
+	prerequisite = { focus = CHI_consolidation_of_the_kuomintang }
+	mutually_exclusive = { focus = CHI_weaken_the_rightists }
+}
+
+shared_focus = {
+	id = CHI_weaken_the_rightists
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_weaken_the_rightists"
+	}
+	relative_position_id = CHI_consolidation_of_the_kuomintang
+	prerequisite = { focus = CHI_consolidation_of_the_kuomintang }
+	mutually_exclusive = { focus = CHI_weaken_the_leftists }
+}
+
+shared_focus = {
+	id = CHI_the_grand_coalition
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -4
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_grand_coalition"
+	}
+	relative_position_id = CHI_weaken_the_leftists
+	prerequisite = { focus = CHI_weaken_the_leftists }
+}
+
+shared_focus = {
+	id = CHI_control_the_military
+	icon = GFX_goal_CHI_control_the_military
+	cost = 2
+	x = 1
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_control_the_military"
+	}
+	relative_position_id = CHI_weaken_the_leftists
+	prerequisite = {
+		focus = CHI_weaken_the_leftists
+		focus = CHI_weaken_the_rightists
+	}
+	mutually_exclusive = { focus = CHI_cooperation_with_the_military }
+}
+
+shared_focus = {
+	id = CHI_legacy_of_revolution
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 5
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_legacy_of_revolution"
+	}
+	relative_position_id = CHI_work_with_the_opposition
+	prerequisite = { focus = CHI_work_with_the_opposition }
+}
+
+shared_focus = {
+	id = CHI_nationalisation_efforts
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_nationalisation_efforts"
+	}
+	relative_position_id = CHI_legacy_of_revolution
+	prerequisite = { focus = CHI_legacy_of_revolution }
+}
+
+shared_focus = {
+	id = CHI_socialist_advisors
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_socialist_advisors"
+	}
+	relative_position_id = CHI_legacy_of_revolution
+	prerequisite = { focus = CHI_legacy_of_revolution }
+}
+
+shared_focus = {
+	id = CHI_agricultural_investments
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_agricultural_investments"
+	}
+	relative_position_id = CHI_nationalisation_efforts
+	prerequisite = { focus = CHI_nationalisation_efforts }
+	prerequisite = { focus = CHI_socialist_advisors }
+}
+
+shared_focus = {
+	id = CHI_regional_work_councils
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_regional_work_councils"
+	}
+	relative_position_id = CHI_nationalisation_efforts
+	prerequisite = { focus = CHI_nationalisation_efforts }
+}
+
+shared_focus = {
+	id = CHI_trade_union_reform
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_trade_union_reform"
+	}
+	relative_position_id = CHI_socialist_advisors
+	prerequisite = { focus = CHI_socialist_advisors }
+}
+
+shared_focus = {
+	id = CHI_force_songs_resignation
+	icon = GFX_goal_CHI_force_songs_resignation
+	cost = 2
+	x = 4
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_force_songs_resignation"
+	}
+	relative_position_id = CHI_weaken_the_rightists
+	prerequisite = { focus = CHI_weaken_the_rightists }
+	prerequisite = {
+		focus = CHI_regional_work_councils
+		focus = CHI_trade_union_reform
+	}
+}
+
+shared_focus = {
+	id = CHI_democratic_socialism
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_democratic_socialism"
+	}
+	relative_position_id = CHI_force_songs_resignation
+	prerequisite = { focus = CHI_force_songs_resignation }
+	mutually_exclusive = { focus = CHI_the_southern_revolution }
+}
+
+shared_focus = {
+	id = CHI_defend_democracy
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_defend_democracy"
+	}
+	relative_position_id = CHI_control_the_military
+	prerequisite = {
+		focus = CHI_control_the_military
+		focus = CHI_democratic_socialism
+	}
+}
+
+shared_focus = {
+	id = CHI_revive_panasianism
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -3
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_revive_panasianism"
+	}
+	relative_position_id = CHI_defend_democracy
+	prerequisite = { focus = CHI_defend_democracy }
+	mutually_exclusive = { focus = CHI_russian_entente }
+}
+
+shared_focus = {
+	id = CHI_russian_entente
+	icon = GFX_goal_CHI_russian_entente
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_russian_entente"
+	}
+	relative_position_id = CHI_defend_democracy
+	prerequisite = { focus = CHI_defend_democracy }
+	mutually_exclusive = { focus = CHI_revive_panasianism }
+}
+
+shared_focus = {
+	id = CHI_panasian_research_program
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_panasian_research_program"
+	}
+	relative_position_id = CHI_revive_panasianism
+	prerequisite = { focus = CHI_revive_panasianism }
+}
+
+shared_focus = {
+	id = CHI_east_asian_alliance
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_east_asian_alliance"
+	}
+	relative_position_id = CHI_revive_panasianism
+	prerequisite = { focus = CHI_revive_panasianism }
+}
+
+shared_focus = {
+	id = CHI_invite_india
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_invite_india"
+	}
+	relative_position_id = CHI_east_asian_alliance
+	prerequisite = { focus = CHI_east_asian_alliance }
+}
+
+shared_focus = {
+	id = CHI_preemptive_attack
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_preemptive_attack"
+	}
+	relative_position_id = CHI_east_asian_alliance
+	prerequisite = { focus = CHI_east_asian_alliance }
+}
+
+shared_focus = {
+	id = CHI_invite_south_east_asia
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_invite_south_east_asia"
+	}
+	relative_position_id = CHI_east_asian_alliance
+	prerequisite = { focus = CHI_east_asian_alliance }
+}
+
+shared_focus = {
+	id = CHI_our_fight_alone
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_our_fight_alone"
+	}
+	relative_position_id = CHI_russian_entente
+	prerequisite = { focus = CHI_russian_entente }
+	mutually_exclusive = { focus = CHI_crusade_against_the_communists }
+}
+
+shared_focus = {
+	id = CHI_restore_democracy_in_russia
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_restore_democracy_in_russia"
+	}
+	relative_position_id = CHI_our_fight_alone
+	prerequisite = { focus = CHI_our_fight_alone }
+}
+
+shared_focus = {
+	id = CHI_crusade_against_the_communists
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_crusade_against_the_communists"
+	}
+	relative_position_id = CHI_russian_entente
+	prerequisite = { focus = CHI_russian_entente }
+	mutually_exclusive = { focus = CHI_our_fight_alone }
+}
+
+shared_focus = {
+	id = CHI_promise_korean_unification
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_promise_korean_unification"
+	}
+	relative_position_id = CHI_crusade_against_the_communists
+	prerequisite = { focus = CHI_crusade_against_the_communists }
+}
+
+shared_focus = {
+	id = CHI_the_legitimate_government_in_japan
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_legitimate_government_in_japan"
+	}
+	relative_position_id = CHI_promise_korean_unification
+	prerequisite = { focus = CHI_promise_korean_unification }
+}
+
+shared_focus = {
+	id = CHI_investments_in_russia
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_investments_in_russia"
+	}
+	relative_position_id = CHI_crusade_against_the_communists
+	prerequisite = { focus = CHI_crusade_against_the_communists }
+}
+
+shared_focus = {
+	id = CHI_the_southern_revolution
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_southern_revolution"
+	}
+	relative_position_id = CHI_force_songs_resignation
+	prerequisite = { focus = CHI_force_songs_resignation }
+	mutually_exclusive = { focus = CHI_democratic_socialism }
+}
+
+shared_focus = {
+	id = CHI_loyalty_to_beijing
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_loyalty_to_beijing"
+	}
+	relative_position_id = CHI_the_southern_revolution
+	prerequisite = { focus = CHI_the_southern_revolution }
+	mutually_exclusive = { focus = CHI_the_legitimate_government }
+}
+
+shared_focus = {
+	id = CHI_the_unification_conference
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_unification_conference"
+	}
+	relative_position_id = CHI_loyalty_to_beijing
+	prerequisite = { focus = CHI_loyalty_to_beijing }
+}
+
+shared_focus = {
+	id = CHI_the_legitimate_government
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_legitimate_government"
+	}
+	relative_position_id = CHI_the_southern_revolution
+	prerequisite = { focus = CHI_the_southern_revolution }
+	mutually_exclusive = { focus = CHI_loyalty_to_beijing }
+}
+
+shared_focus = {
+	id = CHI_destroy_the_revisionists
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_destroy_the_revisionists"
+	}
+	relative_position_id = CHI_the_legitimate_government
+	prerequisite = { focus = CHI_the_legitimate_government }
+}
+
+shared_focus = {
+	id = CHI_take_down_india
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_take_down_india"
+	}
+	relative_position_id = CHI_destroy_the_revisionists
+	prerequisite = { focus = CHI_destroy_the_revisionists }
+}
+
+shared_focus = {
+	id = CHI_eastern_revolution
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_eastern_revolution"
+	}
+	relative_position_id = CHI_destroy_the_revisionists
+	prerequisite = { focus = CHI_destroy_the_revisionists }
+}
+
+shared_focus = {
+	id = CHI_complete_the_asian_revolution
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_complete_the_asian_revolution"
+	}
+	relative_position_id = CHI_take_down_india
+	prerequisite = { focus = CHI_take_down_india }
+	prerequisite = { focus = CHI_eastern_revolution }
+}
+
+shared_focus = {
+	id = CHI_unification_for_russia
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_unification_for_russia"
+	}
+	relative_position_id = CHI_complete_the_asian_revolution
+	prerequisite = { focus = CHI_complete_the_asian_revolution }
+}
+
+shared_focus = {
+	id = CHI_global_revolution
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_global_revolution"
+	}
+	relative_position_id = CHI_complete_the_asian_revolution
+	prerequisite = { focus = CHI_complete_the_asian_revolution }
+}
+
+shared_focus = {
+	id = CHI_project_homecoming
+	icon = GFX_goal_CHI_project_homecoming
+	cost = 2
+	x = 38
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_project_homecoming"
+	}
+}
+
+shared_focus = {
+	id = CHI_army_expansion_program
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -5
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_army_expansion_program"
+	}
+	relative_position_id = CHI_project_homecoming
+	prerequisite = { focus = CHI_project_homecoming }
+}
+
+shared_focus = {
+	id = CHI_the_unsinkable_carrier
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_the_unsinkable_carrier"
+	}
+	relative_position_id = CHI_army_expansion_program
+	prerequisite = { focus = CHI_army_expansion_program }
+	mutually_exclusive = { focus = CHI_build_up_submarine_fleet }
+}
+
+shared_focus = {
+	id = CHI_build_up_submarine_fleet
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_build_up_submarine_fleet"
+	}
+	relative_position_id = CHI_army_expansion_program
+	prerequisite = { focus = CHI_army_expansion_program }
+	mutually_exclusive = { focus = CHI_the_unsinkable_carrier }
+}
+
+shared_focus = {
+	id = CHI_naval_doctrine_effort
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_naval_doctrine_effort"
+	}
+	relative_position_id = CHI_the_unsinkable_carrier
+	prerequisite = {
+		focus = CHI_the_unsinkable_carrier
+		focus = CHI_build_up_submarine_fleet
+	}
+}
+
+shared_focus = {
+	id = CHI_new_dockyard_facilities
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_new_dockyard_facilities"
+	}
+	relative_position_id = CHI_naval_doctrine_effort
+	prerequisite = { focus = CHI_naval_doctrine_effort }
+}
+
+shared_focus = {
+	id = CHI_naval_pride_of_china
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_naval_pride_of_china"
+	}
+	relative_position_id = CHI_naval_doctrine_effort
+	prerequisite = { focus = CHI_naval_doctrine_effort }
+}
+
+shared_focus = {
+	id = CHI_establish_military_schools
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_establish_military_schools"
+	}
+	relative_position_id = CHI_army_expansion_program
+	prerequisite = { focus = CHI_army_expansion_program }
+}
+
+shared_focus = {
+	id = CHI_domestic_weapons_production
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_domestic_weapons_production"
+	}
+	relative_position_id = CHI_establish_military_schools
+	prerequisite = { focus = CHI_establish_military_schools }
+}
+
+shared_focus = {
+	id = CHI_army_innovations
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_army_innovations"
+	}
+	relative_position_id = CHI_domestic_weapons_production
+	prerequisite = { focus = CHI_domestic_weapons_production }
+}
+
+shared_focus = {
+	id = CHI_military_rifle_project
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_military_rifle_project"
+	}
+	relative_position_id = CHI_army_innovations
+	prerequisite = { focus = CHI_army_innovations }
+}
+
+shared_focus = {
+	id = CHI_new_armour_designs
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_new_armour_designs"
+	}
+	relative_position_id = CHI_army_innovations
+	prerequisite = { focus = CHI_army_innovations }
+}
+
+shared_focus = {
+	id = CHI_supremacy_of_arms
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_supremacy_of_arms"
+	}
+	relative_position_id = CHI_new_armour_designs
+	prerequisite = { focus = CHI_new_armour_designs }
+	prerequisite = { focus = CHI_military_rifle_project }
+}
+
+shared_focus = {
+	id = CHI_expand_air_bases
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_expand_air_bases"
+	}
+	relative_position_id = CHI_establish_military_schools
+	prerequisite = { focus = CHI_establish_military_schools }
+}
+
+shared_focus = {
+	id = CHI_aircraft_research_group
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_aircraft_research_group"
+	}
+	relative_position_id = CHI_expand_air_bases
+	prerequisite = { focus = CHI_expand_air_bases }
+}
+
+shared_focus = {
+	id = CHI_home_air_defense
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_home_air_defense"
+	}
+	relative_position_id = CHI_aircraft_research_group
+	prerequisite = { focus = CHI_aircraft_research_group }
+}
+
+shared_focus = {
+	id = CHI_develop_the_west
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_develop_the_west"
+	}
+	relative_position_id = CHI_project_homecoming
+	prerequisite = { focus = CHI_project_homecoming }
+	mutually_exclusive = { focus = CHI_develop_the_east }
+}
+
+shared_focus = {
+	id = CHI_modernisation_of_tibet
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_modernisation_of_tibet"
+	}
+	relative_position_id = CHI_develop_the_west
+	prerequisite = { focus = CHI_develop_the_west }
+}
+
+shared_focus = {
+	id = CHI_xinjiang_oil_field
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_xinjiang_oil_field"
+	}
+	relative_position_id = CHI_modernisation_of_tibet
+	prerequisite = { focus = CHI_modernisation_of_tibet }
+}
+
+shared_focus = {
+	id = CHI_rural_infrastructure_development
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_rural_infrastructure_development"
+	}
+	relative_position_id = CHI_develop_the_west
+	prerequisite = { focus = CHI_develop_the_west }
+}
+
+shared_focus = {
+	id = CHI_new_urban_centres
+	icon = GFX_goal_CHI_new_urban_centres
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_new_urban_centres"
+	}
+	relative_position_id = CHI_rural_infrastructure_development
+	prerequisite = { focus = CHI_rural_infrastructure_development }
+}
+
+shared_focus = {
+	id = CHI_develop_the_east
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 4
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_develop_the_east"
+	}
+	relative_position_id = CHI_project_homecoming
+	prerequisite = { focus = CHI_project_homecoming }
+	mutually_exclusive = { focus = CHI_develop_the_west }
+}
+
+shared_focus = {
+	id = CHI_expand_coastal_infrastructure
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_expand_coastal_infrastructure"
+	}
+	relative_position_id = CHI_develop_the_east
+	prerequisite = { focus = CHI_develop_the_east }
+}
+
+shared_focus = {
+	id = CHI_improve_heavy_industries
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_improve_heavy_industries"
+	}
+	relative_position_id = CHI_expand_coastal_infrastructure
+	prerequisite = { focus = CHI_expand_coastal_infrastructure }
+}
+
+shared_focus = {
+	id = CHI_taiwan_industrial_zone
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_taiwan_industrial_zone"
+	}
+	relative_position_id = CHI_develop_the_east
+	prerequisite = { focus = CHI_develop_the_east }
+}
+
+shared_focus = {
+	id = CHI_steel_mining_expansion
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_steel_mining_expansion"
+	}
+	relative_position_id = CHI_taiwan_industrial_zone
+	prerequisite = { focus = CHI_taiwan_industrial_zone }
+}
+
+shared_focus = {
+	id = CHI_modernised_academia_sinica
+	icon = GFX_goal_eng_tenth_decree
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CHI_modernised_academia_sinica"
+	}
+	relative_position_id = CHI_new_urban_centres
+	prerequisite = {
+		focus = CHI_new_urban_centres
+		focus = CHI_improve_heavy_industries
+	}
+}

@@ -1,0 +1,36 @@
+﻿capital = 3
+
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1982.10.5"
+	election_frequency = 24
+	elections_allowed = no
+}
+set_popularities = {
+	democratic =  60
+	communism = 20
+	neutrality = 20
+}
+
+create_country_leader = {
+	
+	name = "Florina Kappler"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = liberalism
+	traits = {
+		liberalism_trait
+	}
+}
+
+
+

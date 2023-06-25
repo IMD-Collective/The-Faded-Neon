@@ -1,0 +1,24 @@
+state={
+	id=881
+	name="STATE_881"
+
+	history={
+		owner = DAK
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = DAK
+		victory_points = {
+			1827 5 
+		}
+
+	}
+
+	provinces={
+		1809 1827 3869 7780 10588 11772 12570 12642 
+	}
+	manpower=735790
+	state_category = town
+	buildings_max_level_factor=1.000
+}

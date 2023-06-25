@@ -1,0 +1,39 @@
+ideas = {
+	country = {
+		benevolent_manager = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			stability_factor = 0.05
+			MONTHLY_POPULATION = -0.025
+			}
+		}
+		
+		soviet_garrison = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = western_group_of_forces
+
+			removal_cost = -1
+			modifier = {
+			army_org_factor = 0.05
+			}
+		}
+	}
+}

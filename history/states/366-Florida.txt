@@ -1,0 +1,36 @@
+
+state={
+	id=366
+	name="STATE_366"
+
+	history={
+		owner = GRG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 3
+			air_base = 8
+			1572 = {
+				naval_base = 2
+
+			}
+			7388 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = GRG
+		victory_points = {
+			1572 10 
+		}
+
+	}
+
+	provinces={
+		866 1556 1572 1584 1913 7388 9834 10489 12439 12752 
+	}
+	manpower=1068210
+	buildings_max_level_factor=1.000
+	state_category=city
+}

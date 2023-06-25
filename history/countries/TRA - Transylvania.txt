@@ -1,0 +1,45 @@
+﻿capital = 813
+
+
+# Starting tech
+	set_technology = {
+		infantry_weapons = 1
+		tech_mountaineers = 1
+		tech_support = 1
+	}
+
+	add_ideas = {
+		TRA_Hungarian_Minority
+		TRA_Insurgent_Terror
+		TRA_Memories_of_Vulcan
+		TRA_Second_Liberation_War
+	}
+
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1981.9.21"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		fascism = 2
+		neutrality = 18
+		democratic = 46
+		communism = 34
+	}
+
+	create_country_leader = {
+		
+		name = "Mihai Racovitza"
+		picture = "gfx/leaders/TRA/portrait_TRA_Mihai_Racovita.tga"
+		desc = "TRA_Mihai_Racovitza_desc"
+		expire = "2000.1.1"
+		ideology = agrarianism
+		traits = { 
+			agrarianism_trait
+		}
+	}
+
+
+

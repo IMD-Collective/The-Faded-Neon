@@ -1,0 +1,42 @@
+﻿capital = 115
+
+add_ideas = {
+	bit_mussolini_reverence
+	bit_secret_service_support
+}
+
+# Starting tech
+
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1980.9.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 65
+	democratic = 20
+	neutrality = 15
+}
+
+create_country_leader = {
+	
+	name = "Gennaro Bellantoni"
+	picture = "gfx/leaders/BIT/portrait_BIT_gennaro_bellantoni.tga"
+	expire = "2000.1.1"
+	ideology = fascism_ideology
+	traits = {
+		fascism_ideology_trait
+	}
+}
+
+
+
+
+

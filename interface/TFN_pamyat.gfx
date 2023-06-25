@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_karelian_gamble"
+		textureFile = "gfx/interface/decisions/karelian_gamble.dds"
+	}
+	spriteType = {
+		name = "GFX_map_karelian_gamble"
+		textureFile = "gfx/interface/karelian_gamble/GFX_map_karelian_gamble.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_finland"
+		textureFile = "gfx/interface/karelian_gamble/icon_finland.dds"
+	}
+}	

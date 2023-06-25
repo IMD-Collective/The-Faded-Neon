@@ -1,0 +1,22 @@
+state={
+	id=766
+	name="STATE_766"
+	manpower = 206855
+	
+	state_category = pastoral
+	
+	history= {
+
+		owner = MOL
+		buildings = {
+			infrastructure = 4
+			6727 = { naval_base = 2 }
+		}
+
+		victory_points = { 6727 3 }
+		victory_points = { 3704 1 }
+
+		add_core_of = MOL
+	}
+	provinces={ 3701 3704 6727 6743	}
+}

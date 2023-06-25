@@ -1,0 +1,20 @@
+state={
+	id=902
+	name="STATE_902"
+
+	history={
+		owner = CRG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CRG
+
+	}
+
+	provinces={
+		12306 12321 12494 
+	}
+	manpower=26638
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

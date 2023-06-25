@@ -1,0 +1,78 @@
+﻿capital = 876
+
+
+set_technology = {
+	infantry_weapons = 2
+	tech_support = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+}
+
+set_convoys = 30
+
+add_ideas = {
+	ACF_criminals_and_scum
+	ACF_anti_cuban_policies
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 33
+	fascism = 47
+	communism = 20
+	neutrality = 0
+}
+
+create_country_leader = {
+	
+	name = "Eugene Gibbs"
+	picture = "gfx/leaders/ACF/portrait_ACF_eugene_gibbs.dds"
+	expire = "2000.1.1"
+	ideology = ultra_nationalism
+	traits = {
+		ultra_nationalism_trait
+	}
+}
+
+create_country_leader = {
+	
+	name = "Jimmy Wheeler"
+	picture = "gfx/leaders/ACF/portrait_ACF_jimmy_wheeler.dds"
+	expire = "2000.1.1"
+	ideology = conservatism
+	traits = {
+		conservatism_trait
+	}
+}
+
+create_country_leader = {
+	
+	name = "Bernardo Cirila"
+	picture = "gfx/leaders/ACF/portrait_ACF_bernardo_cirila.dds"
+	expire = "2000.1.1"
+	ideology = anti_revisionism
+	traits = {
+		anti_revisionism_trait
+	}
+}
+
+create_country_leader = {
+	
+	name = "Howard Pickett"
+	picture = "gfx/leaders/ACF/portrait_ACF_howard_pickett.dds"
+	expire = "2000.1.1"
+	ideology = theocratism
+	traits = {
+		theocratism_trait
+	}
+}
+
+
+
+
+

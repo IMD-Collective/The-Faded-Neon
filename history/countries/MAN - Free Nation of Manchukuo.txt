@@ -1,0 +1,37 @@
+﻿capital = 328
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 45
+	neutrality = 50
+	communism = 5
+}
+
+create_country_leader = {
+	
+	name = "Guan Zhanshan"
+	picture = "gfx/leaders/MAN/portrait_MAN_guan_zhanshan.tga"
+	expire = "2000.1.1"
+	ideology = ultra_nationalism
+	traits = {
+		ultra_nationalism_trait
+	}
+}
+
+
+

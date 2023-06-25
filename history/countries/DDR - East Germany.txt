@@ -1,0 +1,54 @@
+﻿capital = 64
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+create_faction = Cominform
+add_to_faction = POL
+add_to_faction = KAL
+add_to_faction = PNT
+
+add_ideas = {
+	western_group_of_forces
+	a_nation_divided
+	faltering_economy
+	
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 55
+	fascism = 10
+	neutrality = 12
+	democratic = 23
+}
+
+create_country_leader = {
+	
+	name = "Sigmund Neuhaeusser"
+	picture = "gfx/leaders/DDR/portrait_DDR_sigmund_neuhaeusser.tga"
+	desc = "POLITICS_SIGMUND_NEUHAEUSSER_DESC"
+	expire = "2000.1.1"
+	ideology = leninism
+	traits = {
+		leninism_trait
+		corrupt_chairman
+	}
+}
+
+
+
+
+
+

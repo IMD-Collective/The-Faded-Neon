@@ -1,0 +1,20 @@
+state={
+	id=880
+	name="STATE_880"
+
+	history={
+		owner = UTH
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = UTH
+
+	}
+
+	provinces={
+		1738 12627 
+	}
+	manpower=95790
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

@@ -1,0 +1,11 @@
+spriteTypes = {	
+
+	##ministers
+
+	##ideas
+
+	spriteType = {
+		name = "GFX_idea_a_divided_party"
+		texturefile = "gfx/interface/ideas/SSR/a_divided_party.dds"
+	}
+}

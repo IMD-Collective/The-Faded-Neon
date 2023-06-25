@@ -1,0 +1,112 @@
+
+CM_clean_up_faction_list = {	
+	clear_array =  cm_fl_faction_array
+	clr_country_flag = cm_fl_faction_list_opened
+	clr_country_flag = cm_fl_specific_faction_tab_opened
+	clr_country_flag = cm_fl_global_faction_list_opened
+	clr_country_flag = cm_fl_faction_list_opened_pol
+	clr_country_flag = cm_fl_faction_list_opened_diplo
+}
+
+CM_fl_set_up_root_page = {
+	#leader
+	random_country = {
+		limit = {
+			AND = {
+				exists = yes
+				is_in_faction_with = ROOT
+				is_faction_leader = yes 
+			}
+		}
+		add_to_array = { ROOT.cm_fl_faction_array = THIS }
+	}
+	#root if not leader
+	if = { 
+		limit = { ROOT = { is_faction_leader = no } }
+		ROOT = {
+			add_to_array = { ROOT.cm_fl_faction_array = ROOT }
+		}
+	}
+	#other dudes
+	every_other_country = { 
+		limit = {
+			exists = yes
+			is_in_faction_with = ROOT
+			is_faction_leader = no
+			is_subject = no
+		}
+		add_to_array = { ROOT.cm_fl_faction_array = THIS }
+	}
+	every_other_country = { 
+		limit = {
+			exists = yes
+			is_in_faction_with = ROOT
+			is_faction_leader = no
+			is_subject = yes
+		}
+		add_to_array = { ROOT.cm_fl_faction_array = THIS }
+	}
+	
+	ROOT = {
+		set_country_flag = cm_fl_faction_list_opened
+		set_country_flag = cm_fl_specific_faction_tab_opened
+		
+	}	
+}
+
+CM_fl_set_up_targer_page = {
+	#leader
+	random_country = {
+		limit = {
+			AND = {
+				exists = yes
+				is_in_faction_with = PREV
+				is_faction_leader = yes 
+			}
+		}
+		add_to_array = { ROOT.cm_fl_faction_array = THIS }
+	}
+	
+	#other dudes
+	every_country = { 
+		limit = {
+			exists = yes
+			is_in_faction_with = PREV
+			is_faction_leader = no
+			is_subject = no
+		}
+		add_to_array = { ROOT.cm_fl_faction_array = THIS }
+	}
+	every_country = { 
+		limit = {
+			exists = yes
+			is_in_faction_with = PREV
+			is_faction_leader = no
+			is_subject = yes
+		}
+		add_to_array = { ROOT.cm_fl_faction_array = THIS }
+	}
+	ROOT = {
+		set_country_flag = cm_fl_faction_list_opened
+		set_country_flag = cm_fl_specific_faction_tab_opened
+		
+	}
+
+}
+
+CM_fl_set_up_global_page = {
+	
+	every_country = { 
+		limit = {
+			exists = yes
+			is_faction_leader = yes 
+		}
+		add_to_array = { ROOT.cm_fl_faction_array = THIS }
+	}
+	
+	ROOT = { 
+		set_country_flag = cm_fl_global_faction_list_opened 
+		set_country_flag = cm_fl_faction_list_opened
+	} 
+}
+

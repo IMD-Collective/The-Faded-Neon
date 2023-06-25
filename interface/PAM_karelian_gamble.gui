@@ -1,0 +1,18 @@
+guiTypes = {
+   containerWindowType = {
+       name = "karelian_gamble_container"
+	   position = { x = 0 y = 0 }	
+	   size = { width = 100%% height = 391 }
+	   
+	   iconType = {
+	        name = "map_karelian_gamble"
+			position = { x = 12 y = 0 }
+			spriteType = GFX_map_karelian_gamble
+		}
+		iconType = {
+	        name = "icon_finland"
+			position = { x = 25 y = 25 }
+			spriteType = GFX_icon_finland
+		}
+	}
+}

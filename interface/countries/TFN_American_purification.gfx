@@ -1,0 +1,14 @@
+spriteTypes = {	
+
+	##ideas
+
+	spriteType = {
+		name = "GFX_idea_ACF_anti_cuba"
+		texturefile = "gfx/interface/ideas/ACF/idea_ACF_anti_cuba.dds"
+	}
+
+
+
+
+
+}

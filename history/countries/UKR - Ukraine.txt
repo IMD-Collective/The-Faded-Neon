@@ -1,0 +1,37 @@
+﻿capital = 202
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1980.9.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 31
+	democratic = 40
+	fascism = 24
+	neutrality = 5
+}
+
+create_country_leader = {
+	
+	name = "Igor Yarov"
+	picture = "gfx/leaders/UKR/portrait_UKR_igor_yarov.tga"
+	expire = "2000.1.1"
+	ideology = conservatism
+	traits = {
+		conservatism_trait
+	}
+}
+
+
+
+

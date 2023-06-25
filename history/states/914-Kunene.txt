@@ -1,0 +1,19 @@
+state={
+	id=914
+	name="STATE_914"
+	provinces={
+		8136 10978 12519 12921 13217
+	}
+
+	history={
+		owner = PLN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = PLN
+	}
+	manpower=102000
+	state_category = rural
+}

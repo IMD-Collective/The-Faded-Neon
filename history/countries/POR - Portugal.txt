@@ -1,0 +1,40 @@
+﻿capital = 112
+
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 43
+	democratic = 42
+	communism = 10
+	fascism = 5
+}
+
+create_country_leader = {
+	name = "Lourenzo Carvalho"
+	picture = "gfx/leaders/POR/POR_lourenzo_carvalho.tga"
+	expire = "2000.1.1"
+	ideology = oligarchism
+	traits = {
+		oligarchism_trait
+	}
+}
+
+
+
+
+

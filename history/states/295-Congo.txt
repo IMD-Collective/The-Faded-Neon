@@ -1,0 +1,28 @@
+
+state={
+	id=295
+	name="STATE_295" # Leopoldville
+	manpower = 3000000
+	
+	state_category = rural
+	
+	resources={
+		tungsten=2 # was: 2
+	}
+
+	history={
+		owner = CST
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			1516 3 
+		}
+			add_core_of = CST
+	}
+
+	provinces={
+		1516 1731 1817 7548 1929 8054 1968 2024 4128 4515 7716 9986 10025 10858 12795 12896 12907 12945 
+	}
+}

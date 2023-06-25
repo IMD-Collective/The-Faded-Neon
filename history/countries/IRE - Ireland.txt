@@ -1,0 +1,40 @@
+﻿capital = 843
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 50
+	communism = 20
+	fascism = 20
+	neutrality = 10
+}
+
+create_country_leader = {
+	
+	name = "Edward Lynch"
+	picture = "gfx/leaders/IRE/portrait_IRE_edward_lynch.tga"
+	expire = "2000.1.1"
+	ideology = democratic_socialism
+	traits = {
+		democratic_socialism_trait
+	}
+}
+
+
+
+
+

@@ -1,0 +1,70 @@
+﻿capital = 510
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1963.4.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 76
+	democratic = 4
+	communism = 20
+}
+
+create_country_leader = {
+	
+	name = "Sebastián Blancas"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = military_junta
+	traits = {
+		military_junta_trait
+	}
+}
+
+create_country_leader = {
+	
+	name = "Domingo López"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = liberalism
+	traits = {
+		liberalism_trait
+	}
+}
+
+create_country_leader = {
+	
+	name = "Gabriel Roca"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = socialist_mil_junta
+	traits = {
+		socialist_mil_junta_trait
+	}
+}
+
+create_country_leader = {
+	
+	name = "Félix Báez"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = nazism
+	traits = {
+		nazism_trait
+	}
+}
+
+
+

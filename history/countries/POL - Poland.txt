@@ -1,0 +1,121 @@
+﻿capital = 10
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1980.10.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 40
+	democratic = 25
+	fascism = 17
+	neutrality = 18
+}
+add_ideas = {
+	POL_torn_country
+	western_group_of_forces
+	limited_exports
+	limited_conscription
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = PNT
+		autonomous_state = autonomy_colony
+	}
+	PNT = {
+		set_politics = {
+			ruling_party = communism
+			last_election = "1980.10.5"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_popularities = {
+			communism = 35
+			democratic = 24
+			neutrality = 29
+			fascism = 12
+		}
+		
+		create_country_leader = {
+			
+			name = "Polish Nationals Occupation Force"
+			desc = "POL_edward_desc"
+			picture = "gfx/leaders/PNT/portrait_PNT_army.tga"
+			expire = "2000.1.1"
+			ideology = socialist_mil_junta
+			traits = {
+				socialist_mil_junta_trait
+			}
+		}
+	}
+	else = {
+		puppet = PNT
+	}
+}
+
+create_country_leader = {	
+	name = "Edward Malikowski"
+	desc = "POL_edward_desc"
+	picture = "gfx/leaders/POL/portrait_POL_edward_malikowski.tga"
+	expire = "2000.1.1"
+	ideology = leninism
+	traits = {
+		leninism_trait
+		puppet
+	}
+}
+
+create_country_leader = {
+	name = "Leopold Ignatowicz"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = conservatism
+	traits = {
+		conservatism_trait
+	}
+}
+
+create_country_leader = {
+	name = "Wojciech Dobraczynski"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = military_junta
+	traits = {
+		military_junta_trait
+	}
+}
+
+
+create_country_leader = {
+	name = "Bronislaw Cichowski"
+	picture = "gfx/leaders/leader_unknown.dds"
+	expire = "2000.1.1"
+	ideology = falangism
+	traits = {
+		falangism_trait
+	}
+}
+
+
+
+
+
+

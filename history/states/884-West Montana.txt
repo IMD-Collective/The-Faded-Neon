@@ -1,0 +1,20 @@
+state={
+	id=884
+	name="STATE_884"
+
+	history={
+		owner = DAK
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = DAK
+
+	}
+
+	provinces={
+		1736 1854 4838 6742 7779 12676 
+	}
+	manpower=237605
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

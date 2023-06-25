@@ -1,0 +1,9 @@
+﻿l_english:
+
+#Scripted GUI
+ tfn_virus_topbar_text:0 "[?THIS.tfn_virus_percentage|0%]"
+ tfn_virus_state_text:0 "[?THIS.tfn_virus_percentage|0%]"
+ tfn_virus_topbar_tt:0 "Resurgent Virus Level: National Level"
+ tfn_virus_state_tt:0 "Resurgent Virus Level: State Level"
+
+#

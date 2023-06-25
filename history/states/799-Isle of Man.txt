@@ -1,0 +1,25 @@
+state={
+	id=799
+	name="STATE_799"
+
+	history={
+		owner = IOM
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			3311 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = IOM
+
+	}
+
+	provinces={
+		3311 
+	}
+	manpower=48567
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

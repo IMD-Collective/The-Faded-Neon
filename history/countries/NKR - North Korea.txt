@@ -1,0 +1,40 @@
+capital = 527
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_support = 1
+}
+
+set_convoys = 5
+
+recruit_character = NKR_kim_min_su
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1970.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascism = 20
+	communism =  70
+	democratic = 10
+}
+
+create_country_leader = {
+	
+	name = "Yang Jae-Yong"
+	picture = "gfx/leaders/NKR/portrait_NKR_yang_jae_yong.tga"
+	expire = "2000.1.1"
+	ideology = socialist_mil_junta
+	traits = {
+		socialist_mil_junta_trait
+	}
+}
+
+
+
+
+

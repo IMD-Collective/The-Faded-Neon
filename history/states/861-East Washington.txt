@@ -1,0 +1,21 @@
+state={
+	id=861
+	name="STATE_861"
+
+	history={
+		owner = DAK
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = DAK
+
+	}
+
+	provinces={
+		13251 13252 13253 13254
+	}
+	manpower=65643
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
