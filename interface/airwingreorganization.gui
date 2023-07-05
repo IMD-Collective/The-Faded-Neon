@@ -1,5 +1,42 @@
 guiTypes = {
 	containerWindowType = {
+		name = "reinforce_preferences"
+		size = {width=112 height=30}
+		buttonType = {
+			name = "reinforce_1"	
+			position = { x=-0 y=0 }
+			quadTextureSprite = "GFX_wing_prio_strip"
+			frame = 1
+			clicksound = click_default
+			pdx_tooltip = "AIR_REINFORCE_OBSOLETE_ONLY"
+		}
+		buttonType = {
+			name = "reinforce_2"	
+			position = { x=28 y=0 }
+			quadTextureSprite = "GFX_wing_prio_strip"
+			frame = 2
+			clicksound = click_default
+			pdx_tooltip = "AIR_REINFORCE_ANY"
+		}
+		buttonType = {
+			name = "reinforce_3"	
+			position = { x=56 y=0 }
+			quadTextureSprite = "GFX_wing_prio_strip"
+			frame = 3
+			clicksound = click_default
+			pdx_tooltip = "AIR_REINFORCE_ONLY_NEW"
+		}
+		buttonType = {
+			name = "reinforce_4"
+			position = { x=84 y=0 }
+			quadTextureSprite = "GFX_wing_prio_strip"
+			frame = 4
+			clicksound = click_default
+			pdx_tooltip = "AIR_REINFORCE_ONLY_SAME"
+		}
+	}
+	
+	containerWindowType = {
 		name = "strategicair_split_wnd"
 		position = {x=-128 y=-84}
 		orientation = center
