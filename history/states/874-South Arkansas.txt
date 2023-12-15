@@ -1,3 +1,4 @@
+
 state={
 	id=874
 	name="STATE_874"
@@ -7,6 +8,7 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+
 		}
 		add_core_of = LOU
 		victory_points = {
@@ -16,9 +18,10 @@ state={
 	}
 
 	provinces={
-		1503 7485 7543 10355 12458 12489 12778 
+		1503 7543 10355 12458 12489 
 	}
-	manpower = 1054481
-	state_category = town
+	manpower=1054481
 	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

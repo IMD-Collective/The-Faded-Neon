@@ -2,20 +2,16 @@
 state={
 	id=373
 	name="STATE_373"
-	manpower = 3629365
-	
-	state_category = large_city
-	
 	resources={
-		aluminium=12 # was: 18
+		aluminium=12.000
 	}
-
 
 	history={
 		owner = DAK
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 4
+
 		}
 		add_core_of = LOU
 		victory_points = {
@@ -31,6 +27,10 @@ state={
 	}
 
 	provinces={
-		1441 1523 1534 1564 1621 4449 4540 4569 7449 7607 10333 10370 10391 10516 10717 12346 12361 12463 
+		1441 1523 1621 4449 4540 4569 7449 7607 10333 10370 10391 10516 12346 12361 12463 
 	}
+	manpower=3629365
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }

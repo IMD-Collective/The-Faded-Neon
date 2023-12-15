@@ -1,3 +1,4 @@
+
 state={
 	id=886
 	name="STATE_886"
@@ -6,15 +7,17 @@ state={
 		owner = UTH
 		buildings = {
 			infrastructure = 4
+
 		}
 		add_core_of = UTH
 
 	}
 
 	provinces={
-		850 
+		850 1740 12699 
 	}
 	manpower=25572
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
+	local_supplies=0.000
 }

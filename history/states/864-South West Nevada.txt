@@ -1,3 +1,4 @@
+
 state={
 	id=864
 	name="STATE_864"
@@ -6,14 +7,17 @@ state={
 		owner = AWZ
 		buildings = {
 			infrastructure = 4
+
 		}
 		add_core_of = AWZ
+
 	}
 
 	provinces={
-		13260 13261 13262 
+		4816 12399 
 	}
 	manpower=60435
-	state_category = rural
 	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

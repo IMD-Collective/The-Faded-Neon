@@ -2,9 +2,6 @@
 state={
 	id=386
 	name="STATE_386"
-	manpower = 1563395
-	
-	state_category = large_town
 
 	history={
 		owner = AWZ
@@ -16,7 +13,9 @@ state={
 			air_base = 5
 			7315 = {
 				naval_base = 3
+
 			}
+
 		}
 		add_core_of = AWZ
 		victory_points = {
@@ -25,9 +24,14 @@ state={
 		victory_points = {
 			7315 10 
 		}
+
 	}
 
 	provinces={
-		1320 1690 4296 4398 4747 7255 7315 7386 7414 7442 10155 10157 10198 10242 10271 10327 10687 10690 10693 12155 12214 12673 
+		1320 1414 1690 3513 4274 4296 4328 4347 4380 4398 4747 4826 7255 7315 7386 7398 7414 7442 7865 10155 10157 10183 10198 10242 10271 10305 10327 10687 10690 10693 12155 12183 12211 12214 12281 12673 
 	}
+	manpower=1563395
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }

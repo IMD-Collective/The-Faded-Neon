@@ -1,0 +1,11 @@
+
+state={
+	id=950
+	name="STATE_950"
+	provinces={
+		1954 2019 5038 5061 6785 6987 10740 10894 12369 12728 12782 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

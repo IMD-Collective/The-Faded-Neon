@@ -1,0 +1,21 @@
+state={
+	id=918
+	name="STATE_918"
+	provinces={
+		7855 
+	}
+	history={
+		owner = SSR
+		add_core_of = SSR
+		buildings = {
+			infrastructure = 1
+		}
+		#victory_points = {
+		#}
+		
+	}
+	manpower=14752
+	state_category = wasteland
+	buildings_max_level_factor=0.000
+	local_supplies=0.000
+}

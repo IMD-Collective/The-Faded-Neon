@@ -1,3 +1,4 @@
+
 state={
 	id=885
 	name="STATE_885"
@@ -6,6 +7,7 @@ state={
 		owner = DAK
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_core_of = LOU
 		add_core_of = TEX
@@ -13,9 +15,10 @@ state={
 	}
 
 	provinces={
-		12401 13278 
+		1528 1643 4507 12313 12401 13278 
 	}
 	manpower=81592
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
+	local_supplies=0.000
 }
