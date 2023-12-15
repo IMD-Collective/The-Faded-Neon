@@ -3,15 +3,15 @@ state={
 	id=466
 	name="STATE_466"
 	resources={
-		aluminium=4.000
+		aluminium=6.000 # Was 4
 	}
 
 	history={
 		owner = QUE
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 			3691 = {
-				naval_base = 1
+				naval_base = 2
 
 			}
 
@@ -23,7 +23,7 @@ state={
 	provinces={
 		1712 3208 3691 4666 7364 7813 10176 12147 12600 13166 13181 13184 13196 
 	}
-	manpower=318860
+	manpower=40791
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

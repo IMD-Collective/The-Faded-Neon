@@ -7,13 +7,13 @@ state={
 	}
 
 	history={
-		owner = MTT
+		owner = NWC
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 3
+			infrastructure = 2
+			industrial_complex = 2
 
 		}
-		add_core_of = MTT
+		add_core_of = NWC
 		victory_points = {
 			12501 3 
 		}
@@ -23,7 +23,7 @@ state={
 	provinces={
 		913 1758 5059 7791 8014 8083 10281 10657 10824 10909 12501 12670 
 	}
-	manpower=1616555
+	manpower=565794
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 }

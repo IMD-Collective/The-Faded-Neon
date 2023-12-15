@@ -3,7 +3,7 @@ state={
 	name="STATE_883"
 
 	history={
-		owner = DAK
+		owner = KAN
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -12,7 +12,7 @@ state={
 	}
 
 	provinces={
-		1753 4814 4871 10532 12024 12513 
+		1753 4757 4814 4871 10532 12024 12513 
 	}
 	manpower=880998
 	buildings_max_level_factor=1.000

@@ -2,12 +2,12 @@
 state={
 	id=365
 	name="STATE_365"
-	manpower = 2908504
+	manpower = 1047061
 	
 	state_category = city
 
 	history={
-		owner = ACF
+		owner = NWC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
@@ -16,7 +16,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = ACF
+		add_core_of = NWC
 		victory_points = {
 			12384 10 
 		}

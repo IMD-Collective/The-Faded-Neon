@@ -2,20 +2,30 @@
 state={
 	id=740
 	name="STATE_740"
-	manpower = 259612
-	
-	state_category = rural
-
-	history={
-		owner = AWZ
-		buildings = {
-			infrastructure = 1
-		}
-		add_core_of = AWZ
-	}
 
 	provinces={
 		7259 1214 12259 12272 1420 
 	}
+
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			industrial_complex = 1
+			7259 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			7259 3
+		}
+		
+	}
+	manpower=156201
+	state_category = town
+	buildings_max_level_factor=0.000
+	local_supplies=0.000
 	
 }

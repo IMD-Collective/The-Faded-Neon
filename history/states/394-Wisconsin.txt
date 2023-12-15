@@ -9,8 +9,8 @@ state={
 	history={
 		owner = MTT
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 3
+			infrastructure = 2
+			industrial_complex = 4
 
 		}
 		add_core_of = MTT
@@ -23,7 +23,7 @@ state={
 	provinces={
 		703 709 751 926 1560 4166 4738 4834 4854 5205 9657 10599 12357 12456 13159 
 	}
-	manpower=2939004
+	manpower=287182
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

@@ -9,8 +9,8 @@ state={
 	history={
 		owner = DAK
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 4
+			infrastructure = 2
+			industrial_complex = 3
 
 		}
 		add_core_of = LOU
@@ -29,8 +29,8 @@ state={
 	provinces={
 		1441 1523 1621 4449 4540 4569 7449 7607 10333 10370 10391 10516 12346 12361 12463 
 	}
-	manpower=3629365
+	manpower=907341
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=city
 	local_supplies=0.000
 }

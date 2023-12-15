@@ -8,13 +8,13 @@ state={
 	}
 
 	history={
-		owner = DAK
+		owner = GRG
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 5
+			infrastructure = 2
+			industrial_complex = 2
 			air_base = 3
 			10337 = {
-				naval_base = 3
+				naval_base = 2
 
 			}
 			6785 = {
@@ -23,7 +23,7 @@ state={
 			}
 
 		}
-		add_core_of = TEX
+		add_core_of = GRG
 		victory_points = {
 			10337 10 
 		}
@@ -39,8 +39,8 @@ state={
 	provinces={
 		1927 2042 4884 5022 12341 12410 
 	}
-	manpower=5824712
-	buildings_max_level_factor=1.000
-	state_category=metropolis
+	manpower=532921
+	buildings_max_level_factor=0
+	state_category=town
 	local_supplies=0.000
 }

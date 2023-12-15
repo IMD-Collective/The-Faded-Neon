@@ -4,7 +4,19 @@ state={
 	provinces={
 		689 870 4437 6713 9653 9654 11637 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	history={
+		owner = MTT
+		add_core_of = MTT
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+		}
+		#victory_points = {
+		#}
+		
+	}
+	manpower=56156
+	state_category = large_town
+	buildings_max_level_factor=0.000
 	local_supplies=0.000
 }

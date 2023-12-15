@@ -4,7 +4,18 @@ state={
 	provinces={
 		4799 7879 12425 13261 13262 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	history={
+		owner = DAK
+		add_core_of = DAK
+		buildings = {
+			infrastructure = 1
+		}
+		#victory_points = {
+		#}
+		
+	}
+	manpower=51588
+	state_category = pastoral
+	buildings_max_level_factor=0.000
 	local_supplies=0.000
 }

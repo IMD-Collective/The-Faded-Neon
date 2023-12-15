@@ -4,14 +4,14 @@ state={
 	name="STATE_909"
 
 	history={
-		owner = UTH
+		owner = GRG
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 1
 			air_base = 1
 
 		}
-		add_core_of = UTH
+		add_core_of = GRG
 
 	}
 
@@ -20,6 +20,6 @@ state={
 	}
 	manpower=624411
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

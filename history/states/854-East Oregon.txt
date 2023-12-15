@@ -6,7 +6,7 @@ state={
 	history={
 		owner = DAK
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 
 		}
 		add_core_of = DAK
@@ -16,8 +16,8 @@ state={
 	provinces={
 		7721 10625 12553 12607 
 	}
-	manpower=45643
-	buildings_max_level_factor=1.000
+	manpower=83244
+	buildings_max_level_factor=0.000
 	state_category=rural
 	local_supplies=0.000
 }

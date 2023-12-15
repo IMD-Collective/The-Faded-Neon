@@ -3,45 +3,42 @@ state={
 	id=378
 	name="STATE_378"
 	resources={
-		oil=180.000
-		aluminium=8.000
+		oil=18.000
+		aluminium=2.000
 	}
 
 	history={
 		owner = AWZ
 		buildings = {
-			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 6
-			dockyard = 2
-			air_base = 10
-			1562 = {
-				naval_base = 10
-
-			}
-			9671 = {
-				naval_base = 4
-
-			}
-			9814 = {
-				naval_base = 5
-
-			}
-			610 = {
+			infrastructure = 1
+			air_base = 1
+			1562 = { # Severely Damaged (Down from 10!)
 				naval_base = 1
-
+			
 			}
+			9671 = { # Highly damaged
+				naval_base = 1
+			
+			}
+			#9814 = { # Fallen into disrepair
+			#	naval_base = 1
+			#
+			#}
+			#610 = { # Fallen into disrepair
+			#	naval_base = 1
+			#
+			#}
 
 		}
 		add_core_of = AWZ
 		victory_points = {
-			9814 30 
+			9814 1 
 		}
 		victory_points = {
-			1562 15 
+			1562 2 
 		}
 		victory_points = {
-			9671 25 
+			9671 1 
 		}
 		victory_points = {
 			9713 1 
@@ -52,8 +49,8 @@ state={
 	provinces={
 		710 823 941 986 1432 1562 1601 1651 3677 3678 3784 3840 4518 4657 4727 6694 6699 6861 6876 6881 7517 7667 7986 9637 9671 9713 9814 9855 9911 10387 10483 11757 11763 11795 11859 11876 12303 12374 
 	}
-	manpower=5677248
+	manpower=12032
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=wasteland
 	local_supplies=0.000
 }

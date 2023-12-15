@@ -2,9 +2,9 @@
 state={
 	id=360
 	name="STATE_360"
-	manpower = 9631346
+	manpower = 3370971
 	
-	state_category = megalopolis
+	state_category = metropolis
 	
 	resources={
 		steel=44 # was: 80
@@ -12,18 +12,18 @@ state={
 
 
 	history={
-		owner = MTT
+		owner = NWC
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 5
-			dockyard = 7
+			dockyard = 4
 			air_base = 2
 			6845 = {
 				naval_base = 8
 
 			}
 		}
-		add_core_of = MTT
+		add_core_of = NWC
 		victory_points = {
 			6845 20
 		}

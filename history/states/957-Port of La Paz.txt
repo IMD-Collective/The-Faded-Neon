@@ -4,7 +4,18 @@ state={
 	provinces={
 		12736 
 	}
-	manpower=0
+	history={
+		owner = ACF
+		add_core_of = ACF
+		buildings = {
+			infrastructure = 2
+		}
+		#victory_points = {
+		#}
+		
+	}
+	manpower=102931
+	state_category = town
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

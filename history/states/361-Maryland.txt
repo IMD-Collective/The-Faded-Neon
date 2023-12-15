@@ -2,12 +2,12 @@
 state={
 	id=361
 	name="STATE_361"
-	manpower = 1018394
+	manpower = 2018394
 	
 	state_category = rural
 
 	history={
-		owner = MTT
+		owner = NWC
 		victory_points = {
 			6984 5 
 		}
@@ -20,7 +20,7 @@ state={
 
 			}
 		}
-		add_core_of = MTT
+		add_core_of = NWC
 
 	}
 

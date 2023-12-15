@@ -14,7 +14,7 @@ state={
 		#}
 		
 	}
-	manpower=14752
+	manpower=12752
 	state_category = wasteland
 	buildings_max_level_factor=0.000
 	local_supplies=0.000

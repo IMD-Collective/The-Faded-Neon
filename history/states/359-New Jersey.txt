@@ -2,12 +2,12 @@
 state={
 	id=359
 	name="STATE_359"
-	manpower = 4041332
+	manpower = 1414466
 	
 	state_category = large_city
 
 	history={
-		owner = MTT
+		owner = NWC
 		victory_points = {
 			6882 5 
 		}
@@ -17,7 +17,7 @@ state={
 			air_base = 4
 
 		}
-		add_core_of = MTT
+		add_core_of = NWC
 	}
 
 	provinces={

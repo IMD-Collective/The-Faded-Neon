@@ -5,7 +5,18 @@ state={
 	provinces={
 		1954 2019 5038 5061 6785 6987 10740 10894 12369 12728 12782 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	history={
+		owner = ACF
+		add_core_of = ACF
+		buildings = {
+			infrastructure = 2
+		}
+		#victory_points = {
+		#}
+		
+	}
+	manpower=93223
+	state_category = pastoral
+	buildings_max_level_factor=0.000
 	local_supplies=0.000
 }

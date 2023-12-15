@@ -4,14 +4,14 @@ state={
 	name="STATE_357"
 
 	history={
-		owner = BST
+		owner = NWC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
 			dockyard = 3
 
 		}
-		add_core_of = BST
+		add_core_of = NWC
 		victory_points = {
 			12459 1 
 		}
@@ -21,7 +21,7 @@ state={
 	provinces={
 	 	1282 1338 1619 3732 4287 6719 7462 10247 10318 12202 12221 12459 
 	}
-	manpower=2404713
+	manpower=841649
 	buildings_max_level_factor=1.000
 	state_category=city
 }

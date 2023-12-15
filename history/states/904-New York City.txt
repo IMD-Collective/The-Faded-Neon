@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = MTT
+		owner = NWC
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
@@ -19,7 +19,7 @@ state={
 			}
 
 		}
-		add_core_of = MTT
+		add_core_of = NWC
 		victory_points = {
 			3878 30.0 
 		}
@@ -29,7 +29,7 @@ state={
 	provinces={
 		859 3878 
 	}
-	manpower=10588061
+	manpower=3705821
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 }

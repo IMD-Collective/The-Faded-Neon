@@ -1,25 +1,25 @@
 state={
 	id=856
 	name="STATE_856"
-	manpower = 1118394
+	manpower = 1901269
 	
 	state_category = metropolis
 
 	history={
-		owner = MTT
+		owner = NWC
 		victory_points = {
 			3957 40 
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 3
+			industrial_complex = 5
 			dockyard = 1
 			3957 = {
-				naval_base = 1
+				naval_base = 3
 
 			}
 		}
-		add_core_of = MTT
+		add_core_of = NWC
 
 	}
 

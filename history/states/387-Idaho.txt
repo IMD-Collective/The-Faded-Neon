@@ -3,15 +3,15 @@ state={
 	id=387
 	name="STATE_387"
 	resources={
-		steel=18.000
+		steel=10.000 # Was 23
 		chromium=1.000
-		tungsten=18.000
+		tungsten=9.000 # Was 18
 	}
 
 	history={
 		owner = DAK
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 
 		}
 		add_core_of = DAK
@@ -24,8 +24,8 @@ state={
 	provinces={
 		1789 7845 9616 9695 10556 10602 
 	}
-	manpower=445031
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=111791
+	buildings_max_level_factor=0.000
+	state_category=town
 	local_supplies=0.000
 }

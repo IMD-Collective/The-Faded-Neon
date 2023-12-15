@@ -4,7 +4,18 @@ state={
 	provinces={
 		805 1500 4577 7628 10337 10504 10778 10861 12486 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	history={
+		owner = GRG
+		add_core_of = GRG
+		buildings = {
+			infrastructure = 2
+		}
+		#victory_points = {
+		#}
+		
+	}
+	manpower=254392
+	state_category = town
+	buildings_max_level_factor=0.000
 	local_supplies=0.000
 }

@@ -6,11 +6,11 @@ state={
 	history={
 		owner = DAK
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 1
 
 		}
-		add_core_of = LOU
+		add_core_of = DAK
 		victory_points = {
 			12489 1 
 		}
@@ -20,7 +20,7 @@ state={
 	provinces={
 		1503 7543 10355 12458 12489 
 	}
-	manpower=1054481
+	manpower=263620
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

@@ -10,8 +10,8 @@ state={
 	history={
 		owner = CAN
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 2
+			arms_factory = 1
 
 		}
 		add_core_of = CAN
@@ -21,7 +21,7 @@ state={
 	provinces={
 		602 777 1299 1782 4784 4869 6510 7366 9467 9480 9740 10621 11682 12278 12582 12701 
 	}
-	manpower=149059
+	manpower=76598
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

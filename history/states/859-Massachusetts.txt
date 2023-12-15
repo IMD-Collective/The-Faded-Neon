@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		owner = BST
+		owner = NWC
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -17,7 +17,7 @@ state={
 			}
 
 		}
-		add_core_of = BST
+		add_core_of = NWC
 		victory_points = {
 			6732 20 
 		}
@@ -27,7 +27,7 @@ state={
 	provinces={
 		715 718 905 908 3710 3906 6732 
 	}
-	manpower=2345723
+	manpower=821003
 	buildings_max_level_factor=1.000
 	state_category=city
 }

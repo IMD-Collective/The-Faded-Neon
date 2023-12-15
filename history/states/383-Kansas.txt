@@ -7,11 +7,11 @@ state={
 	}
 
 	history={
-		owner = DAK
+		owner = GRG
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 2
 
 		}
 		add_core_of = KAN
@@ -25,10 +25,10 @@ state={
 	}
 
 	provinces={
-		4586 4757 12624 
+		4586 12624 
 	}
-	manpower=1080998
+	manpower=378349
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_town
 	local_supplies=0.000
 }

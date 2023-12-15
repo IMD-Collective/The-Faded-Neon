@@ -1,11 +1,12 @@
 state={
 	id=696
 	name="STATE_696"
-	manpower=37516
+	manpower=11516
 	state_category = small_island
 
 	history={
-		owner = BER
+		owner = NWC
+		add_core_of = NWC
 		victory_points = {
 			13010 1
 		}

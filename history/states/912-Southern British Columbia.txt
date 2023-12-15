@@ -6,11 +6,9 @@ state={
 	history={
 		owner = AWZ
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			dockyard = 1
+			infrastructure = 1
 			1408 = {
-				naval_base = 5
+				naval_base = 1
 
 			}
 
@@ -25,8 +23,8 @@ state={
 	provinces={
 		1408 1858 4413 4428 7677 7753 7853 
 	}
-	manpower=25378
+	manpower=16751
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 	local_supplies=0.000
 }

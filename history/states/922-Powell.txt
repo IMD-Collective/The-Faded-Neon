@@ -4,7 +4,17 @@ state={
 	provinces={
 		1393 4385 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+		}
+		
+	}
+	manpower=32012
+	state_category = town
+	buildings_max_level_factor=0.000
 	local_supplies=0.000
 }

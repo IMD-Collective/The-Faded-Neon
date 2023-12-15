@@ -4,7 +4,18 @@ state={
 	provinces={
 		1760 1849 3699 4029 7776 7829 9678 10341 10526 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	history={
+		owner = MTT
+		add_core_of = MTT
+		buildings = {
+			infrastructure = 1
+		}
+		#victory_points = {
+		#}
+		
+	}
+	manpower=12319
+	state_category = rural
+	buildings_max_level_factor=0.000
 	local_supplies=0.000
 }

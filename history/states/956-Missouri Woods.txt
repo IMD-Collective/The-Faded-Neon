@@ -4,7 +4,18 @@ state={
 	provinces={
 		4863 7880 7883 10706 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	history={
+		owner = BST
+		add_core_of = BST
+		buildings = {
+			infrastructure = 1
+		}
+		#victory_points = {
+		#}
+		
+	}
+	manpower=1492
+	state_category = wasteland
+	buildings_max_level_factor=0.000
 	local_supplies=0.000
 }

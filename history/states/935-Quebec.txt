@@ -4,7 +4,19 @@ state={
 	provinces={
 		1356 1657 4419 4769 7683 7807 7810 7893 10534 10715 12223 13160 13164 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	history={
+		owner = QUE
+		add_core_of = QUE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		#victory_points = {
+		#}
+		
+	}
+	manpower=158963
+	state_category = town
+	buildings_max_level_factor=0.000
 	local_supplies=0.000
 }

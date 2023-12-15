@@ -4,7 +4,18 @@ state={
 	provinces={
 		1998 3867 4955 8070 9773 10867 12301 12720 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	history={
+		owner = TEX
+		add_core_of = TEX
+		buildings = {
+			infrastructure = 1
+		}
+		#victory_points = {
+		#}
+		
+	}
+	manpower=83922
+	state_category = rural
+	buildings_max_level_factor=0.000
 	local_supplies=0.000
 }

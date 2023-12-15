@@ -4,7 +4,20 @@ state={
 	provinces={
 		1663 4865 10582 10651 10662 12573 13153 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	history={
+		owner = UVA
+		add_core_of = UVA
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		#victory_points = {
+		#}
+		
+	}
+	manpower=321982
+	state_category = town
+	buildings_max_level_factor=0.000
 	local_supplies=0.000
 }

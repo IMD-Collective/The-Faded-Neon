@@ -3,7 +3,7 @@ state={
 	name="STATE_855"
 
 	history={
-		owner = CUB
+		owner = NWC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -14,7 +14,7 @@ state={
 			}
 
 		}
-		add_core_of = CUB
+		add_core_of = NWC
 		victory_points = {
 			1843 5 
 		}
@@ -24,7 +24,7 @@ state={
 	provinces={
 		1843 
 	}
-	manpower=238210
+	manpower=139105
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 }

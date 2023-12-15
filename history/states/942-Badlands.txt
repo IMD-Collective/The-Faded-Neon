@@ -5,7 +5,18 @@ state={
 	provinces={
 		1767 4759 6722 7877 12566 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	history={
+		owner = BST
+		add_core_of = BST
+		buildings = {
+			infrastructure = 1
+		}
+		#victory_points = {
+		#}
+		
+	}
+	manpower=11628
+	state_category = rural
+	buildings_max_level_factor=0.000
 	local_supplies=0.000
 }

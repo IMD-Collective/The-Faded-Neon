@@ -4,7 +4,18 @@ state={
 	provinces={
 		2082 3960 5001 5085 6968 9829 9920 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	history={
+		owner = GRG
+		add_core_of = GRG
+		buildings = {
+			infrastructure = 1
+		}
+		#victory_points = {
+		#}
+		
+	}
+	manpower=23892
+	state_category = pastoral
+	buildings_max_level_factor=0.000
 	local_supplies=0.000
 }

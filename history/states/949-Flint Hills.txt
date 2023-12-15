@@ -4,7 +4,18 @@ state={
 	provinces={
 		1352 1806 4740 4811 7892 7904 10340 11802 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	history={
+		owner = GRG
+		add_core_of = GRG
+		buildings = {
+			infrastructure = 1
+		}
+		#victory_points = {
+		#}
+		
+	}
+	manpower=120980
+	state_category = rural
+	buildings_max_level_factor=0.000
 	local_supplies=0.000
 }

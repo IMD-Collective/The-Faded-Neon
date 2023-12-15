@@ -4,7 +4,18 @@ state={
 	provinces={
 		12461 12833 13215 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+	history={
+		owner = ACF
+		add_core_of = ACF
+		buildings = {
+			infrastructure = 3
+		}
+		#victory_points = {
+		#}
+		
+	}
+	manpower=693
+	state_category = wasteland
+	buildings_max_level_factor=0.000
 	local_supplies=0.000
 }

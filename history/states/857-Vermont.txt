@@ -3,7 +3,7 @@ state={
 	name="STATE_857"
 
 	history={
-		owner = MTT
+		owner = NWC
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -11,13 +11,13 @@ state={
 			air_base = 10
 
 		}
-		add_core_of = MTT
+		add_core_of = NWC
 	}
 	
 	provinces={
 		4445 7629 9675 13158
 	}
-	manpower=1543056
+	manpower=540069
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

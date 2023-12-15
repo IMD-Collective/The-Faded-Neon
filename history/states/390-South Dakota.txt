@@ -4,13 +4,13 @@ state={
 	name="STATE_390"
 
 	history={
-		owner = DAK
+		owner = ACF
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 2
 
 		}
-		add_core_of = DAK
+		add_core_of = ACF
 		victory_points = {
 			1747 1 
 		}
@@ -20,8 +20,8 @@ state={
 	provinces={
 		1875 4880 7771 7862 10569 10595 12620 12667 
 	}
-	manpower=692849
+	manpower=115933
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }
