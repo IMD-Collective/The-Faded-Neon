@@ -15,9 +15,6 @@ state={
 
 		}
 		add_core_of = UTH
-		victory_points = {
-			4975 1 
-		}
 
 	}
 

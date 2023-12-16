@@ -13,9 +13,6 @@ state={
 
 		}
 		add_core_of = MTT
-		victory_points = {
-			9450 30.0 
-		}
 
 	}
 

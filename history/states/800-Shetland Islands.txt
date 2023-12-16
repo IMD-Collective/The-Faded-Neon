@@ -6,9 +6,6 @@ state={
 		add_core_of = SCO
 		owner = SCO
 		add_claim_by = ENG
-		victory_points = {
-			11064 1 
-		}
 		buildings = {
 			infrastructure = 4
 			6196 = {

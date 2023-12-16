@@ -16,14 +16,11 @@ state={
 
 		}
 		add_core_of = GRG
-		victory_points = {
-			1806 1 
-		}
 
 	}
 
 	provinces={
-		1618 4919 5103 6803 7485 7762 7945 8025 9822 10702 10798 11743 12778 
+		1618 4919 5103 6803 7762 7945 8025 9822 10702 10798 11743 
 	}
 	manpower=479207
 	buildings_max_level_factor=1.000

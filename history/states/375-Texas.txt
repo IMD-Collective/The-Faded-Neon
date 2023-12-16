@@ -3,8 +3,8 @@ state={
 	id=375
 	name="STATE_375"
 	resources={
-		oil=320.000
-		aluminium=50.000
+		oil=112.000 # Was 280
+		aluminium=32.000 # was 112
 	}
 
 	history={
@@ -13,26 +13,9 @@ state={
 			infrastructure = 2
 			industrial_complex = 2
 			air_base = 3
-			10337 = {
-				naval_base = 2
-
-			}
-			6785 = {
-				naval_base = 1
-
-			}
 
 		}
 		add_core_of = GRG
-		victory_points = {
-			10337 10 
-		}
-		victory_points = {
-			3960 10 
-		}
-		victory_points = {
-			12782 1 
-		}
 
 	}
 

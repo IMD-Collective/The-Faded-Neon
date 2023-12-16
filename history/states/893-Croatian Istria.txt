@@ -3,9 +3,6 @@ state={
 	name="STATE_893"
 
 	history={
-		victory_points = {
-			6626 1 
-		}
 		owner = CRO
 		add_core_of = CRO
 		buildings = {

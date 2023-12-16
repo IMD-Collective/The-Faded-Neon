@@ -9,9 +9,14 @@ state={
 		add_core_of = GRG
 		buildings = {
 			infrastructure = 2
+			10337 = {
+				naval_base = 2
+
+			}
 		}
-		#victory_points = {
-		#}
+		victory_points = {
+			10337 10 
+		}
 		
 	}
 	manpower=254392

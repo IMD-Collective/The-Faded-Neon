@@ -4,9 +4,6 @@ state={
 
 	history={
 		owner = NNZ
-		victory_points = {
-			219 5 
-		}
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

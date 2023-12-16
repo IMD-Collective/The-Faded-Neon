@@ -14,9 +14,6 @@ state={
 
 		}
 		add_core_of = AWZ
-		victory_points = {
-			12461 10 
-		}
 
 	}
 

@@ -10,9 +10,14 @@ state={
 		add_core_of = ACF
 		buildings = {
 			infrastructure = 2
+			6785 = {
+				naval_base = 1
+
+			}
 		}
-		#victory_points = {
-		#}
+		victory_points = {
+			12782 1 
+		}
 		
 	}
 	manpower=93223
