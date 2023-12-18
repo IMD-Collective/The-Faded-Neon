@@ -1,38 +1,150 @@
 ideologies = {
-	
-	democratic = {
+	fascism = { # Irrationalism
 	
 		types = {
+			# Level 0 # Tribal
+			shamanic_clan = {
+				can_be_randomly_selected = yes
+			}
+			holy_band = {
+				can_be_randomly_selected = yes
+			}
+
+			# Level 1 # Ancient
+			mystic_order = {
+				can_be_randomly_selected = no
+			}
+			chronotechnate = {
+				can_be_randomly_selected = no
+			}
+			local_supremacy = {
+				can_be_randomly_selected = yes
+			}
 			
-			conservatism = {
+			# Level 2 # Pre-Modern
+			theocracy = {
+				can_be_randomly_selected = no
+			}
+			
+			# Level 3 # Early Modern
+			old_futurism = {
+				can_be_randomly_selected = yes
+			}
+			
+			# Level 4 # Modern
+			juvenile_futurism = {
+				can_be_randomly_selected = yes
+			}
+			technotheism = { # Syncretic
+				can_be_randomly_selected = no
+			}
+			national_social_revivalism = {
+				can_be_randomly_selected = yes
+			}
+			hedonic_militarism = {
+				can_be_randomly_selected = no
+			}
+			aspirant_servitors = {
+				can_be_randomly_selected = no
 			}
 
-			liberal_conservatism = {
-			}
+			
+			# Level 5 # Future/Singularity
+			ascended_archonate = {
+				can_be_randomly_selected = no
+			}	
+
+		}
 		
-			liberalism = {
-			}
-
-			libertarianism = {
-			}
-
-			agrarianism = {
-			}
-
-			progressivism = {
-			}
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCIST_1"
+			"FACTION_NAME_FASCIST_2"
+			"FACTION_NAME_FASCIST_3"
+			"FACTION_NAME_FASCIST_4"
+			"FACTION_NAME_FASCIST_5"
+		}
 		
-			social_democracy = {
+		color = { 54 42 31 }
+		
+		war_impact_on_world_tension = 0.6
+		faction_impact_on_world_tension = 0.6
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.20
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+
+		ai_neutral = yes
+	}
+	 
+	democratic = { # Old Humanism
+	
+		types = {
+			# Level 0 # Tribal
+			tribal_confederation = {
+				can_be_randomly_selected = yes
+			}
+			mutual_warband = {
+				can_be_randomly_selected = yes
 			}
 
-			democratic_socialism = {
+			# Level 1 # Ancient
+			classical_republic = {
+				can_be_randomly_selected = yes
 			}
+			
+			
+			# Level 2 # Pre-Modern
+			merchant_republic = {
+				can_be_randomly_selected = yes
+			}
+			council_kingdom = {
+				can_be_randomly_selected = no
+			}
+			
+			# Level 3 # Early Modern
+			democratic_republic = {
+				can_be_randomly_selected = yes
+			}
+			
+			
+			# Level 4 # Modern
+			corporatocracy = {
+				can_be_randomly_selected = no
+			}
+			enlightened_dictatorship = { #Syncretic
+				can_be_randomly_selected = yes
+			}
+			triagocracy = {
+				can_be_randomly_selected = no
+			}
+			cosmopolitan_republic = {
+				can_be_randomly_selected = no
+			}
+			
+			
+			
+			# Level 5 # Future/Singularity
+			ascended_globalism = {
+				can_be_randomly_selected = no
+			}					
 
-			religious_democracy = {
-			}
-
-			centrism = {
-			}
 		}
 		
 		dynamic_faction_names = {
@@ -84,33 +196,61 @@ ideologies = {
 	}
 
 
-	communism = {
+	communism = { # Neo-Rationalism
 		
 		types = {
-		
-			marxism = {
-			}
-			
-			leninism = {
-			}
-			
-			stalinism = {
+			# Level 0 #	Tribal
+			sage_worship= {
+				can_be_randomly_selected = yes
 			}
 
-			maoism = {
+			# Level 1 # Ancient
+			platonic_kingdom = {
+				can_be_randomly_selected = no
+			}
+			idyllic_commune = {
+				can_be_randomly_selected = no
 			}
 
-			socialist_mil_junta = {
+			
+			# Level 2 # Premodern
+			serf_revolutionary = {
+				can_be_randomly_selected = no
 			}
 			
-			anti_revisionism = {
+			# Level 3 # Early Modern
+			communism = {
+				can_be_randomly_selected = yes
 			}
+			agrarian_proletarianism = {
+				can_be_randomly_selected = yes
+			}
+			jacobinism = {
+				can_be_randomly_selected = no
+			}
+			critical_republic = {
+				can_be_randomly_selected = no
+			}
+			
+			# Level 4 # Modern
+			nustatism = { #Syncretic
+				can_be_randomly_selected = no
+			}
+			technocratic_proletarianism = {
+				can_be_randomly_selected = no
+			}
+			ultratechnocracy = {
+				can_be_randomly_selected = no
+			}
+			
+			# Level 5 # Future/Singularity
+			ascended_utopia = {
+				can_be_randomly_selected = no
+			}
+			ascended_cyberstate = {
+				can_be_randomly_selected = no
+			}	
 
-			african_socialism = {
-			}
-			
-			anarchist_communism = {
-			}
 		}
 		
 		dynamic_faction_names = {
@@ -154,116 +294,72 @@ ideologies = {
 		}
 
 	}
-
-	fascism = {
+	
+	neutrality = { # Atavism
 	
 		types = {
-		
-			nazism = {
+			# Level 0 #	Tribal
+			chiefdom = {
+				can_be_randomly_selected = yes
+			}
+			heroic_warband = {
+				can_be_randomly_selected = yes
 			}
 
-			fascist_mil_junta = {
+			# Level 1 # Ancient
+			hereditary_monarchy = {
+				can_be_randomly_selected = yes
 			}
 			
-			fascism_ideology = {
-			}
-			
-			falangism = {
-			}
-			
-			ultra_nationalism = {
-			}
-
-			despotic_cult = {
+			# Level 2 # Pre Modern
+			knightly_order = {
 				can_be_randomly_selected = no
 			}
-
-			zealotry = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
-			"FACTION_NAME_FASCIST_4"
-			"FACTION_NAME_FASCIST_5"
-		}
-		
-		color = { 54 42 31 }
-		
-		war_impact_on_world_tension = 0.6
-		faction_impact_on_world_tension = 0.6
-		
-		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = yes
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = yes
-		}
-		
-		can_collaborate = yes
-		
-		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.20
-			civilian_intel_to_others = 15.0
-			army_intel_to_others = 10.0
-			navy_intel_to_others = 10.0
-			airforce_intel_to_others = 10.0
-		}
-
-		ai_neutral = yes
-	}
-	
-	neutrality = {
-	
-		types = {
-		
-			despotism  = {
+			dictatorship = {
+				can_be_randomly_selected = yes
 			}
 			
-			oligarchism  = {
+			# Level 3 # Early Modern
+			mercenary_group = {
+				can_be_randomly_selected = no
 			}
-
-			anarchism = {
+			absolute_monarchy = {
+				can_be_randomly_selected = yes
+			}
+			military_dictatorship = {
+				can_be_randomly_selected = yes
+			}
+			cossack_confederalism = {
 				can_be_randomly_selected = no
 			}
 			
-			moderatism = {
-			}
+
 			
-			cultism = {
+			
+			# Level 4 # Modern
+			aspirant_imperium = {
+				can_be_randomly_selected = yes
+			}
+			metropolitan_monarchism = { #Syncretic
+				can_be_randomly_selected = no
+			}
+			classical_fascism = {
+				can_be_randomly_selected = yes
+			}
+			radical_supremacism = {
+				can_be_randomly_selected = yes
+			}
+			imperial_protectorate = {
 				can_be_randomly_selected = no
 			}
 
-			theocratism = {
-			}
 
-			military_junta = {
-			}
-
-			social_revolutionary = {
-			}
-
-			collapsed_gov = {
+			
+			# Level 5 # Future/Singularity
+			ascended_imperium = {
 				can_be_randomly_selected = no
-			}
+			}		
 
-			monarchism = {
-			}
-
-			auth_democratic = {
-			}
-
-			criminal_org = {
-			}
-
-			arab_nationalism = {
-			}
 
 		}
 
