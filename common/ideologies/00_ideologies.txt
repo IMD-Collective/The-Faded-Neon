@@ -3,54 +3,61 @@ ideologies = {
 	
 		types = {
 			# Level 0 # Tribal
-			shamanic_clan = {
+			shamanic_clan = { # Clan system with a spritual Shaman wielding power
 				can_be_randomly_selected = yes
 			}
-			holy_band = {
+			holy_band = { # Religious warband, sometimes aided by a Shaman
 				can_be_randomly_selected = yes
 			}
 
 			# Level 1 # Ancient
-			mystic_order = {
+			mystic_order = { # Esoteric/Mystical society ruling a larger territory from within closed doors
 				can_be_randomly_selected = no
 			}
-			chronotechnate = {
+			chronotechnate = { # Chronotonic Mystics who have written themselves into power
 				can_be_randomly_selected = no
 			}
-			local_supremacy = {
+			local_supremacy = { # Clan supremacists who champion the virtues of war and dominating their neighbours
 				can_be_randomly_selected = yes
 			}
 			
 			# Level 2 # Pre-Modern
-			theocracy = {
+			theocracy = { # Nation ruled by the clerical class
 				can_be_randomly_selected = no
 			}
 			
 			# Level 3 # Early Modern
-			old_futurism = {
+			old_futurism = { # Fiume/1920's Futurism
 				can_be_randomly_selected = yes
+			}
+			old_national_socialism = { # Remnants of 1933 Natsocs after the 2nd World War
+				can_be_randomly_selected = no
 			}
 			
 			# Level 4 # Modern
-			juvenile_futurism = {
+			juvenile_futurism = { # New Strand of Futurism that advocates for a government of the young, destruction of old values, etc.
 				can_be_randomly_selected = yes
 			}
-			technotheism = { # Syncretic
-				can_be_randomly_selected = no
-			}
-			national_social_revivalism = {
+			national_social_revivalism = { # Natsoc revivalism, eclectic ideology that generally seeks to establish a fourth reich using taboo means
 				can_be_randomly_selected = yes
 			}
-			hedonic_militarism = {
+			hedonic_militarism = { # Hypermilitarist society that seeks to subjagate all others (even within their own country), and advocates allocating ALL resources for military endeavours
 				can_be_randomly_selected = no
 			}
-			aspirant_servitors = {
+			aspirant_servitors = { # The most faithful and loyal...
 				can_be_randomly_selected = no
 			}
+			revolutionary_spiritualism = { # Advocates for a violent revolution in the name of New Spiritualism, an Amazonian philosophy that advocates for embracing a new stage of evolution for Humanity
+				can_be_randomly_selected = no
+			}
+			technotheism = { # Syncretic; Believes in combining technology and theocracy to create an 'ideology of all times'
+				can_be_randomly_selected = no
+			}
+			
 
 			
 			# Level 5 # Future/Singularity
-			ascended_archonate = {
+			ascended_archonate = { # The ones that beckon the faithful
 				can_be_randomly_selected = no
 			}	
 
@@ -97,51 +104,60 @@ ideologies = {
 	
 		types = {
 			# Level 0 # Tribal
-			tribal_confederation = {
+			tribal_confederation = { # Tribe system with an elected Chieftan council
 				can_be_randomly_selected = yes
 			}
-			mutual_warband = {
+			mutual_warband = { # Warband with an elected Chief
 				can_be_randomly_selected = yes
 			}
 
 			# Level 1 # Ancient
-			classical_republic = {
-				can_be_randomly_selected = yes
+			senatorial_republic = { # Rome will never be an empire
+				can_be_randomly_selected = no
 			}
 			
 			
 			# Level 2 # Pre-Modern
-			merchant_republic = {
+			merchant_republic = { # Venician-style Merchant Trader Republic
 				can_be_randomly_selected = yes
 			}
-			council_kingdom = {
+			council_kingdom = { # King who is ordained by a council of nobles
 				can_be_randomly_selected = no
 			}
 			
 			# Level 3 # Early Modern
-			democratic_republic = {
+			landed_republic = { # Think Old America, landed gentry only vote and hold power
 				can_be_randomly_selected = yes
+			}
+			democratic_republic = { # Bicamerial/Parliamentary Republic
+				can_be_randomly_selected = no
 			}
 			
 			
 			# Level 4 # Modern
-			corporatocracy = {
+			corporatocracy = { # Corpo Republic
 				can_be_randomly_selected = no
 			}
-			enlightened_dictatorship = { #Syncretic
+			plutarchic = { # Republican Democracy, but rich upper class gets a final say
 				can_be_randomly_selected = yes
 			}
-			triagocracy = {
+			triage_system = { # Medical Privisional Communal Territory, established by the UN; these states are held together in order to organise and fight the spread of disease within their regions
 				can_be_randomly_selected = no
 			}
-			cosmopolitan_republic = {
+			cosmopolitan_republic = { # Part-Blood-Order, Part-Landed-Republic, Part-Technocracy
 				can_be_randomly_selected = no
 			}
-			
+			enlightened_dictatorship = { # Syncretic; Dictator who operates with the best interest of the people in mind
+				can_be_randomly_selected = yes
+			}
+						
 			
 			
 			# Level 5 # Future/Singularity
-			ascended_globalism = {
+			ascended_globalism = { # WORLD REPUBLIC
+				can_be_randomly_selected = no
+			}
+			ascended_megacorp = { # MEGACORP AQUIRES WORLD... SPACIAL COLONISATION PENDING...
 				can_be_randomly_selected = no
 			}					
 
@@ -200,56 +216,65 @@ ideologies = {
 		
 		types = {
 			# Level 0 #	Tribal
-			sage_worship= {
+			sage_worship= { # Nation where wise men have powar
 				can_be_randomly_selected = yes
 			}
 
 			# Level 1 # Ancient
-			platonic_kingdom = {
+			platonic_kingdom = { # Plato be ballin
 				can_be_randomly_selected = no
 			}
-			idyllic_commune = {
+			idyllic_commune = { # Villages with communal management, council elections
 				can_be_randomly_selected = no
 			}
 
 			
 			# Level 2 # Premodern
-			serf_revolutionary = {
+			serf_revolutionary = { # Proletarian Revolution, aims to destroy upper classes
 				can_be_randomly_selected = no
 			}
 			
 			# Level 3 # Early Modern
-			communism = {
+			communism = { # Old-Soooovieeets
 				can_be_randomly_selected = yes
 			}
-			agrarian_proletarianism = {
+			agrarian_proletarianism = { # Proletarian Revolution, aims to destroy upper classes, but with rice and wheat!
 				can_be_randomly_selected = yes
 			}
-			jacobinism = {
+			jacobinism = { # Redistribute property properly, maintain strong army, destroy upper class
 				can_be_randomly_selected = no
 			}
-			critical_republic = {
-				can_be_randomly_selected = no
-			}
+		
 			
 			# Level 4 # Modern
-			nustatism = { #Syncretic
+			technocratic_proletarianism = { # Techno-socialism
 				can_be_randomly_selected = no
 			}
-			technocratic_proletarianism = {
+			ultratechnocracy = { # Cyber-Technocracy
 				can_be_randomly_selected = no
 			}
-			ultratechnocracy = {
+			critical_republic = { # Republic in the process of evolving downwards into techno-anarchy
 				can_be_randomly_selected = no
 			}
+			nustatism = { #Syncretic; Technate run by race of genetically purified humans
+				can_be_randomly_selected = no
+			}		
+			
 			
 			# Level 5 # Future/Singularity
-			ascended_utopia = {
+			ascended_redtopia = { # Space Communism
 				can_be_randomly_selected = no
 			}
-			ascended_cyberstate = {
+			ascended_greentopia = { # Oh my Solarpunk
 				can_be_randomly_selected = no
 			}	
+			ascended_nutopia = { # Only the purified can live
+				can_be_randomly_selected = no
+			}
+			ascended_cyberstate = { # WE ARE YOUR OVERLORDS NOW, HUMAN
+				can_be_randomly_selected = no
+			}
+		
 
 		}
 		
@@ -299,64 +324,64 @@ ideologies = {
 	
 		types = {
 			# Level 0 #	Tribal
-			chiefdom = {
+			chiefdom = { # Chief leads the tribe alone
 				can_be_randomly_selected = yes
 			}
-			heroic_warband = {
+			heroic_warband = { # Band of gallavanting warriors
 				can_be_randomly_selected = yes
 			}
 
 			# Level 1 # Ancient
-			hereditary_monarchy = {
+			old_hereditary_monarchy = { # Monarchy with various classes vying for power and appeasement
 				can_be_randomly_selected = yes
 			}
 			
 			# Level 2 # Pre Modern
-			knightly_order = {
+			knightly_order = { # Order of knights for glory, or for God
 				can_be_randomly_selected = no
 			}
-			dictatorship = {
+			dictatorship = { # State with a single leader at the head
 				can_be_randomly_selected = yes
 			}
 			
 			# Level 3 # Early Modern
-			mercenary_group = {
+			mercenary_group = { # Order of soldiers for hire
 				can_be_randomly_selected = no
 			}
-			absolute_monarchy = {
+			absolute_monarchy = { # Monarchy where the King wields total power
 				can_be_randomly_selected = yes
 			}
-			military_dictatorship = {
+			military_dictatorship = { # State with a junta of military leaders at the helm wielding total power over all others
 				can_be_randomly_selected = yes
 			}
-			cossack_confederalism = {
+			cossack_confederalism = { # Cossack Hosts and shiet
 				can_be_randomly_selected = no
+			}
+			classical_fascism = { # Mussolinist fascism, as it was in '23
+				can_be_randomly_selected = yes
 			}
 			
 
 			
 			
 			# Level 4 # Modern
-			aspirant_imperium = {
+			aspirant_imperium = { # Empire that aspires to last a thousand years, Emperor attempts to wield complete control 
 				can_be_randomly_selected = yes
 			}
-			metropolitan_monarchism = { #Syncretic
+			radical_supremacism = { # Determined Exterminators from Stellaris
+				can_be_randomly_selected = yes
+			}
+			imperial_protectorate = { # Territory led by an Imperial Protector, under the wing of an Empire
 				can_be_randomly_selected = no
 			}
-			classical_fascism = {
-				can_be_randomly_selected = yes
-			}
-			radical_supremacism = {
-				can_be_randomly_selected = yes
-			}
-			imperial_protectorate = {
+			metropolitan_monarchism = { #Syncretic; Monarch who seeks to combine elements of humanism, tehnocracy together
 				can_be_randomly_selected = no
-			}
+			}			
 
 
 			
 			# Level 5 # Future/Singularity
-			ascended_imperium = {
+			ascended_imperium = { # World Empire
 				can_be_randomly_selected = no
 			}		
 
