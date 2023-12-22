@@ -38,7 +38,7 @@ ideologies = {
 			juvenile_futurism = { # New Strand of Futurism that advocates for a government of the young, destruction of old values, etc.
 				can_be_randomly_selected = yes
 			}
-			national_social_revivalism = { # Natsoc revivalism, eclectic ideology that generally seeks to establish a fourth reich using taboo means
+			national_social_revivalism = { # Natsoc revivalism, eclectic ideology that generally seeks to develop new natsoc ideology
 				can_be_randomly_selected = yes
 			}
 			hedonic_militarism = { # Hypermilitarist society that seeks to subjagate all others (even within their own country), and advocates allocating ALL resources for military endeavours
@@ -60,6 +60,9 @@ ideologies = {
 			ascended_archonate = { # The ones that beckon the faithful
 				can_be_randomly_selected = no
 			}	
+			ascended_reich = { # World Reich
+				can_be_randomly_selected = no
+			}
 
 		}
 		
@@ -219,6 +222,7 @@ ideologies = {
 			sage_worship= { # Nation where wise men have powar
 				can_be_randomly_selected = yes
 			}
+			
 
 			# Level 1 # Ancient
 			platonic_kingdom = { # Plato be ballin
@@ -244,21 +248,29 @@ ideologies = {
 			jacobinism = { # Redistribute property properly, maintain strong army, destroy upper class
 				can_be_randomly_selected = no
 			}
+			anarchism = { # Revolution or sum shit
+				can_be_randomly_selected = yes
+			}
+		
 		
 			
 			# Level 4 # Modern
 			technocratic_proletarianism = { # Techno-socialism
 				can_be_randomly_selected = no
 			}
-			ultratechnocracy = { # Cyber-Technocracy
+			aspirant_ultratechnocracy = { # Cyber-Technocracy
 				can_be_randomly_selected = no
 			}
 			critical_republic = { # Republic in the process of evolving downwards into techno-anarchy
 				can_be_randomly_selected = no
 			}
-			nustatism = { #Syncretic; Technate run by race of genetically purified humans
+			aspirant_nustatism = { #Syncretic; Technate run by race of genetically purified humans
 				can_be_randomly_selected = no
-			}		
+			}
+			cartel_syndicate = { # Da Cartel
+				can_be_randomly_selected = yes
+			}
+
 			
 			
 			# Level 5 # Future/Singularity
