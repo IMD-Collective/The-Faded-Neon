@@ -6,25 +6,240 @@
 # Irrationalism, people that believe in manifesting change through pure spirit and willpower, active in chronotonics, spiritualism, religiosity, etc.
 fascism:0 "Irrationalism"
 fascism_noun:0 "Irrationalist Outlook"
-fascism_desc:0 "Irrationalism"
+fascism_desc:0 "Irrational Regime"
+
+# Level 0 # Tribal
+  shamanic_clan:0 "Shamanism"
+  shamanic_clan_desc:0 ""
+
+  holy_band:0 "Holy Tribe"
+  holy_band_desc:0 ""
+
+# Level 1 # Ancient
+  mystic_order:0 "Mystical Order"
+  mystic_order_desc:0 ""
+
+  chronotechnate:0 "Chronotechnocracy"
+  chronotechnate_desc:0 ""
+
+  local_supremacy:0 "Local Supremacy"
+  local_supremacy_desc:0 ""
+
+# Level 2 # Pre-Modern
+  theocracy:0 "Theocracy"
+  theocracy_desc:0 ""
 
 
+# Level 3 # Early Modern
+  old_futurism:0 "Old Futurism"
+  old_futurism_desc:0 ""
+
+  old_national_socialism:0 "Orthodox National Socialism"
+  old_national_socialism_desc:0 ""
+
+# Level 4 # Modern
+  juvenile_futurism:0 "Neo-Futurism"
+  juvenile_futurism_desc:0 ""
+
+  national_social_revivalism:0 "National Socialist Revivalism"
+  national_social_revivalism_desc:0 ""
+
+  hedonic_militarism:0 "Hedonic Militarism"
+  hedonic_militarism_desc:0 ""
+
+  aspirant_servitors:0 "Aspirant Servitors"
+  aspirant_servitors_desc:0 ""
+
+  revolutionary_spiritualism:0 "Revolutionary Spiritualism"
+  revolutionary_spiritualism_desc:0 ""
+
+  technotheism:0 "Technotheism"
+  technotheism_desc:0 ""
+
+# Level 5 # Future/Singularity
+
+  ascended_archonate:0 "Ascended Archonate"
+  ascended_archonate_desc:0 ""
+
+  ascended_reich:0 "Ascended National Socialism"
+  ascended_reich_desc:0 ""
 
 ## 'DEMOCRATIC' SUBIDEOLOGIES
 # Old Humanism, people that believe in returning the World order to what it once was, and bringing it to what it once could be, active in republicanism, egalitarianism, rationalism, etc.
 democratic:0 "Old Humanism"
 democratic_noun:0 "Humanist Outlook"
-democratic_desc:0 "Humanism"
+democratic_desc:0 "Humanist Regime"
+
+# Level 0 # Tribal
+  tribal_confederation:0 "Tribal Confederalism"
+  tribal_confederation_desc:0 ""
+
+  mutual_warband:0 "Mutual Warband"
+  mutual_warband_desc:0 ""
+
+# Level 1 # Ancient
+  senatorial_republic:0 "Senatorial Republicanism"
+  senatorial_republic_desc:0 ""
+
+# Level 2 # Pre-Modern
+  merchant_republic:0 "Merchant Republicanism"
+  merchant_republic_desc:0 ""
+
+  council_kingdom:0 "Council Kingdom"
+  council_kingdom_desc:0 ""
+
+# Level 3 # Early Modern
+  landed_republic:0 "Landed Republicanism"
+  landed_republic_desc:0 ""
+
+  democratic_republic:0 "Democratic Republicanism"
+  democratic_republic_desc:0 ""
+
+# Level 4 # Modern
+  corporatocracy:0 "Corporatocracy"
+  corporatocracy_desc:0 ""
+
+  plutarchic:0 "Plutocratic Republic"
+  plutarchic_desc:0 ""
+
+  triage_system:0 "Triage System"
+  triage_system_desc:0 ""
+
+  cosmopolitan_republic:0 "Cosmopolitan Republicanism"
+  cosmopolitan_republic_desc:0 ""
+
+  aspirant_megalopolis:0 "Aspirant Megalopolis"
+  aspirant_megalopolis_desc:0 ""
+
+  enlightened_dictatorship:0 "Enlightened Dictatorship"
+  enlightened_dictatorship_desc:0 ""
+
+# Level 5 # Future/Singularity
+  ascended_globalism:0 "Ascended Globalism"
+  ascended_globalism_desc:0 ""
+
+  ascended_megacorp:0 "Ascended Megacorporatocracy"
+  ascended_megacorp_desc:0 ""
+
+  ascended_ecumonopolis:0 "Ascended Ecumonopolis"
+  ascended_ecumonopolis_desc:0 ""
 
 ## 'COMMUNIST' SUBIDEOLOGIES
 # Neo-Rationalists, those that believe that humanities problems source from their inability to adapt to an increasingly hostile World, combined with strains of old-world radical forms of thought, many Neo-Rationalsits posit that improving on the problems of humanity can bring about a utopic new future.
 communism:0 "Neo-Rationalism"
 communism_noun:0 "Rationalist Outlook"
-communism_desc:0 "Rationalism"
+communism_desc:0 "Rationalist Regime"
+
+# Level 0 # Tribal
+  sage_worship:0 "Sage Worship"
+  sage_worship_desc:0 ""
+
+# Level 1 # Ancient
+  platonic_kingdom:0 "Platonic Kingdom"
+  platonic_kingdom_desc:0 ""
+
+  idyllic_commune:0 "Idyllic Commune"
+  idyllic_commune_desc:0 ""
+
+# Level 2 # Pre-Modern
+  serf_revolutionary:0 "Serf Revolutionarism"
+  serf_revolutionary_desc:0 ""
+
+# Level 3 # Early Modern
+  communism:0 "Communism"
+  communism_desc:0 ""
+
+  agrarian_proletarianism:0 "Agrarian Proletarianism"
+  agrarian_proletarianism_desc:0 ""
+
+  jacobinism:0 "Jacobinism"
+  jacobinism_desc:0 ""
+
+  anarchism:0 "Anarchism"
+  anarchism_desc:0 ""
+
+# Level 4 # Modern
+  technocratic_proletarianism:0 "Technocratic Proletarianism"
+  technocratic_proletarianism_desc:0 ""
+
+  aspirant_ultratechnocracy:0 "Aspirant Ultratechnocracy"
+  aspirant_ultratechnocracy_desc:0 ""
+
+  critical_republic:0 "Critical Republic"
+  critical_republic_desc:0 ""
+
+  aspirant_nustatism:0 "Aspirant Nu-Statism"
+  aspirant_nustatism_desc:0 ""
+
+  cartel_syndicate:0 "Cartel-Syndicate Tendency"
+  cartel_syndicate_desc:0 ""
+
+# Level 5 # Future/Singularity
+  ascended_redtopia:0 "Ascended Proletariat"
+  ascended_redtopia_desc:0 ""
+
+  ascended_greentopia:0 "Ascended Utopia"
+  ascended_greentopia_desc:0 ""
+
+  ascended_nutopia:0 "Ascended Nutopia"
+  ascended_nutopia_desc:0 ""
+
+  ascended_cyberstate:0 "Ascended Cyberstate"
+  ascended_cyberstate_desc:0 ""
 
 ### 'NEUTRALITY' SUBIDEOLOGIES
 # Atavism, those that believe that people have lost their way through decades of decaying morality and institutions, they believe in a return to ancient principles and modes of governing, and aren't afraid of domineering to get their way.
 neutrality:0 "Atavism"
 neutrality_noun:0 "Atavistic Outlook"
-neutrality_desc:0 "Atavism"
+neutrality_desc:0 "Atavistic Regime"
 
+# Level 0 # Tribal
+  chiefdom:0 "Chiefdom"
+  chiefdom_desc:0 ""
+
+  heroic_warband:0 "Heroic Warband"
+  heroic_warband_desc:0 ""
+
+# Level 1 # Ancient
+  old_hereditary_monarchy:0 "Traditional Hereditary Monarchy"
+  old_hereditary_monarchy_desc:0 ""
+
+# Level 2 # Pre-Modern
+  knightly_order:0 "Knightly Order"
+  knightly_order_desc:0 ""
+
+  dictatorship:0 "Dictatorship"
+  dictatorship_desc:0 ""
+
+# Level 3 # Early Modern
+  mercenary_group:0 "Mercenary Group"
+  mercenary_group_desc:0 ""
+
+  absolute_monarchy:0 "Absolute Monarchism"
+  absolute_monarchy_desc:0 ""
+
+  military_dictatorship:0 "Military Dictatorship"
+  military_dictatorship_desc:0 ""
+
+  cossack_confederalism:0 "Cossack Confederalism"
+  cossack_confederalism_desc:0 ""
+
+  classical_fascism:0 "Classical Fascism"
+  classical_fascism_desc:0 ""
+
+# Level 4 # Modern
+  aspirant_imperium:0 "Aspirant Imperium"
+  aspirant_imperium_desc:0 ""
+
+  radical_supremacism:0 "Radical Supremacism"
+  radical_supremacism_desc:0 ""
+
+  imperial_protectorate:0 "Imperial Protectorate"
+  imperial_protectorate_desc:0 ""
+
+  metropolitan_monarchism:0 "Metropolitan Monarchism"
+  metropolitan_monarchism_desc:0 ""
+
+# Level 5 # Future/Singularity
+  ascended_imperium:0 "Ascended Imperium"
+  ascended_imperium_desc:0 ""

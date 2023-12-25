@@ -150,6 +150,9 @@ ideologies = {
 			cosmopolitan_republic = { # Part-Blood-Order, Part-Landed-Republic, Part-Technocracy
 				can_be_randomly_selected = no
 			}
+			aspirant_megalopolis = { # Megacity Blues
+				can_be_randomly_selected = no
+			}
 			enlightened_dictatorship = { # Syncretic; Dictator who operates with the best interest of the people in mind
 				can_be_randomly_selected = yes
 			}
@@ -160,9 +163,12 @@ ideologies = {
 			ascended_globalism = { # WORLD REPUBLIC
 				can_be_randomly_selected = no
 			}
-			ascended_megacorp = { # MEGACORP AQUIRES WORLD... SPACIAL COLONISATION PENDING...
+			ascended_megacorp = { # MEGACORP AQUIRED WORLD... SPACE PENDING...
 				can_be_randomly_selected = no
-			}					
+			}
+			ascended_ecumonopolis = { # Finally, we built the parking lot
+				can_be_randomly_selected = no
+			}									
 
 		}
 		
@@ -372,10 +378,7 @@ ideologies = {
 			classical_fascism = { # Mussolinist fascism, as it was in '23
 				can_be_randomly_selected = yes
 			}
-			
 
-			
-			
 			# Level 4 # Modern
 			aspirant_imperium = { # Empire that aspires to last a thousand years, Emperor attempts to wield complete control 
 				can_be_randomly_selected = yes
@@ -390,8 +393,6 @@ ideologies = {
 				can_be_randomly_selected = no
 			}			
 
-
-			
 			# Level 5 # Future/Singularity
 			ascended_imperium = { # World Empire
 				can_be_randomly_selected = no
