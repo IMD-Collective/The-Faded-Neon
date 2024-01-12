@@ -1,0 +1,261 @@
+##Nerve-East Command
+NRV_INF_01 = {
+		
+	name = "Autonomous Division"
+
+	for_countries = { NRV }
+
+	can_use = { always = yes
+		
+	}
+
+	division_types = { "infantry" }
+
+
+	fallback_name = "%da Autonomous Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da 'Red-01' Autonomous Division" }
+		2 = { "%da 'Black-02' Autonomous Division" }
+		3 = { "%da 'White-03' Autonomous Division" }
+		4 = { "%da 'Violet-04' Autonomous Division" }
+		5 = { "%da 'Orange-05' Autonomous Division" }
+		6 = { "%da 'Green-06' Autonomous Division" }
+		7 = { "%da 'Blue-07' Autonomous Division" }
+		8 = { "%da 'Yellow-08' Autonomous Division" }	
+	}
+}
+
+NRV_CAV_01 = {
+	name = "Autonomous Payload Swarm"
+
+	for_countries = { NRV }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+
+
+	fallback_name = "%da Payload Swarm"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered ={
+		1 = { "%da Payload Swarm" }
+		2 = { "%da Payload Swarm" }
+		3 = { "%da Payload Swarm" }
+		4 = { "%da Payload Swarm" }
+		5 = { "%da Payload Swarm" }
+		6 = { "%da Payload Swarm" }
+		7 = { "%da Payload Swarm" }
+		8 = { "%da Payload Swarm" }
+		9 = { "%da Payload Swarm" }
+		10 = { "%da Payload Swarm" }
+	}
+}
+
+NRV_MOT_01 = {
+	name = "Rapid Swarm"
+
+	for_countries = { NRV }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SPR_INF_01 }
+
+	fallback_name = "%da Rapid Swarm"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered ={
+		1 = { "%da Rapid Swarm" }
+		2 = { "%da Rapid Swarm" }
+		3 = { "%da Rapid Swarm" }
+		4 = { "%da Rapid Swarm" }
+		5 = { "%da Rapid Swarm" }
+		6 = { "%da Rapid Swarm" }
+		7 = { "%da Rapid Swarm" }
+		8 = { "%da Rapid Swarm" }
+		9 = { "%da Rapid Swarm" }
+		10 = { "%da Rapid Swarm" }
+	}
+}
+
+NRV_MEC_01 = {
+	name = "Advanced Rapid Swarm"
+
+	for_countries = { NRV }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+
+	fallback_name = "%da Fortificado Soldado"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Advanced Rapid Swarm" }
+		2 = { "%da Advanced Rapid Swarm" }
+		3 = { "%da Advanced Rapid Swarm" }
+		4 = { "%da Advanced Rapid Swarm" }
+		5 = { "%da Advanced Rapid Swarm" }
+		6 = { "%da Advanced Rapid Swarm" }
+		7 = { "%da Advanced Rapid Swarm" }
+		8 = { "%da Advanced Rapid Swarm" }
+		9 = { "%da Advanced Rapid Swarm" }
+		10 = { "%da Advanced Rapid Swarm" }
+	}
+}
+NRV_ARM_01 = {
+	name = "Superadvanced Rapid Swarm"
+
+	for_countries = { NRV }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	
+
+	fallback_name = "%da Superadvanced Rapid Swarm"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Superadvanced Rapid Swarm" }
+		2 = { "%da Superadvanced Rapid Swarm" }
+		3 = { "%da Superadvanced Rapid Swarm" }
+		4 = { "%da Superadvanced Rapid Swarm" }
+		5 = { "%da Superadvanced Rapid Swarm" }
+		6 = { "%da Superadvanced Rapid Swarm" }
+		7 = { "%da Superadvanced Rapid Swarm" }
+		8 = { "%da Superadvanced Rapid Swarm" }
+		9 = { "%da Superadvanced Rapid Swarm" }
+		10 = { "%da Superadvanced Rapid Swarm" }
+	}
+}
+
+NRV_PAR_01 = {
+	name = "Air-Payload Delivery Swarm"
+
+	for_countries = { NRV }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+
+
+	fallback_name = "%da Airborne Payload-Swarm"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Airborne Payload-Swarm" }
+		2 = { "%da Airborne Payload-Swarm" }
+		3 = { "%da Airborne Payload-Swarm" }
+		4 = { "%da Airborne Payload-Swarm" }
+		5 = { "%da Airborne Payload-Swarm" }
+		6 = { "%da Airborne Payload-Swarm" }
+		7 = { "%da Airborne Payload-Swarm" }
+		8 = { "%da Airborne Payload-Swarm" }
+		9 = { "%da Airborne Payload-Swarm" }
+		10 = { "%da Airborne Payload-Swarm" }
+	}
+}
+
+NRV_MAR_01 = {
+	name = "Sea-Payload Delivery Swarm"
+
+	for_countries = { NRV }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+
+
+	fallback_name = "%da Seaborne Payload-Swarm"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Seaborne Payload-Swarm" }
+		2 = { "%da Seaborne Payload-Swarm" }
+		3 = { "%da Seaborne Payload-Swarm" }
+		4 = { "%da Seaborne Payload-Swarm" }
+		5 = { "%da Seaborne Payload-Swarm" }
+		6 = { "%da Seaborne Payload-Swarm" }
+		7 = { "%da Seaborne Payload-Swarmay" }
+		8 = { "%da Seaborne Payload-Swarm" }
+		9 = { "%da Seaborne Payload-Swarm" }
+		10 = { "%da Seaborne Payload-Swarm" }
+		
+		
+	}
+}
+
+NRV_MNT_01 = {
+	name = "Special Purpose Autonomous Division"
+
+	for_countries = { NRV }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+
+	fallback_name = "%da Special Purpose Auto-Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Special Purpose Auto-Division" }
+		2 = { "%da Special Purpose Auto-Division" }
+		3 = { "%da Special Purpose Auto-Division" }
+		4 = { "%da Special Purpose Auto-Division" }
+		5 = { "%da Special Purpose Auto-Division" }
+		6 = { "%da Special Purpose Auto-Division" }
+		7 = { "%da Special Purpose Auto-Division" }
+		8 = { "%da Special Purpose Auto-Division" }
+		9 = { "%da Special Purpose Auto-Division" }
+		10 = { "%da Special Purpose Auto-Division" }
+	}
+}
+
+NRV_GAR_01 = {
+	name = "Autonomous Security Swarm"
+
+	for_countries = { NRV }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+
+	fallback_name = "%da Security Swarm"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Security Swarm" }
+		2 = { "%da Security Swarm" }
+		3 = { "%da Security Swarm" }
+		4 = { "%da Security Swarm" }
+		5 = { "%da Security Swarm" }
+		6 = { "%da Security Swarm" }
+		7 = { "%da Security Swarm" }
+		8 = { "%da Security Swarm" }
+		9 = { "%da Security Swarm" }
+		10 = { "%da Security Swarm" }
+		
+	}
+}

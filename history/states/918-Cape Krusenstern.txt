@@ -5,8 +5,8 @@ state={
 		7855 
 	}
 	history={
-		owner = SSR
-		add_core_of = SSR
+		owner = NRV
+		add_core_of = NRV
 		buildings = {
 			infrastructure = 1
 		}

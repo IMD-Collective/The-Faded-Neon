@@ -1029,4 +1029,10 @@ WID = {
 	color = rgb { 0  128  255 }
 	color_ui = rgb { 0  128  255 }
 }
-###end###
+
+
+## NORTH AMERICAN TAGS ##
+NRV = {
+	color = rgb { 125 30 25 }
+	color_ui = rgb { 125 30 25 }
+}

@@ -402,6 +402,27 @@ SOV = {
 	callsigns = { "The Colonist" "The Bell" Heine Duma Anvil Hammer Fury Arrow Storm Bear "White Lily" Devil Eagle Falcon Fox Snowflake Greasy Guardian Gunman Hawk Hardball Howl Blizzard Husky Ice Killer Steel Iron Skull Striker Thunder Warrior Wardog Vodka }
 }
 
+NRV = {
+	male = {
+		names = { 
+			Aleksandr_01 Aleksey_02 Andrey_03 Anton_04 Boris_05 Dmitry_06 Fyodor_07 Gennady_08
+			Georgy_00 Grigory_00 Igor Ilya_00 Iosif_00 Ivan_00 Kirill_00 Konstantin_00 Lavr_00 Leonid_00 Lev_00
+			Maksim_10 Mikhail_10 Nikita_10 Nikolay_10 Noy_10 Oleg_10 Pavel_10 Pyotr_10 Roman_10 Semyon_10 Sergey_10
+		}
+	}
+	female = {
+		names = {
+			Afanasiya_01 Albina_02 Aleksandra_03 Anastasiya_04 Elena_05 Elvira_06 Lydia_07 Lyudmila_08 Margarita_09 Muza_00 Natalya_00 Olga_00 Sofiya_00 Svetlana_00 Valentina_00 Yelena_00
+			Alina_10 Alevtina_10 Aliya_10 Anna_10 Anya_10 Asya_10 Dusya_10 Galya_10 Kaleriya_10 Kalya_10 Katya_10 Klava_10 Klavdiya_10 Irina_10
+			Lida_20 Liza_20 Lyuba_20 Lyubov_20 Marina_20 Mariya_20 Maryam_20 Marusya_20 Nadezhda_20 Nadya_20 Natasha_20 Nina_20 Nonna_20
+		}
+	}
+	surnames = { 
+		VI33 VI22 VI11 VI00
+	}
+	callsigns = { "Victorious Commandant" "Virtuous Citizen" "Intelligent Drone" "Comrade Specialist" "Brilliant Commissar" }
+}
+
 URL = {
 	male = {
 		names = { 

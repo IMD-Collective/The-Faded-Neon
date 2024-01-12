@@ -1,0 +1,2 @@
+## NORTH AMERICA ##
+NRV = "countries/Eastern Europe.txt" # Nerve-East Command
