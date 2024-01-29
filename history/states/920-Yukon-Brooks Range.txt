@@ -5,8 +5,8 @@ state={
 		4848 7869 13069 
 	}
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = YUK
+		add_core_of = YUK
 		buildings = {
 			infrastructure = 1
 		}

@@ -1029,9 +1029,13 @@ WID = {
 ## NORTH AMERICAN TAGS ##
 NRV = {
 	color = rgb { 125 30 25 }
-	color_ui = rgb { 125 30 25 }
+	color_ui = rgb { 102 24 20 }
 }
 ALA = {
 	color = rgb { 156 183 177 }
-	color_ui = rgb { 156 183 177 }
+	color_ui = rgb { 128 150 146 }
+}
+YUK = {
+	color = rgb { 155 165 100 }
+	color_ui = rgb { 120 128 78 }
 }

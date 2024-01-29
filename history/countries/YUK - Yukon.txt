@@ -1,0 +1,41 @@
+capital = 471
+
+oob = "generic"
+
+# Starting Tech #
+#set_technology = { #Leave hashed out for future tech rework
+#	infantry_weapons = 1 
+#	basic_train = 1
+#	early_fighter = 1
+#	gw_artillery = 1
+#	fuel_silos = 1
+#}
+
+# Stability/War Support #
+set_stability = 0.35
+set_war_support = 0.67
+
+# Starting Resources #
+set_convoys = 3 #Remove (In most cases) if it's an inland country
+
+set_fuel_ratio = 0.31 #Optional: Country's current fuel ratio relative to its capacity 
+
+set_research_slots = 1 #Undeveloped gets 1, Most minors get 2, developed minors get 3, majors get 4
+
+# Leaders
+recruit_character = YUK_henry_allen_cedar
+
+# Political Situation #
+set_politics = {
+	ruling_party = fascism
+	last_election = "1933.1.30"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = { #Must add to 100 total! You can use decimals as long as they add up
+	fascism = 66 # Irrationalism
+	neutrality = 17 # Atavism
+	democratic = 0 # Old Humanism
+	communism = 17 # Neo Rationalism
+}

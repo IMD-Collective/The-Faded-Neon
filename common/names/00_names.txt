@@ -406,7 +406,7 @@ NRV = {
 	male = {
 		names = { 
 			Aleksandr_01 Aleksey_02 Andrey_03 Anton_04 Boris_05 Dmitry_06 Fyodor_07 Gennady_08
-			Georgy_00 Grigory_00 Igor_00 Ilya_00 Iosif_00 Ivan_00 Kirill_00 Konstantin_00 Lavr_00 Leonid_00 Lev_00
+			Georgy_01 Grigory_00 Igor_00 Ilya_00 Iosif_00 Ivan_00 Kirill_00 Konstantin_00 Lavr_00 Leonid_00 Lev_00
 			Maksim_10 Mikhail_10 Nikita_10 Nikolay_10 Noy_10 Oleg_10 Pavel_10 Pyotr_10 Roman_10 Semyon_10 Sergey_10
 		}
 	}
@@ -6344,6 +6344,23 @@ CAN = {
 			Hastings Blackwood MacDougall 
 	}
 	callsigns = { }
+}
+
+YUK = {
+	male = {
+		names = { 
+			Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert 
+			Albert Victor Julian Francis James Enli Kuzih Nalren Tadzey Yakecen Yakez Sadzi Sahneuti
+		}
+	}
+	female = {
+		names = { Emma Lea Olivia Alice Florence Zoe Chloe Beatrice Charlotte Rosalie Eva Juliette Sofia Jade Camille Victoria Nasnan Peni Sadzi  }
+	}
+	surnames = { 
+		Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle Wallis Ward
+		Hastings Blackwood MacDougall Attla Carlo Chasinghorse Dibert Fredson Kalifornsky Huntington Solomon
+	}
+	callsigns = { "High Reader" "Sky-Soarer" "Knight of Light" "Night Demon" }
 }
 
 NFL = {

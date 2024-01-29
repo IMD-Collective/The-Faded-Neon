@@ -1,3 +1,4 @@
 ## NORTH AMERICA ##
 NRV = "countries/Eastern Europe.txt" # Nerve-East Command
 ALA = "countries/Western Europe.txt" # Alaska
+YUK = "countries/Western Europe.txt" # Yukon
