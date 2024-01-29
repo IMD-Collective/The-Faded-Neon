@@ -20,7 +20,9 @@ set_convoys = 40 #Remove (In most cases) if it's an inland country
 
 set_fuel_ratio = 0.35 #Optional: Country's current fuel ratio relative to its capacity 
 
-set_research_slots = 2 #Undeveloped gets 1, Most minors get 2, developed minors get 3, majors get 4
+set_research_slots = 1 #Undeveloped gets 1, Most minors get 2, developed minors get 3, majors get 4
+
+recruit_character = NRV_georgy_00
 
 # Political Situation #
 set_politics = {

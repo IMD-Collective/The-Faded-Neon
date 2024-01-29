@@ -406,7 +406,7 @@ NRV = {
 	male = {
 		names = { 
 			Aleksandr_01 Aleksey_02 Andrey_03 Anton_04 Boris_05 Dmitry_06 Fyodor_07 Gennady_08
-			Georgy_00 Grigory_00 Igor Ilya_00 Iosif_00 Ivan_00 Kirill_00 Konstantin_00 Lavr_00 Leonid_00 Lev_00
+			Georgy_00 Grigory_00 Igor_00 Ilya_00 Iosif_00 Ivan_00 Kirill_00 Konstantin_00 Lavr_00 Leonid_00 Lev_00
 			Maksim_10 Mikhail_10 Nikita_10 Nikolay_10 Noy_10 Oleg_10 Pavel_10 Pyotr_10 Roman_10 Semyon_10 Sergey_10
 		}
 	}

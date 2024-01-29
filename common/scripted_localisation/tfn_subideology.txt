@@ -56,271 +56,438 @@ defined_text = {
 defined_text = {
 	name = GetRulingIdeologySubtype
 	
+	# Irrationalism
+	# Level 0 # Tribal
 	text = {
 		trigger = {
-			has_country_leader_ideology = conservatism
+			has_country_leader_ideology = shamanic_clan
 		}
-		localization_key = conservatism_desc
+		localization_key = shamanic_clan_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = holy_band
+		}
+		localization_key = holy_band_desc
+	}
+	# Level 1 # Ancient
+	text = {
+		trigger = {
+			has_country_leader_ideology = mystic_order
+		}
+		localization_key = mystic_order_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = chronotechnate
+		}
+		localization_key = chronotechnate_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = local_supremacy
+		}
+		localization_key = local_supremacy_desc
+	}
+	# Level 2 # Pre-Modern
+	text = {
+		trigger = {
+			has_country_leader_ideology = theocracy
+		}
+		localization_key = theocracy_desc
+	}
+	# Level 3 # Early Modern
+	text = {
+		trigger = {
+			has_country_leader_ideology = old_futurism
+		}
+		localization_key = old_futurism_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = old_national_socialism
+		}
+		localization_key = old_national_socialism_desc
+	}
+	# Level 4 # Modern
+	text = {
+		trigger = {
+			has_country_leader_ideology = juvenile_futurism
+		}
+		localization_key = juvenile_futurism_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = national_social_revivalism
+		}
+		localization_key = national_social_revivalism_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = hedonic_militarism
+		}
+		localization_key = hedonic_militarism_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = aspirant_servitors
+		}
+		localization_key = aspirant_servitors_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = revolutionary_spiritualism
+		}
+		localization_key = revolutionary_spiritualism_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = technotheism
+		}
+		localization_key = technotheism_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = rng_program
+		}
+		localization_key = rng_program_desc
+	}
+	# Level 5 # Future/Singularity
+	text = {
+		trigger = {
+			has_country_leader_ideology = ascended_archonate
+		}
+		localization_key = ascended_archonate_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = ascended_reich
+		}
+		localization_key = ascended_reich_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = surreal_swarm
+		}
+		localization_key = surreal_swarm_desc
 	}
 
+	# Old Humanism
+	# Level 0 # Tribal
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberal_conservatism
+			has_country_leader_ideology = tribal_confederation
 		}
-		localization_key = liberal_conservatism_desc
+		localization_key = tribal_confederation_desc
 	}
-	
 	text = {
 		trigger = {
-			has_country_leader_ideology = liberalism
+			has_country_leader_ideology = mutual_warband
 		}
-		localization_key = liberalism_desc
+		localization_key = mutual_warband_desc
 	}
+	# Level 1 # Ancient
+	text = {
+		trigger = {
+			has_country_leader_ideology = senatorial_republic
+		}
+		localization_key = senatorial_republic_desc
+	}
+	# Level 2 # Pre-Modern
+	text = {
+		trigger = {
+			has_country_leader_ideology = merchant_republic
+		}
+		localization_key = merchant_republic_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = council_kingdom
+		}
+		localization_key = council_kingdom_desc
+	}
+	# Level 3 # Early Modern
+	text = {
+		trigger = {
+			has_country_leader_ideology = landed_republic
+		}
+		localization_key = landed_republic_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = democratic_republic
+		}
+		localization_key = democratic_republic_desc
+	}
+	# Level 4 # Modern
+	text = {
+		trigger = {
+			has_country_leader_ideology = corporatocracy
+		}
+		localization_key = corporatocracy_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = plutarchic
+		}
+		localization_key = plutarchic_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = triage_system
+		}
+		localization_key = triage_system_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = cosmopolitan_republic
+		}
+		localization_key = cosmopolitan_republic_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = aspirant_megalopolis
+		}
+		localization_key = aspirant_megalopolis_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = enlightened_dictatorship
+		}
+		localization_key = enlightened_dictatorship_desc
+	}
+	# Level 5 # Future/Singularity
+	text = {
+		trigger = {
+			has_country_leader_ideology = ascended_globalism
+		}
+		localization_key = ascended_globalism_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = ascended_megacorp
+		}
+		localization_key = ascended_megacorp_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = ascended_ecumonopolis
+		}
+		localization_key = ascended_ecumonopolis_desc
+	}	
 
+	# Neo-Rationalism
+	# Level 0 # Tribal
 	text = {
 		trigger = {
-			has_country_leader_ideology = libertarianism
+			has_country_leader_ideology = sage_worship
 		}
-		localization_key = libertarianism_desc
+		localization_key = sage_worship_desc
 	}
-	
+	# Level 1 # Ancient
 	text = {
 		trigger = {
-			has_country_leader_ideology = agrarianism
+			has_country_leader_ideology = platonic_kingdom
 		}
-		localization_key = agrarianism_desc
+		localization_key = platonic_kingdom_desc
 	}
-
 	text = {
 		trigger = {
-			has_country_leader_ideology = progressivism
+			has_country_leader_ideology = idyllic_commune
 		}
-		localization_key = progressivism_desc
+		localization_key = idyllic_commune_desc
 	}
-
+	# Level 2 # Pre-Modern
 	text = {
 		trigger = {
-			has_country_leader_ideology = social_democracy
+			has_country_leader_ideology = serf_revolutionary
 		}
-		localization_key = social_democracy_desc
+		localization_key = serf_revolutionary_desc
 	}
-
+	# Level 3 # Early Modern
 	text = {
 		trigger = {
-			has_country_leader_ideology = democratic_socialism
+			has_country_leader_ideology = communism_soviet
 		}
-		localization_key = democratic_socialism_desc
+		localization_key = communism_soviet_desc
 	}
-
 	text = {
 		trigger = {
-			has_country_leader_ideology = religious_democracy
+			has_country_leader_ideology = agrarian_proletarianism
 		}
-		localization_key = religious_democracy_desc
+		localization_key = agrarian_proletarianism_desc
 	}
-
 	text = {
 		trigger = {
-			has_country_leader_ideology = centrism
+			has_country_leader_ideology = jacobinism
 		}
-		localization_key = centrism_desc
+		localization_key = jacobinism_desc
 	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = marxism
-		}
-		localization_key = marxism_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = leninism
-		}
-		localization_key = leninism_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = african_socialism
-		}
-		localization_key = african_socialism_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = stalinism
-		}
-		localization_key = stalinism_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = maoism
-		}
-		localization_key = maoism_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = socialist_mil_junta
-		}
-		localization_key = socialist_mil_junta_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = anti_revisionism
-		}
-		localization_key = anti_revisionism_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = anarchist_communism
-		}
-		localization_key = anarchist_communism_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = nazism
-		}
-		localization_key = nazism_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = fascist_mil_junta
-		}
-		localization_key = fascist_mil_junta_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = fascism_ideology
-		}
-		localization_key = fascism_ideology_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = falangism
-		}
-		localization_key = falangism_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = ultra_nationalism
-		}
-		localization_key = ultra_nationalism_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = despotic_cult
-		}
-		localization_key = despotic_cult_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = zealotry
-		}
-		localization_key = zealotry_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = despotism
-		}
-		localization_key = despotism_desc
-	}
-
-	text = {
-		trigger = {
-			has_country_leader_ideology = oligarchism
-		}
-		localization_key = oligarchism_desc
-	}
-
 	text = {
 		trigger = {
 			has_country_leader_ideology = anarchism
 		}
 		localization_key = anarchism_desc
 	}
-
+	# Level 4 # Modern
 	text = {
 		trigger = {
-			has_country_leader_ideology = moderatism
+			has_country_leader_ideology = technocratic_proletarianism
 		}
-		localization_key = moderatism_desc
+		localization_key = technocratic_proletarianism_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = aspirant_ultratechnocracy
+		}
+		localization_key = aspirant_ultratechnocracy_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = critical_republic
+		}
+		localization_key = critical_republic_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = aspirant_nustatism
+		}
+		localization_key = aspirant_nustatism_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = cartel_syndicate
+		}
+		localization_key = cartel_syndicate_desc
+	}
+	# Level 5 # Future/Singularity
+	text = {
+		trigger = {
+			has_country_leader_ideology = ascended_redtopia
+		}
+		localization_key = ascended_redtopia_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = ascended_greentopia
+		}
+		localization_key = ascended_greentopia_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = ascended_nutopia
+		}
+		localization_key = ascended_nutopia_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = ascended_cyberstate
+		}
+		localization_key = ascended_cyberstate_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = ascended_hive
+		}
+		localization_key = ascended_hive_desc
 	}
 
+	# Atavism
+	# Level 0 # Tribal
 	text = {
 		trigger = {
-			has_country_leader_ideology = criminal_org
+			has_country_leader_ideology = chiefdom
 		}
-		localization_key = criminal_org_desc
+		localization_key = chiefdom_desc
 	}
-
 	text = {
 		trigger = {
-			has_country_leader_ideology = arab_nationalism
+			has_country_leader_ideology = heroic_warband
 		}
-		localization_key = arab_nationalism_desc
+		localization_key = heroic_warband_desc
 	}
-
+	# Level 1 # Ancient
 	text = {
 		trigger = {
-			has_country_leader_ideology = cultism
+			has_country_leader_ideology = old_hereditary_monarchy
 		}
-		localization_key = cultism_desc
+		localization_key = old_hereditary_monarchy_desc
 	}
-
+	# Level 2 # Pre-Modern
 	text = {
 		trigger = {
-			has_country_leader_ideology = theocratism
+			has_country_leader_ideology = knightly_order
 		}
-		localization_key = theocratism_desc
+		localization_key = knightly_order_desc
 	}
-
 	text = {
 		trigger = {
-			has_country_leader_ideology = military_junta
+			has_country_leader_ideology = dictatorship
 		}
-		localization_key = military_junta_desc
+		localization_key = dictatorship_desc
 	}
-
+	# Level 3 # Early Modern
 	text = {
 		trigger = {
-			has_country_leader_ideology = social_revolutionary
+			has_country_leader_ideology = mercenary_group
 		}
-		localization_key = social_revolutionary_desc
+		localization_key = mercenary_group_desc
 	}
-
 	text = {
 		trigger = {
-			has_country_leader_ideology = collapsed_gov
+			has_country_leader_ideology = absolute_monarchy
 		}
-		localization_key = collapsed_gov_desc
+		localization_key = absolute_monarchy_desc
 	}
-
 	text = {
 		trigger = {
-			has_country_leader_ideology = monarchism
+			has_country_leader_ideology = military_dictatorship
 		}
-		localization_key = monarchism_desc
+		localization_key = military_dictatorship_desc
 	}
-	
 	text = {
 		trigger = {
-			has_country_leader_ideology = auth_democratic
+			has_country_leader_ideology = cossack_confederalism
 		}
-		localization_key = auth_democratic_desc
+		localization_key = cossack_confederalism_desc
 	}
-	
+	text = {
+		trigger = {
+			has_country_leader_ideology = classical_fascism
+		}
+		localization_key = classical_fascism_desc
+	}
+	# Level 4 # Modern
+	text = {
+		trigger = {
+			has_country_leader_ideology = aspirant_imperium
+		}
+		localization_key = aspirant_imperium_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = radical_supremacism
+		}
+		localization_key = radical_supremacism_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = imperial_protectorate
+		}
+		localization_key = imperial_protectorate_desc
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = metropolitan_monarchism
+		}
+		localization_key = metropolitan_monarchism_desc
+	}
+	# Level 5 # Future/Singularity
+	text = {
+		trigger = {
+			has_country_leader_ideology = ascended_imperium
+		}
+		localization_key = ascended_imperium_desc
+	}
 	
 }

@@ -55,6 +55,9 @@
  
   technotheism:0 "Technotheism"
   technotheism_desc:0 ""
+
+  rng_program:0 "RNG Cyberstate"
+  rng_program_desc:0 ""
  
  # Level 5 # Future/Singularity
  
@@ -63,6 +66,9 @@
  
   ascended_reich:0 "Ascended National Socialism"
   ascended_reich_desc:0 ""
+
+  surreal_swarm:0 "Surreal Swarm"
+  surreal_swarm_desc:0 ""
  
  ## 'DEMOCRATIC' SUBIDEOLOGIES
  # Old Humanism, people that believe in returning the World order to what it once was, and bringing it to what it once could be, active in republicanism, egalitarianism, rationalism,  etc.
@@ -113,6 +119,9 @@
  
   enlightened_dictatorship:0 "Enlightened Dictatorship"
   enlightened_dictatorship_desc:0 ""
+
+  swarm_intelligence:0 "Swarm Intelligence"
+  swarm_intelligence_desc:0 ""
  
  # Level 5 # Future/Singularity
   ascended_globalism:0 "Ascended Globalism"
@@ -186,7 +195,10 @@
  
   ascended_cyberstate:0 "Ascended Cyberstate"
   ascended_cyberstate_desc:0 ""
- 
+
+  ascended_hive:0 "Ascended Hive Mind"
+  ascended_hive_desc:0 ""
+
  ### 'NEUTRALITY' SUBIDEOLOGIES
  # Atavism, those that believe that people have lost their way through decades of decaying morality and institutions, they believe in a return to ancient principles and modes of  governing, and aren't afraid of domineering to get their way.
  neutrality:0 "Atavism"

@@ -1,0 +1,15 @@
+characters={
+	NRV_georgy_00={
+		name="Georgy_00"
+		portraits={
+			civilian={
+				large="gfx/leaders/NRV/NRV_Georgy_00.dds"
+			}
+		}
+		country_leader={
+			ideology=swarm_intelligence
+			expire="2023.1.1.1"
+			id=-1
+		}
+	}
+}
