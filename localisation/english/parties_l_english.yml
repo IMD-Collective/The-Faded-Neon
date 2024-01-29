@@ -146,7 +146,7 @@
   serf_revolutionary_desc:0 ""
  
  # Level 3 # Early Modern
-  communism:0 "Communism"
+  communism_soviet:0 "Communism"
   communism_desc:0 ""
  
   agrarian_proletarianism:0 "Agrarian Proletarianism"

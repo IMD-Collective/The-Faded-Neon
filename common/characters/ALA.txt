@@ -1,0 +1,15 @@
+characters={
+	ALA_john_lindauer={
+		name="John Lindauer II"
+		portraits={
+			civilian={
+				large="gfx/leaders/ALA/ALA_John_Lindauer.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_republic
+			expire="2023.1.1.1"
+			id=-1
+		}
+	}
+}

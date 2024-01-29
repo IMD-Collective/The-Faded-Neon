@@ -417,11 +417,6 @@ NWC = {
 	color_ui = rgb { 60 149 190 }
 }
 
-ALA = {
-	color = rgb { 156 183 177 }
-	color_ui = rgb { 156 183 177 }
-}
-
 PUE = {
 	color = rgb { 185 70 143 }
 	color_ui = rgb { 185 70 143 }
@@ -1035,4 +1030,8 @@ WID = {
 NRV = {
 	color = rgb { 125 30 25 }
 	color_ui = rgb { 125 30 25 }
+}
+ALA = {
+	color = rgb { 156 183 177 }
+	color_ui = rgb { 156 183 177 }
 }

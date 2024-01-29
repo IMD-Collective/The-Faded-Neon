@@ -98,7 +98,6 @@ WIF = "countries/Commonwealth.txt" # West Indies Federation
 DOM = "countries/South America.txt" # Dominican Republic
 HAI = "countries/Africa.txt" # Haiti
 NWC = "countries/Western Europe.txt" # American Commonwealth
-ALA = "countries/Western Europe.txt" # Alaska
 PUE = "countries/South America.txt" # Peurto Rico
 CUB = "countries/South America.txt" # Cuba
 IOM = "countries/Commonwealth.txt" # Isle of Man

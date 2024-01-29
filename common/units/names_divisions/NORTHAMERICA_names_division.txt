@@ -194,7 +194,7 @@ NRV_MAR_01 = {
 		4 = { "%da Seaborne Payload-Swarm" }
 		5 = { "%da Seaborne Payload-Swarm" }
 		6 = { "%da Seaborne Payload-Swarm" }
-		7 = { "%da Seaborne Payload-Swarmay" }
+		7 = { "%da Seaborne Payload-Swarm" }
 		8 = { "%da Seaborne Payload-Swarm" }
 		9 = { "%da Seaborne Payload-Swarm" }
 		10 = { "%da Seaborne Payload-Swarm" }
@@ -256,6 +256,268 @@ NRV_GAR_01 = {
 		8 = { "%da Security Swarm" }
 		9 = { "%da Security Swarm" }
 		10 = { "%da Security Swarm" }
+		
+	}
+}
+
+##Alaskan Republic
+ALA_INF_01 = {
+		
+	name = "National Ranger Division"
+
+	for_countries = { ALA }
+
+	can_use = { always = yes
+		
+	}
+
+	division_types = { "infantry" }
+
+
+	fallback_name = "%da Ranger Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da 'Eagle First' Ranger Division" }
+		2 = { "%da 'Raging Bulls' Ranger Division" }
+		3 = { "%da 'Greenhats' Ranger Division" }
+		4 = { "%da 'Firestarters' Ranger Division" }
+		5 = { "%da 'Iron and Steel' Ranger Division" }
+		6 = { "%da 'Bren Viller' Ranger Division" }
+		7 = { "%da 'Winners of Freedom' Ranger Division" }
+		8 = { "%da 'EMP' Ranger Division" }	
+	}
+}
+
+ALA_CAV_01 = {
+	name = "Mountain Cavalry"
+
+	for_countries = { ALA }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+
+
+	fallback_name = "%da Special Cavalry"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered ={
+		1 = { "%da Special Cavalry" }
+		2 = { "%da Special Cavalry" }
+		3 = { "%da Special Cavalry" }
+		4 = { "%da Special Cavalry" }
+		5 = { "%da Special Cavalry" }
+		6 = { "%da Special Cavalry" }
+		7 = { "%da Special Cavalry" }
+		8 = { "%da Special Cavalry" }
+		9 = { "%da Special Cavalry" }
+		10 = { "%da Special Cavalry" }
+	}
+}
+
+ALA_MOT_01 = {
+	name = "Motor Rangers"
+
+	for_countries = { ALA }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SPR_INF_01 }
+
+	fallback_name = "%da Motor Rangers"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered ={
+		1 = { "%da Motor Rangers" }
+		2 = { "%da Motor Rangers" }
+		3 = { "%da Motor Rangers" }
+		4 = { "%da Motor Rangers" }
+		5 = { "%da Motor Rangers" }
+		6 = { "%da Motor Rangers" }
+		7 = { "%da Motor Rangers" }
+		8 = { "%da Motor Rangers" }
+		9 = { "%da Motor Rangers" }
+		10 = { "%da Motor Rangers" }
+	}
+}
+
+ALA_MEC_01 = {
+	name = "Mechanized Rangers"
+
+	for_countries = { ALA }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+
+	fallback_name = "%da Mechanized Rangers"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Mechanized Rangers" }
+		2 = { "%da Mechanized Rangers" }
+		3 = { "%da Mechanized Rangers" }
+		4 = { "%da Mechanized Rangers" }
+		5 = { "%da Mechanized Rangers" }
+		6 = { "%da Mechanized Rangers" }
+		7 = { "%da Mechanized Rangers" }
+		8 = { "%da Mechanized Rangers" }
+		9 = { "%da Mechanized Rangers" }
+		10 = { "%da Mechanized Rangers" }
+	}
+}
+ALA_ARM_01 = {
+	name = "Experimental Brigades"
+
+	for_countries = { ALA }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	
+
+	fallback_name = "%da Experimental Brigade"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Experimental Brigade" }
+		2 = { "%da Experimental Brigade" }
+		3 = { "%da Experimental Brigade" }
+		4 = { "%da Experimental Brigade" }
+		5 = { "%da Experimental Brigade" }
+		6 = { "%da Experimental Brigade" }
+		7 = { "%da Experimental Brigade" }
+		8 = { "%da Experimental Brigade" }
+		9 = { "%da Experimental Brigade" }
+		10 = { "%da Experimental Brigade" }
+	}
+}
+
+ALA_PAR_01 = {
+	name = "Airborne Divisions"
+
+	for_countries = { ALA }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+
+
+	fallback_name = "%da Airborne Divisions"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da 'Boys from Fairbanks' Airborne Divisions" }
+		2 = { "%da Airborne Divisions" }
+		3 = { "%da Airborne Divisions" }
+		4 = { "%da Airborne Divisions" }
+		5 = { "%da Airborne Divisions" }
+		6 = { "%da Airborne Divisions" }
+		7 = { "%da Airborne Divisions" }
+		8 = { "%da Airborne Divisions" }
+		9 = { "%da Airborne Divisions" }
+		10 = { "%da Airborne Divisions" }
+	}
+}
+
+ALA_MAR_01 = {
+	name = "Arctic Marine Corps."
+
+	for_countries = { ALA }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+
+
+	fallback_name = "%da Marine Corps."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Marine Corps. }
+		2 = { "%da Marine Corps. }
+		3 = { "%da Marine Corps. }
+		4 = { "%da Marine Corps. }
+		5 = { "%da Marine Corps. }
+		6 = { "%da Marine Corps. }
+		7 = { "%da Marine Corps." }
+		8 = { "%da Marine Corps. }
+		9 = { "%da Marine Corps. }
+		10 = { "%da Marine Corps." }
+		
+		
+	}
+}
+
+ALA_MNT_01 = {
+	name = "Mountaineer Divisions"
+
+	for_countries = { ALA }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+
+	fallback_name = "%da Mountaineer Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Mountaineer Division" }
+		2 = { "%da Mountaineer Division" }
+		3 = { "%da Mountaineer Division" }
+		4 = { "%da Mountaineer Division" }
+		5 = { "%da Mountaineer Division" }
+		6 = { "%da Mountaineer Division" }
+		7 = { "%da Mountaineer Division" }
+		8 = { "%da Mountaineer Division" }
+		9 = { "%da Mountaineer Division" }
+		10 = { "%da Mountaineer Division" }
+	}
+}
+
+ALA_GAR_01 = {
+	name = "Alaskan Guard"
+
+	for_countries = { ALA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+
+	fallback_name = "%da Alaskan Guard"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Alaskan Guard" }
+		2 = { "%da Alaskan Guard" }
+		3 = { "%da Alaskan Guard" }
+		4 = { "%da Alaskan Guard" }
+		5 = { "%da Alaskan Guard" }
+		6 = { "%da Alaskan Guard" }
+		7 = { "%da Alaskan Guard" }
+		8 = { "%da Alaskan Guard" }
+		9 = { "%da Alaskan Guard" }
+		10 = { "%da Alaskan Guard" }
 		
 	}
 }

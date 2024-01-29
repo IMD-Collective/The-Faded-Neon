@@ -53,6 +53,9 @@ ideologies = {
 			technotheism = { # Syncretic; Believes in combining technology and theocracy to create an 'ideology of all times'
 				can_be_randomly_selected = no
 			}
+			rng_program = { # Program designed to maximise chaos and random chance
+				can_be_randomly_selected = no
+			}
 			
 
 			
@@ -63,7 +66,9 @@ ideologies = {
 			ascended_reich = { # World Reich
 				can_be_randomly_selected = no
 			}
-
+			surreal_swarm = { # Reality is no longer real
+				can_be_randomly_selected = no
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -245,7 +250,7 @@ ideologies = {
 			}
 			
 			# Level 3 # Early Modern
-			communism = { # Old-Soooovieeets
+			communism_soviet = { # Old-Soooovieeets
 				can_be_randomly_selected = yes
 			}
 			agrarian_proletarianism = { # Proletarian Revolution, aims to destroy upper classes, but with rice and wheat!
@@ -276,6 +281,9 @@ ideologies = {
 			cartel_syndicate = { # Da Cartel
 				can_be_randomly_selected = yes
 			}
+			swarm_intelligence = { # Patchwork of intelligences working seperately towards one goal, one step removed from hive mind
+				can_be_randomly_selected = no
+			}
 
 			
 			
@@ -292,6 +300,10 @@ ideologies = {
 			ascended_cyberstate = { # WE ARE YOUR OVERLORDS NOW, HUMAN
 				can_be_randomly_selected = no
 			}
+			ascended_hive = { # WE ARE ONE
+				can_be_randomly_selected = no
+			}
+			
 		
 
 		}

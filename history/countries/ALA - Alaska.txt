@@ -1,69 +1,44 @@
 ﻿capital = 463
 
+oob = "generic"
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	tech_mountaineers = 1
-	tech_support = 1
-}
+# Starting Tech #
+#set_technology = { #Leave hashed out for future tech rework
+#	infantry_weapons = 1 
+#	basic_train = 1
+#	early_fighter = 1
+#	gw_artillery = 1
+#	fuel_silos = 1
+#}
 
-set_convoys = 5
+# Stability/War Support #
+set_stability = 0.5
+set_war_support = 0.1
 
+
+# Starting Resources #
+set_convoys = 14 #Remove (In most cases) if it's an inland country
+
+set_fuel_ratio = 0.56 #Optional: Country's current fuel ratio relative to its capacity 
+
+set_research_slots = 1 #Undeveloped gets 1, Most minors get 2, developed minors get 3, majors get 4
+
+# Leaders
+recruit_character = ALA_john_lindauer
+
+# Political Situation #
 set_politics = {
 	ruling_party = democratic
-	last_election = "1963.4.6"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	democratic = 60
-	fascism = 30
-	neutrality = 10
+	last_election = "1975.6.14"
+	election_frequency = 80
+	elections_allowed = yes
 }
 
-create_country_leader = {
-	
-	name = "Samuel Fry"
-	picture = "gfx/leaders/leader_unknown.dds"
-	expire = "2000.1.1"
-	ideology = liberalism
-	traits = {
-		liberalism_trait
-	}
-}
-
-create_country_leader = {
-	
-	name = "Jerome Harrison"
-	picture = "gfx/leaders/leader_unknown.dds"
-	expire = "2000.1.1"
-	ideology = marxism
-	traits = {
-		marxism_trait
-	}
-}
-
-create_country_leader = {
-	
-	name = "Rand Steele"
-	picture = "gfx/leaders/leader_unknown.dds"
-	expire = "2000.1.1"
-	ideology = fascism_ideology
-	traits = {
-		fascism_ideology_trait
-	}
-}
-
-create_country_leader = {
-	
-	name = "James Hunter"
-	picture = "gfx/leaders/leader_unknown.dds"
-	expire = "2000.1.1"
-	ideology = auth_democratic
-	traits = {
-		auth_democratic_trait
-	}
+set_popularities = { #Must add to 100 total! You can use decimals as long as they add up
+	fascism = 24 # Irrationalism
+	neutrality = 36 # Atavism
+	democratic = 40 # Old Humanism
+	communism = 0 # Neo Rationalism
 }
 
 
