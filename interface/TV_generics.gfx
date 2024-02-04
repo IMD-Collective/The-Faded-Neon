@@ -1,0 +1,17 @@
+spriteTypes = {
+	#####################
+	### North America ###
+	#####################
+	
+	###Albania###
+	# Army #
+	spriteType = {
+		name = "GFX_NRV_generic_1"
+		texturefile = "gfx/leaders/NRV/NRV_generic_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_NRV_generic_2"
+		texturefile = "gfx/leaders/NRV/NRV_generic_2.dds"
+	}
+}

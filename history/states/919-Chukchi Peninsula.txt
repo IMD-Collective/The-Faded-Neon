@@ -14,8 +14,9 @@ state={
 				naval_base = 1
 			}
 		}
-		#victory_points = {
-		#}
+		victory_points = {
+			13063 2
+		}
 		
 	}
 	manpower=5532

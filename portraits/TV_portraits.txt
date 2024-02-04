@@ -1,0 +1,7 @@
+##Nerve East Command
+NRV = {
+	male = {
+		"GFX_NRV_generic_1"
+		"GFX_NRV_generic_2"
+	}
+}
