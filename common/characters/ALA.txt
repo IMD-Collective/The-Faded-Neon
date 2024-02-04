@@ -8,6 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=democratic_republic
+			traits = { brooding narcissist }
 			expire="2023.1.1.1"
 			id=-1
 		}

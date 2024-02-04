@@ -8,6 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=theocracy
+			traits = { wrothful charismatic }
 			expire="1993.4.7.1"
 			id=-1
 		}

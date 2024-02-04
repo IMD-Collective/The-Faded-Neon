@@ -1,0 +1,242 @@
+leader_traits = {
+	# Personality Traits #
+	# Bad - Good #
+	wrothful = {
+        random = yes
+        sprite = 1	
+		
+		stability_factor = -0.05
+		justify_war_goal_time = -0.15
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier2
+    }
+	condemning = {
+        random = yes
+        sprite = 1
+
+		political_power_factor = 0.05
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+	narcissist = {
+        random = yes
+        sprite = 1
+
+		political_power_cost = 0.05
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+	brutal = {
+        random = yes
+        sprite = 1
+
+		army_attack_factor = 0.085
+		stability_factor = -0.05
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+	impulsive = {
+        random = yes
+        sprite = 1
+
+		political_power_cost = -0.1
+		cic_construction_boost_factor = 0.05
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+	cold = {
+        random = yes
+        sprite = 1
+
+		political_power_factor = -0.1
+		drift_defence_factor = 0.2
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier2
+    }
+	fool = {
+        random = yes
+        sprite = 1
+
+		drift_defence_factor = -0.2
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+	tactless = {
+        random = yes
+        sprite = 1
+
+		political_power_factor = -0.25
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+	barbaric = {
+        random = yes
+        sprite = 1
+
+		army_attack_factor = 0.3
+		war_support_factor = 0.15
+
+		stability_factor = -0.15
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier3
+    }
+	brooding = {
+        random = yes
+        sprite = 1
+
+		political_power_gain = 0.15
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier2
+    }
+	fearful = {
+        random = yes
+        sprite = 1
+
+		army_defence_factor = 0.1
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+	trusting = {
+        random = yes
+        sprite = 1
+
+		drift_defence_factor = -0.25
+		trade_opinion_factor = -0.35
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+	fawning = {
+        random = yes
+        sprite = 1
+
+		opinion_gain_monthly_same_ideology_factor = 0.5
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+	creative = {
+        random = yes
+        sprite = 1
+
+		cic_construction_boost_factor = 0.15
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier2
+    }
+	cautious = {
+        random = yes
+        sprite = 1
+
+		justify_war_goal_time = -0.25
+		enemy_justify_war_goal_time = -0.15
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+	dogmatic = {
+        random = yes
+        sprite = 1
+
+		drift_defence_factor = 0.5
+		stability_factor = -0.1
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier2
+    }
+	caring = {
+        random = yes
+        sprite = 1
+
+		repair_speed_factor = 0.35
+		defensive_war_stability_factor = 0.1
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier2
+    }
+	charitable = {
+        random = yes
+        sprite = 1
+
+		production_speed_infrastructure_factor = 0.25
+		stability_factor = 0.08
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier2
+    }
+	charismatic = {
+        random = yes
+        sprite = 1
+
+		political_power_gain = 0.25
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier3
+    }
+	shrewd = {
+        random = yes
+        sprite = 1
+
+		stability_factor = 0.05
+		political_power_gain = 0.25
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier3
+    }
+
+
+	# Ideology/Job Traits #
+
+	# Unique Traits #
+}
