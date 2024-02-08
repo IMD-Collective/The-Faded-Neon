@@ -2,16 +2,94 @@ spriteTypes = {
 	#####################
 	### North America ###
 	#####################
+	#### GENERICS ####
+	# Army #
+	spriteType = {
+		name = "GFX_NORTHAMERICA_ARMY_generic_1"
+		texturefile = "gfx/leaders/North America/Portrait_NorthAmerica_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_NORTHAMERICA_ARMY_generic_2"
+		texturefile = "gfx/leaders/North America/Portrait_NorthAmerica_Generic_land_2.dds"
+	}	
+	spriteType = {
+		name = "GFX_NORTHAMERICA_ARMY_generic_3"
+		texturefile = "gfx/leaders/North America/Portrait_NorthAmerica_Generic_land_3.dds"
+	}	
+	spriteType = {
+		name = "GFX_NORTHAMERICA_ARMY_generic_4"
+		texturefile = "gfx/leaders/North America/Portrait_NorthAmerica_Generic_land_4.dds"
+	}	
+	spriteType = {
+		name = "GFX_NORTHAMERICA_ARMY_generic_5"
+		texturefile = "gfx/leaders/North America/Portrait_NorthAmerica_Generic_land_5.dds"
+	}	
+	spriteType = {
+		name = "GFX_NORTHAMERICA_ARMY_generic_6"
+		texturefile = "gfx/leaders/North America/Portrait_NorthAmerica_Generic_land_6.dds"
+	}	
+	spriteType = {
+		name = "GFX_NORTHAMERICA_ARMY_generic_7"
+		texturefile = "gfx/leaders/North America/Portrait_NorthAmerica_Generic_land_7.dds"
+	}	
+	# Political #
+	spriteType = {
+		name = "GFX_NORTHAMERICA_generic_1"
+		texturefile = "gfx/leaders/North America/Portrait_NorthAmerica_Generic_1.dds"
+	}
+	spriteType = {
+		name = "GFX_NORTHAMERICA_generic_2"
+		texturefile = "gfx/leaders/North America/Portrait_NorthAmerica_Generic_2.dds"
+	}	
+	spriteType = {
+		name = "GFX_NORTHAMERICA_generic_3"
+		texturefile = "gfx/leaders/North America/Portrait_NorthAmerica_Generic_3.dds"
+	}	
+	spriteType = {
+		name = "GFX_NORTHAMERICA_generic_4"
+		texturefile = "gfx/leaders/North America/Portrait_NorthAmerica_Generic_4.dds"
+	}	
+	spriteType = {
+		name = "GFX_NORTHAMERICA_generic_5"
+		texturefile = "gfx/leaders/North America/Portrait_NorthAmerica_Generic_5.dds"
+	}	
+	spriteType = {
+		name = "GFX_NORTHAMERICA_generic_6"
+		texturefile = "gfx/leaders/North America/Portrait_NorthAmerica_Generic_6.dds"
+	}		
 	
-	###Albania###
+	###Nerve East Command###
 	# Army #
 	spriteType = {
 		name = "GFX_NRV_generic_1"
 		texturefile = "gfx/leaders/NRV/NRV_generic_1.dds"
 	}
-
 	spriteType = {
 		name = "GFX_NRV_generic_2"
 		texturefile = "gfx/leaders/NRV/NRV_generic_2.dds"
 	}
+
+	###Alaskan Republic###
+	# Army #
+	spriteType = {
+		name = "GFX_ALA_ARMY_generic_1"
+		texturefile = "gfx/leaders/ALA/ALA_ARMY_generic_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ALA_ARMY_generic_2"
+		texturefile = "gfx/leaders/ALA/ALA_ARMY_generic_2.dds"
+	}
+	# Political #
+	spriteType = {
+		name = "GFX_ALA_generic_1"
+		texturefile = "gfx/leaders/ALA/ALA_generic_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ALA_generic_2"
+		texturefile = "gfx/leaders/ALA/ALA_generic_2.dds"
+	}	
+	spriteType = {
+		name = "GFX_ALA_generic_3"
+		texturefile = "gfx/leaders/ALA/ALA_generic_3.dds"
+	}	
 }

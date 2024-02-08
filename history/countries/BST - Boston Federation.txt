@@ -23,16 +23,5 @@ set_popularities = {
 	fascism = 12
 }
 
-create_country_leader = {
-	
-	name = "Patrick Jenkins"
-	picture = "gfx/leaders/BST/portrait_BST_patrick_jenkins.tga"
-	expire = "2000.1.1"
-	ideology = conservatism
-	traits = {
-		conservatism_trait
-	}
-}
-
 
 
