@@ -92,4 +92,28 @@ spriteTypes = {
 		name = "GFX_ALA_generic_3"
 		texturefile = "gfx/leaders/ALA/ALA_generic_3.dds"
 	}	
+
+	###Yukon Order of Light###
+	# Army #
+	spriteType = {
+		name = "GFX_YUK_ARMY_generic_1"
+		texturefile = "gfx/leaders/YUK/YUK_ARMY_generic_1.dds"
+	}
+	spriteType = {
+		name = "GFX_YUK_ARMY_generic_2"
+		texturefile = "gfx/leaders/YUK/YUK_ARMY_generic_2.dds"
+	}
+	# Political #
+	spriteType = {
+		name = "GFX_YUK_generic_1"
+		texturefile = "gfx/leaders/YUK/YUK_generic_1.dds"
+	}
+	spriteType = {
+		name = "GFX_YUK_generic_2"
+		texturefile = "gfx/leaders/YUK/YUK_generic_2.dds"
+	}	
+	spriteType = {
+		name = "GFX_YUK_generic_3"
+		texturefile = "gfx/leaders/YUK/YUK_generic_3.dds"
+	}	
 }

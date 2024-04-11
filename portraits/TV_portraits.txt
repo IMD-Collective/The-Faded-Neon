@@ -44,3 +44,42 @@ ALA = {
 		}
 	}
 }
+##Yukon Order of Light
+YUK = {
+	army = {
+		male = {
+			"GFX_YUK_ARMY_generic_1"
+			"GFX_YUK_ARMY_generic_2"			
+		}
+	}
+	political = {
+		communism = {
+			male = {
+				"GFX_YUK_generic_1"
+				"GFX_YUK_generic_2"
+				"GFX_YUK_generic_3"
+			}
+		}
+		democratic = {
+			male = {
+				"GFX_YUK_generic_1"
+				"GFX_YUK_generic_2"
+				"GFX_YUK_generic_3"
+			}
+		}	
+		neutrality = {
+			male = {
+				"GFX_YUK_generic_1"
+				"GFX_YUK_generic_2"
+				"GFX_YUK_generic_3"
+			}
+		}
+		fascism = {
+			male = {
+				"GFX_YUK_generic_1"
+				"GFX_YUK_generic_2"
+				"GFX_YUK_generic_3"
+			}
+		}
+	}
+}

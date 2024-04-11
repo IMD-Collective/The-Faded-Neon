@@ -1039,3 +1039,7 @@ YUK = {
 	color = rgb { 155 165 100 }
 	color_ui = rgb { 120 128 78 }
 }
+BCM = {
+	color = rgb { 130 50 170 }
+	color_ui = rgb { 97 37 128 }
+}

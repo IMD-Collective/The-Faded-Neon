@@ -6332,18 +6332,26 @@ BLZ = {
 CAN = {
 	male = {
 		names = { 
-			Charles John Frederick Douglas Patrick Leonard Henry Arthur Alexander Campbell Gilbert 
-			Albert Victor Julian Francis James  
+			Charles John Frederick Douglas Henry Arthur Alexander Campbell Gilbert 
+			Albert Victor Julian Francis James Joseph John Robert William Donald Kenneth Thomas Baby
+			Michael Raymond Norman Wayne Harold Lawrence Bruce Brian Larry Harry Leonard
+			Roy Ralph Lloyd Ernest Patrick Clifford Howard Keith Alan Earl Garry Ross Carl
+			Glenn Erwin Neil Leo Terrence Louis Leslie
 		}
 	}
 	female = {
-		names = { Emma Lea Olivia Alice Florence Zoe Chloe Beatrice Charlotte Rosalie Eva Juliette Sofia Jade Camille Victoria }
+		names = { 
+			Emma Lea Olivia Alice Florence Zoe Chloe Beatrice Charlotte Rosalie Eva Juliette Sofia Jade Camille Victoria
+			Marie Margeret Patricia Joan Elizabeth Marilyn Sandra Dorothy Jean Ruth Betty Joyce Gail Beverly Marlene
+		}
 	}
 	surnames = { 
-			Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle 
-			Hastings Blackwood MacDougall 
+		Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle 
+		Hastings Blackwood MacDougall Brown Tremblay Martin Gagnon Lee Wilson Johnson MacDonald Taylor
+		Campbell Anderson Jones Leblanc Cote Williams Miller Thompson Gauthier White Morin Wong Young
+		Bouchard Scott Stewart Pelletier Lavoie Robinson Moore Belanger King Bergeron Fortin
 	}
-	callsigns = { }
+	callsigns = { "Checker" "Smoky" "Caddy" "Jack" "Hounddog" }
 }
 
 YUK = {
@@ -6361,6 +6369,31 @@ YUK = {
 		Hastings Blackwood MacDougall Attla Carlo Chasinghorse Dibert Fredson Kalifornsky Huntington Solomon
 	}
 	callsigns = { "High Reader" "Sky-Soarer" "Knight of Light" "Night Demon" }
+}
+
+BCM = {
+	male = {
+		names = { 
+			Charles John Frederick Douglas Henry Arthur Alexander Campbell Gilbert 
+			Albert Victor Julian Francis James Joseph John Robert William Donald Kenneth Thomas Baby
+			Michael Raymond Norman Wayne Harold Lawrence Bruce Brian Larry Harry Leonard
+			Roy Ralph Lloyd Ernest Patrick Clifford Howard Keith Alan Earl Garry Ross Carl
+			Glenn Erwin Neil Leo Terrence Louis Leslie
+		}
+	}
+	female = {
+		names = { 
+			Emma Lea Olivia Alice Florence Zoe Chloe Beatrice Charlotte Rosalie Eva Juliette Sofia Jade Camille Victoria
+			Marie Margeret Patricia Joan Elizabeth Marilyn Sandra Dorothy Jean Ruth Betty Joyce Gail Beverly Marlene
+		}
+	}
+	surnames = { 
+		Grey Elliot Hamilton Gordon Stanley Campbell Ross Petty-Fitzmaurice Windham Young Doyle 
+		Hastings Blackwood MacDougall Brown Tremblay Martin Gagnon Lee Wilson Johnson MacDonald Taylor
+		Campbell Anderson Jones Leblanc Cote Williams Miller Thompson Gauthier White Morin Wong Young
+		Bouchard Scott Stewart Pelletier Lavoie Robinson Moore Belanger King Bergeron Fortin
+	}
+	callsigns = { "Duke" "Knight" "Hunter" "Goldie" "Valiant" }
 }
 
 NFL = {

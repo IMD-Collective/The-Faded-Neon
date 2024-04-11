@@ -783,3 +783,265 @@ YUK_GAR_01 = {
 		
 	}
 }
+
+##British Columbia
+BCM_INF_01 = {
+		
+	name = "Royal Infantry Division"
+
+	for_countries = { BCM }
+
+	can_use = { always = yes
+		
+	}
+
+	division_types = { "infantry" }
+
+
+	fallback_name = "%da Royal Infantry Regiment"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da 'Cross of Victoria' Royal Infantry Regiment" }
+		2 = { "%da 'King's Best' Royal Infantry Regiment" }
+		3 = { "%da 'Red Helms' Royal Infantry Regiment" }
+		4 = { "%da 'Powell' Royal Infantry Regiment" }
+		5 = { "%da 'Sundown Crusaders' Royal Infantry Regiment" }
+		6 = { "%da 'Trekkers' Royal Infantry Regiment" }
+		7 = { "%da 'Guide of Providence' Royal Infantry Regiment" }
+		8 = { "%da 'Winds of Death' Royal Infantry Regiment" }	
+	}
+}
+
+BCM_CAV_01 = {
+	name = "Cavalry Detachment"
+
+	for_countries = { BCM }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+
+
+	fallback_name = "%da Cavalry Detachment"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered ={
+		1 = { "%da 'Righteous Riders' Cavalry Detachment" }
+		2 = { "%da Cavalry Detachment" }
+		3 = { "%da Cavalry Detachment" }
+		4 = { "%da Cavalry Detachment" }
+		5 = { "%da Cavalry Detachment" }
+		6 = { "%da Cavalry Detachment" }
+		7 = { "%da Cavalry Detachment" }
+		8 = { "%da Cavalry Detachment" }
+		9 = { "%da Cavalry Detachment" }
+		10 = { "%da Cavalry Detachment" }
+	}
+}
+
+BCM_MOT_01 = {
+	name = "Motorised Raiding Detachment"
+
+	for_countries = { BCM }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SPR_INF_01 }
+
+	fallback_name = "%da Raiding Detachment"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered ={
+		1 = { "%da Raiding Detachment" }
+		2 = { "%da Raiding Detachment" }
+		3 = { "%da Raiding Detachment" }
+		4 = { "%da Raiding Detachment" }
+		5 = { "%da Raiding Detachment" }
+		6 = { "%da Raiding Detachment" }
+		7 = { "%da Raiding Detachment" }
+		8 = { "%da Raiding Detachment" }
+		9 = { "%da Raiding Detachment" }
+		10 = { "%da Raiding Detachment" }
+	}
+}
+
+BCM_MEC_01 = {
+	name = "Armoured Scout Division"
+
+	for_countries = { BCM }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+
+	fallback_name = "%da Armoured Scout Brigade"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Armoured Scout Brigade" }
+		2 = { "%da Armoured Scout Brigade" }
+		3 = { "%da Armoured Scout Brigade" }
+		4 = { "%da Armoured Scout Brigade" }
+		5 = { "%da Armoured Scout Brigade" }
+		6 = { "%da Armoured Scout Brigade" }
+		7 = { "%da Armoured Scout Brigade" }
+		8 = { "%da Armoured Scout Brigade" }
+		9 = { "%da Armoured Scout Brigade" }
+		10 = { "%da Armoured Scout Brigade" }
+	}
+}
+BCM_ARM_01 = {
+	name = "Fist-of-Fury Division"
+
+	for_countries = { BCM }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	
+
+	fallback_name = "%da Fist-of-Fury Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da 'Wrath of the Creator' Fist-of-Fury Division" }
+		2 = { "%da Fist-of-Fury Division" }
+		3 = { "%da Fist-of-Fury Division" }
+		4 = { "%da Fist-of-Fury Division" }
+		5 = { "%da Fist-of-Fury Division" }
+		6 = { "%da Fist-of-Fury Division" }
+		7 = { "%da Fist-of-Fury Division" }
+		8 = { "%da Fist-of-Fury Division" }
+		9 = { "%da Fist-of-Fury Division" }
+		10 = { "%da Fist-of-Fury Division" }
+	}
+}
+
+BCM_PAR_01 = {
+	name = "Skyborne Detachment"
+
+	for_countries = { BCM }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+
+
+	fallback_name = "%da Skyborne Detachment"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da 'Sword of Fate' Skyborne Detachment" }
+		2 = { "%da Skyborne Detachment" }
+		3 = { "%da Skyborne Detachment" }
+		4 = { "%da Skyborne Detachment" }
+		5 = { "%da Skyborne Detachment" }
+		6 = { "%da Skyborne Detachment" }
+		7 = { "%da Skyborne Detachment" }
+		8 = { "%da Skyborne Detachment" }
+		9 = { "%da Skyborne Detachment" }
+		10 = { "%da Skyborne Detachment" }
+	}
+}
+
+BCM_MAR_01 = {
+	name = "Mariner Detachment"
+
+	for_countries = { BCM }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+
+
+	fallback_name = "%da Mariner Detachment"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Mariner Detachment" }
+		2 = { "%da Mariner Detachment" }
+		3 = { "%da Mariner Detachment" }
+		4 = { "%da Mariner Detachment" }
+		5 = { "%da Mariner Detachment" }
+		6 = { "%da Mariner Detachment" }
+		7 = { "%da Mariner Detachment" }
+		8 = { "%da Mariner Detachment" }
+		9 = { "%da Mariner Detachment" }
+		10 = { "%da Mariner Detachment" }
+		
+		
+	}
+}
+
+BCM_MNT_01 = {
+	name = "Highdweller Division"
+
+	for_countries = { BCM }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+
+	fallback_name = "%da Highdweller Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Highdweller Division" }
+		2 = { "%da Highdweller Division" }
+		3 = { "%da Highdweller Division" }
+		4 = { "%da Highdweller Division" }
+		5 = { "%da Highdweller Division" }
+		6 = { "%da Highdweller Division" }
+		7 = { "%da Highdweller Division" }
+		8 = { "%da Highdweller Division" }
+		9 = { "%da Highdweller Division" }
+		10 = { "%da Highdweller Division" }
+	}
+}
+
+BCM_GAR_01 = {
+	name = "Volunteer Brigade"
+
+	for_countries = { BCM }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+
+	fallback_name = "%da Volunteer Brigade"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Volunteer Brigade" }
+		2 = { "%da Volunteer Brigade" }
+		3 = { "%da Volunteer Brigade" }
+		4 = { "%da Volunteer Brigade" }
+		5 = { "%da Volunteer Brigade" }
+		6 = { "%da Volunteer Brigade" }
+		7 = { "%da Volunteer Brigade" }
+		8 = { "%da Volunteer Brigade" }
+		9 = { "%da Volunteer Brigade" }
+		10 = { "%da Volunteer Brigade" }
+		
+	}
+}
