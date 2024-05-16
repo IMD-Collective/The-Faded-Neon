@@ -13,6 +13,29 @@ leader_traits = {
         }
         command_cap = @tier2
     }
+    dejected = {
+        random = yes
+        sprite = 1	
+		
+		party_popularity_stability_factor = -0.15
+		political_power_gain = -0.05
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+    clueless = {
+        random = yes
+        sprite = 1
+
+		drift_defence_factor = -0.1 # Figure these out later...
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
 	condemning = {
         random = yes
         sprite = 1
@@ -234,10 +257,192 @@ leader_traits = {
         }
         command_cap = @tier3
     }
+    firebrand = {
+        random = yes
+        sprite = 1
+
+		war_support_factor = 0.10
+        recruitable_population_factor = 0.05
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier3
+    }
 
 
 	# Ideology/Job Traits #
+    guerilla = {
+        random = yes
+        sprite = 1
+
+		command_abilities_cost_factor = -0.3
+        no_supply_grace = 150
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier3
+    }
+    revolutionary = {
+        random = yes
+        sprite = 1
+
+		max_training = -0.10
+        drift_defence_factor = 0.20
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+    scientist = {
+        random = yes
+        sprite = 1
+
+		research_speed_factor = 0.2
+        monthly_population = -0.005
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier3
+    }
+    technician = {
+        random = yes
+        sprite = 1
+
+		local_resource_factor = 0.25
+        trade_opinion_factor = 0.15
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier3
+    }
+    technocrat = {
+        random = yes
+        sprite = 1
+
+		stability_factor = 0.05
+        political_advisor_cost_factor = -0.5
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier2
+    }
+    bureaucrat = {
+        random = yes
+        sprite = 1
+
+		stability_factor = 0.095
+        war_support_factor = -0.05
+        drift_defence_factor = -0.25
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+    activist = {
+        random = yes
+        sprite = 1
+
+		democratic_drift = 0.01
+        communism_drift = 0.01
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+    marshal = {
+        random = yes
+        sprite = 1
+
+		experience_gain_army = 0.1
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier2
+    }
+    paramilitarist = {
+        random = yes
+        sprite = 1
+
+		max_training = -0.5
+        army_org_factor = -0.05
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier2
+    }
+    deathsquadron = {
+        random = yes
+        sprite = 1
+
+		army_speed_factor = -0.25
+        army_attack_factor = 0.15
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+    warlord = {
+        random = yes
+        sprite = 1
+
+		stability_weekly_factor = -0.01
+        war_support_factor = 0.1
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+    soothsayer = {
+        random = yes
+        sprite = 1
+
+		custom_effect_tooltip = ttooltip_soothsayer
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier1
+    }
+    mystic = {
+        random = yes
+        sprite = 1
+
+		custom_effect_tooltip = ttooltip_mystic
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier3
+    }
     
 
 	# Unique Traits #
+    mechanism_of_liberation = {
+        random = yes
+        sprite = 1
+
+		custom_effect_tooltip = ttooltip_mechanism_of_liberation
+        hidden_modifier = {
+            resistance_activity = -1
+            resistance_decay_on_our_occupied_states = 0.5
+            resistance_growth_on_our_occupied_states = -0.5
+        }
+        
+        ai_will_do = {
+            base = 1
+        }
+        command_cap = @tier3
+    }
 }

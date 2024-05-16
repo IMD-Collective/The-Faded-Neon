@@ -6,7 +6,7 @@ state={
 	}
 	history={
 		owner = NRV
-		add_core_of = NRV
+		add_core_of = ALA
 		buildings = {
 			infrastructure = 1
 		}

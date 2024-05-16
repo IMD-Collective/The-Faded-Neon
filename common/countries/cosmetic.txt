@@ -2,3 +2,7 @@ PSL_united = {
 	color = rgb { 76  153  0 }
 	color_ui = rgb { 76  153  0 }
 }
+BCM_dominion = {
+	color = rgb { 100 35 87 }
+	color_ui = rgb { 95 37 65 }
+}

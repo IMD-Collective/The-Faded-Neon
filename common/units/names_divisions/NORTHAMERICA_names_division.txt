@@ -815,7 +815,7 @@ BCM_INF_01 = {
 }
 
 BCM_CAV_01 = {
-	name = "Cavalry Detachment"
+	name = "Royal Mounted Police"
 
 	for_countries = { BCM }
 
@@ -825,26 +825,26 @@ BCM_CAV_01 = {
 
 
 
-	fallback_name = "%da Cavalry Detachment"
+	fallback_name = "%da Mounted Department"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered ={
-		1 = { "%da 'Righteous Riders' Cavalry Detachment" }
-		2 = { "%da Cavalry Detachment" }
-		3 = { "%da Cavalry Detachment" }
-		4 = { "%da Cavalry Detachment" }
-		5 = { "%da Cavalry Detachment" }
-		6 = { "%da Cavalry Detachment" }
-		7 = { "%da Cavalry Detachment" }
-		8 = { "%da Cavalry Detachment" }
-		9 = { "%da Cavalry Detachment" }
-		10 = { "%da Cavalry Detachment" }
+		1 = { "%da 'Righteous Riders' Mounted Department" }
+		2 = { "%da 'Stand on Vancouver' Mounted Department" }
+		3 = { "%da 'Last Ride' Mounted Department" }
+		4 = { "%da 'To Hell and Back' Mounted Department" }
+		5 = { "%da 'United Corpus' Mounted Department" }
+		6 = { "%da 'HM Royal Retinue' Mounted Department" }
+		7 = { "%da 'Eternal Servants' Mounted Department" }
+		8 = { "%da 'Knights of Yore' Mounted Department" }
+		9 = { "%da 'Devils' Mounted Department" }
+		10 = { "%da 'Teetotallers' Mounted Department" }
 	}
 }
 
 BCM_MOT_01 = {
-	name = "Motorised Raiding Detachment"
+	name = "Motorised Security Division"
 
 	for_countries = { BCM }
 
@@ -855,26 +855,26 @@ BCM_MOT_01 = {
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SPR_INF_01 }
 
-	fallback_name = "%da Raiding Detachment"
+	fallback_name = "%da Motor Department"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered ={
-		1 = { "%da Raiding Detachment" }
-		2 = { "%da Raiding Detachment" }
-		3 = { "%da Raiding Detachment" }
-		4 = { "%da Raiding Detachment" }
-		5 = { "%da Raiding Detachment" }
-		6 = { "%da Raiding Detachment" }
-		7 = { "%da Raiding Detachment" }
-		8 = { "%da Raiding Detachment" }
-		9 = { "%da Raiding Detachment" }
-		10 = { "%da Raiding Detachment" }
+		1 = { "%da Motor Department" }
+		2 = { "%da Motor Department" }
+		3 = { "%da Motor Department" }
+		4 = { "%da Motor Department" }
+		5 = { "%da Motor Department" }
+		6 = { "%da Motor Department" }
+		7 = { "%da Motor Department" }
+		8 = { "%da Motor Department" }
+		9 = { "%da Motor Department" }
+		10 = { "%da Motor Department" }
 	}
 }
 
 BCM_MEC_01 = {
-	name = "Armoured Scout Division"
+	name = "Royal Personnel-Carrier Division"
 
 	for_countries = { BCM }
 
@@ -883,25 +883,25 @@ BCM_MEC_01 = {
 	division_types = { "mechanized" }
 
 
-	fallback_name = "%da Armoured Scout Brigade"
+	fallback_name = "%da Personnel-Carrier Detachment"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%da Armoured Scout Brigade" }
-		2 = { "%da Armoured Scout Brigade" }
-		3 = { "%da Armoured Scout Brigade" }
-		4 = { "%da Armoured Scout Brigade" }
-		5 = { "%da Armoured Scout Brigade" }
-		6 = { "%da Armoured Scout Brigade" }
-		7 = { "%da Armoured Scout Brigade" }
-		8 = { "%da Armoured Scout Brigade" }
-		9 = { "%da Armoured Scout Brigade" }
-		10 = { "%da Armoured Scout Brigade" }
+		1 = { "%da 'Heralds' Personnel-Carrier Detachment" }
+		2 = { "%da Personnel-Carrier Detachment" }
+		3 = { "%da Personnel-Carrier Detachment" }
+		4 = { "%da Personnel-Carrier Detachment" }
+		5 = { "%da Personnel-Carrier Detachment" }
+		6 = { "%da Personnel-Carrier Detachment" }
+		7 = { "%da Personnel-Carrier Detachment" }
+		8 = { "%da Personnel-Carrier Detachment" }
+		9 = { "%da Personnel-Carrier Detachment" }
+		10 = { "%da Personnel-Carrier Detachment" }
 	}
 }
 BCM_ARM_01 = {
-	name = "Fist-of-Fury Division"
+	name = "Royal Armoured Division"
 
 	for_countries = { BCM }
 
@@ -911,26 +911,26 @@ BCM_ARM_01 = {
 
 	
 
-	fallback_name = "%da Fist-of-Fury Division"
+	fallback_name = "%da Special Armoured Detachment"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%da 'Wrath of the Creator' Fist-of-Fury Division" }
-		2 = { "%da Fist-of-Fury Division" }
-		3 = { "%da Fist-of-Fury Division" }
-		4 = { "%da Fist-of-Fury Division" }
-		5 = { "%da Fist-of-Fury Division" }
-		6 = { "%da Fist-of-Fury Division" }
-		7 = { "%da Fist-of-Fury Division" }
-		8 = { "%da Fist-of-Fury Division" }
-		9 = { "%da Fist-of-Fury Division" }
-		10 = { "%da Fist-of-Fury Division" }
+		1 = { "%da 'Invincible' Special Armoured Detachment" }
+		2 = { "%da Special Armoured Detachment" }
+		3 = { "%da Special Armoured Detachment" }
+		4 = { "%da Special Armoured Detachment" }
+		5 = { "%da Special Armoured Detachment" }
+		6 = { "%da Special Armoured Detachment" }
+		7 = { "%da Special Armoured Detachment" }
+		8 = { "%da Special Armoured Detachment" }
+		9 = { "%da Special Armoured Detachment" }
+		10 = { "%da Special Armoured Detachment" }
 	}
 }
 
 BCM_PAR_01 = {
-	name = "Skyborne Detachment"
+	name = "Royal Airborne Division"
 
 	for_countries = { BCM }
 
@@ -940,26 +940,26 @@ BCM_PAR_01 = {
 
 
 
-	fallback_name = "%da Skyborne Detachment"
+	fallback_name = "%da Royal Airborne Brigade"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%da 'Sword of Fate' Skyborne Detachment" }
-		2 = { "%da Skyborne Detachment" }
-		3 = { "%da Skyborne Detachment" }
-		4 = { "%da Skyborne Detachment" }
-		5 = { "%da Skyborne Detachment" }
-		6 = { "%da Skyborne Detachment" }
-		7 = { "%da Skyborne Detachment" }
-		8 = { "%da Skyborne Detachment" }
-		9 = { "%da Skyborne Detachment" }
-		10 = { "%da Skyborne Detachment" }
+		1 = { "%da 'Lions of Kingcome' Royal Airborne Brigade" }
+		2 = { "%da Royal Airborne Brigade" }
+		3 = { "%da Royal Airborne Brigade" }
+		4 = { "%da Royal Airborne Brigade" }
+		5 = { "%da Royal Airborne Brigade" }
+		6 = { "%da Royal Airborne Brigade" }
+		7 = { "%da Royal Airborne Brigade" }
+		8 = { "%da Royal Airborne Brigade" }
+		9 = { "%da Royal Airborne Brigade" }
+		10 = { "%da Royal Airborne Brigade" }
 	}
 }
 
 BCM_MAR_01 = {
-	name = "Mariner Detachment"
+	name = "Royal Marine Division"
 
 	for_countries = { BCM }
 
@@ -969,28 +969,28 @@ BCM_MAR_01 = {
 
 
 
-	fallback_name = "%da Mariner Detachment"
+	fallback_name = "%da Royal Marine Brigade"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%da Mariner Detachment" }
-		2 = { "%da Mariner Detachment" }
-		3 = { "%da Mariner Detachment" }
-		4 = { "%da Mariner Detachment" }
-		5 = { "%da Mariner Detachment" }
-		6 = { "%da Mariner Detachment" }
-		7 = { "%da Mariner Detachment" }
-		8 = { "%da Mariner Detachment" }
-		9 = { "%da Mariner Detachment" }
-		10 = { "%da Mariner Detachment" }
+		1 = { "%da 'Poseidon's Scorn' Royal Marine Brigade" }
+		2 = { "%da Royal Marine Brigade" }
+		3 = { "%da Royal Marine Brigade" }
+		4 = { "%da Royal Marine Brigade" }
+		5 = { "%da Royal Marine Brigade" }
+		6 = { "%da Royal Marine Brigade" }
+		7 = { "%da Royal Marine Brigade" }
+		8 = { "%da Royal Marine Brigade" }
+		9 = { "%da Royal Marine Brigade" }
+		10 = { "%da Royal Marine Brigade" }
 		
 		
 	}
 }
 
 BCM_MNT_01 = {
-	name = "Highdweller Division"
+	name = "Royal Mountaineer Division"
 
 	for_countries = { BCM }
 
@@ -999,26 +999,26 @@ BCM_MNT_01 = {
 	division_types = { "mountaineers" }
 
 
-	fallback_name = "%da Highdweller Division"
+	fallback_name = "%da Royal Mountaineer Brigade"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%da Highdweller Division" }
-		2 = { "%da Highdweller Division" }
-		3 = { "%da Highdweller Division" }
-		4 = { "%da Highdweller Division" }
-		5 = { "%da Highdweller Division" }
-		6 = { "%da Highdweller Division" }
-		7 = { "%da Highdweller Division" }
-		8 = { "%da Highdweller Division" }
-		9 = { "%da Highdweller Division" }
-		10 = { "%da Highdweller Division" }
+		1 = { "%da 'HM Chosen' Royal Mountaineer Brigade" }
+		2 = { "%da Royal Mountaineer Brigade" }
+		3 = { "%da Royal Mountaineer Brigade" }
+		4 = { "%da Royal Mountaineer Brigade" }
+		5 = { "%da Royal Mountaineer Brigade" }
+		6 = { "%da Royal Mountaineer Brigade" }
+		7 = { "%da Royal Mountaineer Brigade" }
+		8 = { "%da Royal Mountaineer Brigade" }
+		9 = { "%da Royal Mountaineer Brigade" }
+		10 = { "%da Royal Mountaineer Brigade" }
 	}
 }
 
 BCM_GAR_01 = {
-	name = "Volunteer Brigade"
+	name = "Royal Constabulary Brigades"
 
 	for_countries = { BCM }
 
@@ -1027,21 +1027,21 @@ BCM_GAR_01 = {
 	division_types = { "infantry" }
 
 
-	fallback_name = "%da Volunteer Brigade"
+	fallback_name = "%da Royal Constabulary Brigade"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%da Volunteer Brigade" }
-		2 = { "%da Volunteer Brigade" }
-		3 = { "%da Volunteer Brigade" }
-		4 = { "%da Volunteer Brigade" }
-		5 = { "%da Volunteer Brigade" }
-		6 = { "%da Volunteer Brigade" }
-		7 = { "%da Volunteer Brigade" }
-		8 = { "%da Volunteer Brigade" }
-		9 = { "%da Volunteer Brigade" }
-		10 = { "%da Volunteer Brigade" }
+		1 = { "%da Royal Constabulary Brigade" }
+		2 = { "%da Royal Constabulary Brigade" }
+		3 = { "%da Royal Constabulary Brigade" }
+		4 = { "%da Royal Constabulary Brigade" }
+		5 = { "%da Royal Constabulary Brigade" }
+		6 = { "%da Royal Constabulary Brigade" }
+		7 = { "%da Royal Constabulary Brigade" }
+		8 = { "%da Royal Constabulary Brigade" }
+		9 = { "%da Royal Constabulary Brigade" }
+		10 = { "%da Royal Constabulary Brigade" }
 		
 	}
 }

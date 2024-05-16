@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner = ALA
+		add_core_of = ALA
 		buildings = {
 			infrastructure = 1
 			air_base = 1

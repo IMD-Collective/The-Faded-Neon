@@ -9,7 +9,7 @@ tags={
     "Events"
 }
 name="The Faded Neon - Developer Copy"
-supported_version="1.13.*"
+supported_version="1.14.*"
 picture="thumbnail.png"
 path="C:/Users/zombi/Documents/Paradox Interactive/Hearts of Iron IV/mod/The-Faded-Neon"
 replace_path="gfx/loadingscreens"
