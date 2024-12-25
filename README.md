@@ -1,6 +1,8 @@
 # The-Faded-Neon
 The Faded Neon is a mod taking place in a hypothetical universe where Japan's 'Operation PX' caused a global catastrophe.
 
+IMD DISCORD: https://discord.gg/XaGANms
+
 # The Timeline
 **1947** 
 April - WWII ends after the allied invasion of Japan, no nuke means no 1945 end. Allies defeat japan after a just under 2 year long invasion. The USSR eventually steps in, finally declaring war on Japan and securing areas of Japanese controlled Manchuria. The Allies refuse to help rebuild Japan post war and the country is mostly neglected by its former invaders.
