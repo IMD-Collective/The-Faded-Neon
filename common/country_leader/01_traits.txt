@@ -315,10 +315,7 @@ leader_traits = {
 	light_aircraft_manufacturer = {
 		random = no
 		equipment_bonus = {
-			fighter_equipment = {
-				air_agility = 0.1 maximum_speed = 0.1
-			}
-			cv_fighter_equipment = {
+			fighter = {
 				air_agility = 0.1 maximum_speed = 0.1
 			}
 		}
@@ -331,10 +328,7 @@ leader_traits = {
 	light_aircraft_manufacturer_2 = { 
 		random = no
 		equipment_bonus = {
-			fighter_equipment = {
-				air_agility = 0.2 maximum_speed = 0.1
-			}
-			cv_fighter_equipment = {
+			fighter = {
 				air_agility = 0.2 maximum_speed = 0.1
 			}
 		}
@@ -348,12 +342,9 @@ leader_traits = {
 	CAS_manufacturer = {
 		random = no
 		equipment_bonus = {
-			CAS_equipment = {
+			cas = {
 				air_ground_attack = 0.1 reliability = 0.1
-			}
-			cv_CAS_equipment = {
-				air_ground_attack = 0.1 reliability = 0.1
-			}		
+			}	
 		}
 		
 		ai_will_do = {
@@ -364,13 +355,13 @@ leader_traits = {
 	medium_aircraft_manufacturer = {
 		random = no
 		equipment_bonus = {
-			heavy_fighter_equipment = {
+			heavy_fighter = {
 				reliability = 0.2
 			}
-			tac_bomber_equipment = {
+			tactical_bomber = {
 				reliability = 0.2
 			}
-			scout_plane_equipment = {
+			scout_plane = {
 				reliability = 0.2
 			}
 		}
@@ -383,14 +374,14 @@ leader_traits = {
 	fuel_efficient_aircraft_manufacturer = { 
 		random = no
 		equipment_bonus = {
-			fighter_equipment = {
+			fighter = {
 				air_range = 0.1
 			}
-			heavy_fighter_equipment = {
+			heavy_fighter = {
 				air_range = 0.1
 				reliability = 0.2
 			}
-			tac_bomber_equipment = {
+			tactical_bomber = {
 				reliability = 0.2
 			}
 		}
@@ -404,7 +395,7 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 
-			strat_bomber_equipment = {
+			strategic_bomber = {
 				air_bombing = 0.1
 			}
 		}
@@ -417,16 +408,13 @@ leader_traits = {
 	naval_aircraft_manufacturer = {
 		random = no
 		equipment_bonus = {
-			nav_bomber_equipment = {
+			naval_bomber = {
 				air_range = 0.1 naval_strike_attack = 0.1
 			}
-			cv_nav_bomber_equipment = {
-				air_range = 0.1 naval_strike_attack = 0.1
-			}
-			cv_fighter_equipment = {
+			fighter = {
 				air_range = 0.1 air_agility = 0.1
 			}
-			cv_CAS_equipment = {
+			cas = {
 				air_range = 0.1 naval_strike_attack = 0.1
 			}
 		}
