@@ -59,7 +59,7 @@ guiTypes = {
 			name = "header_text"
 			position = { x = 35 y = 7 }
 			textureFile = ""
-			font = "VCR01_36_glow"
+			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
 			text = "LEADER_DETAILS_TITLE"
 			maxWidth = 470
@@ -76,8 +76,8 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "title"
-			position = { x = 119 y = 69 }
-			font = "VCR01_24_glow"
+			position = { x = 125 y = 69 }
+			font = "hoi_20b"
 			text_color_code = b
 			text = "General"
 			maxWidth = 150
@@ -86,8 +86,8 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "name"
-			position = { x = 119 y = 85 }
-			font = "VCR01_20_glow"
+			position = { x = 125 y = 87 }
+			font = "hoi4_typewriter16"
 			text = "Engin Mercan"
 			maxWidth = 150
 			maxHeight = 20
@@ -113,7 +113,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "skill"
 			position = { x = 76 y = 80 }
-			font = "VCR01_32_glow"
+			font = "hoi_30header"
 			text = "5"
 			maxWidth = 50
 			maxHeight = 18
@@ -125,13 +125,13 @@ guiTypes = {
 			name = "leader_stat_attack_bg"
 			spriteType = "GFX_trait_attack"
 			centerposition = yes	
-			position = { x=157 y=118 }
+			position = { x=147 y=118 }
 		}
 		
 		instantTextboxType = {
 			name = "leader_stat_attack"
-			position = {x=141 y=125}
-			font = "VCR01_24_glow"
+			position = {x=131 y=125}
+			font = "hoi_16mbs"
 			maxWidth = 30
 			maxHeight = 26
 			format = center
@@ -142,14 +142,14 @@ guiTypes = {
 			name = "leader_stat_defense_bg"
 			spriteType = "GFX_trait_defense"
 			centerposition = yes	
-			position = { x=181 y=118 }
+			position = { x=171 y=118 }
 			scale = 1
 		}
 		
 		instantTextboxType = {
 			name = "leader_stat_defense"
-			position = {x=166 y=125}
-			font = "VCR01_24_glow"
+			position = {x=156 y=125}
+			font = "hoi_16mbs"
 			maxWidth = 30
 			maxHeight = 26
 			format = center
@@ -160,14 +160,14 @@ guiTypes = {
 			name = "leader_stat_planning_bg"
 			spriteType = "GFX_trait_planning"
 			centerposition = yes	
-			position = { x=207 y=119 }
+			position = { x=197 y=119 }
 			scale = 1
 		}
 		
 		instantTextboxType = {
 			name = "leader_stat_planning"
-			position = {x=192 y=125}
-			font = "VCR01_24_glow"
+			position = {x=182 y=125}
+			font = "hoi_16mbs"
 			maxWidth = 30
 			maxHeight = 26
 			format = center
@@ -178,43 +178,25 @@ guiTypes = {
 			name = "leader_stat_logistics_bg"
 			spriteType = "GFX_trait_logistics"
 			centerposition = yes	
-			position = { x=232 y=120 }
+			position = { x=222 y=120 }
 			scale = 1
 		}
 		
 		instantTextboxType = {
 			name = "leader_stat_logistics"
-			position = {x=217 y=125}
-			font = "VCR01_24_glow"
+			position = {x=207 y=125}
+			font = "hoi_16mbs"
 			maxWidth = 30
 			maxHeight = 26
 			format = center
 			text = "7"
 		}
-		
-		iconType = {
-			name = "leader_exp_bg"
+
+		positionType = {
+			name = "leader_xp_progressbar_position"
 			position = { x = 84 y = 148 }
-			spriteType ="GFX_leader_exp_bg"		
 		}
-		
-		iconType = {
-			name = "leader_exp_fg_mid"
-			position = { x = 84 y = 147 }
-			spriteType ="GFX_leader_exp_fg_mid"
-		}
-		
-		iconType = {
-			name = "leader_exp_fg_begin"
-			position = { x = 84 y = 148 }
-			spriteType ="GFX_leader_exp_fg_begin"		
-		}
-		
-		iconType = {
-			name = "leader_exp_fg_end"
-			position = { x = 104 y = 148 }
-			spriteType ="GFX_leader_exp_fg_end"		
-		}
+
 		containerWindowType = {
 			name = "advisor_traits_window"
 			position = {x=0 y=0}
@@ -268,13 +250,15 @@ guiTypes = {
 		containerWindowType = {
 			name = "active_traits"
 			position = {x=20 y=175}
-			size = {width=265 height=540}
+			size = {width=265 height=500}
 			Orientation = upper_left
 			clipping = yes
+			scroll_wheel_factor = 40
+			smooth_scrolling = yes
 			
 			containerWindowType = {
 				name = "personal_traits_title"
-				position = {x=5 y=6}
+				position = {x=-4 y=6}
 				size = 	{width=200 height=20}
 			
 				iconType = {
@@ -286,7 +270,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "personal_traits_text"
 					position = { x = -16 y = -6 }
-					font = "VCR01_24_glow"
+					font = "hoi_20b"
 					text_color_code = b
 					text = "background"
 					maxWidth = 272
@@ -345,7 +329,7 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "traits_title"
-				position = {x=5 y=6}
+				position = {x=-4 y=26}
 				size = 	{width=200 height=20}
 			
 				iconType = {
@@ -357,7 +341,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "traits_title_text"
 					position = { x = -16 y = -8 }
-					font = "VCR01_24_glow"
+					font = "hoi_20b"
 					text_color_code = b
 					text = "traits"
 					maxWidth = 272
@@ -368,7 +352,7 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "add_trait_0"
-				position = { x=0 y=210 }
+				position = { x=-4 y=210 }
 				size = 	{width=200 height=42}
 
 				
@@ -382,7 +366,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = {x=35 y=4}
-					font = "VCR01_24_glow"
+					font = "hoi_20b"
 					text_color_code = b
 					maxWidth = 175
 					maxHeight = 20
@@ -393,7 +377,7 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "add_trait_1"
-				position = { x=0 y=210 }
+				position = { x=-4 y=210 }
 				size = 	{width=200 height=42}
 
 				
@@ -407,7 +391,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = {x=35 y=4}
-					font = "VCR01_24_glow"
+					font = "hoi_20b"
 					text_color_code = b
 					maxWidth = 175
 					maxHeight = 20
@@ -419,7 +403,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "add_trait_2"
-				position = { x=0 y=210 }
+				position = { x=-4 y=210 }
 				size = 	{width=200 height=42}
 
 				
@@ -433,7 +417,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = {x=35 y=4}
-					font = "VCR01_24_glow"
+					font = "hoi_20b"
 					text_color_code = b
 					maxWidth = 175
 					maxHeight = 20
@@ -444,7 +428,7 @@ guiTypes = {
 			}
 			containerWindowType = {
 				name = "add_trait_3"
-				position = { x=0 y=210 }
+				position = { x=-4 y=210 }
 				size = 	{width=200 height=42}
 
 				
@@ -458,7 +442,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = {x=35 y=4}
-					font = "VCR01_24_glow"
+					font = "hoi_20b"
 					text_color_code = b
 					maxWidth = 175
 					maxHeight = 20
@@ -473,7 +457,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "lines"
-				position = {x=0 y=0}
+				position = {x=-4 y=0}
 			}
 			
 			background = {
@@ -490,6 +474,7 @@ guiTypes = {
 			Orientation = "LOWER_LEFT"
 			pdx_tooltip = "TRAIT_OPEN_WIKI"
 		}
+
 		containerWindowType = {
 			name = "preferred_tactic_tiling_container"
 			position = { x = 10 y = 675 }
@@ -618,123 +603,106 @@ guiTypes = {
 				}					
 			}
 		}
-
 		
 		containerWindowType = {
 			name = "regular_traits_window"
 			position = {x=0 y=0}
 			size = {width=636 height=640}
 			Orientation = upper_left
-
-		instantTextboxType = {
+			
+			instantTextboxType = {
 			name = "basic_traits_text"
 			position = {x=230 y=70}
-			font = "VCR01_24_glow"
+			font = "hoi_16mbs"
 			maxWidth = 300
 			maxHeight = 26
 			format = center
 			text = "basic_traits"
 			pdx_tooltip = "BASIC_TRAITS_DESC"
-		}
+			}
 		
-		instantTextboxType = {
-			name = "field_marshal_traits_text"
-			position = {x=650 y=70}
-			font = "VCR01_24_glow"
-			maxWidth = 300
-			maxHeight = 26
-			format = center
-			text = "field_marshal_traits"
-			pdx_tooltip = "FIELD_MARSHAL_TRAITS_DESC"
-		}
+			instantTextboxType = {
+				name = "field_marshal_traits_text"
+				position = {x=650 y=70}
+				font = "hoi_16mbs"
+				maxWidth = 300
+				maxHeight = 26
+				format = center
+				text = "field_marshal_traits"
+				pdx_tooltip = "FIELD_MARSHAL_TRAITS_DESC"
+			}
 
-		instantTextboxType = {
-			name = "assignable_traits_text"
-			position = {x=438 y=70}
-			font = "VCR01_24_glow"
-			maxWidth = 300
-			maxHeight = 26
-			format = center
-			text = "assignable_traits"
-			pdx_tooltip = "ASSIGNABLE_TRAITS_DESC"
-		}
-		containerWindowType = {
-			name = "regular_traits"
-			position = {x=294 y=110}
-			size = {width=636 height=640}
-			Orientation = upper_left
-			clipping = yes
-			
-			drag_scroll = { left middle }
-			verticalScrollbar = "right_vertical_slider"
-			scroll_wheel_factor = 40
-			smooth_scrolling = yes
-			
+			instantTextboxType = {
+				name = "assignable_traits_text"
+				position = {x=438 y=70}
+				font = "hoi_16mbs"
+				maxWidth = 300
+				maxHeight = 26
+				format = center
+				text = "assignable_traits"
+				pdx_tooltip = "ASSIGNABLE_TRAITS_DESC"
+			}
 			containerWindowType = {
-				name = "lines"
-				position = {x=0 y=0}
+				name = "regular_traits"
+				position = {x=294 y=110}
+				size = {width=636 height=640}
+				clipping = yes
 				
+				drag_scroll = { left middle }
+				verticalScrollbar = "right_vertical_slider"
+				scroll_wheel_factor = 40
+				smooth_scrolling = yes
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "tree"
+					position = {x=0 y=0}
+					clipping = no
+
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_window_transparent"
+					}
+				}
 			}
-			
-			iconType = {
-				name = "scroll_fixer"
-				position = { x = 50 y = 0 }
-				quadTextureSprite ="GFX_tiled_window_transparent"		
-			}
-			
-			background = {
-				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_transparent"
-			}
-			
-		}
-		instantTextboxType = {
+			instantTextboxType = {
 			name = "terrain_traits_text"
 			position = {x=975 y=70}
-			font = "VCR01_24_glow"
+			font = "hoi_16mbs"
 			maxWidth = 300
 			maxHeight = 26
 			format = center
 			text = "terrain_traits"
 			pdx_tooltip = "TERRAIN_TRAITS_DESC"
-		}
+			}
 		
-		containerWindowType = {
-			name = "terrain_traits"
-			position = {x=939 y=110}
-			size = {width=410 height=640}
-			Orientation = upper_left
-			
-			drag_scroll = { left middle }
-			verticalScrollbar = "right_vertical_slider"
-			scroll_wheel_factor = 40
-			smooth_scrolling = yes
-			
 			containerWindowType = {
-				name = "lines"
-				position = {x=0 y=0}
-			}
-			
-			iconType = {
-				name = "scroll_fixer"
-				position = { x = 50 y = 0 }
-				quadTextureSprite ="GFX_tiled_window_transparent"		
-			}
-			
-			background = {
-				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_transparent"
+				name = "terrain_traits"
+				position = {x=939 y=110}
+				size = {width=410 height=640}
+				Orientation = upper_left
+				
+				drag_scroll = { left middle }
+				verticalScrollbar = "right_vertical_slider"
+				scroll_wheel_factor = 40
+				smooth_scrolling = yes
+
+				containerWindowType = {
+					name = "tree"
+					position = {x=0 y=0}
+				}
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
 			}
 		}
-	}
 		
-
-
-
-
-
-
-	
 		buttonType = {
 			name = "close_button"
 			position = { x = -44 y = 11 }
